@@ -1,0 +1,34 @@
+---
+description: personal-project 倉庫定位（自 Data-analytics 拆出）與外部 skills 參照
+alwaysApply: true
+---
+
+# personal-project：倉庫定位與外部 Skills
+
+## 本倉庫用途與來源
+
+此 repo **從 Data-analytics 獨立拆出**：原在該 repo 中以 **`side-projects/`** 收納之個人實驗／副案，移至本處後改為「**倉庫根目錄第一層＝個別專案資料夾**」，不再沿用 `side-projects/` 資料夾名稱。**目錄與 README 規範**見同目錄下 **`personal-project-workspace.mdc`**（對應原 Data-analytics 的 **`side-projects.mdc`**）。
+
+變更與產出以「可重用、可追溯」為原則，與雇主或客戶之正式 codebase 區隔。
+
+## 外部 Skills（執行前請對照）
+
+若任務涉及資料分析、PM／文件、自動化、前端對齊等，Agent **應判定相關技能後讀取**下列路徑內對應的 `SKILL.md`（及其 `references/`、`scripts/`），並按該流程執行。
+
+**Skills 根目錄**
+
+`/Users/janice/Desktop/小知識/GitHub workspace/Data-analytics/.claude/skills`
+
+**頂層 skill 資料夾（各含 SKILL.md）**
+
+`100m-leads`、`canvas-design`、`design`、`design-md`、`dev-workflow`、`docx`、`e2e-acceptance-test`、`e2e-automation-workflow`、`frontend-align-to-prod-style`、`frontend-from-screenshot-spec`、`fund-onboarding`、`gh-address-pr-review`、`nuxt3-pm-guide`、`pdf`、`pm-code-change`、`pm-spec-checker`、`qa-bug-ticket`、`session-context-handoff`、`skill-creator`、`superpowers`、`template`、`theme-factory`、`user-segmentation`、`vue3-upgrade-pm`、`xlsx`
+
+### 對 Agent
+
+1. 依任務**判定**最接近的資料夾，Read：`<Skills 根目錄>/<資料夾>/SKILL.md`。
+2. 任務跨主題時可並行對照多個 skill。
+3. Skill 與本倉規則或使用者當次指令衝突時，以**使用者當次指令**為準。
+
+## 對使用者的備註
+
+上述 skills 位於 Data-analytics，換機或未 clone 該 repo 時需自行確保路径可讀，或將規則內 path 改成你的環境路徑。

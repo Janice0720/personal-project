@@ -1,0 +1,47 @@
+---
+description: 私人專案工作區規範（承接 Data-analytics side-projects／本倉為獨立 repo）
+alwaysApply: true
+---
+
+# 私人專案工作區規範
+
+## 定位
+
+本倉庫**根目錄下每一個子資料夾**視為一個獨立的私人／實驗專案，用途等同原 Data-analytics 倉庫內 **`side-projects/{project-name}`**（資料夾自該結構抽出並改名為本 repo；此處**不再**多包一層 `side-projects/`）。
+
+相較於 Data-analytics 內正式的 `analysis/` 等交付型專案，此處產出以**快速驗證、學習記錄、可復現**為主，分析深度與版面可較輕量，但仍需可追溯。
+
+## 資料夾結構
+
+每個專案各占一個**第一層**子資料夾 `{project-name}/`，依型態調整細部目錄，建議對照：
+
+```
+{project-name}/
+├── README.md          # 必填：目標／方法／結論或學習
+├── data/             # 若使用原始／處理中資料（可區分 raw、processed）
+├── notebooks/       # Jupyter 或其它互動分析（若有）
+├── scripts/、app/、…  # 視專案型態新增
+└── output/、reports/、…  # 圖表、匯出、摘要（若有）
+```
+
+既有專案若已使用 `reports/`、`app/` 等慣例，**不必強制更名**，但以 README 說清楚各目錄用途即可。
+
+## 命名規範
+
+- 專案（第一層子資料夾）名稱：`{主題簡述}`，**英文小寫 + 連字號**（kebab-case）
+- 範例：`stock-sentiment-analysis`、`rfm-clustering-experiment`
+
+## README 標準
+
+每個 `{project-name}/README.md` 至少記錄：
+
+- **目標**：想驗證或達成什麼？
+- **方法**：工具、資料來源與分析／開發手法
+- **結論**：發現為何？是否值得成為「正式規模」專案或延續研究？
+
+口吻可較輕鬆，但需讓未來自己或他人能快速接上脈絡。
+
+## 與 Data-analytics／正式分析的關係
+
+- 若某實驗要**升格為正式分析或報告級交付**，應在目標倉庫（通常為 Data-analytics 的 **`analysis/`**）依該倉規範執行，例如對照其 `.cursor/rules/analysis-report.mdc` 等檔案補齊章節與流程。
+- 本倉側可保留沿革連結（在 README 註記「已定稿報告見 xxx」），避免重複維護兩套權威內容。

@@ -1,0 +1,12 @@
+# Environment variables (contains secrets - never commit)
+.env
+!.env.example
+
+# Cache files
+data/cache/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
