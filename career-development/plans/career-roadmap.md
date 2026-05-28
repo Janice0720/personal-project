@@ -2,6 +2,7 @@
 
 > 最後更新：2026-05-19  
 > 背景來源：`~/Downloads/janice_microsoft_google_career_plan_brief.md`
+> Microsoft 應徵準備細表：[`microsoft-application-preparation-2026-2027.md`](microsoft-application-preparation-2026-2027.md)
 
 ---
 
@@ -77,6 +78,8 @@ CRM segmentation, BI reporting, and cross-functional product execution.
 ---
 
 ## 2. 時間軸
+
+> Microsoft 應徵準備的月度任務、每週節奏、LeetCode 練習與 2027.07 檢查清單，請見 [`microsoft-application-preparation-2026-2027.md`](microsoft-application-preparation-2026-2027.md)。
 
 | 時間 | 事件 / 目標 | 重點 | 狀態 |
 |------|-------------|------|------|

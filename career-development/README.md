@@ -14,6 +14,7 @@
 
 - 以 Markdown 文件記錄規劃與技能盤點（本資料夾）
 - 定期（建議每週）回顧 `plans/career-roadmap.md`，更新狀態與下一步
+- 以 `plans/microsoft-application-preparation-2026-2027.md` 管理 Microsoft 應徵準備細節
 - 技能有變動時更新 `skills/skills-inventory.md`
 
 ## 資料夾結構
@@ -21,7 +22,7 @@
 ```
 career-development/
 ├── README.md
-├── plans/                    ← 職涯方向、求職策略、時程
+├── plans/                    ← 職涯方向、求職策略、Microsoft 應徵準備時程
 └── skills/                   ← 技能盤點、缺口分析、學習計畫
 ```
 
@@ -30,8 +31,9 @@ career-development/
 ## 快速開始
 
 1. 查閱 [`plans/career-roadmap.md`](plans/career-roadmap.md) 確認時間軸與目標職缺
-2. 對照 [`skills/skills-inventory.md`](skills/skills-inventory.md) 的缺口表，安排本週學習重點
-3. 每週在 roadmap 底部填寫週回顧
+2. 查看 [`plans/microsoft-application-preparation-2026-2027.md`](plans/microsoft-application-preparation-2026-2027.md) 拆解 Microsoft 應徵準備任務
+3. 對照 [`skills/skills-inventory.md`](skills/skills-inventory.md) 的缺口表，安排本週學習重點
+4. 每週在 roadmap 底部填寫週回顧
 
 ## 結論
 
