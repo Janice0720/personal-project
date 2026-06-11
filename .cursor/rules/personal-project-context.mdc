@@ -29,6 +29,24 @@ alwaysApply: true
 2. 任務跨主題時可並行對照多個 skill。
 3. Skill 與本倉規則或使用者當次指令衝突時，以**使用者當次指令**為準。
 
+## 本 Repo 內部 Skills
+
+本倉庫在 `.cursor/skills/` 維護專案專屬的 skill，Agent **遇到對應任務時應優先讀取**：
+
+**Skills 根目錄**
+
+`/Users/Janice/Desktop/Git Hub workspace/personal-project/.cursor/skills`
+
+| Skill 資料夾 | 觸發情境 |
+|-------------|---------|
+| `english-lesson-review` | 用戶提供英文課錄音（.m4a/.mp3/.wav），需要轉逐字稿或產出課程筆記時 |
+
+### 對 Agent
+
+讀取方式：`Read` 工具讀取 `<Skills 根目錄>/<資料夾>/SKILL.md`，依其流程執行，**不得自行發明流程**。
+
+---
+
 ## 對使用者的備註
 
-上述 skills 位於 Data-analytics，換機或未 clone 該 repo 時需自行確保路径可讀，或將規則內 path 改成你的環境路徑。
+外部 skills 位於 Data-analytics，換機或未 clone 該 repo 時需自行確保路徑可讀，或將規則內 path 改成你的環境路徑。
