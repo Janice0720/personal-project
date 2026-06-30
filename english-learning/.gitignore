@@ -1,0 +1,14 @@
+# 原始錄音不進 git（二進位大檔、無法 diff，請另外在本機/雲端備份）
+recordings/
+*.m4a
+*.mp3
+*.wav
+*.aac
+
+# Whisper / Python 暫存
+__pycache__/
+*.pyc
+.cache/
+
+# 系統檔
+.DS_Store
