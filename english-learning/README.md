@@ -29,9 +29,13 @@ english-learning/
 │   └── README.md                                    ← 單字複習 / Anki 匯入說明
 ├── homework-tracker.md                              ← 作業狀態追蹤
 └── scripts/
-    ├── run.sh             ← 一鍵轉譯入口（用這個）
+    ├── run.sh             ← Step 1：一鍵轉譯入口（用這個）
     ├── transcribe.py      ← Whisper 轉譯主腳本
-    ├── extract_vocab.py   ← 從筆記彙整單字到總表
+    ├── notes.sh           ← Step 2：呼叫 Claude API 的入口（自動找正確 Python）
+    ├── generate_notes.py  ← Step 2：Claude 筆記產出主腳本
+    ├── extract_vocab.py   ← Step 3：從筆記彙整單字到總表
+    ├── update_index.sh    ← Step 5：更新索引的入口（自動找正確 Python）
+    ├── update_index.py    ← Step 5：課程索引自動更新主腳本
     └── INSTALL.md         ← 環境安裝說明
 ```
 
@@ -39,65 +43,54 @@ english-learning/
 
 ## 2. 每堂課 SOP
 
-### Step 1｜轉譯錄音（Terminal，約 4-5 分鐘）
+> 全流程皆在 Terminal 執行，不需手動貼文字給 AI。先 `cd` 到專案根目錄再跑。
 
 ```bash
 cd "/Users/Janice/Desktop/Git Hub workspace/personal-project/english-learning"
+```
+
+---
+
+### Step 1｜轉譯錄音（Whisper，約 10–15 分鐘）
+
+```bash
 bash scripts/run.sh /path/to/錄音檔.m4a --topic "職場英文口說 — KYC" --slug kyc-career
 ```
 
 完成後自動產生：
 - `transcripts/YYYY-MM-DD/lesson-NN-<slug>.md` — 逐字稿
-- `notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md` — 空白筆記範本
+- `notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md` — 空白筆記範本（下一步會填入）
 - `notes/YYYY-MM-DD/lesson-NN-<slug>-homework.md` — 空白作業範本
 
-> 預設使用 `medium` 模型並鎖定 `--language en`，已針對中英混雜口說最佳化（會抑制「Do. Do. Do.」這類靜音段幻覺）。約 10–15 分鐘。
+> **`--slug` 可省略**：省略時自動從 `--topic` 衍生檔名。
 > **想更快測試**：加 `--model small`。**雜訊多/術語多**：加 `--model large`。
-> **`--slug` 可省略**：省略時會自動從 `--topic` 衍生檔名。
 
 ---
 
-### Step 2｜分析逐字稿產出筆記（Composer，低 token）
+### Step 2｜AI 自動產出筆記（Claude，約 30–60 秒）
 
-開啟 **Cursor Composer**，貼入以下 prompt，再貼上逐字稿內容，送出後將輸出複製到 `notes/` 對應的 `.md` 檔：
-
+```bash
+bash scripts/notes.sh transcripts/YYYY-MM-DD/lesson-NN-<slug>.md
 ```
-你是英文課學習助理。以下是一堂英文口說課的逐字稿。請分析並輸出繁體中文 Markdown 筆記，格式如下：
 
-## 課堂主題與摘要
-- 今日主題（1句）
-- 重點摘要（3-5條）
+腳本讀取逐字稿，產出一份結構化筆記範本（空白表格 + 逐字稿嵌在底部），你直接開檔在上半段填空，不需再切換到逐字稿對照。
 
-## 重點單字／片語
-| 單字／片語 | 詞性 | 中文意思 | 課堂例句 |
-|-----------|------|---------|---------|
-（從老師明確教授、示範或糾正的詞彙中提取，至少10個）
-
-## 老師的關鍵糾正
-| 學生說的 | 老師建議改成 | 重點說明 |
-|--------|------------|--------|
-（只列老師明確指出的錯誤）
-
-## 文法重點
-（老師強調的文法或表達方式，條列式）
-
-## 作業
-（老師明確指派的下次任務，若無則寫「無」）
-
----
-逐字稿：
-[貼上 transcripts/YYYY-MM-DD/lesson-NN.md 的內容]
-```
+> **快速用法**：`--latest` 自動抓最新一堂課，不需手動填路徑：
+> ```bash
+> bash scripts/notes.sh --latest
+> ```
+> **重新產出**：加 `--force` 覆蓋已有內容。
+> **使用 AI 自動分析**（需 API Key）：加 `--provider openai` 或 `--provider anthropic`。
 
 ---
 
 ### Step 3｜彙整單字到總表（複習用）
 
-把這堂課筆記裡的單字加進總表（會自動去重），方便日後用 Anki 複習：
-
 ```bash
 python3 scripts/extract_vocab.py notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md
 ```
+
+把這堂課筆記裡的單字加進 `vocabulary/master-vocab.csv`（自動去重），方便日後用 Anki 複習。
 
 > 詳細的 Anki 匯入與複習節奏，見 [`vocabulary/README.md`](vocabulary/README.md)。
 
@@ -109,7 +102,7 @@ python3 scripts/extract_vocab.py notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md
 
 1. **題目**：填入老師指派的題目與繳交日期
 2. **我的初稿**：先用自己會的句子寫（別查字典，保留原樣方便對照）
-3. **文法修正**：可請 Claude／ChatGPT 逐句對照，填修正表
+3. **文法修正**：填入修正建議（可自行用 Cursor 開逐字稿一起看）
 4. **修改後完整版**：整合修正
 5. **自我複習重點**：抽出值得記的句型與單字
 
@@ -119,11 +112,11 @@ python3 scripts/extract_vocab.py notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md
 
 ### Step 5｜更新課程索引
 
-在下方 [課程索引](#4-課程索引) 表格新增一行：
+```bash
+bash scripts/update_index.sh
+```
 
-```
-| YYYY-MM-DD | Lesson NN | 主題 | [查看](transcripts/YYYY-MM-DD/lesson-NN-<slug>.md) | [查看](notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md) | [查看](notes/YYYY-MM-DD/lesson-NN-<slug>-homework.md) |
-```
+自動掃描 `transcripts/` 資料夾，重建下方課程索引表格並寫入 README.md，不需手動編輯。
 
 ---
 
@@ -135,6 +128,9 @@ python3 scripts/extract_vocab.py notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md
 brew install ffmpeg
 pip install --user openai-whisper
 ```
+
+> Step 2 預設為純範本模式，**不需要 API Key**。
+> 若日後想用 AI 自動產筆記，可加裝 `pip install --user openai` 並設定 `OPENAI_API_KEY`。
 
 **常見問題：**
 
