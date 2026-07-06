@@ -1,0 +1,22 @@
+# macOS 系統檔
+.DS_Store
+
+# Python 虛擬環境與暫存
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+*.egg-info/
+
+# 環境變數（可能含密鑰）
+.env
+!.env.example
+
+# 編輯器
+.idea/
+.vscode/
+
+# Claude Code 本機設定
+.claude/settings.local.json
