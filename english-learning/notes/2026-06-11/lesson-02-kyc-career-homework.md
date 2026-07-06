@@ -1,4 +1,4 @@
-# 作業 — Lesson 01：Containment System Design
+# 作業 — Lesson 02：Containment System Design
 
 **題目**：What is a containment system you can design for ridiculous customers who have a lot of money?
 **繳交日期**：2026-07-01

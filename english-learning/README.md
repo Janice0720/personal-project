@@ -6,20 +6,52 @@
 
 ## 目錄
 
-1. [資料夾結構](#1-資料夾結構)
-2. [每堂課 SOP](#2-每堂課-sop)
+1. [每堂課 SOP（只有 3 步）](#1-每堂課-sop只有-3-步)
+2. [資料夾結構](#2-資料夾結構)
 3. [環境安裝（首次）](#3-環境安裝首次)
 4. [課程索引](#4-課程索引)
 
 ---
 
-## 1. 資料夾結構
+## 1. 每堂課 SOP（只有 3 步）
 
-> 檔名格式：`lesson-NN-<slug>`。`NN` 為**全課程連續編號**（跨日期遞增，看得出是第幾堂課）；`<slug>` 是主題的英文短代稱（由 `--slug` 指定，未給則自動從 `--topic` 衍生）。主題完整中文仍記在檔案標題與下方課程索引。
+> **上完課只要記住：丟檔案 → 跑一個指令 → 其他交給 Claude Code。**
+> Claude Code 有對應的 skill（`.claude/skills/english-lesson/`），用自然語言呼叫即可。
+
+### Step 1｜轉譯：丟檔案 + 一個指令
+
+把手機/Zoom 的錄音檔直接丟進 `recordings/` 資料夾（不用改名、不用建子資料夾），然後：
+
+```bash
+cd "/Users/Janice/Desktop/Git Hub workspace/personal-project/english-learning"
+bash scripts/lesson.sh new
+```
+
+腳本會自動：偵測新錄音 → 從檔名解析上課日期 → 詢問主題 → Whisper 轉譯（約 10–15 分鐘）→ 歸檔錄音 → 產生逐字稿與筆記/作業模板 → 印出後續 checklist。
+
+> 也可以直接開 Claude Code 說 **「處理新課錄音」**，連指令都不用打——它還會順便讀逐字稿、把筆記填好、幫你把老師指派的作業登記到 tracker。
+
+### Step 2｜學習：寫作業初稿 → 請 AI 修正
+
+1. 打開 `notes/日期/lesson-NN-<slug>-homework.md`，在「我的初稿」**自己寫**（不查字典，保留原樣才看得出進步）
+2. 寫完後開 Claude Code 說 **「幫我改作業」**——它會對照這堂課的逐字稿填好文法修正表、完整版與複習重點
+
+### Step 3｜收尾：一句話
+
+開 Claude Code 說 **「幫我收尾這堂課」**——單字進總表、README 索引重建、tracker 狀態更新，一次做完。
+
+（手動等效指令：`python3 scripts/extract_vocab.py <notes檔>` → `bash scripts/update_index.sh` → 編輯 `homework-tracker.md`）
+
+---
+
+## 2. 資料夾結構
+
+> 檔名格式：`lesson-NN-<slug>`。`NN` 為**全課程連續編號，依上課日期遞增**（＝第幾堂課）；`<slug>` 是主題的英文短代稱。主題完整中文記在檔案標題與課程索引。
 
 ```
 english-learning/
-├── recordings/YYYY-MM-DD/lesson-NN-<slug>.m4a       ← 原始錄音備份（不進 git，見 .gitignore）
+├── recordings/                                      ← 新錄音先丟這裡（根目錄）
+│   └── YYYY-MM-DD/lesson-NN-<slug>.m4a              ← 處理後自動歸檔（不進 git）
 ├── transcripts/YYYY-MM-DD/lesson-NN-<slug>.md       ← Whisper 逐字稿
 ├── notes/YYYY-MM-DD/
 │   ├── lesson-NN-<slug>-notes.md                    ← 課後學習筆記
@@ -29,94 +61,13 @@ english-learning/
 │   └── README.md                                    ← 單字複習 / Anki 匯入說明
 ├── homework-tracker.md                              ← 作業狀態追蹤
 └── scripts/
-    ├── run.sh             ← Step 1：一鍵轉譯入口（用這個）
-    ├── transcribe.py      ← Whisper 轉譯主腳本
-    ├── notes.sh           ← Step 2：呼叫 Claude API 的入口（自動找正確 Python）
-    ├── generate_notes.py  ← Step 2：Claude 筆記產出主腳本
-    ├── extract_vocab.py   ← Step 3：從筆記彙整單字到總表
-    ├── update_index.sh    ← Step 5：更新索引的入口（自動找正確 Python）
-    ├── update_index.py    ← Step 5：課程索引自動更新主腳本
+    ├── lesson.sh          ← ★ 每堂課的單一入口（bash scripts/lesson.sh new）
+    ├── run.sh / transcribe.py    ← Whisper 轉譯（lesson.sh 會自動呼叫）
+    ├── notes.sh / generate_notes.py ← 筆記模板產生（Claude Code 讀逐字稿直接填寫更佳）
+    ├── extract_vocab.py   ← 筆記單字彙整到總表
+    ├── update_index.sh / update_index.py ← 課程索引自動更新
     └── INSTALL.md         ← 環境安裝說明
 ```
-
----
-
-## 2. 每堂課 SOP
-
-> 全流程皆在 Terminal 執行，不需手動貼文字給 AI。先 `cd` 到專案根目錄再跑。
-
-```bash
-cd "/Users/Janice/Desktop/Git Hub workspace/personal-project/english-learning"
-```
-
----
-
-### Step 1｜轉譯錄音（Whisper，約 10–15 分鐘）
-
-```bash
-bash scripts/run.sh /path/to/錄音檔.m4a --topic "職場英文口說 — KYC" --slug kyc-career
-```
-
-完成後自動產生：
-- `transcripts/YYYY-MM-DD/lesson-NN-<slug>.md` — 逐字稿
-- `notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md` — 空白筆記範本（下一步會填入）
-- `notes/YYYY-MM-DD/lesson-NN-<slug>-homework.md` — 空白作業範本
-
-> **`--slug` 可省略**：省略時自動從 `--topic` 衍生檔名。
-> **想更快測試**：加 `--model small`。**雜訊多/術語多**：加 `--model large`。
-
----
-
-### Step 2｜AI 自動產出筆記（Claude，約 30–60 秒）
-
-```bash
-bash scripts/notes.sh transcripts/YYYY-MM-DD/lesson-NN-<slug>.md
-```
-
-腳本讀取逐字稿，產出一份結構化筆記範本（空白表格 + 逐字稿嵌在底部），你直接開檔在上半段填空，不需再切換到逐字稿對照。
-
-> **快速用法**：`--latest` 自動抓最新一堂課，不需手動填路徑：
-> ```bash
-> bash scripts/notes.sh --latest
-> ```
-> **重新產出**：加 `--force` 覆蓋已有內容。
-> **使用 AI 自動分析**（需 API Key）：加 `--provider openai` 或 `--provider anthropic`。
-
----
-
-### Step 3｜彙整單字到總表（複習用）
-
-```bash
-python3 scripts/extract_vocab.py notes/YYYY-MM-DD/lesson-NN-<slug>-notes.md
-```
-
-把這堂課筆記裡的單字加進 `vocabulary/master-vocab.csv`（自動去重），方便日後用 Anki 複習。
-
-> 詳細的 Anki 匯入與複習節奏，見 [`vocabulary/README.md`](vocabulary/README.md)。
-
----
-
-### Step 4｜寫作業
-
-打開自動產生的 `notes/YYYY-MM-DD/lesson-NN-<slug>-homework.md`，依模板完成：
-
-1. **題目**：填入老師指派的題目與繳交日期
-2. **我的初稿**：先用自己會的句子寫（別查字典，保留原樣方便對照）
-3. **文法修正**：填入修正建議（可自行用 Cursor 開逐字稿一起看）
-4. **修改後完整版**：整合修正
-5. **自我複習重點**：抽出值得記的句型與單字
-
-完成後到 [`homework-tracker.md`](homework-tracker.md) 更新狀態。
-
----
-
-### Step 5｜更新課程索引
-
-```bash
-bash scripts/update_index.sh
-```
-
-自動掃描 `transcripts/` 資料夾，重建下方課程索引表格並寫入 README.md，不需手動編輯。
 
 ---
 
@@ -129,16 +80,14 @@ brew install ffmpeg
 pip install --user openai-whisper
 ```
 
-> Step 2 預設為純範本模式，**不需要 API Key**。
-> 若日後想用 AI 自動產筆記，可加裝 `pip install --user openai` 並設定 `OPENAI_API_KEY`。
-
 **常見問題：**
 
 | 問題 | 解法 |
 |------|------|
-| `whisper not found` | 用 `bash scripts/run.sh`，腳本會自動找正確 Python |
+| `whisper not found` | 用 `bash scripts/lesson.sh`，會自動找正確 Python |
 | 中文被轉成亂碼 / 出現「Do. Do.」 | 預設已鎖 `--language en`；仍不佳改 `--model large` |
-| 課堂編號不如預期 | 編號為**全課程連續**，掃描 `transcripts/` 所有日期取最大值 +1；若要重編，檢查是否有殘留舊檔 |
+| 錄音檔日期解析錯誤 | 加 `--date 2026-07-01` 手動指定 |
+| 編號和上課順序不符 | 編號依處理順序遞增；當堂課錄音當週處理就不會亂（腳本偵測到日期倒退會警告） |
 
 ---
 
@@ -146,4 +95,6 @@ pip install --user openai-whisper
 
 | 日期 | 課堂 | 主題 | 逐字稿 | 筆記 | 作業 |
 |------|------|------|--------|------|------|
-| 2026-06-11 | Lesson 01 | 職場英文口說 — KYC 稽核 & 工作壓力 | [查看](transcripts/2026-06-11/lesson-01-kyc-career.md) | [查看](notes/2026-06-11/lesson-01-kyc-career-notes.md) | [查看](notes/2026-06-11/lesson-01-kyc-career-homework.md) |
+| 2026-06-04 | Lesson 01 | Intro — 自我介紹與職涯願景 | [查看](transcripts/2026-06-04/lesson-01-intro.md) | [查看](notes/2026-06-04/lesson-01-intro-notes.md) | [查看](notes/2026-06-04/lesson-01-intro-homework.md) |
+| 2026-06-11 | Lesson 02 | 職場英文口說練習 — KYC 稽核 & 工作壓力 | [查看](transcripts/2026-06-11/lesson-02-kyc-career.md) | [查看](notes/2026-06-11/lesson-02-kyc-career-notes.md) | [查看](notes/2026-06-11/lesson-02-kyc-career-homework.md) |
+| 2026-07-01 | Lesson 03 | 職場電話英文 — 接聽國外機構來電與專業界線 | [查看](transcripts/2026-07-01/lesson-03-phone-english.md) | [查看](notes/2026-07-01/lesson-03-phone-english-notes.md) | [查看](notes/2026-07-01/lesson-03-phone-english-homework.md) |

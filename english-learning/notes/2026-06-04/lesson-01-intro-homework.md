@@ -1,7 +1,7 @@
-# 作業 — Lesson 02：intro
+# 作業 — Lesson 01：Intro — 自我介紹與職涯願景
 
-**題目**：（填入老師指派的題目）
-**繳交日期**：
+**題目**：What are the qualities of the leaders at Google and Microsoft? Why are those qualities important?
+**繳交日期**：2026-06-11（下堂課討論）
 
 ---
 

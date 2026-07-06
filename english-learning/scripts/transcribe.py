@@ -54,6 +54,14 @@ def find_next_lesson_number(transcripts_root: Path) -> int:
     return max(nums) + 1 if nums else 1
 
 
+def warn_if_date_out_of_order(transcripts_root: Path, date_str: str) -> None:
+    """編號依處理順序遞增；若這堂課的日期早於已有課程，編號會與日期順序不一致，先提醒"""
+    existing_dates = [d.name for d in transcripts_root.iterdir() if d.is_dir()]
+    if existing_dates and date_str < max(existing_dates):
+        print(f"⚠️  注意：這堂課日期（{date_str}）早於已有課程（最晚 {max(existing_dates)}），")
+        print("    自動編號會晚於日期較新的課。若要維持「編號=上課順序」，請手動重編舊檔後再跑。")
+
+
 def copy_recording(src: Path, date_str: str, lesson_num: int, file_slug: str) -> Path:
     """將錄音檔複製到 recordings/{date}/ 並重新命名"""
     dest_dir = RECORDINGS_DIR / date_str
@@ -303,6 +311,7 @@ def main():
         topic = input("請輸入課程主題（按 Enter 略過）：").strip()
 
     # ── 課堂編號（全課程連續編號，掃描所有日期資料夾）──
+    warn_if_date_out_of_order(TRANSCRIPTS_DIR, date_str)
     transcript_date_dir = TRANSCRIPTS_DIR / date_str
     transcript_date_dir.mkdir(parents=True, exist_ok=True)
     lesson_num = find_next_lesson_number(TRANSCRIPTS_DIR)
