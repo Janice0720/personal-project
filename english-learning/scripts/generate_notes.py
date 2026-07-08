@@ -284,6 +284,8 @@ def main():
     if notes_has_content(notes_path) and not args.force:
         print(f"⚠️  筆記已有內容：{notes_path.relative_to(PROJECT_DIR)}")
         print("   若要重新產出，請加上 --force")
+        print("   ⚠️  注意：--force 會整檔覆寫。若筆記內有「課前準備」區塊，")
+        print("       請改用 Claude Code 手動填寫課堂內容，不要 --force。")
         sys.exit(0)
 
     lesson_num, topic, date_str = parse_lesson_info(transcript_path)

@@ -18,6 +18,12 @@
 > **上完課只要記住：丟檔案 → 跑一個指令 → 其他交給 Claude Code。**
 > Claude Code 有對應的 skill（`.claude/skills/english-lesson/`），用自然語言呼叫即可。
 
+### Step 0（選擇性）｜課前準備：有想好要聊什麼就先記下來
+
+上課前有先想好要跟老師聊什麼的話，開 Claude Code 說 **「幫我準備這週的課」**——它會建一個**獨立的課前準備檔** `notes/日期/lesson-NN-<slug>-prep.md`（跟課堂筆記放同一個資料夾），放分享草稿、想聊的主題、預查單字（還可以幫忙潤草稿）。沒準備的週次直接跳過這步。
+
+> 課前想的主題和實際上課內容**可能不同**——prep 檔照課前主題命名、之後不改名；上課後的筆記/作業/逐字稿則依實際主題命名，兩邊會互相連結對照。課前預查的單字**不會**進單字總表，只有課堂上真的用到的才會（收尾時搬進課堂筆記的「重點單字」表）。
+
 ### Step 1｜轉譯：丟檔案 + 一個指令
 
 把手機/Zoom 的錄音檔直接丟進 `recordings/` 資料夾（不用改名、不用建子資料夾），然後：
@@ -54,7 +60,8 @@ english-learning/
 │   └── YYYY-MM-DD/lesson-NN-<slug>.m4a              ← 處理後自動歸檔（不進 git）
 ├── transcripts/YYYY-MM-DD/lesson-NN-<slug>.md       ← Whisper 逐字稿
 ├── notes/YYYY-MM-DD/
-│   ├── lesson-NN-<slug>-notes.md                    ← 課後學習筆記
+│   ├── lesson-NN-<slug>-prep.md                     ← 課前準備（選擇性；slug 依課前主題，不改名）
+│   ├── lesson-NN-<slug>-notes.md                    ← 課堂筆記（slug 依實際上課主題）
 │   └── lesson-NN-<slug>-homework.md                 ← 作業（初稿→修正→完整版）
 ├── vocabulary/
 │   ├── master-vocab.csv                             ← 所有課堂單字總表（可匯入 Anki）
@@ -88,6 +95,7 @@ pip install --user openai-whisper
 | 中文被轉成亂碼 / 出現「Do. Do.」 | 預設已鎖 `--language en`；仍不佳改 `--model large` |
 | 錄音檔日期解析錯誤 | 加 `--date 2026-07-01` 手動指定 |
 | 編號和上課順序不符 | 編號依處理順序遞增；當堂課錄音當週處理就不會亂（腳本偵測到日期倒退會警告） |
+| 實際上課主題和課前準備的不一樣 | 正常現象。prep 檔保持原名不動；筆記/作業/逐字稿/錄音依實際主題命名，處理錄音時 Claude Code 會在兩邊補上互相對照的連結 |
 
 ---
 
@@ -98,4 +106,4 @@ pip install --user openai-whisper
 | 2026-06-04 | Lesson 01 | Intro — 自我介紹與職涯願景 | [查看](transcripts/2026-06-04/lesson-01-intro.md) | [查看](notes/2026-06-04/lesson-01-intro-notes.md) | [查看](notes/2026-06-04/lesson-01-intro-homework.md) |
 | 2026-06-11 | Lesson 02 | 職場英文口說練習 — KYC 稽核 & 工作壓力 | [查看](transcripts/2026-06-11/lesson-02-kyc-career.md) | [查看](notes/2026-06-11/lesson-02-kyc-career-notes.md) | [查看](notes/2026-06-11/lesson-02-kyc-career-homework.md) |
 | 2026-07-01 | Lesson 03 | 職場電話英文 — 接聽國外機構來電與專業界線 | [查看](transcripts/2026-07-01/lesson-03-phone-english.md) | [查看](notes/2026-07-01/lesson-03-phone-english-notes.md) | [查看](notes/2026-07-01/lesson-03-phone-english-homework.md) |
-| 2026-07-08 | Lesson 04 | 職場數學週 — 國泰證券淨值重算與帳務補償計算 | — | [查看](notes/2026-07-08/lesson-04-nav-recalculation-notes.md) | [查看](notes/2026-07-08/lesson-04-nav-recalculation-homework.md) |
+| 2026-07-08 | Lesson 04 | What I Pay, What I Earn — 金錢、時間與人生的取捨 | [查看](transcripts/2026-07-08/lesson-04-what-i-pay-what-i-earn.md) | [查看](notes/2026-07-08/lesson-04-what-i-pay-what-i-earn-notes.md) | [查看](notes/2026-07-08/lesson-04-what-i-pay-what-i-earn-homework.md) |

@@ -1,6 +1,6 @@
-# 作業 — Lesson 04：職場數學週 — 國泰證券淨值重算與帳務補償計算
+# 作業 — Lesson 04：What I Pay, What I Earn — 金錢、時間與人生的取捨
 
-**題目**：（上課後補充）
+**題目**：What is a topic you would like to teach someone about and why?（你想教別人什麼主題？為什麼？）
 **繳交日期**：下堂課討論
 
 ---

@@ -1,13 +1,21 @@
-# 課後筆記 — Lesson 04：職場數學週 — 國泰證券淨值重算與帳務補償計算
+# 課前準備 — Lesson 04：職場數學週 — 國泰證券淨值重算與帳務補償計算
 
 **日期**：2026-07-08
-**逐字稿**：[transcripts/2026-07-08/lesson-04-nav-recalculation.md](../../transcripts/2026-07-08/lesson-04-nav-recalculation.md)
+**性質**：課前準備（上課前先想好要跟老師聊的內容）
+**實際課堂筆記**：[lesson-04-what-i-pay-what-i-earn-notes.md](lesson-04-what-i-pay-what-i-earn-notes.md)（實際上課主題與課前準備不同）
 
 ---
 
-## 今日分享草稿（課前修訂版）
+## 本週想達成的目標
 
-> 以下是我準備跟老師分享的開場內容，上完課後會補充老師糾正與課堂學習重點。
+- 用英文描述一件涉及數字與財務計算的職場事件
+- 用英文說明事件的背景與原因（內控與關係人交易 → 淨值重算 → 投資人補償）
+- 學習如何說明「流程複雜性」與「工作量」的英文表達
+- 練習金融專業詞彙在口語情境中的實際運用
+
+---
+
+## 分享草稿一 — 職場事件（課前修訂版）
 
 This week felt like a math class because of a recent fund incident in Taiwan.
 
@@ -34,7 +42,7 @@ It is a lot of work, but I think it is also interesting because it shows how imp
 
 ---
 
-## 今日分享草稿二 — 生活小故事（COS 夏季特賣）
+## 分享草稿二 — 生活小故事（COS 夏季特賣）
 
 I also want to share a small story from this week.
 
@@ -46,25 +54,12 @@ I'm not a shopping addict, but the discount was really good, so I think it was w
 
 ---
 
-## 今日學習目標
+## 課前預查單字
 
-- 用英文描述一件涉及數字與財務計算的職場事件
-- 用英文說明事件的背景與原因（內控與關係人交易 → 淨值重算 → 投資人補償）
-- 學習如何說明「流程複雜性」與「工作量」的英文表達
-- 練習金融專業詞彙在口語情境中的實際運用
+> 這張表**不會**進單字總表；課堂上實際用到或老師糾正過的，收尾時搬進課堂筆記的「重點單字／片語」表。
 
----
-
-## 課堂重點摘要
-
-（上課後補充）
-
----
-
-## 重點單字／片語
-
-| 單字／片語 | 詞性 | 中文意思 | 課堂例句 |
-|-----------|------|---------|---------|
+| 單字／片語 | 詞性 | 中文意思 | 例句 |
+|-----------|------|---------|------|
 | NAV (net asset value) | n. | 基金淨值 | *The NAV of several funds was recalculated.* |
 | recalculate the NAV | v. phr. | 重新計算淨值 | *The company had to recalculate the NAV.* |
 | compensation | n. | 補償金 | *We need to calculate how much compensation each customer should receive.* |
@@ -90,25 +85,3 @@ I'm not a shopping addict, but the discount was really good, so I think it was w
 | feel a little disappointed / regretful | phr. | 有點遺憾 | *I felt a little regretful.* |
 | shopaholic / shopping addict | n. | 購物狂 | *I'm not a shopping addict.* |
 | the discount was really good | 句型 | 打折價格很優惠 | *The discount was really good, so I think it was worth checking.* |
-
----
-
-## 老師的關鍵糾正
-
-（上課後補充）
-
-| 我說的 | 老師建議改成 | 重點說明 |
-|--------|------------|--------|
-|        |            |        |
-
----
-
-## 老師出的作業
-
-（上課後補充）
-
----
-
-## 文法重點
-
-（上課後補充）

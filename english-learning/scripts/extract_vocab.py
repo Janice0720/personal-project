@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 單字彙整腳本
-用途：從課後筆記（notes/*.md）的「重點單字／片語」表格抽取單字，
+用途：從課後筆記（notes/*.md）「重點單字／片語」小節的表格抽取單字
+　　　（課前準備區的「課前預查單字」表不會被收入），
       彙整（去重）到 vocabulary/master-vocab.csv，供長期複習與匯入 Anki。
 
 使用：
@@ -53,10 +54,15 @@ def extract_rows(md_path: Path) -> list[dict]:
 
     rows = []
     in_vocab_table = False
+    current_heading = ""
     for line in lines:
         stripped = line.strip()
-        # 找到含「單字」的表頭即視為單字表開始
-        if stripped.startswith("|") and "單字" in stripped:
+        if stripped.startswith("#"):
+            current_heading = stripped
+            in_vocab_table = False
+            continue
+        # 只收「重點單字」小節下的表格；課前準備區的「課前預查單字」不入總表
+        if stripped.startswith("|") and "單字" in stripped and "重點單字" in current_heading:
             in_vocab_table = True
             continue
         if not in_vocab_table:
