@@ -98,3 +98,4 @@ pip install --user openai-whisper
 | 2026-06-04 | Lesson 01 | Intro — 自我介紹與職涯願景 | [查看](transcripts/2026-06-04/lesson-01-intro.md) | [查看](notes/2026-06-04/lesson-01-intro-notes.md) | [查看](notes/2026-06-04/lesson-01-intro-homework.md) |
 | 2026-06-11 | Lesson 02 | 職場英文口說練習 — KYC 稽核 & 工作壓力 | [查看](transcripts/2026-06-11/lesson-02-kyc-career.md) | [查看](notes/2026-06-11/lesson-02-kyc-career-notes.md) | [查看](notes/2026-06-11/lesson-02-kyc-career-homework.md) |
 | 2026-07-01 | Lesson 03 | 職場電話英文 — 接聽國外機構來電與專業界線 | [查看](transcripts/2026-07-01/lesson-03-phone-english.md) | [查看](notes/2026-07-01/lesson-03-phone-english-notes.md) | [查看](notes/2026-07-01/lesson-03-phone-english-homework.md) |
+| 2026-07-08 | Lesson 04 | 職場數學週 — 國泰證券淨值重算與帳務補償計算 | — | [查看](notes/2026-07-08/lesson-04-nav-recalculation-notes.md) | [查看](notes/2026-07-08/lesson-04-nav-recalculation-homework.md) |
