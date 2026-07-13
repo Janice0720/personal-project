@@ -47,9 +47,13 @@ thesis-investor-segmentation/
 ├── proposal/
 │   └── phase1/
 │       ├── README.md                        ← Phase 1 agent 產出索引 ✅
+│       ├── proposal-draft-master.md         ← Proposal 初稿主檔 ✅
+│       ├── consistency-check-literature-vs-proposal.md ← 文獻矩陣與 Proposal 一致性檢查 ✅
+│       ├── reading-order-and-goals.md       ← 文件閱讀順序與閱讀目標 ✅
 │       ├── 01-literature-structure-gap-contribution-integrated.md ← 文獻架構、研究缺口與貢獻整合稿 ✅
 │       ├── 02-research-gap-analysis.md      ← 研究缺口分析 ✅
-│       └── 03-research-contribution-claims.md ← 研究貢獻主張 ✅
+│       ├── 03-research-contribution-claims.md ← 研究貢獻主張 ✅
+│       └── 04-phase1-literature-context-gap-final.md ← Phase 1 最終整合稿 ✅
 ├── data/
 │   ├── raw/                                ← 原始匿名化數據（不上 Git）⏳
 │   └── processed/                          ← 清洗後特徵數據 ⏳
@@ -63,7 +67,8 @@ thesis-investor-segmentation/
 └── thesis/
     └── chapters/
         └── chapter-02-literature-review/
-            └── 01-investor-behavior-segmentation-rfm.md ← 第二章前三類文獻脈絡草稿 ✅
+            ├── 01-investor-behavior-segmentation-rfm.md ← 第二章前三類文獻脈絡草稿 ✅
+            └── 02-recommendation-fintech-digital-brokerage.md ← 第二章後三類文獻脈絡草稿 ✅
 ```
 
 ## 結論
