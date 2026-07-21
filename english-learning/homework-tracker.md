@@ -10,3 +10,4 @@
 | Lesson 02 | Containment system for ridiculous wealthy customers | 2026-06-11 | 2026-07-01 | ✅ 已完成（待課堂討論） | [作業](notes/2026-06-11/lesson-02-kyc-career-homework.md) |
 | Lesson 03 | How do you quickly understand what a customer needs? And how do you set boundaries? | 2026-07-01 | 2026-07-08 | ✏️ 撰寫中 | [作業](notes/2026-07-01/lesson-03-phone-english-homework.md) |
 | Lesson 04 | What is a topic you would like to teach someone about and why? | 2026-07-08 | 下堂課 | ⬜ 未開始 | [作業](notes/2026-07-08/lesson-04-what-i-pay-what-i-earn-homework.md) |
+| Lesson 05 | 無正式作業；下堂課前整理財務目標數字（買房頭期款、每月儲蓄能力） | 2026-07-14 | 2026-07-21 | ⬜ 未開始 | [作業](notes/2026-07-14/lesson-05-人生目標-homework.md) |

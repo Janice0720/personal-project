@@ -7,7 +7,7 @@
 
 ## 🕐 課前準備
 
-> 本週課前準備（分享草稿、預查單字）見：[lesson-04-nav-recalculation-prep.md](lesson-04-nav-recalculation-prep.md)
+> 本週課前準備（分享草稿、預查單字）見：[lesson-04-cos-summer-sale-prep.md](lesson-04-cos-summer-sale-prep.md)
 > 課前原訂主題「職場數學週 — 國泰證券淨值重算與帳務補償計算」。實際上課**沒有聊到 NAV 重算**；草稿二（COS 夏季特賣）有用上，並從這個話題延伸出整堂課。
 
 ---
