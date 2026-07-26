@@ -6,8 +6,8 @@
 |---:|---|---|---|
 | 1 | `proposal/phase1/proposal-draft-master.md` | 先掌握 Proposal 主線：研究定位、第二章架構、研究缺口與研究貢獻。 | 最高 |
 | 2 | `proposal/phase1/consistency-check-literature-vs-proposal.md` | 確認目前文件哪裡一致、哪裡需要修正，避免後續引用混亂。 | 高 |
-| 3 | `literature/literature-matrix.md` | 掌握原始 A–G 文獻分類與 26 篇核心文獻。 | 高 |
-| 4 | `literature/phase1/phase1-literature-matrix-2026-06-22.md` | 補看 Research Assistant 新增的近年文獻與官方 / 產業來源。 | 中高 |
+| 3 | `literature/literature-matrix.md` | 掌握已整併的 Phase 1 主要文獻矩陣、核心閱讀順序與研究缺口對應。 | 高 |
+| 4 | `literature/phase1/phase1-literature-matrix-2026-06-22.md` | 需要回查 Research Assistant 原始補強紀錄時再看；一般閱讀不必優先讀。 | 低 |
 | 5 | `thesis/chapters/chapter-02-literature-review/01-investor-behavior-segmentation-rfm.md` | 深讀第二章前三類：投資人行為、顧客分群、RFM / 機器學習分群。 | 中 |
 | 6 | `thesis/chapters/chapter-02-literature-review/02-recommendation-fintech-digital-brokerage.md` | 深讀第二章後三類：推薦系統、基金推薦、FinTech / 數位券商。 | 中 |
 | 7 | `proposal/phase1/02-research-gap-analysis.md` | 若要加強研究缺口論述，再讀這份細節素材。 | 中 |
@@ -39,12 +39,12 @@
 你的目標是知道目前最大風險：
 
 - 不是研究方向錯。
-- 而是文獻編號、引用系統與去重還沒完全整理。
+- 文獻矩陣已完成第一輪整併，但來源查證、正式引用格式與部分待查證文獻仍未完成。
 
 你要特別注意：
 
-1. A–G 編號與 1–22 編號要整合。
-2. 重複文獻要去重。
+1. 正式閱讀與引用應以 `literature/literature-matrix.md` 整合版為主。
+2. `phase1-literature-matrix-2026-06-22.md` 只作原始補強紀錄，不再作主要閱讀清單。
 3. 待查證來源不能直接放進正式引用。
 4. Proposal 草稿裡的「引用提示」後續要改成正式作者年份。
 
@@ -54,7 +54,7 @@
 
 ### 先讀：`literature/literature-matrix.md`
 
-目標：掌握原本 26 篇核心文獻如何支撐你的研究。
+目標：掌握目前整合版文獻矩陣如何支撐你的研究。
 
 建議閱讀重點：
 
@@ -63,16 +63,9 @@
 - C 類：支撐 FinTech、AI 監理與數位券商背景。
 - E / F / G 類：支撐台灣本土文獻與在地研究缺口。
 
-### 再讀：`literature/phase1/phase1-literature-matrix-2026-06-22.md`
+### 原始補強紀錄：`literature/phase1/phase1-literature-matrix-2026-06-22.md`
 
-目標：補強近年與更貼近金融商品推薦的文獻。
-
-優先看：
-
-1. 編號 1–4：基金推薦與金融商品推薦核心文獻。
-2. 編號 7、10–13：分群與 RFM 方法文獻。
-3. 編號 18–21：IOSCO、CFA、GA4 相關來源。
-4. 第四節「可用來說明研究缺口的文獻」。
+目標：只有在需要回查 Research Assistant 原始搜尋結果、來源連結或補強矩陣的舊編號時才閱讀。正式閱讀與引用請優先使用 `literature/literature-matrix.md`。
 
 ---
 
@@ -141,4 +134,4 @@
 
 1. `proposal/phase1/proposal-draft-master.md`
 2. `proposal/phase1/consistency-check-literature-vs-proposal.md`
-3. `literature/phase1/phase1-literature-matrix-2026-06-22.md` 的第 37–71 行
+3. `literature/literature-matrix.md` 的「建議核心閱讀順序」

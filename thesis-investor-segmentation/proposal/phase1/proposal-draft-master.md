@@ -4,14 +4,16 @@
 
 ## 使用定位
 
-本檔案是 Phase 1 目前可作為「Proposal 初稿主線」的整合版。內容已將第二章文獻架構、研究缺口、研究貢獻與可放入 proposal 的缺口段落整合在同一份文件中。
+本檔案是 Phase 1 目前可作為「Proposal 初稿主線素材」的整合版。內容已將第二章文獻架構、研究缺口、研究貢獻與可放入 proposal 的缺口段落整合在同一份文件中。
+
+> **重要提醒：** 本檔目前只作為素材庫，不作為正式定稿。後續需先依 `../../project-status.md` 完成 Phase 0 研究題目、範圍、研究對象、資料可行性與不做事項確認，再回頭改寫成正式 Proposal。
 
 建議用法：
 
-1. 先用本檔建立 proposal 的主敘事：研究背景 → 文獻架構 → 研究缺口 → 研究貢獻。
+1. 先用本檔掌握 proposal 的可能主敘事：研究背景 → 文獻架構 → 研究缺口 → 研究貢獻；暫不要直接視為定稿。
 2. 需要展開第二章細節時，再回到 `../../thesis/chapters/chapter-02-literature-review/` 讀兩份章節素材。
 3. 需要補正式引用時，回到 `../../literature/literature-matrix.md` 與 `../../literature/phase1/phase1-literature-matrix-2026-06-22.md` 對照。
-4. 正式提交前，請先依 `consistency-check-literature-vs-proposal.md` 的待修正事項統一文獻編號與引用格式。
+4. 正式提交前，請先依 `consistency-check-literature-vs-proposal.md` 的待修正事項統一文獻編號與引用格式，並確認研究定位維持「分群為主，推薦模型做概念驗證」。
 
 ---
 

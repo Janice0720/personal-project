@@ -4,12 +4,14 @@
 
 > 總時程：2026/04 → 2027/06 | 每週投入 10–15 小時 | 更新狀態請在每個 `[ ]` 完成後改為 `[x]`
 
+> **目前進度重新盤點（依 `project-status.md`）：** Phase 0 不再視為已完成，而是「重整中」；Phase 1 已完成第一輪文獻矩陣整併，但仍需來源查證與正式引用格式整理；Proposal 有草稿但暫不定稿。以下待辦狀態已先改為「已初步確認 / 待確認 / 暫緩」，後續每次推進論文時應同步更新本檔與 `project-status.md`。
+
 ---
 
 ## 目錄
 
-- [Phase 0：前置準備（2026/04）](#phase-0前置準備-202604)
-- [Phase 1：文獻整理與研究計畫書（2026/05–06）](#phase-1文獻整理與研究計畫書-202605-06)
+- [Phase 0：研究題目與邊界確認（重整中）](#phase-0研究題目與邊界確認重整中)
+- [Phase 1：文獻整理與研究計畫書素材（已完成第一輪整併，待查證）](#phase-1文獻整理與研究計畫書素材已完成第一輪整併待查證)
 - [Phase 2：資料取得與倫理準備（2026/07）](#phase-2資料取得與倫理準備-202607)
 - [Phase 3：資料清理、EDA 與特徵工程（2026/08）](#phase-3資料清理eda-與特徵工程-202608)
 - [Phase 4：投資人行為分群模型（2026/09–10）](#phase-4投資人行為分群模型-202609-10)
@@ -21,19 +23,19 @@
 
 ---
 
-## Phase 0：前置準備（2026/04）
+## Phase 0：研究題目與邊界確認（重整中）
 
-> 目標：建立研究環境、確認所有前提條件，確保後續可順利開工。
+> 目標：重新確認研究題目、研究範圍、研究對象、資料可行性、不做事項與初步研究問題，避免在邊界未定前繼續擴寫 Proposal。
 
 ### 0-A 行政與溝通
 
-- [ ] **預約指導教授（王亦凡老師）第一次正式會議**，確認議程：
+- [ ] **待確認｜預約指導教授（王亦凡老師）第一次正式會議**，確認議程：
   - 研究範圍邊界（基金類型、投資人定義）
   - 論文學術貢獻定位（場景應用型 vs. 演算法創新）
   - 是否需申請校內 IRB 倫理審查
   - 研究計畫書（Proposal）格式與繳交期限
   - 預計每月指導頻率
-- [ ] **請公司（好好證券）出具書面授權文件**，內容需包含：
+- [ ] **待確認｜請公司（好好證券）出具書面授權文件**，內容需包含：
   - 資料使用目的（學術研究）
   - 資料範疇說明（GA4 匿名化行為數據 + 基金交易紀錄）
   - 研究者姓名、學校、指導教授
@@ -41,53 +43,66 @@
 
 ### 0-B 技術環境建置
 
-- [ ] 安裝 Python 3.11 + Jupyter Notebook 環境（建議使用 Anaconda）
-- [ ] 建立本論文 GitHub 私有 Repo（`thesis-investor-segmentation`）
-- [ ] 安裝核心套件：`pandas`、`numpy`、`matplotlib`、`seaborn`、`scikit-learn`、`kmodes`、`scikit-surprise`
-- [ ] 確認 GA4 BigQuery 匯出已啟用，跑一次測試查詢驗證資料格式
-- [ ] 建立本 repo 的資料夾結構（`data/raw/`、`data/processed/`、`notebooks/`、`scripts/`、`thesis/`）
+- [ ] 待確認｜安裝 Python 3.11 + Jupyter Notebook 環境（建議使用 Anaconda）
+- [x] 已初步完成｜建立本論文 GitHub 私有 Repo（`thesis-investor-segmentation`）與資料夾結構
+- [ ] 待確認｜安裝核心套件：`pandas`、`numpy`、`matplotlib`、`seaborn`、`scikit-learn`、`kmodes`、`scikit-surprise`
+- [ ] 待確認｜確認 GA4 BigQuery 匯出已啟用，跑一次測試查詢驗證資料格式
 
 ### 0-C 資料前置確認
 
-- [ ] 確認 GA4 中 `user_id`（內部 user_id）與交易系統 user_id 可 join（跑測試 SQL 驗證）
-- [ ] 確認資料時間範圍：選定研究期間（建議近 12–18 個月，例如 2024/10 – 2026/03）
-- [ ] 確認基金類型範圍（建議先限定：股票型、債券型、平衡型，排除 ETF 降低複雜度）
-- [ ] 確認投資人定義：**研究對象 = 研究期間內有至少 1 筆基金交易記錄的用戶**
+- [x] 已初步確認｜GA4 中 `user_id`（內部 user_id）與交易系統 user_id 可 join；仍需跑測試 SQL 留存驗證紀錄
+- [ ] 待確認｜確認資料時間範圍：選定研究期間（建議近 12–18 個月，例如 2024/10 – 2026/03）
+- [ ] 待確認｜確認基金類型範圍（建議先限定：共同基金；是否排除 ETF 或特定商品需再決定）
+- [ ] 待確認｜確認投資人定義：例如研究期間內有至少 1 筆基金交易記錄的用戶，或包含高瀏覽低交易者
+- [ ] 待確認｜確認本研究不做事項：不做完整 robo-advisor、不做報酬預測、不保證提升投資報酬、不主張全新演算法
+- [ ] 待確認｜收斂 2–3 個可用資料回答的研究問題
 
-**Phase 0 里程碑 ✅**：完成老師第一次會議 + 公司授權文件 + 環境建置
+**Phase 0 里程碑 🟡**：題目、範圍、對象、資料、排除事項與研究問題完成確認後，才可進入 Proposal 定稿。
 
 ---
 
-## Phase 1：文獻整理與研究計畫書（2026/05–06）
+## Phase 1：文獻整理與研究計畫書素材（已完成第一輪整併，待查證）
 
-> 目標：完成 30+ 篇文獻精讀、撰寫 Proposal 送老師審閱。
+> 目標：以 `literature/literature-matrix.md` 整合版文獻矩陣為主，進行核心文獻精讀、來源查證、引用格式整理與研究缺口初稿；暫不擴寫正式 Proposal。
 
 ### 1-A 文獻閱讀（優先順序排列）
 
-**第一優先（必讀核心文獻，共 5 篇）**
-- [ ] 閱讀 **B1：GraphDCF**（Chou et al., 2022）→ 記錄：研究方法、特徵設計、評估指標
-- [ ] 閱讀 **A5：RFM + 群集分析（台灣東海大學碩論, 2022）** → 記錄：研究流程、論文結構
-- [ ] 閱讀 **E2：應用 RFM 模型制定顧客分群行銷策略（台科大碩論, 2020）** → 記錄：台灣碩論格式
-- [ ] 閱讀 **G1：共同基金投資人風險偏好分群（2009）** → 記錄：台灣基金投資人分群分類方式
-- [ ] 閱讀 **B4：Hybrid Recommendation Engine for Fintech（2025）** → 記錄：混合推薦架構
+**第一優先（必讀核心文獻，共 5 篇）**  
+> 目的：先建立研究骨架，理解「分群 → 推薦概念驗證 → 金融商品特殊性」的主線。
 
-**第二優先（應讀背景文獻，共 8 篇）**
-- [ ] 閱讀 A1：RFM-Net（MDPI, 2026）
-- [ ] 閱讀 A2：AI-Driven CLV + RFM（2025）
-- [ ] 閱讀 B2：Dynamic Utility Learning for Fund Recommendation（2025）
-- [ ] 閱讀 C1：FinTech, Investor Sophistication（Oxford, 2023）
-- [ ] 閱讀 C2：Digital Transformation of Investment Behavior（2024）
-- [ ] 閱讀 F1：台灣投資人對機器人理財行為意圖（2020）
-- [ ] 閱讀 F3：機器人理財是否消除投資行為偏誤（2019）
-- [ ] 閱讀 G2：台灣共同基金投資行為實證研究（鄭芳盈, 2007）
+- [ ] 閱讀 **A5：以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究** → 記錄：台灣碩論如何設計 RFM、分群與推薦流程
+- [ ] 閱讀 **E2：應用 RFM 模型制定顧客分群行銷策略之研究** → 記錄：台灣 RFM 分群、群體命名與策略轉換寫法
+- [ ] 閱讀 **B1：GraphDCF 基金推薦**（Chou et al., 2021/2022）→ 記錄：基金推薦如何使用交易序列、如何評估推薦模型
+- [ ] 閱讀 **G1：共同基金投資人投資行為及風險偏好之研究** → 記錄：台灣基金投資人如何依風險偏好分群
+- [ ] 閱讀 **B7：A Systematic Literature Review of Financial Product Recommendation Systems**（Wu & Li, 2025）→ 記錄：金融商品推薦和一般推薦系統的差異、可主張的研究缺口
 
-**第三優先（補充閱讀，共 13 篇）**
-- [ ] 閱讀其餘文獻矩陣中的文獻（A3, A4, B3, B5, C3, D1–D4, E1, E3, E4, G3, G4）
-- [ ] 另行搜尋並補足文獻至 **30 篇以上**（建議方向：冷啟動問題、Elbow Method、台灣 KYC 風險等級）
+**第二優先（方法與研究設計文獻，共 6 組）**  
+> 目的：支撐第三章方法設計，包括 RFM、K-means、金融交易分群、點擊 / 行為資料與 GA4 特徵工程。
+
+- [ ] 閱讀 **A7：RFM ranking – An effective approach to customer segmentation** → 支撐 RFM + K-means 方法
+- [ ] 閱讀 **A6：Profiling investor behavior in the Malaysian derivatives market using K-means clustering** → 支撐金融交易行為分群與分群解釋
+- [ ] 閱讀 **B2：Dynamic Utility Learning for Fund Recommendation** → 支撐點擊 / 行為序列與基金推薦模型關聯
+- [ ] 閱讀 **B6：Explainable mutual fund recommendation system developed based on knowledge graph embeddings** → 支撐金融推薦可解釋性
+- [ ] 閱讀 **C6：GA4 Cohort exploration** → 支撐 GA4 行為資料處理與限制
+- [ ] 閱讀 **C7：GA4 Segments / segment types** → 支撐 user / session / event scope 的特徵工程設計
+
+**第三優先（背景、治理與限制文獻）**  
+> 目的：補足第一章背景、第二章場域脈絡與第五章研究限制。
+
+- [ ] 閱讀 **C1：FinTech, Investor Sophistication, and Financial Portfolio Choices** → 數位券商 / FinTech 背景
+- [ ] 閱讀 **C4：IOSCO 2021 AI/ML report** → AI / ML 治理、資料品質、模型偏誤與監理討論
+- [ ] 閱讀 **C5：CFA Investor Trust Study** → 個人化、科技與投資人信任
+- [ ] 閱讀 **F4：Robo Advising and Investor Profiling** → 投資人風險輪廓與適合度
+- [ ] 閱讀 **F5：Robo-advisors: A systematic literature review** → Robo-advisor 與數位投資服務背景
+- [ ] 閱讀 **F7：Robo-advisors and the financialization of lay investors** → 透明度、投資人理解與金融教育
+
+**第四優先（補充閱讀與待查證文獻）**
+- [ ] 視需要閱讀整合版文獻矩陣中的其他中 / 低優先文獻：A1、A2、A3、A4、A8、A9、A10、A11、B3、B4、B5、B8、B9、C2、C3、C8、D1–D4、E1、E3、E4、F1–F3、F6、G2–G4
+- [ ] 待補文獻：冷啟動問題、Top-K 推薦評估指標、Elbow Method / Silhouette Score、K-prototypes 原始文獻、台灣金融科技 / 數位券商官方報告、個資與研究倫理文獻
 
 ### 1-B 文獻整理產出
 
-- [ ] 完整填寫 `literature/literature-matrix.md`：每篇記錄作者、年份、方法、研究缺口、與本研究關聯
+- [ ] 持續補齊 `literature/literature-matrix.md`：查證作者、年份、正式來源、DOI / 連結、研究缺口與本研究關聯
 - [ ] 建立 `literature/notes/` 資料夾，每篇核心文獻建立閱讀筆記（.md 格式）
 - [ ] 撰寫**研究缺口說明段落**（200–300 字）：現有研究不足之處 → 本研究如何填補
 
@@ -110,7 +125,7 @@
 - [ ] 送指導教授審閱
 - [ ] 依老師意見修改，完成定稿
 
-**Phase 1 里程碑 ✅**：Proposal 定稿送審通過 + 文獻精讀 13 篇以上
+**Phase 1 里程碑 🟡**：整合版文獻矩陣完成、核心文獻閱讀順序確認、研究缺口形成初稿；Proposal 待 Phase 0 穩定後再定稿。
 
 ---
 
