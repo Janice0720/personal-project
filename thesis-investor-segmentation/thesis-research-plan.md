@@ -90,76 +90,52 @@
 
 ## 3. 相關文獻整理
 
-> 以下為初步文獻盤點，供論文第二章文獻探討使用。完整連結與研究缺口分析詳見 [`literature/literature-matrix.md`](literature/literature-matrix.md)。
+> 目前文獻清單已依 `thesis-writing-plan.md` Phase 1 調整，正式閱讀與引用以 [`literature/literature-matrix.md`](literature/literature-matrix.md) 的整合版文獻矩陣為主。`phase1-literature-matrix-2026-06-22.md` 僅保留作為原始補強紀錄。
 
-### 3.1 投資人分群方法
+### 3.1 目前文獻分類架構
 
-| # | 論文 | 作者 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|------|----------|
-| A1 | RFM-Net: A CNN for Customer Segment Classification | — | 2026 | [MDPI Applied Sciences](https://www.mdpi.com/2076-3417/16/5/2223) | Ch3 研究方法 |
-| A2 | AI-Driven CLV Forecasting: Integrating RFM with ML | Akter et al. | 2025 | [ResearchGate](https://www.researchgate.net/publication/389495515_Artificial_Intelligence-Driven_Customer_Lifetime_Value_CLV_Forecasting_Integrating_RFM_Analysis_with_Machine_Learning_for_Strategic_Customer_Retention) | Ch2 文獻、Ch3 |
-| A3 | Enhancing Customer Repurchase Prediction with RFM | — | 2025 | [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0970389625000266) | Ch2 文獻 |
-| A4 | Unlocking High-Value Football Fans: Unsupervised ML | — | 2024 | [Frontiers](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1362489/full) | Ch2 文獻 |
-| A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 | — | 2022 | [臺博碩論文](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110THU01026098%22.&searchmode=basic) | Ch2 文獻、Ch3 |
+| 類別 | 主題 | 在本研究中的用途 |
+|---|---|---|
+| A 類 | 投資人分群、RFM 與機器學習分群方法 | 支撐 RFM、K-means / K-prototypes、分群解釋與群體命名 |
+| B 類 | 基金與金融商品推薦系統 | 支撐基金推薦、金融商品推薦特殊性、推薦概念驗證與 baseline 比較 |
+| C 類 | FinTech、數位券商、GA4 與 AI 治理 | 支撐數位券商背景、GA4 行為資料處理、AI / ML 監理與資料治理 |
+| D 類 | 台灣本土券商與投資人行為研究 | 支撐台灣券商推薦、搜尋行為與投資人行為脈絡 |
+| E 類 | 台灣推薦系統、RFM 與金融 CRM 研究 | 支撐台灣 RFM / CRM / 推薦系統論文寫法 |
+| F 類 | Robo-advisor、投資人輪廓、信任與透明度 | 支撐風險輪廓、適合度、透明度與投資人信任 |
+| G 類 | 台灣共同基金投資人行為與風險偏好 | 支撐台灣基金投資人分群與風險偏好背景 |
 
-### 3.2 個人化基金推薦系統
+### 3.2 核心閱讀順序（對應 `thesis-writing-plan.md`）
 
-| # | 論文 | 作者 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|------|----------|
-| B1 | Modeling Behavior Sequence for Personalized Fund Recommendation with GraphDCF | Chou, Y.-C.; Chen, C.-T.; Huang, S.-H. | 2022 | [ScienceDirect DOI 10.1016/j.eswa.2021.116311](https://www.sciencedirect.com/science/article/abs/pii/S0957417421016122) | Ch2 文獻、Ch3 |
-| B2 | Personalized Fund Recommendation with Dynamic Utility Learning | Wei, J.; Liu, J. | 2025 | [Financial Innovation DOI 10.1186/s40854-024-00720-5](https://link.springer.com/article/10.1186/s40854-024-00720-5) | Ch2 文獻 |
-| B3 | Mutual Fund Recommendation System with Personalized Explanations | — | 2023 | [ResearchGate](https://www.researchgate.net/publication/367530626_MUTUAL_FUND_RECOMMENDATION_SYSTEM_WITH_PERSONALIZED_EXPLANATIONS) | Ch2 文獻 |
-| B4 | A Hybrid Recommendation Engine for Fintech Platforms | — | 2025 | [ResearchGate](https://www.researchgate.net/publication/394559448_A_Hybrid_Recommendation_Engine_for_Fintech_Platforms_Leveraging_Behavioral_Analytics_for_User_Engagement_and_Conversion) | Ch2 文獻 |
-| B5 | FAR-Trans: An Investment Dataset for Financial Asset Recommendation | — | 2024 | [arXiv:2407.08692](https://arxiv.org/abs/2407.08692) | Ch4 實驗、附錄 |
+**第一優先：建立研究骨架**
 
-### 3.3 FinTech 與數位券商應用
+| 順序 | 編號 | 文獻 | 閱讀目的 |
+|---:|---|---|---|
+| 1 | A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 | 看台灣碩論如何設計 RFM、分群與推薦流程 |
+| 2 | E2 | 應用 RFM 模型制定顧客分群行銷策略之研究 | 看台灣 RFM 分群、群體命名與策略轉換寫法 |
+| 3 | B1 | GraphDCF 基金推薦 | 看基金推薦如何使用交易序列與評估模型 |
+| 4 | G1 | 共同基金投資人投資行為及風險偏好之研究 | 補台灣基金投資人風險分群脈絡 |
+| 5 | B7 | Financial Product Recommendation Systems SLR | 建立金融商品推薦總覽與研究缺口 |
 
-| # | 論文 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|----------|
-| C1 | FinTech, Investor Sophistication, and Financial Portfolio Choices | 2023 | [Oxford RCFS](https://academic.oup.com/rcfs/article/12/4/834/7192186) | Ch1 背景、Ch2 文獻 |
-| C2 | The Digital Transformation of Investment Behavior: A Systematic Review | 2024 | [ResearchGate](https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets) | Ch2 文獻 |
-| C3 | Artificial Intelligence in Capital Markets: Use Cases, Risks (IOSCO) | 2023 | [IOSCO PDF](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf) | Ch5 限制、Ch1 背景 |
+**第二優先：支撐方法與研究設計**
 
-### 3.4 台灣本土相關研究（含新增）
+| 編號 | 文獻 | 閱讀目的 |
+|---|---|---|
+| A7 | RFM ranking | 支撐 RFM + K-means 方法 |
+| A6 | Malaysian derivatives K-means clustering | 支撐金融交易行為分群與分群解釋 |
+| B2 | Dynamic Utility Learning | 支撐點擊 / 行為序列與推薦模型關聯 |
+| B6 | Explainable mutual fund recommendation | 支撐金融推薦可解釋性 |
+| C6 / C7 | GA4 官方文件 | 支撐 GA4 特徵工程與資料限制 |
 
-> 完整連結與說明詳見 [`literature/literature-matrix.md`](literature/literature-matrix.md) E、F、G 類。
+**第三優先：補背景、治理與限制**
 
-**原有 D 類（4 篇）**
+| 編號 | 文獻 | 閱讀目的 |
+|---|---|---|
+| C1 | FinTech, Investor Sophistication | 數位券商 / FinTech 背景 |
+| C4 | IOSCO 2021 AI/ML report | AI / ML 治理、資料品質、模型偏誤 |
+| C5 | CFA Investor Trust Study | 個人化、科技與投資人信任 |
+| F4 / F5 / F7 | Robo-advisor / investor profiling | 風險輪廓、透明度、投資人理解 |
 
-| # | 論文 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|----------|
-| D1 | 投資人可否從券商推薦的股票獲利？ | — | [臺博碩](https://ndltd.ncl.edu.tw/handle/46963616466150231805) | Ch2 文獻 |
-| D2 | 台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究 | — | [臺博碩](https://ndltd.ncl.edu.tw/handle/b3agwt) | Ch2 文獻 |
-| D3 | 券商推薦個股的資訊內涵之探討（徐楚雯） | 2019 | [臺科大論文庫](https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/) | Ch2 文獻 |
-| D4 | 網路關鍵字搜尋行為反映投資人情緒之研究 | 2023 | [Airiti Library](https://www.airitilibrary.com/Article/Detail/U0002-1107202310513600) | Ch2 文獻 |
-
-**新增 E 類：台灣推薦系統與顧客分群（4 篇）**
-
-| # | 論文 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|----------|
-| E1 | 個人化推薦系統、顧客購買意願與後續退貨行為之影響 | 2022 | [臺博碩](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic) | Ch2 文獻 |
-| E2 | 應用 RFM 模型制定顧客分群行銷策略之研究 | 2020 | [臺博碩](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic) | Ch2 文獻、Ch3 ⭐ |
-| E3 | 基於用戶序列之協同過濾推薦 | — | [臺博碩](https://ndltd.ncl.edu.tw/handle/3pake6) | Ch2 文獻 |
-| E4 | 資料探勘分析於金融機構客戶關係經營之研究 | — | [台科大論文庫](https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/) | Ch2 文獻 |
-
-**新增 F 類：台灣機器人理財與數位投資行為（3 篇）**
-
-| # | 論文 | 作者 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|------|----------|
-| F1 | 台灣投資人對於機器人理財行為意圖之研究 | 陳奕君 | 2020 | [Airiti Library](https://www.airitilibrary.com/Article/Detail/U0004-G0107351022) | Ch1 背景、Ch2 文獻 |
-| F2 | 提升投資人使用機器人理財意願之研究 | — | — | [臺博碩](http://ndltd.ncl.edu.tw/handle/dqk4c3) | Ch1 背景、Ch2 文獻 |
-| F3 | 機器人理財服務是否可有效消除投資人行為偏誤 | — | 2019 | [臺博碩](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic) | Ch2 文獻 |
-
-**新增 G 類：台灣共同基金投資人行為（4 篇）**
-
-| # | 論文 | 作者 | 年份 | 連結 | 關聯章節 |
-|---|-----|------|------|------|----------|
-| G1 | 共同基金投資人投資行為及風險偏好之研究 | — | 2009 | [臺博碩](https://ndltd.ncl.edu.tw/handle/7msk6p) | Ch2 文獻 ⭐ |
-| G2 | 台灣地區共同基金投資行為實證研究 | 鄭芳盈 | 2007 | [Airiti Library](https://www.airitilibrary.com/Article/Detail?DocID=U0006-0908200717040800) | Ch2 文獻 |
-| G3 | 基金投資人是否存在現狀偏誤：來自台灣之證據 | — | — | [臺博碩](https://ndltd.ncl.edu.tw/handle/bx5udf) | Ch2 文獻 |
-| G4 | 市場狀態與基金投資人投資行為之探討 | — | — | [臺博碩](https://ndltd.ncl.edu.tw/r/42769455951077663518) | Ch2 文獻 |
-
-### 3.5 研究缺口分析（論文貢獻定位）
+### 3.3 研究缺口分析（論文貢獻定位）
 
 ```
 現有研究多採用：
@@ -246,10 +222,10 @@ transaction_features = {
 > 每週可投入 10–15 小時；**總研究周期約 14 個月**。
 
 ```
-2026 Apr-Jun  ▌ 文獻整理 + 研究計畫書 + 資料取得準備
+2026 Apr-Jun  ▌ Phase 0 研究邊界確認 + Phase 1 文獻矩陣整併與查證
 2026 Jul-Aug  ▌ 資料清理 + 特徵工程 + EDA
 2026 Sep-Oct  ▌ 投資人行為分群模型
-2026 Nov-Dec  ▌ 個人化推薦模型
+2026 Nov-Dec  ▌ 個人化推薦概念驗證
 2027 Jan      ▌ 模型評估與比較分析
 2027 Feb-Mar  ▌ 論文撰寫（第 1–5 章）
 2027 Apr      ▌ 論文修改 + 預口試（Pre-defense）
@@ -260,14 +236,14 @@ transaction_features = {
 
 | 月份 | 階段 | 主要產出 | 里程碑 |
 |------|------|----------|--------|
-| 2026 Apr–May | 文獻整理 | 文獻清單 30+ 篇、文獻矩陣 | 與老師確認研究問題與架構 |
-| 2026 Jun | 研究設計 | 研究架構圖、變數定義表、Proposal 初稿 | 研究計畫書提交老師審閱 |
+| 2026 Apr–May | Phase 0 / Phase 1 重整 | 研究邊界確認、整合版文獻矩陣、核心閱讀順序 | 與老師確認研究問題與架構 |
+| 2026 Jun | 研究設計 | 研究架構圖、變數定義表、Proposal 素材修訂 | Phase 0 / Phase 1 穩定後再決定 Proposal 是否送審 |
 | 2026 Jul | 資料準備 | 公司授權文件、IRB（如需）、資料字典、GA4 × 交易 join 驗證 | 取得可用研究資料集 |
 | 2026 Aug | 資料前處理 | 清洗後特徵資料、缺值與異常值處理 | EDA 報告完成 |
 | 2026 Sep | 分群模型 v1 | K-means / K-prototypes 初版分群結果 | Silhouette Score 確認最佳群數 |
 | 2026 Oct | 分群模型 v2 | 各群行為特徵解讀、群體命名與商業詮釋 | 老師確認分群結果合理 |
-| 2026 Nov | 推薦模型 v1 | Baseline（熱門推薦）+ User-Based CF 初版 | Precision@K 初步結果 |
-| 2026 Dec | 推薦模型 v2 | Item-Based CF 或 Matrix Factorization（SVD） | Recall@K / MAP 評估完成 |
+| 2026 Nov | 推薦概念驗證 v1 | Baseline（熱門推薦）+ User-Based CF 初版 | Precision@K 初步結果 |
+| 2026 Dec | 推薦概念驗證 v2 | Item-Based CF 或 Matrix Factorization（SVD，視資料可行性採用） | Recall@K / MAP 評估完成 |
 | 2027 Jan | 模型評估 | 個人化推薦 vs. 熱門推薦比較報告 | 模型優於 Baseline 確認 |
 | 2027 Feb–Mar | 論文撰寫 | 各章節初稿（Ch1–Ch5） | 指導教授 Review 完成 |
 | 2027 Apr | 修改 + 預口試 | 修改後論文 + 口試簡報 | Pre-defense 通過 |
@@ -332,7 +308,7 @@ K-means ──→ K-prototypes ──→ Hierarchical Clustering
 | 🔴 高 | **GA4 User ID 無法與交易 ID 串接** | 雙軌整合特徵無法建立 | 確認 GA4 是否有綁定內部 user_id；若未綁定需提前在系統層補充 |
 | 🟡 中 | **資料量不足（冷啟動問題）** | 推薦模型效果差 | 使用 Content-Based Filtering 作為冷啟動補救策略 |
 | 🟡 中 | **在職學生時間不足** | 研究延遲 | 每月與老師至少面談 1 次；每月設定明確里程碑 |
-| 🟡 中 | **研究範圍過廣** | 論文散焦 | 聚焦基金（不含股票/ETF）；投資人限「曾有交易記錄的用戶」 |
+| 🟡 中 | **研究範圍過廣** | 論文散焦 | Phase 0 需確認基金範圍與研究對象；建議先以共同基金與曾有基金交易記錄的用戶為主 |
 | 🟢 低 | **模型無法優於 Baseline** | 無法驗證研究假設 | 先確認 Baseline 設定合理（熱門推薦）；若效果相近，分析原因也是貢獻 |
 | 🟢 低 | **法規/倫理問題延誤進度** | 時程推遲 | 在 M1-M2 提前處理，列入研究計畫書中說明 |
 
@@ -383,16 +359,16 @@ K-means ──→ K-prototypes ──→ Hierarchical Clustering
     - 研究範圍邊界（基金類型、投資人定義）
     - 是否需申請 IRB 倫理審查
     - 研究計畫書格式要求與繳交時間
-□ 閱讀文獻 #6（GraphDCF, 2022）與 #9（Hybrid Recommendation Engine, 2025）
+□ 依 `thesis-writing-plan.md` Phase 1 先讀 A5、E2、B1、G1、B7 五篇核心文獻
 □ 確認 GA4 BigQuery 匯出設定，試跑一次資料取出流程
 ```
 
 ### 短期行動（2026 年 5–6 月）
 
 ```
-□ 完成文獻清單 30 篇（優先搜尋台灣博碩士論文系統：ndltd.ncl.edu.tw）
-□ 建立 literature-matrix.md（各篇文獻的研究方法 × 結論 × 缺口整理）
-□ 完成研究計畫書（Proposal）初稿送老師審閱
+□ 查證 `literature/literature-matrix.md` 中待確認來源、作者、年份、DOI 與正式引用格式
+□ 建立 `literature/notes/`，完成第一優先核心文獻閱讀筆記
+□ 等 Phase 0 研究邊界與研究問題穩定後，再修訂 Proposal 素材並決定是否送老師審閱
 □ Python 學習：完成 Kaggle Learn pandas 課程（約 4 小時）
 □ 準備匿名化資料集：GA4 × 交易 join 驗證，確認 user_id 串接正確性
 ```
@@ -400,10 +376,13 @@ K-means ──→ K-prototypes ──→ Hierarchical Clustering
 ### 本專案資料夾結構規劃
 
 ```
-side-projects/thesis-investor-segmentation/
+thesis-investor-segmentation/
 ├── thesis-research-plan.md       ← 本文件（研究規劃）
+├── thesis-writing-plan.md        ← Phase 0–8 待辦與閱讀順序
+├── project-status.md             ← 專案進度總控表
 ├── literature/
-│   ├── literature-matrix.md      ← 文獻矩陣（尚待建立）
+│   ├── literature-matrix.md      ← 整合版文獻矩陣
+│   ├── phase1/                   ← Phase 1 補強文獻原始紀錄
 │   └── notes/                    ← 各篇文獻閱讀筆記
 ├── data/
 │   ├── raw/                      ← 原始匿名化數據（不上 Git）
@@ -421,4 +400,4 @@ side-projects/thesis-investor-segmentation/
 
 ---
 
-*最後更新：2026-04-14（已納入確認事項：公司授權 ✅、GA4 串接 ✅、畢業時程 2027/06 ✅）| 狀態：規劃確認中*
+*最後更新：2026-07-22（已同步 `thesis-writing-plan.md`：Phase 0 重整中、Phase 1 已完成第一輪文獻矩陣整併、推薦模型定位為概念驗證）| 狀態：規劃確認中*

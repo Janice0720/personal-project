@@ -2,7 +2,7 @@
 
 論文：應用投資人行為分群與個人化推薦模型於數位券商基金投資服務之研究
 
-最後更新：2026-07-22  
+最後更新：2026-07-28  
 整合來源：
 
 1. `literature/literature-matrix.md` 原始 A–G 文獻矩陣
@@ -48,13 +48,14 @@
 | A2 | Artificial Intelligence-Driven CLV Forecasting: Integrating RFM Analysis with ML for Strategic Customer Retention | Akter et al. | 2025 | JCSTS / ResearchGate | K-means++、XGBoost、AHP 加權 RFM、動態 CLV | 特徵加權與 K-means++ 應用參考 | 中 | https://www.researchgate.net/publication/389495515_Artificial_Intelligence-Driven_Customer_Lifetime_Value_CLV_Forecasting_Integrating_RFM_Analysis_with_Machine_Learning_for_Strategic_Customer_Retention |
 | A3 | Enhancing Customer Repurchase Prediction: Integrating Classification Algorithms with RFM Analysis for Precision and Actionable Insights | — | 2025 | ScienceDirect | RFM + 分類演算法、10-fold 交叉驗證 | 模型評估與驗證方法參考 | 低 | https://www.sciencedirect.com/science/article/pii/S0970389625000266 |
 | A4 | Unlocking High-Value Football Fans: Unsupervised ML for Customer Segmentation and Lifetime Value | — | 2024 | Frontiers in Sports and Active Living | AHP 加權 RFM + K-means，識別 8 個群體 | 無監督分群流程與群體命名參考 | 中 | https://doi.org/10.3389/fspor.2024.1362489 |
-| A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 | — | 2022 | 東海大學碩士論文 | RFM + 群集分析 + 商品推薦流程 | 台灣碩士論文範本；研究設計與章節結構可對照 | 高 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110THU01026098%22.&searchmode=basic |
+| A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 | — | 2022 | 東海大學碩士論文 | RFM + 群集分析 + 商品推薦流程 | 台灣碩士論文範本；研究設計與章節結構可對照。**⚠️ 全文受限（NDLTD 授權限制，未取得）→ 改讀 A12** | 高 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110THU01026098%22.&searchmode=basic |
 | A6 | Profiling investor behavior in the Malaysian derivatives market using K-means clustering | Tan et al. | 2025 | Frontiers in Artificial Intelligence | K-means、IHS transformation、decision tree validation；1,100 萬筆交易資料 | 金融交易行為分群方法參考；雖非基金但場景接近 | 高 | https://doi.org/10.3389/frai.2025.1640776 |
 | A7 | RFM ranking – An effective approach to customer segmentation | Christy et al. | 2021 | Journal of King Saud University - Computer and Information Sciences | RFM、K-means、Fuzzy C-Means | 支撐本研究交易 RFM / 行為 RFM 特徵工程 | 高 | https://doi.org/10.1016/j.jksuci.2018.09.004 |
 | A8 | RFM model for customer purchase behavior using K-Means algorithm | Anitha; Patil R. P.（待查證） | 2021 | Journal of King Saud University - Computer and Information Sciences | RFM、K-means、Silhouette Coefficient | 補強分群品質評估指標設計 | 中 | https://www.sciencedirect.com/science/article/pii/S1319157819309802 |
 | A9 | Tracking Customer Segments in Alternative Finance using time-evolving Cluster Analysis | Lennert Aerts | 2020 | Erasmus University Rotterdam Master Thesis | K-means、K-prototypes、GMM、DBSCAN、cluster tracking | 若後續做分群穩定性或混合型資料，可作方法參考 | 中 | https://thesis.eur.nl/pub/52256/Aerts.pdf |
 | A10 | Intuitive-K-prototypes: A mixed data clustering algorithm with improved prototype representation and attribute weights | 作者待補 | 2024 | Pattern Recognition / Elsevier | K-prototypes、混合型資料分群、attribute weighting | 若同時使用數值與類別特徵，支撐 K-prototypes 合理性 | 中 | https://www.sciencedirect.com/science/article/pii/S0031320324008136 |
 | A11 | Using RFM, AUM, and K-means clustering for customer segmentation | Uchechukwu Emmanuel / Cowrywise | 2025 | Metabase Community / Cowrywise 產業案例 | RFM + AUM + K-means | FinTech / 財富管理平台分群實務案例；適合作背景，不宜作核心學術引用 | 低 | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation |
+| A12 | 基於RFM分析法之顧客適性化產品推薦機制（An Adaptive Product Recommendation System Based on RFM Method） | — | 2010 | 崇越論文大賞（**全文開放 PDF**） | RFM 分析 + 自組織地圖（SOM）+ 適性化商品推薦機制；考量產品購買週期與顧客消費特性 | **A5 之替代閱讀文獻**；RFM 結合分群與商品推薦的流程設計可對照；全文可直接下載 | 高 | https://thesis.topco-global.com/TopcoTRC/2010_Thesis/C0026.pdf（PDF 全文）／https://www.airitilibrary.com/Article/Detail/U0078-0601201112112856（Airiti） |
 
 ---
 
@@ -62,13 +63,13 @@
 
 | # | 論文標題 | 作者 | 年份 | 來源 | 核心方法 / 內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
-| B1 | Modeling Behavior Sequence for Personalized Fund Recommendation with Graphical Deep Collaborative Filtering | Chou, Chen & Huang | 2021/2022 | Expert Systems with Applications | GraphDCF；基金交易序列與圖式協同過濾 | 最核心基金推薦文獻；支撐推薦模型與交易序列設計 | 高 | https://doi.org/10.1016/j.eswa.2021.116311 |
-| B2 | Personalized Fund Recommendation with Dynamic Utility Learning | Wei & Liu | 2025 | Financial Innovation | Incremental utility learning、點擊序列、探索 / 利用 | 連接數位行為資料與基金推薦；與 GA4 行為資料高度相關 | 高 | https://doi.org/10.1186/s40854-024-00720-5 |
+| B1 | Modeling Behavior Sequence for Personalized Fund Recommendation with Graphical Deep Collaborative Filtering | Chou, Chen & Huang | 2021/2022 | Expert Systems with Applications | GraphDCF；基金交易序列與圖式協同過濾 | 最核心基金推薦文獻；支撐推薦模型與交易序列設計。**📩 2026-07-28 已於 ResearchGate 向作者送出索取請求，待回覆** | 高 | https://doi.org/10.1016/j.eswa.2021.116311（ScienceDirect）／https://www.researchgate.net/publication/357251661（ResearchGate 索取） |
+| B2 | Personalized Fund Recommendation with Dynamic Utility Learning | Wei & Liu | 2025 | Financial Innovation | Incremental utility learning、點擊序列、探索 / 利用 | 連接數位行為資料與基金推薦；與 GA4 行為資料高度相關。**✅ 2026-07-28 全文已下載** | 高 | https://doi.org/10.1186/s40854-024-00720-5 |
 | B3 | Mutual Fund Recommendation System with Personalized Explanations | — | 2023 | ResearchGate | 知識圖譜、ML、可解釋推薦 | 支撐金融推薦可解釋性；需查證來源品質 | 中 | https://www.researchgate.net/publication/367530626_MUTUAL_FUND_RECOMMENDATION_SYSTEM_WITH_PERSONALIZED_EXPLANATIONS |
 | B4 | A Hybrid Recommendation Engine for Fintech Platforms: Leveraging Behavioral Analytics for User Engagement and Conversion | — | 2025 | ResearchGate | 混合推薦、CF、Content-based、Deep Learning、行為分析 | 可作 FinTech 混合推薦架構參考；需查證來源品質 | 中 | https://www.researchgate.net/publication/394559448_A_Hybrid_Recommendation_Engine_for_Fintech_Platforms_Leveraging_Behavioral_Analytics_for_User_Engagement_and_Conversion |
 | B5 | FAR-Trans: An Investment Dataset for Financial Asset Recommendation | — | 2024 | arXiv | 金融資產推薦資料集、資產定價與散戶交易紀錄 | 可作外部資料集與推薦評估基準背景 | 中 | https://arxiv.org/abs/2407.08692 |
 | B6 | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Hsu, Chen, Chou & Huang | 2022 | Applied Intelligence / Springer | Knowledge Graph Embedding、可解釋共同基金推薦 | 補強信任與可解釋性；可與 B1 形成台灣基金推薦文獻群 | 高 | https://doi.org/10.1007/s10489-021-03136-1 |
-| B7 | A Systematic Literature Review of Financial Product Recommendation Systems | Wu & Li | 2025 | Information / MDPI | 系統性文獻回顧；金融商品推薦特殊性 | 第二章推薦系統總覽與研究缺口核心來源 | 高 | https://doi.org/10.3390/info16030196 |
+| B7 | A Systematic Literature Review of Financial Product Recommendation Systems | Wu & Li | 2025 | Information / MDPI | 系統性文獻回顧；金融商品推薦特殊性 | 第二章推薦系統總覽與研究缺口核心來源。**✅ 2026-07-28 全文已取得** | 高 | https://doi.org/10.3390/info16030196 |
 | B8 | Research on Personalized Financial Product Recommendation by Integrating Large Language Models and Graph Neural Networks | Zhao et al. | 2025 | arXiv / ACM ICSECA | LLM embeddings + heterogeneous graph + GNN | 最新技術趨勢；可用來說明本研究不採 LLM/GNN 的邊界 | 中 | https://arxiv.org/abs/2506.05873 |
 | B9 | A survey on recommendation systems for financial services | Sharaf et al. | 2022 | Multimedia Tools and Applications（待查證） | 金融服務推薦綜述 | 推薦系統背景文獻；需補 DOI / 全文後再正式引用 | 中 | 待查證 |
 
@@ -105,9 +106,10 @@
 | # | 論文標題 | 作者 | 年份 | 來源 | 核心方法 / 內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
 | E1 | 個人化推薦系統、顧客購買意願與後續退貨行為之影響 | — | 2022 | 淡江大學碩士論文 / 臺博碩 | 電商個人化推薦與購買意願 | 台灣推薦系統對使用者行為影響背景 | 中 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic |
-| E2 | 應用 RFM 模型制定顧客分群行銷策略之研究——以 A 保健食品公司為例 | — | 2020 | 臺灣科技大學碩士論文 / 臺博碩 | RFM 模型、顧客分群、行銷策略 | 台灣 RFM 分群行銷論文範本；方法論可對照 | 高 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic |
+| E2 | 應用 RFM 模型制定顧客分群行銷策略之研究——以 A 保健食品公司為例 | — | 2020 | 臺灣科技大學碩士論文 / 臺博碩 | RFM 模型、顧客分群、行銷策略 | 台灣 RFM 分群行銷論文範本；方法論可對照。**⚠️ 全文受限（NDLTD 授權限制，2026-07-28 搜尋未找到開放版本）→ 建議透過學校館際合作申請（論文編號：109NTUS5121030）或參考 E5** | 高 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic |
 | E3 | 基於用戶序列之協同過濾推薦 | — | — | 臺博碩 | 使用者序列行為、協同過濾 | 台灣協同過濾推薦系統研究脈絡 | 中 | https://ndltd.ncl.edu.tw/handle/3pake6 |
 | E4 | 資料探勘分析於金融機構客戶關係經營之研究 | — | — | 臺灣科技大學碩士論文 | Data Mining、金融機構 CRM、分群 | 金融業資料探勘與 CRM 應用支撐 | 中 | https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/ |
+| E5 | 利用RFM模型與購物籃分析進行電子商務顧客分群與銷售策略之研究（A Research On e-commerce seller's sales strategy using RFM Model and Market Basket Analysis） | 陳一慈 | 2021 | 國立政治大學碩士論文 / Airiti Library（DOI: 10.6814/NCCU202100799） | RFM 模型 + 購物籃分析 + 顧客分群 + 銷售策略；美妝電商案例 | **E2 之替代參考文獻**；同樣是台灣碩論，以 RFM 做顧客分群並轉換行銷策略，方法論脈絡相近；Airiti 上可查，建議透過學校帳號登入存取 | 高 | https://www.airitilibrary.com/Article/Detail/U0004-G0108363104 |
 
 ---
 
@@ -129,7 +131,7 @@
 
 | # | 論文標題 | 作者 | 年份 | 來源 | 核心內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
-| G1 | 共同基金投資人投資行為及風險偏好之研究 | — | 2009 | 臺博碩 / Airiti | 依風險程度將投資人分為保守、穩健、積極 | 台灣基金投資人風險分群參考；KYC 風險等級支撐 | 高 | https://ndltd.ncl.edu.tw/handle/7msk6p |
+| G1 | 共同基金投資人投資行為及風險偏好之研究 | — | 2009 | 臺博碩 / Airiti | 依風險程度將投資人分為保守、穩健、積極 | 台灣基金投資人風險分群參考；KYC 風險等級支撐。**✅ 2026-07-28 全文已取得** | 高 | https://ndltd.ncl.edu.tw/handle/7msk6p |
 | G2 | 台灣地區共同基金投資行為實證研究 | 鄭芳盈 | 2007 | Airiti Library | BPN + CART；依性別、教育、風險偏好分類 | 台灣基金投資人行為分類早期實證 | 中 | https://www.airitilibrary.com/Article/Detail?DocID=U0006-0908200717040800 |
 | G3 | 基金投資人是否存在現狀偏誤：來自台灣之證據 | — | — | 臺博碩 | 台灣基金投資人現狀偏誤 | 解釋分群結果中可能的非理性行為 | 中 | https://ndltd.ncl.edu.tw/handle/bx5udf |
 | G4 | 市場狀態與基金投資人投資行為之探討 | — | — | 臺博碩 | 不同市場狀態下基金申購 / 贖回行為 | 外部市場環境對投資行為影響；可放研究限制 | 中 | https://ndltd.ncl.edu.tw/r/42769455951077663518 |
@@ -171,8 +173,10 @@
 
 | 順序 | 編號 | 文獻 | 閱讀目的 |
 |---:|---|---|---|
-| 1 | A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 | 看台灣碩論如何設計 RFM、分群與推薦流程 |
-| 2 | E2 | 應用 RFM 模型制定顧客分群行銷策略之研究 | 看台灣 RFM 分群與策略轉換寫法 |
+| 1 | A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 **⚠️ 全文受限，未取得** | — |
+| 1b | A12 | 基於RFM分析法之顧客適性化產品推薦機制（**A5 替代文獻，全文開放**） | 看 RFM 分析如何設計顧客分群與商品推薦流程（PDF 可直接下載） |
+| 2 | E2 | 應用 RFM 模型制定顧客分群行銷策略之研究 **⚠️ 全文受限，未取得** | — |
+| 2b | E5 | 利用RFM模型與購物籃分析進行電子商務顧客分群與銷售策略之研究（**E2 替代文獻，Airiti 可查**） | 看台灣 RFM 分群與銷售策略轉換寫法（建議以學校帳號登入 Airiti 下載） |
 | 3 | B1 | GraphDCF 基金推薦 | 看基金推薦如何使用交易序列與評估模型 |
 | 4 | G1 | 共同基金投資人投資行為及風險偏好之研究 | 補台灣基金投資人風險分群脈絡 |
 | 5 | B7 | Financial Product Recommendation Systems SLR | 建立金融商品推薦文獻總覽與研究缺口 |
@@ -207,7 +211,7 @@
 | 台灣數位券商基金投資服務場域實證不足 | B1、B6、D1–D4、G1–G4 |
 | 基金 / 金融商品推薦不同於一般電商推薦，需考慮風險、信任、適合度與治理 | B6、B7、C4、C5、F4、F7 |
 | 個人化推薦需與熱門推薦 baseline 比較，才能證明增量效果 | B1、B2、B5、B7 |
-| 分群若未連結推薦或服務策略，容易停留在描述層次 | A5、E2、A7、A6 |
+| 分群若未連結推薦或服務策略，容易停留在描述層次 | A5（全文受限）、A12、E2、A7、A6 |
 
 ---
 
@@ -217,6 +221,10 @@
 
 | 編號 | 待查證內容 |
 |---|---|
+| A5 | **全文受限（NDLTD 授權限制）**；2026-07-28 搜尋未找到開放版本；已以 A12 作為替代閱讀文獻。如仍需原文，建議透過學校圖書館館際合作申請（論文編號：110THU01026098） |
+| B1 | **📩 2026-07-28 已於 ResearchGate 向作者送出索取請求，待回覆**；若作者未回應，備選方案：學校 VPN 登入 ScienceDirect 或館際合作（DOI：10.1016/j.eswa.2021.116311） |
+| E2 | **全文受限（NDLTD 授權限制）**；2026-07-28 搜尋未找到開放版本；已以 E5 作為替代參考文獻。如仍需原文，建議透過學校圖書館館際合作申請（論文編號：109NTUS5121030）或至 NTUST 電子論文系統（etheses.lib.ntust.edu.tw）以學校帳號查詢 |
+| A12 | 作者全名待補；年份依 Topco 資料夾為 2010，Airiti 上有 2011/2012 期刊版本，正式引用格式需確認 |
 | A1 | 作者資訊與正式引用格式 |
 | A3 | 作者、期刊卷期與 DOI |
 | B3 | ResearchGate 來源品質與是否有正式出版版本 |
