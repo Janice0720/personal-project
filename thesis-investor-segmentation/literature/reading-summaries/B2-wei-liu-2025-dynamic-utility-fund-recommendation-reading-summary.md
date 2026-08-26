@@ -221,7 +221,7 @@
 | 評估指標 | SUD、RF、累積／平均報酬 | 補充 Precision/Recall/F1 之外，考量「效用擬合」與「互動成本」的評估思維 |
 
 **與其他文獻的連結**：
-- 與 [[cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）相比：A12 以 RFM＋SOM 做**靜態分群後推薦**；B2 則以強化學習做**動態偏好學習**，兩者可互補為「先分群、後動態調整」之整體架構。
+- 與 [[A12-cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）相比：A12 以 RFM＋SOM 做**靜態分群後推薦**；B2 則以強化學習做**動態偏好學習**，兩者可互補為「先分群、後動態調整」之整體架構。
 - 與 KL-KM 基金推薦論文（Chiou-Wei & Lee, 2024）同屬**基金情境**，但 B2 強調線上互動與探索–利用，KL-KM 著重相似度計算。
 
 ---

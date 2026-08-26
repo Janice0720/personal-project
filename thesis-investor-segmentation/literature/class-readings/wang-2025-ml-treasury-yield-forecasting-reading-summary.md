@@ -148,14 +148,14 @@
 |------|----------|----------------|
 | 模型比較框架 | LR vs. DT vs. RF vs. MLP 系統性比較 | 提供本論文**推薦／預測模型比較**的標準範本（含超參數調校、訓練/測試切分） |
 | 集成模型優勢 | RF 全面最佳、對結構轉變穩健 | 支持本論文可將 **RF 等集成方法**納入基金推薦或投資人行為預測的候選模型 |
-| 評估指標 | MSE／MAE／R²、訓練 vs. 測試對照 | 可用於本論文迴歸型任務（如報酬預測）；與 [[cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）的 Precision/Recall/F1 互補（分類 vs. 迴歸指標） |
+| 評估指標 | MSE／MAE／R²、訓練 vs. 測試對照 | 可用於本論文迴歸型任務（如報酬預測）；與 [[A12-cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）的 Precision/Recall/F1 互補（分類 vs. 迴歸指標） |
 | 防資料洩漏 | 保留時間順序切分、僅訓練集內補值 | 提醒本論文處理**投資人時間序列行為資料**時，須嚴守時間順序避免洩漏 |
 | 可解釋性取捨 | 黑箱 vs. 白箱、建議 SHAP/LIME | 金融推薦須對客戶／監理說明理由，本論文宜納入**可解釋性設計**（呼應金融商品推薦的合規需求） |
-| 時間敏感性 | 分三總經時期驗證穩健性 | 呼應 [[wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）金融商品的**時間敏感性**特性，與 [[wu-2008-mutual-fund-investor-behavior-risk-preference-reading-summary]]（G1）市場訊息影響投資行為的發現 |
+| 時間敏感性 | 分三總經時期驗證穩健性 | 呼應 [[B7-wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）金融商品的**時間敏感性**特性，與 [[G1-wu-2008-mutual-fund-investor-behavior-risk-preference-reading-summary]]（G1）市場訊息影響投資行為的發現 |
 
 **與其他文獻的連結**：
 - 本文代表本論文文獻矩陣中的**「機器學習方法論」一端**，與傳統 RFM/SOM 分群（[[hsu-2006-refined-rfm-som-customer-segmentation-reading-summary]]、A12）形成「淺層 → 深層」方法演進對照。
-- 其動態效用／即時預測精神，與 [[wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）的動態效用學習相通，皆重視模型對時變環境的適應力。
+- 其動態效用／即時預測精神，與 [[B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）的動態效用學習相通，皆重視模型對時變環境的適應力。
 
 ---
 

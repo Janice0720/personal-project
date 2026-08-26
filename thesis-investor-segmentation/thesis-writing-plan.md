@@ -86,9 +86,11 @@
 > 目的：支撐第三章方法設計，包括 RFM、K-means、金融交易分群、點擊 / 行為資料與 GA4 特徵工程。
 
 - [ ] 閱讀 **A7：RFM ranking – An effective approach to customer segmentation** → 支撐 RFM + K-means 方法
+  > ✅ 2026-08-26 全文已取得，可立即閱讀
 - [ ] 閱讀 **A6：Profiling investor behavior in the Malaysian derivatives market using K-means clustering** → 支撐金融交易行為分群與分群解釋
-- [ ] 閱讀 **B2：Dynamic Utility Learning for Fund Recommendation** → 支撐點擊 / 行為序列與基金推薦模型關聯
+  > ✅ 2026-08-26 全文已取得，可立即閱讀
 - [ ] 閱讀 **B6：Explainable mutual fund recommendation system developed based on knowledge graph embeddings** → 支撐金融推薦可解釋性
+  > ⚠️ 全文無法下載，待取得；可嘗試學校 VPN 登入 Springer 或館際合作申請（DOI: 10.1007/s10489-021-03136-1）
 - [ ] 閱讀 **C6：GA4 Cohort exploration** → 支撐 GA4 行為資料處理與限制
 - [ ] 閱讀 **C7：GA4 Segments / segment types** → 支撐 user / session / event scope 的特徵工程設計
 

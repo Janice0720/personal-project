@@ -193,12 +193,12 @@
 | 投資人分群 | 以風險屬性問卷將投資人分保守／穩健／積極三級 | 提供**基金投資人分群**的直接範本（風險屬性分層），可與 RFM 分群並列或結合 |
 | 商品分級 | 商品風險 RR1～RR5／三級 | 呼應本論文須為基金建立**風險等級標籤**，作為推薦匹配依據 |
 | 適合度匹配 | 投資屬性 × 商品風險等級的一致性檢驗 | 本論文推薦模型的**核心邏輯**：投資人風險等級須與推薦商品風險等級匹配 |
-| 關鍵反例 | 積極型投資人實際偏好穩健型商品 | 提醒**「宣稱的風險偏好」≠「實際行為」**，支持本論文以行為資料（而非僅問卷）建模的必要性，呼應 [[wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）由點擊行為學習真實效用 |
+| 關鍵反例 | 積極型投資人實際偏好穩健型商品 | 提醒**「宣稱的風險偏好」≠「實際行為」**，支持本論文以行為資料（而非僅問卷）建模的必要性，呼應 [[B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）由點擊行為學習真實效用 |
 | 目標客群 | 公教／家管退休／領薪／專業五類客群 | 提供**分眾行銷**的客群定義參考 |
-| 訊息敏感度 | 保守型投資人最易受市場訊息影響 | 為本論文引入**時間敏感性／市場訊息**特徵提供依據，呼應 [[wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）金融商品的時間敏感性特性 |
+| 訊息敏感度 | 保守型投資人最易受市場訊息影響 | 為本論文引入**時間敏感性／市場訊息**特徵提供依據，呼應 [[B7-wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）金融商品的時間敏感性特性 |
 
 **與其他文獻的連結**：
-- G1 屬本論文文獻矩陣中**最貼近「基金投資人風險屬性分群」情境**的一篇；與 [[cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）、[[chen-2021-rfm-market-basket-ecommerce-segmentation-reading-summary]]（E5）的 RFM 交易行為分群互補——G1 以**問卷風險屬性**分群，A12／E5 以**交易 RFM**分群，兩種路線可整合為更完整的投資人畫像。
+- G1 屬本論文文獻矩陣中**最貼近「基金投資人風險屬性分群」情境**的一篇；與 [[A12-cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）、[[E5-chen-2021-rfm-market-basket-ecommerce-segmentation-reading-summary]]（E5）的 RFM 交易行為分群互補——G1 以**問卷風險屬性**分群，A12／E5 以**交易 RFM**分群，兩種路線可整合為更完整的投資人畫像。
 - G1 揭示的「宣稱偏好 vs. 實際行為」落差，正是 B2 動態效用學習欲解決的問題，兩者形成問題與方法的對照。
 
 ---

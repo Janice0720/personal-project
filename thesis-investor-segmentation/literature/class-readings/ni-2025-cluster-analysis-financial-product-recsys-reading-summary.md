@@ -113,14 +113,14 @@
 | 面向 | 本文觀點 | 對本論文的啟發 |
 |------|----------|----------------|
 | 分群演算法選型 | K-means／DBSCAN／階層式的優缺點比較 | 提供本論文**分群方法選型的決策依據**：K-means（需定群數）vs. DBSCAN（抗雜訊、免定群數）vs. SOM（見 [[hsu-2006-refined-rfm-som-customer-segmentation-reading-summary]]、A12） |
-| 冷啟動緩解 | 以「找相似特徵群」緩解新使用者／新商品冷啟動 | 直接對應本論文基金新戶／新基金的**冷啟動議題**，呼應 [[wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2） |
+| 冷啟動緩解 | 以「找相似特徵群」緩解新使用者／新商品冷啟動 | 直接對應本論文基金新戶／新基金的**冷啟動議題**，呼應 [[B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2） |
 | 傳統推薦限制 | CF/CB 的資料稀疏、個人化不足 | 佐證本論文採「先分群再推薦」的分眾式設計動機 |
 | 商品分群 | 對商品亦可分群以增加推薦多樣性 | 可轉化為「基金分群」（依風險等級、類型、報酬特性），與投資人分群交叉配對 |
-| 領域知識與半監督 | 建議納入金融專業知識、半監督式分群 | 提醒本論文可將 **KYC／風險屬性、商品適合度政策**作為分群的領域約束（呼應 [[wu-2008-mutual-fund-investor-behavior-risk-preference-reading-summary]]、G1） |
+| 領域知識與半監督 | 建議納入金融專業知識、半監督式分群 | 提醒本論文可將 **KYC／風險屬性、商品適合度政策**作為分群的領域約束（呼應 [[G1-wu-2008-mutual-fund-investor-behavior-risk-preference-reading-summary]]、G1） |
 | 評估與可擴充性 | 分群品質驗證困難、需可擴充 | 提醒本論文須設計**分群效度指標**（如輪廓係數）並考量資料量擴充 |
 
 **與其他文獻的連結**：
-- 本文為**綜述型方法論地圖**，可作為本論文「分群方法章節」的骨架，串起 A12／[[hsu-2006-refined-rfm-som-customer-segmentation-reading-summary]] 的 SOM、[[chen-2021-rfm-market-basket-ecommerce-segmentation-reading-summary]]（E5）的 RFM 分群。
+- 本文為**綜述型方法論地圖**，可作為本論文「分群方法章節」的骨架，串起 A12／[[hsu-2006-refined-rfm-som-customer-segmentation-reading-summary]] 的 SOM、[[E5-chen-2021-rfm-market-basket-ecommerce-segmentation-reading-summary]]（E5）的 RFM 分群。
 - 其「結合深度學習與混合式推薦」的未來方向，與 [[fundrecllm-2023-llm-fund-recommendation-reading-summary]]（FundRecLLM，以 LLM 做基金推薦）、[[wang-2025-ml-treasury-yield-forecasting-reading-summary]]（機器學習預測）形成「淺層分群 → 深度／生成式模型」的方法演進脈絡。
 
 ---

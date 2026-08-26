@@ -186,14 +186,14 @@ Kaggle 電商數據集（美妝日用品，20,692,840 筆）
 |------|----------|----------------|
 | RFM 實作 | R/F/M 依實際分佈自訂級距，而非機械式五等分 | 基金投資人的申購頻率、金額分佈同樣可能高度偏斜，可借鑑「依分佈調整級距」之作法 |
 | 頻率變數選取 | 以 `user_session` 而非 `event_time` 計算造訪頻率 | 提醒本論文在定義「投資頻率」時，須慎選能正確反映行為的變數（如申購筆數 vs. 交易時點） |
-| 忠誠度分層 | 以 RFM 分數界定常貴客與流失客 | 可轉化為「高黏著投資人 vs. 一次性／流失投資人」之分層，呼應 [[cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）的忠誠度分層 |
+| 忠誠度分層 | 以 RFM 分數界定常貴客與流失客 | 可轉化為「高黏著投資人 vs. 一次性／流失投資人」之分層，呼應 [[A12-cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）的忠誠度分層 |
 | 關聯規則 | Apriori 找出商品組合 | 基金亦可分析「常一起持有／申購的基金組合」，作為交叉推薦（cross-sell）依據 |
 | 分級會員制 | 依 RFM 給予差異化優惠 | 支持本論文「分眾行銷／差異化推薦」立論 |
-| 冷啟動缺口 | 78% 僅消費一次 | 凸顯「一次性顧客再行銷」的重要性，與 [[wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）的冷啟動議題互補 |
+| 冷啟動缺口 | 78% 僅消費一次 | 凸顯「一次性顧客再行銷」的重要性，與 [[B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）的冷啟動議題互補 |
 
 **與其他文獻的連結**：
 - E5 與 A12 同屬「RFM 分群」路線，但 E5 加入**購物籃關聯規則**，A12 加入 **SOM 分群與 PRI**，二者可對照為 RFM 的兩種延伸方向。
-- 屬本論文文獻矩陣中的**方法論參考（電商情境）**，需注意其與金融／基金情境的差異（見 [[wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）所述金融商品四大特性）。
+- 屬本論文文獻矩陣中的**方法論參考（電商情境）**，需注意其與金融／基金情境的差異（見 [[B7-wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）所述金融商品四大特性）。
 
 ---
 

@@ -178,7 +178,7 @@
 | 研究缺口 | 多行為、多任務推薦挖掘不足 | 為本論文尋找創新切入點（如結合買賣行為、平衡偏好與報酬）提供方向 |
 
 **與其他文獻的連結**：
-- 本篇為**領域全景綜述**，可作為 [[cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）、[[wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）等**單篇方法論**文獻的上位定位地圖。
+- 本篇為**領域全景綜述**，可作為 [[A12-cheng-2010-rfm-som-adaptive-recommendation-reading-summary]]（A12）、[[B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）等**單篇方法論**文獻的上位定位地圖。
 - A12（RFM＋SOM）與 B2（動態效用學習）皆可歸入本篇「精準行銷式推薦」方向。
 
 ---

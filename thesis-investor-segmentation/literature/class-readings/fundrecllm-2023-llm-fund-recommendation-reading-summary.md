@@ -154,7 +154,7 @@
 
 **與其他文獻的連結**：
 - 本文代表本論文文獻矩陣中**「生成式 AI／LLM 推薦」最前緣一端**，與傳統分群（[[ni-2025-cluster-analysis-financial-product-recsys-reading-summary]]、[[hsu-2006-refined-rfm-som-customer-segmentation-reading-summary]]、A12）、機器學習預測（[[wang-2025-ml-treasury-yield-forecasting-reading-summary]]）構成完整方法光譜。
-- 其「以市場後續績效驗證推薦」的精神，呼應 [[wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）動態效用與 [[wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）金融商品時間敏感性。
+- 其「以市場後續績效驗證推薦」的精神，呼應 [[B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary]]（B2）動態效用與 [[B7-wu-li-2025-financial-product-recsys-slr-reading-summary]]（B7）金融商品時間敏感性。
 
 ---
 
