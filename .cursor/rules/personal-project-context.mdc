@@ -40,6 +40,7 @@ alwaysApply: true
 | Skill 資料夾 | 觸發情境 |
 |-------------|---------|
 | `english-lesson-review` | 用戶提供英文課錄音（.m4a/.mp3/.wav），需要轉逐字稿或產出課程筆記時 |
+| `study-tutor` | 用戶說「請用 study-tutor」或「幫我調用這個 skill」，要把課程或課外問題搜集、講成可複習的課本時 |
 
 ### 對 Agent
 

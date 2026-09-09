@@ -8,3 +8,4 @@
 - `decision-analysis-and-industrial-applications/`：決策分析與產業應用 (DECISION ANALYSIS AND INDUSTRIAL APPLICATIONS)
 - `expert-lectures/`：專家演講
 - `reading-group/`：讀書會紀錄
+- `self-study/`：課外自學課本（與當週課表無直接對應的問題）
