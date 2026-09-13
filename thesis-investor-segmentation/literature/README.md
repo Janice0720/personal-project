@@ -10,6 +10,7 @@
 literature/
 ├── README.md                  ← 本檔案
 ├── literature-matrix.md       ← 整合版文獻矩陣（主要維護檔，A–G 七類）
+├── ntub-library-search-plan-2020plus.md  ← 北商電子資源 2020 年後補強查詢計畫
 ├── reading-summaries/         ← 論文正式引用文獻的精讀摘要（對應矩陣代號）
 │   ├── A12-cheng-2010-rfm-som-adaptive-recommendation-reading-summary.md
 │   ├── B2-wei-liu-2025-dynamic-utility-fund-recommendation-reading-summary.md
@@ -34,6 +35,12 @@ literature/
 整合版文獻矩陣，為本資料夾唯一正式維護的文獻清單。  
 整合來源：原始 A–G 矩陣 ＋ Phase 1 補強矩陣（已合併，備份已刪除）。  
 分七大類收錄約 40 筆文獻，含優先級、研究缺口對應、閱讀順序與待查證清單。
+
+---
+
+### `ntub-library-search-plan-2020plus.md`
+
+透過 [北商電子資源整合查詢系統](https://eresources.ntub.edu.tw/) 補強 **2020 年後**金融商品推薦、客戶／投資人分群文獻的查詢計畫。含資料庫對應、可複製檢索式、第一批候選文獻，以及 B1／B6／B9 全文下載路徑。查回後仍併入 `literature-matrix.md`，不另開第二份矩陣。
 
 ---
 

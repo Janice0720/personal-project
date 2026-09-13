@@ -236,7 +236,12 @@
 
 ### 2. 建議後續補文獻
 
+2020 年後金融商品推薦／客戶分群的補強查詢，已另寫成 [`ntub-library-search-plan-2020plus.md`](ntub-library-search-plan-2020plus.md)，請用北商電子資源系統執行，查回後再併入本矩陣。
+
 ```text
+□ 2020 年後基金／金融商品推薦期刊（優先：Chiou-Wei 2024、Sharaf 2022、Pérez-Pons 2023）
+□ 2020 年後金融業 RFM／財富管理分群
+□ 2020 年後台灣券商／財富管理客戶分群（華藝、臺博碩）
 □ 冷啟動問題（Cold-start problem）
 □ Top-K 推薦評估指標：Precision@K、Recall@K、MAP、NDCG
 □ Elbow Method / Silhouette Score 原始或經典方法文獻
