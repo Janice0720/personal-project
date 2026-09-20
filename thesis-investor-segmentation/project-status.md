@@ -67,6 +67,7 @@
 | `proposal/phase1/proposal-draft-master.md` | Proposal 主線素材 | 暫不定稿，等 Phase 0 / Phase 1 穩定後再改寫 |
 | `proposal/phase1/consistency-check-literature-vs-proposal.md` | 文獻與 proposal 一致性檢查 | 可作下一輪文獻整併依據 |
 | `thesis/chapters/chapter-02-literature-review/` | 第二章文獻素材 | 可保留，待文獻矩陣整理後再正式改寫 |
+| `thesis/chapters/chapter-03-methodology/01-research-design-and-evaluation.md` | 第三章研究方法完整素材（2026-09-20 定案）：RQ1–RQ3 串接邏輯、K-prototypes 選型推理、分群輔助 CF 整合方式、評估指標計算範例與意義解讀 | 可直接改寫為 3.5–3.7 正式段落 |
 
 ## 7. 文件同步與後續修改清單
 
