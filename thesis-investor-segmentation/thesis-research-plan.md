@@ -160,7 +160,7 @@
 |--------|------|----------|-------------|---------|
 | **GA4 使用者行為資料** | GA4 → BigQuery 匯出 | user_pseudo_id、event_name、page_location、session_id、事件參數 | 最近 12–18 個月 | ⭐ 低（你有 GA4 存取權） |
 | **基金交易記錄** | 好好證券後台 / 資料倉儲 | user_id、fund_code、buy/sell、amount、date | 最近 12–18 個月 | ⭐⭐ 中（需公司授權） |
-| **用戶屬性資料** | KYC 系統（匿名化） | 風險等級（KYC Risk Score）、開戶年齡區間、是否首次投資 | 同期 | ⭐⭐ 中（需匿名化） |
+| **用戶屬性資料** | KYC 系統（匿名化） | 風險等級（KYC Risk Score，次序）、資產區間（年收入級距，次序）、職業（無序類別）、開戶年齡區間、是否首次投資 | 同期 | ⭐⭐ 中（需匿名化） |
 
 ### 4.2 輔助資料集（加分，非必須）
 
@@ -203,6 +203,23 @@ transaction_features = {
     "risk_level_avg": "持有基金加權平均風險等級",
 }
 ```
+
+#### 用戶屬性特徵（來自 KYC，2026-09-20 定案）
+
+```python
+# 混合尺度特徵：次序變數整數編碼後併入數值組，無序類別變數獨立為類別組
+user_attribute_features_numeric = {
+    "kyc_risk_level_code": "KYC 風險等級整數編碼（1=保守、2=穩健、3=積極），保留次序關係",
+    "asset_bracket_code": "年收入資產區間整數編碼（1=50萬以下、2=50-100萬、3=100萬以上），保留次序關係",
+}
+
+user_attribute_features_categorical = {
+    "occupation": "職業（無序類別，如老師/工程師/醫師/自由業…）",
+    "device_type": "主要使用裝置類型（mobile/desktop/tablet，無序類別）",
+}
+```
+
+> **RQ1 分群演算法定案（2026-09-20）**：因特徵組合中同時存在連續變數（行為／交易特徵）、次序類別變數（KYC 風險等級、資產區間）與無序類別變數（職業、device_type），決定採用 **K-prototypes**，數值組以歐氏距離、類別組以配對距離（matching dissimilarity）計算，不再與純 K-means 並列比較；K-means 僅保留作為方法論章節說明「為何不適用」的對照。
 
 ### 4.4 資料倫理清單
 
