@@ -371,7 +371,7 @@ flowchart LR
 |---:|---|---|---|---|
 | 1 | B1 | Chou, Chen & Huang（2022）GraphDCF | 缺口①基金推薦核心期刊 | ✅ 全文已取得，**尚未寫 reading-summary，優先精讀** |
 | 2 | E6 | 許仲廷（2022）台灣券商大財管業務 K-means 分群 | 缺口③台灣在地場域 | ✅ 全文已取得，**尚未寫 reading-summary，優先精讀** |
-| 3 | A13 | Aliyev et al.（2020）銀行 RFM 分群演算法比較 | 缺口②分群輔助推薦的金融場景證據 | ✅ arXiv 開放全文可讀 |
+| 3 | A13 | Aliyev et al.（2020）銀行 RFM 分群演算法比較 | 缺口②分群輔助推薦的金融場景證據 | ✅ **2026-09-21 全文已下載**，存於 `literature/downloads/A13-aliyev-2020-rfm-bank-segmentation.pdf` |
 | 4 | D5 | 王怡（2023）共同基金電子交易平台推薦系統 | 缺口③台灣在地場域（市場背景直接吻合） | ⚠️ 僅摘要，全文需本人註冊臺博碩會員 |
 | 5 | B6 | Hsu, Chen, Chou & Huang（2022）可解釋基金推薦 | 缺口①（與 B1 同研究群，形成台灣基金推薦文獻群） | ⚠️ 僅摘要，全文確認無法取得 |
 | 6 | B-cand-6 | Yang（2024）Fuzzy K-means + FNFinRec | 缺口④評估指標（Precision@K、Recall@K） | ⚠️ 僅摘要 |

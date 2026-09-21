@@ -56,7 +56,7 @@
 | A10 | Intuitive-K-prototypes: A mixed data clustering algorithm with improved prototype representation and attribute weights | 作者待補 | 2024 | Pattern Recognition / Elsevier | K-prototypes、混合型資料分群、attribute weighting | 若同時使用數值與類別特徵，支撐 K-prototypes 合理性 | 中 | https://www.sciencedirect.com/science/article/pii/S0031320324008136 |
 | A11 | Using RFM, AUM, and K-means clustering for customer segmentation | Uchechukwu Emmanuel / Cowrywise | 2025 | Metabase Community / Cowrywise 產業案例 | RFM + AUM + K-means | FinTech / 財富管理平台分群實務案例；適合作背景，不宜作核心學術引用 | 低 | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation |
 | A12 | 基於RFM分析法之顧客適性化產品推薦機制（An Adaptive Product Recommendation System Based on RFM Method） | — | 2010 | 崇越論文大賞（**全文開放 PDF**） | RFM 分析 + 自組織地圖（SOM）+ 適性化商品推薦機制；考量產品購買週期與顧客消費特性 | **A5 之替代閱讀文獻**；RFM 結合分群與商品推薦的流程設計可對照；全文可直接下載 | 高 | https://thesis.topco-global.com/TopcoTRC/2010_Thesis/C0026.pdf（PDF 全文）／https://www.airitilibrary.com/Article/Detail/U0078-0601201112112856（Airiti） |
-| A13 | Segmenting Bank Customers via RFM Model and Unsupervised Machine Learning | Aliyev, Ahmadov, Gadirli, Mammadova & Alasgarov | 2020 | arXiv:2008.08662（未見正式出版） | 亞塞拜然某私人銀行真實客戶資料；RFM＋K-means／DBSCAN 等多種分群演算法比較 | 銀行真實資料分群演算法選擇背景，可支撐 K-means vs 其他演算法之取捨論述；**✅ 開放取用**，僅 arXiv 預印本 | 中 | https://arxiv.org/abs/2008.08662 |
+| A13 | Segmenting Bank Customers via RFM Model and Unsupervised Machine Learning | Aliyev, Ahmadov, Gadirli, Mammadova & Alasgarov | 2020 | arXiv:2008.08662（未見正式出版） | 亞塞拜然某私人銀行真實客戶資料；RFM＋K-means／DBSCAN 等多種分群演算法比較 | 銀行真實資料分群演算法選擇背景，可支撐 K-means vs 其他演算法之取捨論述；**✅ 開放取用**，僅 arXiv 預印本。**✅ 2026-09-21 全文已下載**，存於 `literature/downloads/A13-aliyev-2020-rfm-bank-segmentation.pdf` | 中 | https://arxiv.org/abs/2008.08662 |
 
 ---
 
