@@ -249,7 +249,7 @@ RFM AND (金融 OR 銀行 OR 證券) AND 論文出版年>=2020
 | B-cand-3 | Pérez-Pons, M. E., et al. *OCI-CBR: A hybrid model for decision support in preference-aware investment scenarios.* *Expert Systems with Applications*, 211, 118568. [DOI](https://doi.org/10.1016/j.eswa.2022.118568) | 2023 | 與 B1 同期刊；混合推薦＋投資人偏好，B7 亦引用 | ScienceDirect |
 | B-cand-4 | Mehta, D., et al. *Fund2Vec: Mutual funds similarity using graph learning.* ACM ICAIF. [DOI](https://doi.org/10.1145/3490354.3494381)／[arXiv](https://arxiv.org/abs/2106.12987) | 2021 | 基金相似度可用於內容導向／熱門推薦以外的 baseline 討論 | ACM／WOS；arXiv 可先讀 |
 | B-cand-5 | Shen, Q.-Y., Shi, Y., & Shao, Y.（作者全名已於 2026-09-21 用 Semantic Scholar 確認）*Research on financial recommendation algorithm based on user interest evolution and big data.* IEEE EEBDA, 764–769. [DOI](https://doi.org/10.1109/EEBDA53927.2022.9744929) | 2022 | B7 點名 DIEN 用於基金／金融商品興趣演化，可對照「行為序列」；結合協同過濾＋時間序列（七日年化利率等時效因子）＋ DIEN 注意力機制追蹤使用者興趣演化 | IEEE proxy 卡住，已改用 Semantic Scholar 摘要佐證，全文未取得 |
-| B-cand-6 | Sudha, D., et al. *Study of an adaptive financial recommendation algorithm using big data analysis and user interest pattern with fuzzy K-means algorithm.* *International Journal of Computational Intelligence Systems*. [DOI](https://doi.org/10.1007/s44196-024-00719-x) | 2024 | 模糊 K-means 分群＋推薦，並使用 Precision@K、Recall@K，直接支撐評估指標 | SpringerLink |
+| B-cand-6 | ⚠️ **作者資訊已修正（2026-09-21 用 Crossref 查證）**：Yang, Jinyong（原計畫誤植為「Sudha, D., et al.」，Crossref 顯示僅單一作者）*Study of an adaptive financial recommendation algorithm using big data analysis and user interest pattern with fuzzy K-means algorithm.* *International Journal of Computational Intelligence Systems*. [DOI](https://doi.org/10.1007/s44196-024-00719-x) | 2024 | 模糊 K-means 分群＋推薦（FNFinRec 演算法，Hadoop 平台 + Neural Collaborative Filtering），並使用 Precision@K、Recall@K，直接支撐評估指標 | SpringerLink proxy 需機構登入；已改用 Semantic Scholar／Crossref 摘要佐證，全文未取得 |
 
 ### 6.2 建議升為正式 A／C 類：金融業分群
 
@@ -325,7 +325,7 @@ flowchart LR
 | ③ ScienceDirect 檢索式 2–3 | 20–25 分鐘 | ⏳ 未開始 | |
 | ④ 華藝 檢索式 7–8 | 25–30 分鐘 | 🟢 已完成候選清單中兩篇（E-cand-1 全文✅、E-cand-2 摘要，embargo至2029） | 見 2026-09-21 操作紀錄 |
 | ⑤ 臺博碩 檢索式 10–12 | 25–30 分鐘 | 🟡 部分完成：跑過檢索式10，找到 D5（王怡2023，高度相關，摘要已取得，全文需另行註冊會員） | 見 2026-09-21 操作紀錄；檢索式11、12 尚未跑 |
-| ⑥ 收斂精讀名單 | 15 分鐘 | ⏳ 未開始 | |
+| ⑥ 收斂精讀名單 | 15 分鐘 | 🟢 已完成（2026-09-21：選出 8 篇最終精讀名單，B1、E6 全文在手優先精讀） | 見下方 8.1.1 |
 
 **2026-09-20 操作紀錄：**
 
@@ -360,7 +360,27 @@ flowchart LR
 - **A-cand-3**：確認作者為 Ganar, C., Hosein, P.；摘要確認除 RFM+K-means 分群外，還用 AHP 算 CLV，並以 Decision Tree／XGBoost 預測客戶轉線上銀行行為，K-Modes+XGBoost 準確率達 96.1%——這篇比原計畫預期的內容更豐富，「分群後預測轉換行為」的角度可對照本研究「分群後推薦」的邏輯。
 - **B-cand-5**：確認作者全名為 Shen, Qiu-Yang, Shi, Yuliang, Shao, Yong；摘要確認方法為協同過濾 + 時間序列（含七日年化利率等時效因子）+ DIEN 注意力機制，與 B7 綜述點名的方法一致。
 - **三篇仍只有摘要、未取得全文**（Semantic Scholar 只提供摘要層級，不提供 PDF），若之後仍要全文，下次可請使用者本人親自登入 IEEE Xplore proxy 或走館際合作；目前摘要層級的資訊已足夠支撐第二章「金融業分群」與「基金推薦興趣演化」兩小節的佐證用途。
-- **心得**：日後遇到 IEEE／Springer 等 proxy 卡住或需要機構帳號的候選文獻，**優先試 Semantic Scholar Graph API 用 DOI 查詢**，比重複嘗試 proxy 或找 ResearchGate（常回傳 403）更快、更穩定。
+- **心得**：日後遇到 IEEE／Springer 等 proxy 卡住或需要機構帳號的候選文獻，**優先試 Semantic Scholar Graph API 用 DOI 查詢**，比重複嘗試 proxy 或找 ResearchGate（常回傳 403）更快、更穩定；**若 Semantic Scholar 作者資訊看起來可疑（例如人數與原計畫差很多），改用 Crossref API（`https://api.crossref.org/works/<doi>`）覆核，Crossref 是 DOI 註冊機構直接維護的書目資料，權威性更高**。本次即用此方法抓到 B-cand-6 作者誤植（原計畫寫「Sudha, D., et al.」，Crossref 確認實際僅 Yang, Jinyong 一人）。
+- B-cand-3（Pérez-Pons et al., OCI-CBR）與 A-cand-1（Salo, Aalto 碩論）**兩篇透過 Semantic Scholar／Crossref／WebSearch 皆查不到摘要全文**，只確認書目資訊存在；B-cand-3 先前已知全文下載卡住，A-cand-1 是 Aalto 學位論文，兩篇皆非本輪精讀名單的必要文獻，暫緩不強求。
+
+### 8.1.1 ⑥ 收斂精讀名單（2026-09-21 完成）
+
+不需帳號即可完成的收斂判斷，已依「能讓缺口那一句話變得有出處」的標準，從本輪候選 + 既有矩陣高優先文獻中選出以下 **8 篇**作為繳交前三章前的最終精讀名單：
+
+| 順序 | 編號 | 文獻 | 對應缺口 | 全文狀態 |
+|---:|---|---|---|---|
+| 1 | B1 | Chou, Chen & Huang（2022）GraphDCF | 缺口①基金推薦核心期刊 | ✅ 全文已取得，**尚未寫 reading-summary，優先精讀** |
+| 2 | E6 | 許仲廷（2022）台灣券商大財管業務 K-means 分群 | 缺口③台灣在地場域 | ✅ 全文已取得，**尚未寫 reading-summary，優先精讀** |
+| 3 | A13 | Aliyev et al.（2020）銀行 RFM 分群演算法比較 | 缺口②分群輔助推薦的金融場景證據 | ✅ arXiv 開放全文可讀 |
+| 4 | D5 | 王怡（2023）共同基金電子交易平台推薦系統 | 缺口③台灣在地場域（市場背景直接吻合） | ⚠️ 僅摘要，全文需本人註冊臺博碩會員 |
+| 5 | B6 | Hsu, Chen, Chou & Huang（2022）可解釋基金推薦 | 缺口①（與 B1 同研究群，形成台灣基金推薦文獻群） | ⚠️ 僅摘要，全文確認無法取得 |
+| 6 | B-cand-6 | Yang（2024）Fuzzy K-means + FNFinRec | 缺口④評估指標（Precision@K、Recall@K） | ⚠️ 僅摘要 |
+| 7 | A-cand-2 | Arayasaeng et al.（2023）RFM-R 銀行真實交易資料 | 缺口②（泰國商銀 68.5 萬筆真實交易） | ⚠️ 僅摘要 |
+| 8 | B9 | Sharaf et al.（2022）金融服務推薦綜述 | 缺口①（與 B7 形成 2022／2025 兩篇綜述對照） | ⚠️ 僅摘要 |
+
+**未列入本輪精讀名單，但仍可作背景引用**：B10（Chiou-Wei 2024，已精讀）、B11（Fund2Vec，僅 baseline 討論）、A-cand-3（Ganar & Hosein，與 A-cand-2 主題重疊，先備用）、B-cand-3（無摘要，暫緩）、A-cand-1（無摘要，暫緩）、E7（embargo 至 2029，僅摘要背景）。
+
+**下次接續建議順序**：先精讀 B1、E6（全文都已在手，且是本研究最核心的兩篇），再視時間補 A13、D5、B6、B-cand-6、A-cand-2、B9 的摘要式引用（這幾篇只有摘要，寫法上用「摘要指出...」而非深入方法細節）。精讀後的摘要請放 `literature/reading-summaries/`，檔名沿用 `編號-作者-年份-主題-reading-summary.md`。
 
 ---
 

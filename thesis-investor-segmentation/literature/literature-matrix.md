@@ -236,7 +236,7 @@
 | A3 | 作者、期刊卷期與 DOI |
 | B3 | ResearchGate 來源品質與是否有正式出版版本 |
 | B4 | ResearchGate 來源品質與是否有正式出版版本 |
-| B9 | Sharaf et al. 2022 的 DOI、完整題名與全文 |
+| B9 | Sharaf et al. 2022 的 DOI、完整題名與全文；**✅ 2026-09-21 已用 Semantic Scholar 取得摘要**，全文仍需 SpringerLink 機構登入 |
 | A8 | 作者全名、期刊資訊與正式引用格式 |
 | A10 | 作者與正式書目 |
 | D1、D2、G3、G4 | NDLTD 詳細作者、學校、年份 |
