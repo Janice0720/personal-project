@@ -63,12 +63,12 @@
 
 | # | 論文標題 | 作者 | 年份 | 來源 | 核心方法 / 內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
-| B1 | Modeling Behavior Sequence for Personalized Fund Recommendation with Graphical Deep Collaborative Filtering | Chou, Chen & Huang | 2021/2022 | Expert Systems with Applications | GraphDCF；基金交易序列與圖式協同過濾 | 最核心基金推薦文獻；支撐推薦模型與交易序列設計。**📩 2026-07-28 已於 ResearchGate 向作者送出索取請求，待回覆** | 高 | https://doi.org/10.1016/j.eswa.2021.116311（ScienceDirect）／https://www.researchgate.net/publication/357251661（ResearchGate 索取） |
+| B1 | Modeling Behavior Sequence for Personalized Fund Recommendation with Graphical Deep Collaborative Filtering | Chou, Chen & Huang | 2022 | Expert Systems with Applications, Vol. 192 | GraphDCF；基金交易序列與圖式協同過濾；資料集為台灣某商業銀行之基金、客戶與歷史交易紀錄 | 最核心基金推薦文獻；支撐推薦模型與交易序列設計；台灣真實銀行資料場景直接對應研究缺口。**✅ 2026-09-21 已於北商圖書館 ScienceDirect Online (SDOL) 取得全文 PDF**，存於 `literature/downloads/B1-chou-chen-huang-2022-graphdcf.pdf` | 高 | https://doi.org/10.1016/j.eswa.2021.116311（ScienceDirect） |
 | B2 | Personalized Fund Recommendation with Dynamic Utility Learning | Wei & Liu | 2025 | Financial Innovation | Incremental utility learning、點擊序列、探索 / 利用 | 連接數位行為資料與基金推薦；與 GA4 行為資料高度相關。**✅ 2026-07-28 全文已下載** | 高 | https://doi.org/10.1186/s40854-024-00720-5 |
 | B3 | Mutual Fund Recommendation System with Personalized Explanations | — | 2023 | ResearchGate | 知識圖譜、ML、可解釋推薦 | 支撐金融推薦可解釋性；需查證來源品質 | 中 | https://www.researchgate.net/publication/367530626_MUTUAL_FUND_RECOMMENDATION_SYSTEM_WITH_PERSONALIZED_EXPLANATIONS |
 | B4 | A Hybrid Recommendation Engine for Fintech Platforms: Leveraging Behavioral Analytics for User Engagement and Conversion | — | 2025 | ResearchGate | 混合推薦、CF、Content-based、Deep Learning、行為分析 | 可作 FinTech 混合推薦架構參考；需查證來源品質 | 中 | https://www.researchgate.net/publication/394559448_A_Hybrid_Recommendation_Engine_for_Fintech_Platforms_Leveraging_Behavioral_Analytics_for_User_Engagement_and_Conversion |
 | B5 | FAR-Trans: An Investment Dataset for Financial Asset Recommendation | — | 2024 | arXiv | 金融資產推薦資料集、資產定價與散戶交易紀錄 | 可作外部資料集與推薦評估基準背景 | 中 | https://arxiv.org/abs/2407.08692 |
-| B6 | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Hsu, Chen, Chou & Huang | 2022 | Applied Intelligence / Springer | Knowledge Graph Embedding、可解釋共同基金推薦 | 補強信任與可解釋性；可與 B1 形成台灣基金推薦文獻群。**⚠️ 全文無法下載，待取得**；可嘗試學校 VPN 登入 Springer 或館際合作申請（DOI: 10.1007/s10489-021-03136-1） | 高 | https://doi.org/10.1007/s10489-021-03136-1 |
+| B6 | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Hsu, Chen, Chou & Huang | 2022 | Applied Intelligence, Vol. 52, pp. 10779–10804 | Knowledge Graph Embedding、可解釋共同基金推薦；預測並解釋客戶次月基金申購行為 | 補強信任與可解釋性；與 B1 為同一研究群（共同作者 Chiao-Ting Chen、Szu-Hao Huang），可形成台灣基金推薦文獻群。**⚠️ 2026-09-21 確認：SpringerLink 需機構聯合登入（Shibboleth WAYF）或付費 €39.95，全文無法取得，改以公開摘要佐證**（摘要已取得，見待查證表） | 高 | https://doi.org/10.1007/s10489-021-03136-1 |
 | B7 | A Systematic Literature Review of Financial Product Recommendation Systems | Wu & Li | 2025 | Information / MDPI | 系統性文獻回顧；金融商品推薦特殊性 | 第二章推薦系統總覽與研究缺口核心來源。**✅ 2026-07-28 全文已取得** | 高 | https://doi.org/10.3390/info16030196 |
 | B8 | Research on Personalized Financial Product Recommendation by Integrating Large Language Models and Graph Neural Networks | Zhao et al. | 2025 | arXiv / ACM ICSECA | LLM embeddings + heterogeneous graph + GNN | 最新技術趨勢；可用來說明本研究不採 LLM/GNN 的邊界 | 中 | https://arxiv.org/abs/2506.05873 |
 | B9 | A survey on recommendation systems for financial services | Sharaf et al. | 2022 | Multimedia Tools and Applications（待查證） | 金融服務推薦綜述 | 推薦系統背景文獻；需補 DOI / 全文後再正式引用 | 中 | 待查證 |
@@ -222,7 +222,8 @@
 | 編號 | 待查證內容 |
 |---|---|
 | A5 | **全文受限（NDLTD 授權限制）**；2026-07-28 搜尋未找到開放版本；已以 A12 作為替代閱讀文獻。如仍需原文，建議透過學校圖書館館際合作申請（論文編號：110THU01026098） |
-| B1 | **📩 2026-07-28 已於 ResearchGate 向作者送出索取請求，待回覆**；若作者未回應，備選方案：學校 VPN 登入 ScienceDirect 或館際合作（DOI：10.1016/j.eswa.2021.116311） |
+| B1 | ✅ **已解決**：2026-09-21 於北商圖書館 ScienceDirect Online (SDOL) 取得全文 PDF |
+| B6 | ⚠️ **確認全文無法取得**（2026-09-21）：SpringerLink 需機構聯合登入或付費，改以公開摘要佐證，不強求全文 |
 | E2 | **全文受限（NDLTD 授權限制）**；2026-07-28 搜尋未找到開放版本；已以 E5 作為替代參考文獻。如仍需原文，建議透過學校圖書館館際合作申請（論文編號：109NTUS5121030）或至 NTUST 電子論文系統（etheses.lib.ntust.edu.tw）以學校帳號查詢 |
 | A12 | 作者全名待補；年份依 Topco 資料夾為 2010，Airiti 上有 2011/2012 期刊版本，正式引用格式需確認 |
 | A1 | 作者資訊與正式引用格式 |

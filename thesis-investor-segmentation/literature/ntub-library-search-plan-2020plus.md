@@ -320,7 +320,7 @@ flowchart LR
 
 | 段落 | 內容 | 狀態 | 備註 |
 |---|---|---|---|
-| ① 下載已知名篇 B1/B6/B9 | 20 分鐘 | 🟡 進行中（2026-09-20 已嘗試 B1，未完成） | 見下方操作紀錄 |
+| ① 下載已知名篇 B1/B6/B9 | 20 分鐘 | 🟡 進行中（2026-09-21：B1 ✅ 已取得全文，B6 ⚠️ 確認無法取得改用摘要，B9 待查） | 見下方操作紀錄 |
 | ② ScienceDirect 檢索式 1 | 15–20 分鐘 | ⏳ 未開始 | |
 | ③ ScienceDirect 檢索式 2–3 | 20–25 分鐘 | ⏳ 未開始 | |
 | ④ 華藝 檢索式 7–8 | 25–30 分鐘 | ⏳ 未開始 | |
@@ -333,6 +333,14 @@ flowchart LR
 - 嘗試用首頁「整合查詢」框搜尋 B1（GraphDCF，DOI `10.1016/j.eswa.2021.116311`），直接貼 DOI 查詢**無結果**；改搜標題關鍵字「GraphDCF mutual fund recommendation」有 2 筆命中，但列表顯示皆為「(無題名)」，只看得到命中的資料庫名稱（ScienceDirect Online (SDOL)、Journal Citation Reports），看不到文章標題或下載連結——**整合查詢介面目前只索引到資料庫層級，不適合用來直接找特定文章全文**。
 - **下次改用更直接的路徑**：從首頁「熱門電子資料庫」清單直接點進 **ScienceDirect Online (SDOL)**，進入 ScienceDirect 官方介面後，直接用 DOI 或標題在它自己的搜尋框查詢，應可看到完整書目與下載按鈕。B6（Applied Intelligence，DOI `10.1007/s10489-021-03136-1`）建議改點「SpringerLink」資料庫入口，同樣以 DOI 直接查。
 - B1、B6、B9 三篇皆尚未確認是否成功取得全文，下次從 ScienceDirect／SpringerLink 官方介面重新查詢即可接續，不需重跑整合查詢。
+
+**2026-09-21 操作紀錄：**
+
+- 改用建議路徑成功：首頁「熱門電子資料庫」→ ScienceDirect Online (SDOL) → 點資源網址進入 `eresources.ntub.edu.tw:4023`（ScienceDirect proxy，頁首顯示「Brought to you by: National Taipei University of Business」即代表已認證）→ 在 ScienceDirect 自己的搜尋框貼 DOI，一次就找到 B1。
+- **B1 已取得全文** PDF，存於 `literature/downloads/B1-chou-chen-huang-2022-graphdcf.pdf`（已加入 `.gitignore`，不進版本控制，僅供個人寫作參考）。下載訣竅：點「View PDF」後會另開分頁到 `pdf.sciencedirectassets.com` 的簽章連結（5分鐘有效、無法用 curl 直接抓，會被防護頁擋下），改用瀏覽器內 Cmd+S 存成本機檔案即可成功。
+- **B6 改用 SpringerLink 查詢**：首頁搜「SpringerLink」→ 資源網址進入 `eresources.ntub.edu.tw:3939`（Springer Nature Link proxy）→ 用 DOI 查詢一次命中。但文章頁面顯示「Log in via an institution」（點下去會跳出 proxy、導到 Springer 自己的 Shibboleth WAYF 聯合登入頁 `wayf.springernature.com`，需另外選校名走一次校園 SSO）或「Buy article PDF €39.95」，**確認學校未提供此篇之直接全文存取**，已定案改用公開摘要佐證，不再嘗試取得全文。
+- **重要心得**：ScienceDirect（SDOL）跟 SpringerLink 兩個 proxy 的認證機制不同——SDOL 進去就直接放行全文；SpringerLink 即使走 proxy 入口，個別文章仍可能要求走 Shibboleth 機構登入才能解鎖，不是所有 SpringerLink 文章都能像 ScienceDirect 一樣直接存取，需視個別期刊訂閱範圍而定。
+- B9（Sharaf et al. 2022，*Multimedia Tools and Applications*，DOI `10.1007/s11042-022-12564-1`）尚未查詢，因也是 SpringerLink 系統，下次查詢時應提早預期可能同樣遇到機構登入卡關，並先問使用者是否要花時間走 Shibboleth 登入。
 
 ---
 
