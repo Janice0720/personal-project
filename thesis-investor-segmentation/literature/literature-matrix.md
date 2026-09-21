@@ -101,6 +101,7 @@
 | D2 | 台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究 | — | — | 臺博碩 | 媒體偏好、投資性格與行為偏誤 | 投資人行為分群變數設計參考 | 中 | https://ndltd.ncl.edu.tw/handle/b3agwt |
 | D3 | 券商推薦個股的資訊內涵之探討 | 徐楚雯 | 2019 | 國立臺灣科技大學碩士論文 | 券商推薦對股價影響與資訊內涵 | 推薦資訊內涵與台灣券商脈絡 | 中 | https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/ |
 | D4 | 網路關鍵字搜尋行為反映投資人情緒之研究 | — | 2023 | Airiti Library | Google 搜尋趨勢與投資人情緒 | 支撐數位搜尋 / 行為資料可作投資人意圖代理變數 | 中 | https://www.airitilibrary.com/Article/Detail/U0002-1107202310513600 |
+| D5 | 推薦系統之應用——以共同基金電子交易平台為例（The Recommendation System Application for a Mutual Fund Electronic Trading Platform） | 王怡 | 2023 | 東吳大學巨量資料管理學院碩士學位學程 / 臺博碩（論文編號 111SCU01448003） | 研究台灣 5 家代理銷售共同基金電子交易平台業者之經營實務，探討安全、完善有效率之交易目標，以及運用 AI 找出有效影響因子 | **主題與研究場域高度貼合**：直接指出「國內也有五家代理銷售共同基金的電子交易平台」，可作為第一章市場背景之台灣本土引用（好好證券即屬此類業者）。**⚠️ 全文需臺博碩免費會員登入下載**（帳號需使用者自行註冊），僅取得公開摘要 | 高 | https://hdl.handle.net/11296/xaz6j9 |
 
 ---
 
@@ -113,6 +114,8 @@
 | E3 | 基於用戶序列之協同過濾推薦 | — | — | 臺博碩 | 使用者序列行為、協同過濾 | 台灣協同過濾推薦系統研究脈絡 | 中 | https://ndltd.ncl.edu.tw/handle/3pake6 |
 | E4 | 資料探勘分析於金融機構客戶關係經營之研究 | — | — | 臺灣科技大學碩士論文 | Data Mining、金融機構 CRM、分群 | 金融業資料探勘與 CRM 應用支撐 | 中 | https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/ |
 | E5 | 利用RFM模型與購物籃分析進行電子商務顧客分群與銷售策略之研究（A Research On e-commerce seller's sales strategy using RFM Model and Market Basket Analysis） | 陳一慈 | 2021 | 國立政治大學碩士論文 / Airiti Library（DOI: 10.6814/NCCU202100799） | RFM 模型 + 購物籃分析 + 顧客分群 + 銷售策略；美妝電商案例 | **E2 之替代參考文獻**；同樣是台灣碩論，以 RFM 做顧客分群並轉換行銷策略，方法論脈絡相近；Airiti 上可查，建議透過學校帳號登入存取 | 高 | https://www.airitilibrary.com/Article/Detail/U0004-G0108363104 |
+| E6 | 運用機器學習方法推廣綜合券商大財管業務（Expand Integrated Securities Firm's Business Using Machine Learning） | 許仲廷 | 2022 | Journal of Data Analysis, 17卷2期, Pp. 31-58（**Open Access**） | 統一證券保代／海外市場／財富管理三大業務客戶特徵；k-means 分群建立大財管客戶素描；分類演算法辨別新開戶大財管商品偏好 | **最貼近本研究之台灣真實券商客戶分群案例**，同時涵蓋分群＋分類預測（新戶商品偏好），可直接支撐「分群輔助推薦」在台灣券商場景之合理性。**✅ 2026-09-21 全文已下載**，存於 `literature/downloads/E-cand-1-xu-2022-ml-securities-wealth-management.pdf` | 高 | https://doi.org/10.6338/JDA.202206_17(2).0002 |
+| E7 | 結合關聯法則與機器學習演算法於適性化產品推薦機制─以零售業RFM衍伸模型為基礎 | 溫國抆（Gunawan Sebastian） | 2024 | 中原大學碩士論文 | 修正版 RFM（含 Periodicity、Length、Customer Engagement Index）+ K-means/Ward 分群 + 關聯規則推薦 + 分類器驗證（KNN、Random Forest 表現最佳） | 場景為零售業（非金融），僅適合作方法論對照（RFM 衍伸特徵設計、分群後接分類/推薦的流程）；**⚠️ 全文embargo至 2029/04/10 才開放下載**，目前僅能引用公開摘要 | 中 | https://doi.org/10.6840/cycu202400186 |
 
 ---
 
