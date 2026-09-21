@@ -248,7 +248,7 @@ RFM AND (金融 OR 銀行 OR 證券) AND 論文出版年>=2020
 | B-cand-2 | Sharaf, M., Hemdan, E. E.-D., El-Sayed, A., & El-Bahnasawy, N. A. *A survey on recommendation systems for financial services.* *Multimedia Tools and Applications*, 81(12), 16761–16781. [DOI](https://doi.org/10.1007/s11042-022-12564-1) | 2022 | 即矩陣 **B9**，補 DOI 後可正式引用，與 B7 形成 2022／2025 兩篇綜述 | SpringerLink |
 | B-cand-3 | Pérez-Pons, M. E., et al. *OCI-CBR: A hybrid model for decision support in preference-aware investment scenarios.* *Expert Systems with Applications*, 211, 118568. [DOI](https://doi.org/10.1016/j.eswa.2022.118568) | 2023 | 與 B1 同期刊；混合推薦＋投資人偏好，B7 亦引用 | ScienceDirect |
 | B-cand-4 | Mehta, D., et al. *Fund2Vec: Mutual funds similarity using graph learning.* ACM ICAIF. [DOI](https://doi.org/10.1145/3490354.3494381)／[arXiv](https://arxiv.org/abs/2106.12987) | 2021 | 基金相似度可用於內容導向／熱門推薦以外的 baseline 討論 | ACM／WOS；arXiv 可先讀 |
-| B-cand-5 | Shen, Q., Shi, Y., & Shao, Y. *Research on financial recommendation algorithm based on user interest evolution and big data.* IEEE EEBDA, 764–769. | 2022 | B7 點名 DIEN 用於基金／金融商品興趣演化，可對照「行為序列」 | IEEE／WOS |
+| B-cand-5 | Shen, Q.-Y., Shi, Y., & Shao, Y.（作者全名已於 2026-09-21 用 Semantic Scholar 確認）*Research on financial recommendation algorithm based on user interest evolution and big data.* IEEE EEBDA, 764–769. [DOI](https://doi.org/10.1109/EEBDA53927.2022.9744929) | 2022 | B7 點名 DIEN 用於基金／金融商品興趣演化，可對照「行為序列」；結合協同過濾＋時間序列（七日年化利率等時效因子）＋ DIEN 注意力機制追蹤使用者興趣演化 | IEEE proxy 卡住，已改用 Semantic Scholar 摘要佐證，全文未取得 |
 | B-cand-6 | Sudha, D., et al. *Study of an adaptive financial recommendation algorithm using big data analysis and user interest pattern with fuzzy K-means algorithm.* *International Journal of Computational Intelligence Systems*. [DOI](https://doi.org/10.1007/s44196-024-00719-x) | 2024 | 模糊 K-means 分群＋推薦，並使用 Precision@K、Recall@K，直接支撐評估指標 | SpringerLink |
 
 ### 6.2 建議升為正式 A／C 類：金融業分群
@@ -256,8 +256,8 @@ RFM AND (金融 OR 銀行 OR 證券) AND 論文出版年>=2020
 | 暫代號 | 文獻 | 年份 | 為何值得查 | 學校資料庫 |
 |---|---|---|---|---|
 | A-cand-1 | Salo, L. *Leveraging segmentation to improve client understanding... A case study in wealth management.* Aalto University Master's thesis. [紀錄頁](https://aaltodoc.aalto.fi/items/ebf942d7-2a95-4b5a-bd74-645bc9746c15) | 2025 | RFM+B（加入資產餘額）＋ K-means，財富管理場景比電商 RFM 更接近本研究 | ProQuest／學校學位論文系統 |
-| A-cand-2 | *Using RFM-R analysis for effective customer segmentation in bank marketing.* IEEE ICTKE. [DOI](https://doi.org/10.1109/ictke58576.2023.10401701) | 2023 | 數位銀行 RFM 擴充＋ K-means、Elbow、Silhouette | IEEE／WOS |
-| A-cand-3 | *Customer segmentation for improving marketing campaigns in the banking industry.* IEEE ACMLC. [DOI](https://doi.org/10.1109/acmlc58173.2022.00017) | 2022 | RFM＋K-means／K-modes＋CLV，可對照「分群後再做行銷／服務」 | IEEE |
+| A-cand-2 | Arayasaeng, C., Jongsawat, N., & Tungkasthan, A.（作者已於 2026-09-21 用 Semantic Scholar 確認）*Using RFM-R analysis for effective customer segmentation in bank marketing.* IEEE ICTKE. [DOI](https://doi.org/10.1109/ictke58576.2023.10401701) | 2023 | 數位銀行 RFM 擴充＋ K-means、Elbow、Silhouette；泰國某商銀 2022 全年 685,205 筆交易、50,497 名客戶真實資料 | IEEE proxy 卡住，已改用 Semantic Scholar 摘要佐證，全文未取得 |
+| A-cand-3 | Ganar, C., & Hosein, P.（作者已於 2026-09-21 用 Semantic Scholar 確認）*Customer segmentation for improving marketing campaigns in the banking industry.* IEEE ACMLC. [DOI](https://doi.org/10.1109/acmlc58173.2022.00017) | 2022 | RFM＋K-means／K-modes＋AHP／CLV，並用 Decision Tree／XGBoost 預測客戶轉線上銀行行為（K-Modes+XGBoost 準確率 96.1%），可對照「分群後再做行銷／服務」 | IEEE proxy 卡住，已改用 Semantic Scholar 摘要佐證，全文未取得 |
 | A-cand-4 | ⚠️ **作者資訊已修正（2026-09-21 查證）**：Aliyev, M., Ahmadov, E., Gadirli, H., Mammadova, A., & Alasgarov, E.（原計畫誤植為「Imanov, G.」）*Segmenting Bank Customers via RFM Model and Unsupervised Machine Learning.* [arXiv:2008.08662](https://arxiv.org/abs/2008.08662) | 2020 | 亞塞拜然某私人銀行真實客戶資料，RFM＋多種分群演算法比較 | ✅ 開放取用，摘要已取得；仍未見正式出版版本 |
 
 ### 6.3 建議升為正式 D／E 類：台灣在地 2020 後
@@ -352,6 +352,15 @@ flowchart LR
 - **臺博碩（ndltd.ncl.edu.tw）需先過圖形驗證碼**（真人手動輸入，不可自動化），之後用簡易檢索「基金 推薦系統」（對應原檢索式10）一次找到 5 筆結果，其中 **D5（王怡 2023，東吳大學，「推薦系統之應用——以共同基金電子交易平台為例」）與本研究場域幾乎完全吻合**，摘要提到「國內也有五家代理銷售共同基金的電子交易平台」，可直接引用進第一章市場背景。**全文下載需另外註冊臺博碩免費會員帳號**（帳號註冊需使用者本人操作，AI 不可代為建立帳號），本次僅取得摘要。
 - 檢索式10 找到的其他候選（#1 中央大學基金持股序列推薦系統、#2 陽明交通大學知識圖譜基金推薦、#4 交通大學深度學習基金推薦）多數也是 embargo 或需會員登入，尚未逐一確認，下次可繼續查。
 - 檢索式11（投資人分群 OR 客戶分群）、檢索式12（RFM AND 金融）尚未執行。
+
+**2026-09-21 IEEE 候選文獻改走 Semantic Scholar 公開 API 操作紀錄：**
+
+- 使用者無圖書館帳號可登入 Shibboleth（B9）與 IEEE Xplore proxy，本次改走完全不需登入的路徑：**Semantic Scholar 公開 Graph API**（`https://api.semanticscholar.org/graph/v1/paper/DOI:<doi>?fields=title,abstract,authors,year,venue`），直接用 DOI 查詢，三篇 IEEE 候選文獻皆一次成功取得完整摘要與正確作者名單，**全程不受 IEEE proxy 卡住問題影響**。
+- **A-cand-2**：確認作者為 Arayasaeng, C., Jongsawat, N., Tungkasthan, A.；摘要確認資料來源是泰國某商銀 2022 年全年 685,205 筆交易、50,497 名客戶，真實交易資料含金額（RFM-R 的 R = 收益），比一般 RFM 更貼近本研究「用真實交易資料分群」的訴求。
+- **A-cand-3**：確認作者為 Ganar, C., Hosein, P.；摘要確認除 RFM+K-means 分群外，還用 AHP 算 CLV，並以 Decision Tree／XGBoost 預測客戶轉線上銀行行為，K-Modes+XGBoost 準確率達 96.1%——這篇比原計畫預期的內容更豐富，「分群後預測轉換行為」的角度可對照本研究「分群後推薦」的邏輯。
+- **B-cand-5**：確認作者全名為 Shen, Qiu-Yang, Shi, Yuliang, Shao, Yong；摘要確認方法為協同過濾 + 時間序列（含七日年化利率等時效因子）+ DIEN 注意力機制，與 B7 綜述點名的方法一致。
+- **三篇仍只有摘要、未取得全文**（Semantic Scholar 只提供摘要層級，不提供 PDF），若之後仍要全文，下次可請使用者本人親自登入 IEEE Xplore proxy 或走館際合作；目前摘要層級的資訊已足夠支撐第二章「金融業分群」與「基金推薦興趣演化」兩小節的佐證用途。
+- **心得**：日後遇到 IEEE／Springer 等 proxy 卡住或需要機構帳號的候選文獻，**優先試 Semantic Scholar Graph API 用 DOI 查詢**，比重複嘗試 proxy 或找 ResearchGate（常回傳 403）更快、更穩定。
 
 ---
 
