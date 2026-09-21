@@ -258,7 +258,7 @@ RFM AND (金融 OR 銀行 OR 證券) AND 論文出版年>=2020
 | A-cand-1 | Salo, L. *Leveraging segmentation to improve client understanding... A case study in wealth management.* Aalto University Master's thesis. [紀錄頁](https://aaltodoc.aalto.fi/items/ebf942d7-2a95-4b5a-bd74-645bc9746c15) | 2025 | RFM+B（加入資產餘額）＋ K-means，財富管理場景比電商 RFM 更接近本研究 | ProQuest／學校學位論文系統 |
 | A-cand-2 | *Using RFM-R analysis for effective customer segmentation in bank marketing.* IEEE ICTKE. [DOI](https://doi.org/10.1109/ictke58576.2023.10401701) | 2023 | 數位銀行 RFM 擴充＋ K-means、Elbow、Silhouette | IEEE／WOS |
 | A-cand-3 | *Customer segmentation for improving marketing campaigns in the banking industry.* IEEE ACMLC. [DOI](https://doi.org/10.1109/acmlc58173.2022.00017) | 2022 | RFM＋K-means／K-modes＋CLV，可對照「分群後再做行銷／服務」 | IEEE |
-| A-cand-4 | Imanov, G. *Segmenting bank customers via RFM model and unsupervised machine learning.* [arXiv](https://arxiv.org/abs/2008.08662) | 2020 | 銀行真實資料比較 K-means／DBSCAN，可作分群演算法選擇背景 | 先讀 arXiv，再查是否有正式出版 |
+| A-cand-4 | ⚠️ **作者資訊已修正（2026-09-21 查證）**：Aliyev, M., Ahmadov, E., Gadirli, H., Mammadova, A., & Alasgarov, E.（原計畫誤植為「Imanov, G.」）*Segmenting Bank Customers via RFM Model and Unsupervised Machine Learning.* [arXiv:2008.08662](https://arxiv.org/abs/2008.08662) | 2020 | 亞塞拜然某私人銀行真實客戶資料，RFM＋多種分群演算法比較 | ✅ 開放取用，摘要已取得；仍未見正式出版版本 |
 
 ### 6.3 建議升為正式 D／E 類：台灣在地 2020 後
 
@@ -341,6 +341,7 @@ flowchart LR
 - **B6 改用 SpringerLink 查詢**：首頁搜「SpringerLink」→ 資源網址進入 `eresources.ntub.edu.tw:3939`（Springer Nature Link proxy）→ 用 DOI 查詢一次命中。但文章頁面顯示「Log in via an institution」（點下去會跳出 proxy、導到 Springer 自己的 Shibboleth WAYF 聯合登入頁 `wayf.springernature.com`，需另外選校名走一次校園 SSO）或「Buy article PDF €39.95」，**確認學校未提供此篇之直接全文存取**，已定案改用公開摘要佐證，不再嘗試取得全文。
 - **重要心得**：ScienceDirect（SDOL）跟 SpringerLink 兩個 proxy 的認證機制不同——SDOL 進去就直接放行全文；SpringerLink 即使走 proxy 入口，個別文章仍可能要求走 Shibboleth 機構登入才能解鎖，不是所有 SpringerLink 文章都能像 ScienceDirect 一樣直接存取，需視個別期刊訂閱範圍而定。
 - B9（Sharaf et al. 2022，*Multimedia Tools and Applications*，DOI `10.1007/s11042-022-12564-1`）尚未查詢，因也是 SpringerLink 系統，下次查詢時應提早預期可能同樣遇到機構登入卡關，並先問使用者是否要花時間走 Shibboleth 登入。
+- B-cand-3（Pérez-Pons et al. 2023, OCI-CBR, DOI `10.1016/j.eswa.2022.118568`）**確認為 ScienceDirect Open Access 文章，但下載卡住**：點 View PDF 後停留在 proxy 的 pdfft 跳轉頁不會繼續解析（跟 B1 不同，B1 會在 2-3 秒內跳到 pdf.sciencedirectassets.com 的簽章下載頁），Cmd+S 存檔對話框沒有正確跳出；直接 curl 抓公開網址一樣被防護頁擋下。使用者手動下載也未成功。**2026-09-21 決定跳過，改用摘要佐證**（但摘要抓取也因 403 失敗，暫無內容，之後可再嘗試 Google Scholar 快取或直接向作者索取）。
 
 ---
 

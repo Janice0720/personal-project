@@ -56,6 +56,7 @@
 | A10 | Intuitive-K-prototypes: A mixed data clustering algorithm with improved prototype representation and attribute weights | 作者待補 | 2024 | Pattern Recognition / Elsevier | K-prototypes、混合型資料分群、attribute weighting | 若同時使用數值與類別特徵，支撐 K-prototypes 合理性 | 中 | https://www.sciencedirect.com/science/article/pii/S0031320324008136 |
 | A11 | Using RFM, AUM, and K-means clustering for customer segmentation | Uchechukwu Emmanuel / Cowrywise | 2025 | Metabase Community / Cowrywise 產業案例 | RFM + AUM + K-means | FinTech / 財富管理平台分群實務案例；適合作背景，不宜作核心學術引用 | 低 | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation |
 | A12 | 基於RFM分析法之顧客適性化產品推薦機制（An Adaptive Product Recommendation System Based on RFM Method） | — | 2010 | 崇越論文大賞（**全文開放 PDF**） | RFM 分析 + 自組織地圖（SOM）+ 適性化商品推薦機制；考量產品購買週期與顧客消費特性 | **A5 之替代閱讀文獻**；RFM 結合分群與商品推薦的流程設計可對照；全文可直接下載 | 高 | https://thesis.topco-global.com/TopcoTRC/2010_Thesis/C0026.pdf（PDF 全文）／https://www.airitilibrary.com/Article/Detail/U0078-0601201112112856（Airiti） |
+| A13 | Segmenting Bank Customers via RFM Model and Unsupervised Machine Learning | Aliyev, Ahmadov, Gadirli, Mammadova & Alasgarov | 2020 | arXiv:2008.08662（未見正式出版） | 亞塞拜然某私人銀行真實客戶資料；RFM＋K-means／DBSCAN 等多種分群演算法比較 | 銀行真實資料分群演算法選擇背景，可支撐 K-means vs 其他演算法之取捨論述；**✅ 開放取用**，僅 arXiv 預印本 | 中 | https://arxiv.org/abs/2008.08662 |
 
 ---
 
@@ -71,7 +72,9 @@
 | B6 | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Hsu, Chen, Chou & Huang | 2022 | Applied Intelligence, Vol. 52, pp. 10779–10804 | Knowledge Graph Embedding、可解釋共同基金推薦；預測並解釋客戶次月基金申購行為 | 補強信任與可解釋性；與 B1 為同一研究群（共同作者 Chiao-Ting Chen、Szu-Hao Huang），可形成台灣基金推薦文獻群。**⚠️ 2026-09-21 確認：SpringerLink 需機構聯合登入（Shibboleth WAYF）或付費 €39.95，全文無法取得，改以公開摘要佐證**（摘要已取得，見待查證表） | 高 | https://doi.org/10.1007/s10489-021-03136-1 |
 | B7 | A Systematic Literature Review of Financial Product Recommendation Systems | Wu & Li | 2025 | Information / MDPI | 系統性文獻回顧；金融商品推薦特殊性 | 第二章推薦系統總覽與研究缺口核心來源。**✅ 2026-07-28 全文已取得** | 高 | https://doi.org/10.3390/info16030196 |
 | B8 | Research on Personalized Financial Product Recommendation by Integrating Large Language Models and Graph Neural Networks | Zhao et al. | 2025 | arXiv / ACM ICSECA | LLM embeddings + heterogeneous graph + GNN | 最新技術趨勢；可用來說明本研究不採 LLM/GNN 的邊界 | 中 | https://arxiv.org/abs/2506.05873 |
-| B9 | A survey on recommendation systems for financial services | Sharaf et al. | 2022 | Multimedia Tools and Applications（待查證） | 金融服務推薦綜述 | 推薦系統背景文獻；需補 DOI / 全文後再正式引用 | 中 | 待查證 |
+| B9 | A survey on recommendation systems for financial services | Sharaf, Hemdan, El-Sayed & El-Bahnasawy | 2022 | Multimedia Tools and Applications, 81(12), 16761–16781 | 金融服務推薦綜述 | 推薦系統背景文獻，與 B7 形成 2022／2025 兩篇綜述對照。DOI 已確認，全文待查（SpringerLink，預期需機構登入） | 中 | https://doi.org/10.1007/s11042-022-12564-1 |
+| B10 | Application of KL distance-based intelligent recommendation method to fund recommendation for users with investment behavior in Asia Region | Chiou-Wei & Lee | 2024 | Heliyon, 10(12), e32959 | 改良式 KL 距離＋K-medoids 分群基金推薦；混合推薦模型表現最佳（MAE≈0.82–0.83） | 課堂已精讀（見 `class-readings/chiou-wei-2024-kl-km-reading-summary.md`）；台灣作者（高雄科技大學）；**✅ 開放取用全文**，資料集為「銀行基金經理客戶資料」但未明確揭露地區與規模，屬限制 | 高 | https://doi.org/10.1016/j.heliyon.2024.e32959（PMC 開放取用：https://pmc.ncbi.nlm.nih.gov/articles/PMC11252857/） |
+| B11 | Fund2Vec: Mutual Funds Similarity using Graph Learning | Satone, Desai & Mehta | 2021 | arXiv:2106.12987（未見正式出版） | Node2Vec 圖學習；基金相似度（結構相似而非僅重疊度） | 基金相似度可用於內容導向推薦之外的 baseline 討論；僅 arXiv 預印本，引用時需註明未經同儕審查 | 中 | https://arxiv.org/abs/2106.12987 |
 
 ---
 
