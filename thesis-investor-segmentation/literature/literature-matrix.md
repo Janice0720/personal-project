@@ -58,7 +58,7 @@
 |---|---|---|---|---|
 | A1 | RFM-Net CNN 分類 | ✅ 已取得（未精讀） | `downloads/A1-RFM-Net_A Convolutional Neural Network for Customer Segment Classification.pdf` | 尚待撰寫 reading-summary |
 | A2 | AI-Driven CLV Forecasting | ✅ 已取得（未精讀） | `downloads/A2-AI-Driven CLV Forecasting.pdf` | 尚待撰寫 reading-summary |
-| A3 | Enhancing Customer Repurchase Prediction | ⏳ 未查 | — | 北商 ScienceDirect (SDOL) proxy，查標題或 DOI |
+| A3 | Enhancing Customer Repurchase Prediction | ⏳ 未查 | — | https://www.sciencedirect.com/science/article/pii/S0970389625000266（北商 SDOL proxy 或直接開網址） |
 | A4 | Football Fans AHP+K-means | ✅ 已取得（未精讀） | `downloads/A4-Football Fans AHP+K-means.pdf` | 尚待撰寫 reading-summary |
 | A5 | RFM+群集分析 商品推薦（東海大學） | ❌ 確認受限 | — | NDLTD 授權限制未開放；已用 A12 替代，如需原文須走館際合作（論文編號 110THU01026098） |
 | A6 | Malaysian derivatives K-means | ✅ 已取得＋已精讀 | `reading-summaries/A6-tan-2025-...md`（+`pdf-export/`） | 已完成 |
@@ -66,7 +66,7 @@
 | A8 | RFM+K-means+Silhouette | ✅ 已取得（未精讀） | `downloads/A8-RFM+K-means+Silhouette.pdf` | 尚待撰寫 reading-summary |
 | A9 | K-means/K-prototypes/GMM/DBSCAN cluster tracking（Erasmus 碩論） | ✅ 已取得（未精讀） | `downloads/A9-K-means:K-prototypes:GMM:DBSCAN cluster tracking.pdf` | 尚待撰寫 reading-summary |
 | A10 | Intuitive-K-prototypes | ⏳ 未查 | — | ScienceDirect：https://www.sciencedirect.com/science/article/pii/S0031320324008136（北商 SDOL） |
-| A11 | RFM+AUM+K-means（Cowrywise 產業案例） | ⏳ 未查（低優先） | — | 官網部落格文章，直接開放瀏覽 |
+| A11 | RFM+AUM+K-means（Cowrywise 產業案例） | ⏳ 未查（低優先） | — | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation（官網部落格文章，直接開放瀏覽） |
 | A12 | RFM+SOM 適性化推薦（崇越論文大賞） | ✅ 已取得＋已精讀 | `reading-summaries/A12-cheng-2010-...md`（+`pdf-export/`） | 已完成 |
 | A13 | Aliyev et al. 銀行 RFM 分群比較 | ✅ 已取得（未精讀） | `downloads/A13-aliyev-2020-rfm-bank-segmentation.pdf` | 尚待撰寫 reading-summary |
 | A-cand-1 | Salo（Aalto 碩論）RFM+B 財富管理分群 | ⏳ 未查（摘要也查不到） | — | ProQuest／Aalto 學位論文系統：https://aaltodoc.aalto.fi/items/ebf942d7-2a95-4b5a-bd74-645bc9746c15 |
