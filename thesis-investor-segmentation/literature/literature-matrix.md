@@ -50,7 +50,7 @@
 - `literature/reading-summaries/`（含 `pdf-export/`）：已精讀完成、寫成中文摘要筆記的正式矩陣文獻
 - `literature/class-readings/`：課堂補充參考文獻，已精讀但不算入正式 A–G 矩陣編號
 
-**狀態圖例**：✅ 全文已取得（含已精讀）｜⚠️ 全文確認無法取得，僅摘要佐證｜⏳ 尚未查找，需人工查找｜🔵 開放取用但尚未下載（可直接查即下載，無需圖書館帳號）
+**狀態圖例**：✅ 全文已取得（含已精讀）｜⚠️ 全文確認無法取得，僅摘要佐證｜❌ 確認需付費或網站無免費下載點（已嘗試查找，非尚待查找）｜⏳ 尚未查找，需人工查找｜🔵 開放取用但尚未下載（可直接查即下載，無需圖書館帳號）
 
 ### A 類（投資人分群、RFM、機器學習分群）
 
@@ -58,18 +58,18 @@
 |---|---|---|---|---|
 | A1 | RFM-Net CNN 分類 | ✅ 已取得（未精讀） | `downloads/A1-RFM-Net_A Convolutional Neural Network for Customer Segment Classification.pdf` | 尚待撰寫 reading-summary |
 | A2 | AI-Driven CLV Forecasting | ✅ 已取得（未精讀） | `downloads/A2-AI-Driven CLV Forecasting.pdf` | 尚待撰寫 reading-summary |
-| A3 | Enhancing Customer Repurchase Prediction | ⏳ 未查 | — | https://www.sciencedirect.com/science/article/pii/S0970389625000266（北商 SDOL proxy 或直接開網址） |
+| A3 | Enhancing Customer Repurchase Prediction | ❌ 需付費/無免費下載點 | — | https://www.sciencedirect.com/science/article/pii/S0970389625000266 |
 | A4 | Football Fans AHP+K-means | ✅ 已取得（未精讀） | `downloads/A4-Football Fans AHP+K-means.pdf` | 尚待撰寫 reading-summary |
 | A5 | RFM+群集分析 商品推薦（東海大學） | ❌ 確認受限 | — | NDLTD 授權限制未開放；已用 A12 替代，如需原文須走館際合作（論文編號 110THU01026098） |
 | A6 | Malaysian derivatives K-means | ✅ 已取得＋已精讀 | `reading-summaries/A6-tan-2025-...md`（+`pdf-export/`） | 已完成 |
 | A7 | RFM ranking | ✅ 已取得＋已精讀 | `reading-summaries/A7-christy-2021-...md`（+`pdf-export/`） | 已完成 |
 | A8 | RFM+K-means+Silhouette | ✅ 已取得（未精讀） | `downloads/A8-RFM+K-means+Silhouette.pdf` | 尚待撰寫 reading-summary |
 | A9 | K-means/K-prototypes/GMM/DBSCAN cluster tracking（Erasmus 碩論） | ✅ 已取得（未精讀） | `downloads/A9-K-means:K-prototypes:GMM:DBSCAN cluster tracking.pdf` | 尚待撰寫 reading-summary |
-| A10 | Intuitive-K-prototypes | ⏳ 未查 | — | ScienceDirect：https://www.sciencedirect.com/science/article/pii/S0031320324008136（北商 SDOL） |
-| A11 | RFM+AUM+K-means（Cowrywise 產業案例） | ⏳ 未查（低優先） | — | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation（官網部落格文章，直接開放瀏覽） |
+| A10 | Intuitive-K-prototypes | ❌ 需付費/無免費下載點 | — | https://www.sciencedirect.com/science/article/pii/S0031320324008136 |
+| A11 | RFM+AUM+K-means（Cowrywise 產業案例） | ❌ 無PDF下載點（僅網頁文章，低優先） | — | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation |
 | A12 | RFM+SOM 適性化推薦（崇越論文大賞） | ✅ 已取得＋已精讀 | `reading-summaries/A12-cheng-2010-...md`（+`pdf-export/`） | 已完成 |
 | A13 | Aliyev et al. 銀行 RFM 分群比較 | ✅ 已取得（未精讀） | `downloads/A13-aliyev-2020-rfm-bank-segmentation.pdf` | 尚待撰寫 reading-summary |
-| A-cand-1 | Salo（Aalto 碩論）RFM+B 財富管理分群 | ⏳ 未查（摘要也查不到） | — | ProQuest／Aalto 學位論文系統：https://aaltodoc.aalto.fi/items/ebf942d7-2a95-4b5a-bd74-645bc9746c15 |
+| A-cand-1 | Salo（Aalto 碩論）RFM+B 財富管理分群 | ❌ 需付費/無免費下載點（摘要也查不到） | — | https://aaltodoc.aalto.fi/items/ebf942d7-2a95-4b5a-bd74-645bc9746c15 |
 | A-cand-2 | Arayasaeng et al. RFM-R 泰國商銀 | ⚠️ 僅摘要 | Semantic Scholar 摘要（未存檔案，見 matrix 待查證表） | IEEE Xplore proxy（`eresources.ntub.edu.tw:3609`，先前載入卡住），DOI: 10.1109/ictke58576.2023.10401701 |
 | A-cand-3 | Ganar & Hosein 銀行客戶分群+CLV | ⚠️ 僅摘要 | Semantic Scholar 摘要 | IEEE Xplore proxy，DOI: 10.1109/acmlc58173.2022.00017 |
 | A-cand-4 | ＝ A13（Aliyev et al.） | ✅ 已取得 | 同 A13 | 已完成 |
@@ -83,18 +83,18 @@
 | B3 | 可解釋基金推薦（ResearchGate） | ✅ 已取得（未精讀） | `downloads/B3-MUTUAL FUND RECOMMENDATION SYSTEM WITH PERSONALIZED EXPLANATIONS.pdf` | 尚待撰寫 reading-summary |
 | B4 | FinTech 混合推薦引擎（ResearchGate） | ✅ 已取得（未精讀） | `downloads/B4-A Hybrid Recommendation Engine for Fintech Platforms.pdf` | 尚待撰寫 reading-summary |
 | B5 | FAR-Trans 資料集 | ✅ 已取得（未精讀） | `downloads/B5-far-trans-2024-arxiv.pdf` | 尚待撰寫 reading-summary |
-| B6 | 可解釋基金推薦知識圖譜 | ❌ 確認無法取得 | 摘要見 matrix 內文 | SpringerLink proxy 需機構聯合登入或付費 €39.95，已放棄，改用摘要 |
+| B6 | 可解釋基金推薦知識圖譜 | ❌ 確認無法取得 | 摘要見 matrix 內文 | https://doi.org/10.1007/s10489-021-03136-1（SpringerLink，需機構聯合登入或付費 €39.95，已放棄） |
 | B7 | 金融商品推薦 SLR | ✅ 已取得＋已精讀 | `reading-summaries/B7-wu-li-2025-...md`（+`pdf-export/`） | 已完成 |
 | B8 | LLM+GNN 金融商品推薦 | ✅ 已取得（未精讀） | `downloads/B8-Research on Personalized Financial Product Recommendation.pdf` | 尚待撰寫 reading-summary |
-| B9 | 金融服務推薦綜述 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | SpringerLink proxy（`eresources.ntub.edu.tw:3939`）**2026-09-22 連續當機**，下次可先確認 proxy 是否恢復，或走 Shibboleth 機構登入 |
+| B9 | 金融服務推薦綜述 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | https://doi.org/10.1007/s11042-022-12564-1（SpringerLink proxy `eresources.ntub.edu.tw:3939` **2026-09-22 連續當機**，下次可先確認 proxy 是否恢復，或走 Shibboleth 機構登入） |
 | B10 | KL距離+K-medoids 基金推薦（Chiou-Wei 2024） | ✅ 已取得＋已精讀 | `class-readings/chiou-wei-2024-kl-km-reading-summary.md` | 已完成（PMC 開放取用） |
 | B11 | Fund2Vec 圖學習基金相似度 | ✅ 已取得（未精讀） | `downloads/B11-Fund2Vec- Mutual Funds Similarity using Graph Learning.pdf` | 尚待撰寫 reading-summary |
 | B-cand-1 | ＝ B10（Chiou-Wei 2024） | ✅ 已取得 | 同 B10 | 已完成 |
 | B-cand-2 | ＝ B9（Sharaf et al. 2022） | ⚠️ 僅摘要 | 同 B9 | 同 B9 |
-| B-cand-3 | Pérez-Pons OCI-CBR 混合推薦 | ❌ 下載卡住 | — | ScienceDirect Open Access 文章但 proxy 下載卡住（View PDF 停在跳轉頁不解析），DOI: 10.1016/j.eswa.2022.118568，可再試一次或改用 Cmd+S 手動存檔 |
+| B-cand-3 | Pérez-Pons OCI-CBR 混合推薦 | ❌ 下載卡住 | — | https://doi.org/10.1016/j.eswa.2022.118568（ScienceDirect Open Access 文章但 proxy 下載卡住，View PDF 停在跳轉頁不解析，可再試一次或改用 Cmd+S 手動存檔） |
 | B-cand-4 | ＝ B11（Fund2Vec） | ✅ 已取得 | 同 B11 | 已完成 |
-| B-cand-5 | Shen/Shi/Shao DIEN 興趣演化 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | IEEE proxy 卡住，DOI: 10.1109/EEBDA53927.2022.9744929 |
-| B-cand-6 | Yang（2024）Fuzzy K-means FNFinRec | ⚠️ 僅摘要 | Semantic Scholar／Crossref 摘要 | SpringerLink proxy 需機構登入，DOI: 10.1007/s44196-024-00719-x |
+| B-cand-5 | Shen/Shi/Shao DIEN 興趣演化 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | https://doi.org/10.1109/EEBDA53927.2022.9744929（IEEE proxy 卡住） |
+| B-cand-6 | Yang（2024）Fuzzy K-means FNFinRec | ⚠️ 僅摘要 | Semantic Scholar／Crossref 摘要 | https://doi.org/10.1007/s44196-024-00719-x（SpringerLink proxy 需機構登入） |
 
 ### C 類（FinTech、數位券商、GA4、AI 治理）
 
@@ -168,9 +168,9 @@
 
 - **✅ 全文已取得**：34 篇（含已精讀 13 篇：A6、A7、A12、B2、B7、B10、E5、G1 共 8 篇矩陣文獻 + 4 篇課堂參考；未精讀 14 篇：A13、B1、B5、E6、F5、F7、C4、C5、D4、A1、A2、A4、A8、A9、B3、B4、B8、B11/B-cand-4 —— 2026-09-22 使用者手動新增 A1、A2、A4、A8、A9、B3、B4、B8、B11 共 9 篇）
 - **⚠️ 僅摘要（全文暫不可得，非因未查找而是管道已確認不通）**：B9/B-cand-2、B-cand-5、B-cand-6、A-cand-2、A-cand-3、D5、G3、G4
-- **❌ 確認全文無法取得**：A5、B6、B-cand-3、C1、E2、E7/E-cand-2、G2
+- **❌ 確認全文無法取得（需付費或無免費下載點）**：A3、A10、A11、A-cand-1、A5、B6、B-cand-3、C1、E2、E7/E-cand-2、G2
 - **🔵 開放取用但尚未實際下載**：C3、C6、C7（隨時可查，優先權低是因為官方文件不會過期）
-- **⏳ 尚未查找**：A3、A10、A11、A-cand-1、C2、C8、D1、D2、D3、D-cand-1、E1、E3、E4、F1、F2、F3、F4、F6
+- **⏳ 尚未查找**：C2、C8、D1、D2、D3、D-cand-1、E1、E3、E4、F1、F2、F3、F4、F6
 
 ---
 
