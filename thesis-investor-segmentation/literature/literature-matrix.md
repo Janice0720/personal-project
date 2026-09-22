@@ -56,15 +56,15 @@
 
 | 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
 |---|---|---|---|---|
-| A1 | RFM-Net CNN 分類 | ⏳ 未查 | — | MDPI 官網直接下載（開放取用）：https://www.mdpi.com/2076-3417/16/5/2223 |
-| A2 | AI-Driven CLV Forecasting | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/389495515_... （常見403，可改試 Google Scholar 快取） |
+| A1 | RFM-Net CNN 分類 | ✅ 已取得（未精讀） | `downloads/A1-RFM-Net_A Convolutional Neural Network for Customer Segment Classification.pdf` | 尚待撰寫 reading-summary |
+| A2 | AI-Driven CLV Forecasting | ✅ 已取得（未精讀） | `downloads/A2-AI-Driven CLV Forecasting.pdf` | 尚待撰寫 reading-summary |
 | A3 | Enhancing Customer Repurchase Prediction | ⏳ 未查 | — | 北商 ScienceDirect (SDOL) proxy，查標題或 DOI |
-| A4 | Football Fans AHP+K-means | ⏳ 未查 | — | Frontiers 官網直接下載（開放取用）：https://doi.org/10.3389/fspor.2024.1362489 |
+| A4 | Football Fans AHP+K-means | ✅ 已取得（未精讀） | `downloads/A4-Football Fans AHP+K-means.pdf` | 尚待撰寫 reading-summary |
 | A5 | RFM+群集分析 商品推薦（東海大學） | ❌ 確認受限 | — | NDLTD 授權限制未開放；已用 A12 替代，如需原文須走館際合作（論文編號 110THU01026098） |
 | A6 | Malaysian derivatives K-means | ✅ 已取得＋已精讀 | `reading-summaries/A6-tan-2025-...md`（+`pdf-export/`） | 已完成 |
 | A7 | RFM ranking | ✅ 已取得＋已精讀 | `reading-summaries/A7-christy-2021-...md`（+`pdf-export/`） | 已完成 |
-| A8 | RFM+K-means+Silhouette | ⏳ 未查 | — | ScienceDirect：https://www.sciencedirect.com/science/article/pii/S1319157819309802（北商 SDOL） |
-| A9 | K-means/K-prototypes/GMM/DBSCAN cluster tracking（Erasmus 碩論） | ⏳ 未查 | — | 官網 PDF 開放取用：https://thesis.eur.nl/pub/52256/Aerts.pdf |
+| A8 | RFM+K-means+Silhouette | ✅ 已取得（未精讀） | `downloads/A8-RFM+K-means+Silhouette.pdf` | 尚待撰寫 reading-summary |
+| A9 | K-means/K-prototypes/GMM/DBSCAN cluster tracking（Erasmus 碩論） | ✅ 已取得（未精讀） | `downloads/A9-K-means:K-prototypes:GMM:DBSCAN cluster tracking.pdf` | 尚待撰寫 reading-summary |
 | A10 | Intuitive-K-prototypes | ⏳ 未查 | — | ScienceDirect：https://www.sciencedirect.com/science/article/pii/S0031320324008136（北商 SDOL） |
 | A11 | RFM+AUM+K-means（Cowrywise 產業案例） | ⏳ 未查（低優先） | — | 官網部落格文章，直接開放瀏覽 |
 | A12 | RFM+SOM 適性化推薦（崇越論文大賞） | ✅ 已取得＋已精讀 | `reading-summaries/A12-cheng-2010-...md`（+`pdf-export/`） | 已完成 |
@@ -80,19 +80,19 @@
 |---|---|---|---|---|
 | B1 | GraphDCF 基金推薦 | ✅ 已取得（未精讀） | `downloads/B1-chou-chen-huang-2022-graphdcf.pdf` | 尚待撰寫 reading-summary（**建議優先精讀**） |
 | B2 | Dynamic Utility Learning 基金推薦 | ✅ 已取得＋已精讀 | `reading-summaries/B2-wei-liu-2025-...md`（+`pdf-export/`） | 已完成 |
-| B3 | 可解釋基金推薦（ResearchGate） | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/367530626_...（來源品質待查證） |
-| B4 | FinTech 混合推薦引擎（ResearchGate） | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/394559448_...（來源品質待查證） |
+| B3 | 可解釋基金推薦（ResearchGate） | ✅ 已取得（未精讀） | `downloads/B3-MUTUAL FUND RECOMMENDATION SYSTEM WITH PERSONALIZED EXPLANATIONS.pdf` | 尚待撰寫 reading-summary |
+| B4 | FinTech 混合推薦引擎（ResearchGate） | ✅ 已取得（未精讀） | `downloads/B4-A Hybrid Recommendation Engine for Fintech Platforms.pdf` | 尚待撰寫 reading-summary |
 | B5 | FAR-Trans 資料集 | ✅ 已取得（未精讀） | `downloads/B5-far-trans-2024-arxiv.pdf` | 尚待撰寫 reading-summary |
 | B6 | 可解釋基金推薦知識圖譜 | ❌ 確認無法取得 | 摘要見 matrix 內文 | SpringerLink proxy 需機構聯合登入或付費 €39.95，已放棄，改用摘要 |
 | B7 | 金融商品推薦 SLR | ✅ 已取得＋已精讀 | `reading-summaries/B7-wu-li-2025-...md`（+`pdf-export/`） | 已完成 |
-| B8 | LLM+GNN 金融商品推薦 | ⏳ 未查 | — | arXiv 開放取用：https://arxiv.org/abs/2506.05873（直接 curl/WebFetch 可抓） |
+| B8 | LLM+GNN 金融商品推薦 | ✅ 已取得（未精讀） | `downloads/B8-Research on Personalized Financial Product Recommendation.pdf` | 尚待撰寫 reading-summary |
 | B9 | 金融服務推薦綜述 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | SpringerLink proxy（`eresources.ntub.edu.tw:3939`）**2026-09-22 連續當機**，下次可先確認 proxy 是否恢復，或走 Shibboleth 機構登入 |
 | B10 | KL距離+K-medoids 基金推薦（Chiou-Wei 2024） | ✅ 已取得＋已精讀 | `class-readings/chiou-wei-2024-kl-km-reading-summary.md` | 已完成（PMC 開放取用） |
-| B11 | Fund2Vec 圖學習基金相似度 | ⏳ 未查 | — | arXiv 開放取用：https://arxiv.org/abs/2106.12987（直接 curl/WebFetch 可抓） |
+| B11 | Fund2Vec 圖學習基金相似度 | ✅ 已取得（未精讀） | `downloads/B11-Fund2Vec- Mutual Funds Similarity using Graph Learning.pdf` | 尚待撰寫 reading-summary |
 | B-cand-1 | ＝ B10（Chiou-Wei 2024） | ✅ 已取得 | 同 B10 | 已完成 |
 | B-cand-2 | ＝ B9（Sharaf et al. 2022） | ⚠️ 僅摘要 | 同 B9 | 同 B9 |
 | B-cand-3 | Pérez-Pons OCI-CBR 混合推薦 | ❌ 下載卡住 | — | ScienceDirect Open Access 文章但 proxy 下載卡住（View PDF 停在跳轉頁不解析），DOI: 10.1016/j.eswa.2022.118568，可再試一次或改用 Cmd+S 手動存檔 |
-| B-cand-4 | ＝ B11（Fund2Vec） | ⏳ 未查 | — | 同 B11，arXiv：https://arxiv.org/abs/2106.12987 |
+| B-cand-4 | ＝ B11（Fund2Vec） | ✅ 已取得 | 同 B11 | 已完成 |
 | B-cand-5 | Shen/Shi/Shao DIEN 興趣演化 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | IEEE proxy 卡住，DOI: 10.1109/EEBDA53927.2022.9744929 |
 | B-cand-6 | Yang（2024）Fuzzy K-means FNFinRec | ⚠️ 僅摘要 | Semantic Scholar／Crossref 摘要 | SpringerLink proxy 需機構登入，DOI: 10.1007/s44196-024-00719-x |
 
@@ -166,11 +166,11 @@
 
 ### 總計
 
-- **✅ 全文已取得**：25 篇（含已精讀 13 篇：A6、A7、A12、B2、B7、B10、E5、G1 共 8 篇矩陣文獻 + 4 篇課堂參考；未精讀 5 篇：A13、B1、B5、E6、F5、F7、C4、C5、D4）
+- **✅ 全文已取得**：34 篇（含已精讀 13 篇：A6、A7、A12、B2、B7、B10、E5、G1 共 8 篇矩陣文獻 + 4 篇課堂參考；未精讀 14 篇：A13、B1、B5、E6、F5、F7、C4、C5、D4、A1、A2、A4、A8、A9、B3、B4、B8、B11/B-cand-4 —— 2026-09-22 使用者手動新增 A1、A2、A4、A8、A9、B3、B4、B8、B11 共 9 篇）
 - **⚠️ 僅摘要（全文暫不可得，非因未查找而是管道已確認不通）**：B9/B-cand-2、B-cand-5、B-cand-6、A-cand-2、A-cand-3、D5、G3、G4
 - **❌ 確認全文無法取得**：A5、B6、B-cand-3、C1、E2、E7/E-cand-2、G2
 - **🔵 開放取用但尚未實際下載**：C3、C6、C7（隨時可查，優先權低是因為官方文件不會過期）
-- **⏳ 尚未查找**：A1、A2、A3、A4、A8、A9、A10、A11、A-cand-1、B3、B4、B8、B11/B-cand-4、C2、C8、D1、D2、D3、D-cand-1、E1、E3、E4、F1、F2、F3、F4、F6
+- **⏳ 尚未查找**：A3、A10、A11、A-cand-1、C2、C8、D1、D2、D3、D-cand-1、E1、E3、E4、F1、F2、F3、F4、F6
 
 ---
 
@@ -178,15 +178,15 @@
 
 | # | 論文標題 | 作者 | 年份 | 來源 | 核心方法 / 內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
-| A1 | RFM-Net: A Convolutional Neural Network for Customer Segment Classification | — | 2026 | Applied Sciences / MDPI | CNN + RFM 特徵分類；準確率 94.33% | 分群方法比較基準；RFM 特徵設計參考 | 中 | https://www.mdpi.com/2076-3417/16/5/2223 |
-| A2 | Artificial Intelligence-Driven CLV Forecasting: Integrating RFM Analysis with ML for Strategic Customer Retention | Akter et al. | 2025 | JCSTS / ResearchGate | K-means++、XGBoost、AHP 加權 RFM、動態 CLV | 特徵加權與 K-means++ 應用參考 | 中 | https://www.researchgate.net/publication/389495515_Artificial_Intelligence-Driven_Customer_Lifetime_Value_CLV_Forecasting_Integrating_RFM_Analysis_with_Machine_Learning_for_Strategic_Customer_Retention |
+| A1 | RFM-Net: A Convolutional Neural Network for Customer Segment Classification | — | 2026 | Applied Sciences / MDPI | CNN + RFM 特徵分類；準確率 94.33% | 分群方法比較基準；RFM 特徵設計參考。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/A1-RFM-Net_A Convolutional Neural Network for Customer Segment Classification.pdf` | 中 | https://www.mdpi.com/2076-3417/16/5/2223 |
+| A2 | Artificial Intelligence-Driven CLV Forecasting: Integrating RFM Analysis with ML for Strategic Customer Retention | Akter et al. | 2025 | JCSTS / ResearchGate | K-means++、XGBoost、AHP 加權 RFM、動態 CLV | 特徵加權與 K-means++ 應用參考。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/A2-AI-Driven CLV Forecasting.pdf` | 中 | https://www.researchgate.net/publication/389495515_Artificial_Intelligence-Driven_Customer_Lifetime_Value_CLV_Forecasting_Integrating_RFM_Analysis_with_Machine_Learning_for_Strategic_Customer_Retention |
 | A3 | Enhancing Customer Repurchase Prediction: Integrating Classification Algorithms with RFM Analysis for Precision and Actionable Insights | — | 2025 | ScienceDirect | RFM + 分類演算法、10-fold 交叉驗證 | 模型評估與驗證方法參考 | 低 | https://www.sciencedirect.com/science/article/pii/S0970389625000266 |
-| A4 | Unlocking High-Value Football Fans: Unsupervised ML for Customer Segmentation and Lifetime Value | — | 2024 | Frontiers in Sports and Active Living | AHP 加權 RFM + K-means，識別 8 個群體 | 無監督分群流程與群體命名參考 | 中 | https://doi.org/10.3389/fspor.2024.1362489 |
+| A4 | Unlocking High-Value Football Fans: Unsupervised ML for Customer Segmentation and Lifetime Value | — | 2024 | Frontiers in Sports and Active Living | AHP 加權 RFM + K-means，識別 8 個群體 | 無監督分群流程與群體命名參考。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/A4-Football Fans AHP+K-means.pdf` | 中 | https://doi.org/10.3389/fspor.2024.1362489 |
 | A5 | 以 RFM 模型結合群集分析建立顧客分群暨商品推薦之研究 | — | 2022 | 東海大學碩士論文 | RFM + 群集分析 + 商品推薦流程 | 台灣碩士論文範本；研究設計與章節結構可對照。**⚠️ 全文受限（NDLTD 授權限制，未取得）→ 改讀 A12** | 高 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110THU01026098%22.&searchmode=basic |
 | A6 | Profiling investor behavior in the Malaysian derivatives market using K-means clustering | Tan et al. | 2025 | Frontiers in Artificial Intelligence | K-means、IHS transformation、decision tree validation；1,100 萬筆交易資料 | 金融交易行為分群方法參考；雖非基金但場景接近。**✅ 2026-08-26 全文已取得** | 高 | https://doi.org/10.3389/frai.2025.1640776 |
 | A7 | RFM ranking – An effective approach to customer segmentation | Christy et al. | 2021 | Journal of King Saud University - Computer and Information Sciences | RFM、K-means、Fuzzy C-Means | 支撐本研究交易 RFM / 行為 RFM 特徵工程。**✅ 2026-08-26 全文已取得** | 高 | https://doi.org/10.1016/j.jksuci.2018.09.004 |
-| A8 | RFM model for customer purchase behavior using K-Means algorithm | Anitha; Patil R. P.（待查證） | 2021 | Journal of King Saud University - Computer and Information Sciences | RFM、K-means、Silhouette Coefficient | 補強分群品質評估指標設計 | 中 | https://www.sciencedirect.com/science/article/pii/S1319157819309802 |
-| A9 | Tracking Customer Segments in Alternative Finance using time-evolving Cluster Analysis | Lennert Aerts | 2020 | Erasmus University Rotterdam Master Thesis | K-means、K-prototypes、GMM、DBSCAN、cluster tracking | 若後續做分群穩定性或混合型資料，可作方法參考 | 中 | https://thesis.eur.nl/pub/52256/Aerts.pdf |
+| A8 | RFM model for customer purchase behavior using K-Means algorithm | Anitha; Patil R. P.（待查證） | 2021 | Journal of King Saud University - Computer and Information Sciences | RFM、K-means、Silhouette Coefficient | 補強分群品質評估指標設計。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/A8-RFM+K-means+Silhouette.pdf` | 中 | https://www.sciencedirect.com/science/article/pii/S1319157819309802 |
+| A9 | Tracking Customer Segments in Alternative Finance using time-evolving Cluster Analysis | Lennert Aerts | 2020 | Erasmus University Rotterdam Master Thesis | K-means、K-prototypes、GMM、DBSCAN、cluster tracking | 若後續做分群穩定性或混合型資料，可作方法參考。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/A9-K-means:K-prototypes:GMM:DBSCAN cluster tracking.pdf` | 中 | https://thesis.eur.nl/pub/52256/Aerts.pdf |
 | A10 | Intuitive-K-prototypes: A mixed data clustering algorithm with improved prototype representation and attribute weights | 作者待補 | 2024 | Pattern Recognition / Elsevier | K-prototypes、混合型資料分群、attribute weighting | 若同時使用數值與類別特徵，支撐 K-prototypes 合理性 | 中 | https://www.sciencedirect.com/science/article/pii/S0031320324008136 |
 | A11 | Using RFM, AUM, and K-means clustering for customer segmentation | Uchechukwu Emmanuel / Cowrywise | 2025 | Metabase Community / Cowrywise 產業案例 | RFM + AUM + K-means | FinTech / 財富管理平台分群實務案例；適合作背景，不宜作核心學術引用 | 低 | https://www.metabase.com/community-posts/using-rfm-aum-and-k-means-clustering-customers-segmentation |
 | A12 | 基於RFM分析法之顧客適性化產品推薦機制（An Adaptive Product Recommendation System Based on RFM Method） | — | 2010 | 崇越論文大賞（**全文開放 PDF**） | RFM 分析 + 自組織地圖（SOM）+ 適性化商品推薦機制；考量產品購買週期與顧客消費特性 | **A5 之替代閱讀文獻**；RFM 結合分群與商品推薦的流程設計可對照；全文可直接下載 | 高 | https://thesis.topco-global.com/TopcoTRC/2010_Thesis/C0026.pdf（PDF 全文）／https://www.airitilibrary.com/Article/Detail/U0078-0601201112112856（Airiti） |
@@ -200,15 +200,15 @@
 |---|---|---|---:|---|---|---|---|---|
 | B1 | Modeling Behavior Sequence for Personalized Fund Recommendation with Graphical Deep Collaborative Filtering | Chou, Chen & Huang | 2022 | Expert Systems with Applications, Vol. 192 | GraphDCF；基金交易序列與圖式協同過濾；資料集為台灣某商業銀行之基金、客戶與歷史交易紀錄 | 最核心基金推薦文獻；支撐推薦模型與交易序列設計；台灣真實銀行資料場景直接對應研究缺口。**✅ 2026-09-21 已於北商圖書館 ScienceDirect Online (SDOL) 取得全文 PDF**，存於 `literature/downloads/B1-chou-chen-huang-2022-graphdcf.pdf` | 高 | https://doi.org/10.1016/j.eswa.2021.116311（ScienceDirect） |
 | B2 | Personalized Fund Recommendation with Dynamic Utility Learning | Wei & Liu | 2025 | Financial Innovation | Incremental utility learning、點擊序列、探索 / 利用 | 連接數位行為資料與基金推薦；與 GA4 行為資料高度相關。**✅ 2026-07-28 全文已下載** | 高 | https://doi.org/10.1186/s40854-024-00720-5 |
-| B3 | Mutual Fund Recommendation System with Personalized Explanations | — | 2023 | ResearchGate | 知識圖譜、ML、可解釋推薦 | 支撐金融推薦可解釋性；需查證來源品質 | 中 | https://www.researchgate.net/publication/367530626_MUTUAL_FUND_RECOMMENDATION_SYSTEM_WITH_PERSONALIZED_EXPLANATIONS |
-| B4 | A Hybrid Recommendation Engine for Fintech Platforms: Leveraging Behavioral Analytics for User Engagement and Conversion | — | 2025 | ResearchGate | 混合推薦、CF、Content-based、Deep Learning、行為分析 | 可作 FinTech 混合推薦架構參考；需查證來源品質 | 中 | https://www.researchgate.net/publication/394559448_A_Hybrid_Recommendation_Engine_for_Fintech_Platforms_Leveraging_Behavioral_Analytics_for_User_Engagement_and_Conversion |
+| B3 | Mutual Fund Recommendation System with Personalized Explanations | — | 2023 | ResearchGate | 知識圖譜、ML、可解釋推薦 | 支撐金融推薦可解釋性；需查證來源品質。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/B3-MUTUAL FUND RECOMMENDATION SYSTEM WITH PERSONALIZED EXPLANATIONS.pdf` | 中 | https://www.researchgate.net/publication/367530626_MUTUAL_FUND_RECOMMENDATION_SYSTEM_WITH_PERSONALIZED_EXPLANATIONS |
+| B4 | A Hybrid Recommendation Engine for Fintech Platforms: Leveraging Behavioral Analytics for User Engagement and Conversion | — | 2025 | ResearchGate | 混合推薦、CF、Content-based、Deep Learning、行為分析 | 可作 FinTech 混合推薦架構參考；需查證來源品質。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/B4-A Hybrid Recommendation Engine for Fintech Platforms.pdf` | 中 | https://www.researchgate.net/publication/394559448_A_Hybrid_Recommendation_Engine_for_Fintech_Platforms_Leveraging_Behavioral_Analytics_for_User_Engagement_and_Conversion |
 | B5 | FAR-Trans: An Investment Dataset for Financial Asset Recommendation | Sanz-Cruzado, Droukas & McCreadie | 2024 | arXiv:2407.08692 | 金融資產推薦資料集、資產定價與散戶交易紀錄；歐洲某大型金融機構真實交易資料，並提供11種FAR演算法基準比較 | 可作外部資料集與推薦評估基準背景。**✅ 2026-09-22 全文已下載**，存於 `literature/downloads/B5-far-trans-2024-arxiv.pdf` | 中 | https://arxiv.org/abs/2407.08692 |
 | B6 | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Hsu, Chen, Chou & Huang | 2022 | Applied Intelligence, Vol. 52, pp. 10779–10804 | Knowledge Graph Embedding、可解釋共同基金推薦；預測並解釋客戶次月基金申購行為 | 補強信任與可解釋性；與 B1 為同一研究群（共同作者 Chiao-Ting Chen、Szu-Hao Huang），可形成台灣基金推薦文獻群。**⚠️ 2026-09-21 確認：SpringerLink 需機構聯合登入（Shibboleth WAYF）或付費 €39.95，全文無法取得，改以公開摘要佐證**（摘要已取得，見待查證表） | 高 | https://doi.org/10.1007/s10489-021-03136-1 |
 | B7 | A Systematic Literature Review of Financial Product Recommendation Systems | Wu & Li | 2025 | Information / MDPI | 系統性文獻回顧；金融商品推薦特殊性 | 第二章推薦系統總覽與研究缺口核心來源。**✅ 2026-07-28 全文已取得** | 高 | https://doi.org/10.3390/info16030196 |
-| B8 | Research on Personalized Financial Product Recommendation by Integrating Large Language Models and Graph Neural Networks | Zhao et al. | 2025 | arXiv / ACM ICSECA | LLM embeddings + heterogeneous graph + GNN | 最新技術趨勢；可用來說明本研究不採 LLM/GNN 的邊界 | 中 | https://arxiv.org/abs/2506.05873 |
+| B8 | Research on Personalized Financial Product Recommendation by Integrating Large Language Models and Graph Neural Networks | Zhao et al. | 2025 | arXiv / ACM ICSECA | LLM embeddings + heterogeneous graph + GNN | 最新技術趨勢；可用來說明本研究不採 LLM/GNN 的邊界。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/B8-Research on Personalized Financial Product Recommendation.pdf` | 中 | https://arxiv.org/abs/2506.05873 |
 | B9 | A survey on recommendation systems for financial services | Sharaf, Hemdan, El-Sayed & El-Bahnasawy | 2022 | Multimedia Tools and Applications, 81(12), 16761–16781 | 金融服務推薦綜述 | 推薦系統背景文獻，與 B7 形成 2022／2025 兩篇綜述對照。DOI 已確認，全文待查（SpringerLink，預期需機構登入） | 中 | https://doi.org/10.1007/s11042-022-12564-1 |
 | B10 | Application of KL distance-based intelligent recommendation method to fund recommendation for users with investment behavior in Asia Region | Chiou-Wei & Lee | 2024 | Heliyon, 10(12), e32959 | 改良式 KL 距離＋K-medoids 分群基金推薦；混合推薦模型表現最佳（MAE≈0.82–0.83） | 課堂已精讀（見 `class-readings/chiou-wei-2024-kl-km-reading-summary.md`）；台灣作者（高雄科技大學）；**✅ 開放取用全文**，資料集為「銀行基金經理客戶資料」但未明確揭露地區與規模，屬限制 | 高 | https://doi.org/10.1016/j.heliyon.2024.e32959（PMC 開放取用：https://pmc.ncbi.nlm.nih.gov/articles/PMC11252857/） |
-| B11 | Fund2Vec: Mutual Funds Similarity using Graph Learning | Satone, Desai & Mehta | 2021 | arXiv:2106.12987（未見正式出版） | Node2Vec 圖學習；基金相似度（結構相似而非僅重疊度） | 基金相似度可用於內容導向推薦之外的 baseline 討論；僅 arXiv 預印本，引用時需註明未經同儕審查 | 中 | https://arxiv.org/abs/2106.12987 |
+| B11 | Fund2Vec: Mutual Funds Similarity using Graph Learning | Satone, Desai & Mehta | 2021 | arXiv:2106.12987（未見正式出版） | Node2Vec 圖學習；基金相似度（結構相似而非僅重疊度） | 基金相似度可用於內容導向推薦之外的 baseline 討論；僅 arXiv 預印本，引用時需註明未經同儕審查。**✅ 2026-09-22 全文已取得**（使用者手動下載），存於 `literature/downloads/B11-Fund2Vec- Mutual Funds Similarity using Graph Learning.pdf` | 中 | https://arxiv.org/abs/2106.12987 |
 
 ---
 
