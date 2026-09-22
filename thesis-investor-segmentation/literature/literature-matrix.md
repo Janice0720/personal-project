@@ -26,8 +26,6 @@
 
 ---
 
-
-
 ## 目錄
 
 1. [📋 全文取得狀態總表（人工查找對照用）](#-全文取得狀態總表人工查找對照用)
@@ -44,8 +42,6 @@
 12. [待查證與待補文獻](#待查證與待補文獻)
 
 ---
-
-
 
 ## 📋 全文取得狀態總表（人工查找對照用）
 
@@ -83,82 +79,72 @@
 | A-cand-4 | ＝ A13（Aliyev et al.）                                         | ✅ 已取得                | 同 A13                                                                                         | 已完成                                                                                                                                                                                                          |
 
 
-
-
 ### B 類（基金與金融商品推薦系統）
 
 
-| 編號       | 標題（簡）                               | 狀態         | 檔案 / 摘要來源                                                                           | 建議查詢網站                                                                                                                                                                                                           |
-| -------- | ----------------------------------- | ---------- | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| B1       | GraphDCF 基金推薦                       | ✅ 已取得（未精讀） | `downloads/B1-chou-chen-huang-2022-graphdcf.pdf`                                    | 尚待撰寫 reading-summary（**建議優先精讀**）                                                                                                                                                                                 |
-| B2       | Dynamic Utility Learning 基金推薦       | ✅ 已取得＋已精讀  | `reading-summaries/B2-wei-liu-2025-...md`（+`pdf-export/`）                           | 已完成                                                                                                                                                                                                              |
-| B3       | 可解釋基金推薦（ResearchGate）               | ✅ 已取得（未精讀） | `downloads/B3-MUTUAL FUND RECOMMENDATION SYSTEM WITH PERSONALIZED EXPLANATIONS.pdf` | 尚待撰寫 reading-summary                                                                                                                                                                                             |
-| B4       | FinTech 混合推薦引擎（ResearchGate）        | ✅ 已取得（未精讀） | `downloads/B4-A Hybrid Recommendation Engine for Fintech Platforms.pdf`             | 尚待撰寫 reading-summary                                                                                                                                                                                             |
-| B5       | FAR-Trans 資料集                       | ✅ 已取得（未精讀） | `downloads/B5-far-trans-2024-arxiv.pdf`                                             | 尚待撰寫 reading-summary                                                                                                                                                                                             |
-| B6       | 可解釋基金推薦知識圖譜                         | ❌ 確認無法取得   | 摘要見 matrix 內文                                                                       | https://doi.org/10.1007/s10489-021-03136-1 （SpringerLink，需機構聯合登入或付費 €39.95，已放棄）                                                             |
-| B7       | 金融商品推薦 SLR                          | ✅ 已取得＋已精讀  | `reading-summaries/B7-wu-li-2025-...md`（+`pdf-export/`）                             | 已完成                                                                                                                                                                                                              |
-| B8       | LLM+GNN 金融商品推薦                      | ✅ 已取得（未精讀） | `downloads/B8-Research on Personalized Financial Product Recommendation.pdf`        | 尚待撰寫 reading-summary                                                                                                                                                                                             |
-| B9       | 金融服務推薦綜述                            | ❌ 確認無法取得        | Semantic Scholar 摘要                                                                 | https://doi.org/10.1007/s11042-022-12564-1 （SpringerLink proxy `eresources.ntub.edu.tw:3939` **2026-09-22 連續當機**，已放棄，改用摘要） |
-| B10      | KL距離+K-medoids 基金推薦（Chiou-Wei 2024） | ✅ 已取得＋已精讀  | `class-readings/chiou-wei-2024-kl-km-reading-summary.md`                            | 已完成（PMC 開放取用）                                                                                                                                                                                                    |
-| B11      | Fund2Vec 圖學習基金相似度                   | ✅ 已取得（未精讀） | `downloads/B11-Fund2Vec- Mutual Funds Similarity using Graph Learning.pdf`          | 尚待撰寫 reading-summary                                                                                                                                                                                             |
-| B-cand-1 | ＝ B10（Chiou-Wei 2024）               | ✅ 已取得      | 同 B10                                                                               | 已完成                                                                                                                                                                                                              |
-| B-cand-2 | ＝ B9（Sharaf et al. 2022）            | ❌ 確認無法取得     | 同 B9                                                                                | 同 B9                                                                                                                                                                                                             |
-| B-cand-3 | Pérez-Pons OCI-CBR 混合推薦             | ✅ 已取得（未精讀）     | `downloads/B-cand-3-OCI-CBR- A hybrid model for decision support in preference-aware investment scenarios.pdf`                                                                                   | 尚待撰寫 reading-summary                           |
-| B-cand-4 | ＝ B11（Fund2Vec）                     | ✅ 已取得      | 同 B11                                                                               | 已完成                                                                                                                                                                                                              |
-| B-cand-5 | Shen/Shi/Shao DIEN 興趣演化             | ❌ 確認無法取得     | Semantic Scholar 摘要                                                                 | https://doi.org/10.1109/EEBDA53927.2022.9744929 （IEEE proxy 卡住，已放棄）                                                                                           |
-| B-cand-6 | Yang（2024）Fuzzy K-means FNFinRec    | ✅ 已取得（未精讀）     | `downloads/B-cand-6-Study of an Adaptive Financial Recommendation Algorithm Using Big Data Analysis and User Interest Pattern with Fuzzy K-Means Algorithm.pdf`                                                        | 尚待撰寫 reading-summary                                                                                  |
-
-
+| 編號       | 標題（簡）                               | 狀態         | 檔案 / 摘要來源                                                                                                                                                       | 建議查詢網站                                                                                                                                                                   |
+| -------- | ----------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| B1       | GraphDCF 基金推薦                       | ✅ 已取得（未精讀） | `downloads/B1-chou-chen-huang-2022-graphdcf.pdf`                                                                                                                | 尚待撰寫 reading-summary（**建議優先精讀**）                                                                                                                                         |
+| B2       | Dynamic Utility Learning 基金推薦       | ✅ 已取得＋已精讀  | `reading-summaries/B2-wei-liu-2025-...md`（+`pdf-export/`）                                                                                                       | 已完成                                                                                                                                                                      |
+| B3       | 可解釋基金推薦（ResearchGate）               | ✅ 已取得（未精讀） | `downloads/B3-MUTUAL FUND RECOMMENDATION SYSTEM WITH PERSONALIZED EXPLANATIONS.pdf`                                                                             | 尚待撰寫 reading-summary                                                                                                                                                     |
+| B4       | FinTech 混合推薦引擎（ResearchGate）        | ✅ 已取得（未精讀） | `downloads/B4-A Hybrid Recommendation Engine for Fintech Platforms.pdf`                                                                                         | 尚待撰寫 reading-summary                                                                                                                                                     |
+| B5       | FAR-Trans 資料集                       | ✅ 已取得（未精讀） | `downloads/B5-far-trans-2024-arxiv.pdf`                                                                                                                         | 尚待撰寫 reading-summary                                                                                                                                                     |
+| B6       | 可解釋基金推薦知識圖譜                         | ❌ 確認無法取得   | 摘要見 matrix 內文                                                                                                                                                   | [https://doi.org/10.1007/s10489-021-03136-1](https://doi.org/10.1007/s10489-021-03136-1) （SpringerLink，需機構聯合登入或付費 €39.95，已放棄）                                            |
+| B7       | 金融商品推薦 SLR                          | ✅ 已取得＋已精讀  | `reading-summaries/B7-wu-li-2025-...md`（+`pdf-export/`）                                                                                                         | 已完成                                                                                                                                                                      |
+| B8       | LLM+GNN 金融商品推薦                      | ✅ 已取得（未精讀） | `downloads/B8-Research on Personalized Financial Product Recommendation.pdf`                                                                                    | 尚待撰寫 reading-summary                                                                                                                                                     |
+| B9       | 金融服務推薦綜述                            | ❌ 確認無法取得   | Semantic Scholar 摘要                                                                                                                                             | [https://doi.org/10.1007/s11042-022-12564-1](https://doi.org/10.1007/s11042-022-12564-1) （SpringerLink proxy `eresources.ntub.edu.tw:3939` **2026-09-22 連續當機**，已放棄，改用摘要） |
+| B10      | KL距離+K-medoids 基金推薦（Chiou-Wei 2024） | ✅ 已取得＋已精讀  | `class-readings/chiou-wei-2024-kl-km-reading-summary.md`                                                                                                        | 已完成（PMC 開放取用）                                                                                                                                                            |
+| B11      | Fund2Vec 圖學習基金相似度                   | ✅ 已取得（未精讀） | `downloads/B11-Fund2Vec- Mutual Funds Similarity using Graph Learning.pdf`                                                                                      | 尚待撰寫 reading-summary                                                                                                                                                     |
+| B-cand-1 | ＝ B10（Chiou-Wei 2024）               | ✅ 已取得      | 同 B10                                                                                                                                                           | 已完成                                                                                                                                                                      |
+| B-cand-2 | ＝ B9（Sharaf et al. 2022）            | ❌ 確認無法取得   | 同 B9                                                                                                                                                            | 同 B9                                                                                                                                                                     |
+| B-cand-3 | Pérez-Pons OCI-CBR 混合推薦             | ✅ 已取得（未精讀） | `downloads/B-cand-3-OCI-CBR- A hybrid model for decision support in preference-aware investment scenarios.pdf`                                                  | 尚待撰寫 reading-summary                                                                                                                                                     |
+| B-cand-4 | ＝ B11（Fund2Vec）                     | ✅ 已取得      | 同 B11                                                                                                                                                           | 已完成                                                                                                                                                                      |
+| B-cand-5 | Shen/Shi/Shao DIEN 興趣演化             | ❌ 確認無法取得   | Semantic Scholar 摘要                                                                                                                                             | [https://doi.org/10.1109/EEBDA53927.2022.9744929](https://doi.org/10.1109/EEBDA53927.2022.9744929) （IEEE proxy 卡住，已放棄）                                                   |
+| B-cand-6 | Yang（2024）Fuzzy K-means FNFinRec    | ✅ 已取得（未精讀） | `downloads/B-cand-6-Study of an Adaptive Financial Recommendation Algorithm Using Big Data Analysis and User Interest Pattern with Fuzzy K-Means Algorithm.pdf` | 尚待撰寫 reading-summary                                                                                                                                                     |
 
 
 ### C 類（FinTech、數位券商、GA4、AI 治理）
 
 
-| 編號  | 標題（簡）                       | 狀態         | 檔案 / 摘要來源                                            | 建議查詢網站                                                                                                                                          |
-| --- | --------------------------- | ---------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| C1  | FinTech 投資人成熟度（Oxford RCFS） | ❌ 確認未訂閱    | —                                                    | https://academic.oup.com/rcfs/article/12/4/834/7192186 （北商未訂閱 Oxford Academic；可試 ResearchGate 作者版或直接向作者索取）                                                                                               |
-| C2  | 數位投資行為系統性回顧（ResearchGate）   | ⏳ 未查       | —                                                    | https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets （來源品質待查證） |
-| C3  | IOSCO AI 資本市場報告             | 🔵 開放取用未下載 | —                                                    | https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf （官網直接下載，不需圖書館）              |
-| C4  | IOSCO AI/ML 治理報告            | ✅ 已取得      | `downloads/C4-iosco-2021-ai-ml-governance.pdf`       | 已完成                                                                                                                                             |
-| C5  | CFA Institute 投資人信任報告       | ✅ 已取得      | `downloads/C5-cfa-institute-2022-investor-trust.pdf` | 已完成                                                                                                                                             |
-| C6  | GA4 Cohort 官方文件             | 🔵 開放取用未下載 | —                                                    | https://support.google.com/analytics/answer/9670133 （Google 官方線上文件，隨時可查）                   |
-| C7  | GA4 Segment 類型文件            | 🔵 開放取用未下載 | —                                                    | https://support.google.com/analytics/answer/9304353                                      |
-| C8  | FinTech B2B 兩階段分群           | ⏳ 未查（低優先）  | —                                                    | https://doi.org/10.1080/1051712X.2019.1603420 （北商 SDOL 或 Taylor & Francis）                   |
-
-
+| 編號  | 標題（簡）                       | 狀態         | 檔案 / 摘要來源                                            | 建議查詢網站                                                                                                                                                                                                                                                                                                                                                               |
+| --- | --------------------------- | ---------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| C1  | FinTech 投資人成熟度（Oxford RCFS） | ✅ 已取得（未精讀） | `downloads/C1-FinTech, Investor Sophistication, and Financial Portfolio Choices.pdf` | 尚待撰寫 reading-summary |
+| C2  | 數位投資行為系統性回顧（ResearchGate）   | ✅ 已取得（未精讀） | `downloads/C2-The_digital_transformation_of_investment_behavior_.pdf` | 尚待撰寫 reading-summary |
+| C3  | IOSCO AI 資本市場報告             | ✅ 已取得（未精讀） | `downloads/C3-Artificial Intelligence in Capital Markets- Use Cases, Risks, and Challenges.pdf` | 尚待撰寫 reading-summary |
+| C4  | IOSCO AI/ML 治理報告            | ✅ 已取得      | `downloads/C4-iosco-2021-ai-ml-governance.pdf`       | 已完成                                                                                                                                                                                                                                                                                                                                                                  |
+| C5  | CFA Institute 投資人信任報告       | ✅ 已取得      | `downloads/C5-cfa-institute-2022-investor-trust.pdf` | 已完成                                                                                                                                                                                                                                                                                                                                                                  |
+| C6  | GA4 Cohort 官方文件             | 🔵 開放取用未下載 | —                                                    | [https://support.google.com/analytics/answer/9670133](https://support.google.com/analytics/answer/9670133) （Google 官方線上文件，隨時可查）                                                                                                                                                                                                                                      |
+| C7  | GA4 Segment 類型文件            | 🔵 開放取用未下載 | —                                                    | [https://support.google.com/analytics/answer/9304353](https://support.google.com/analytics/answer/9304353)                                                                                                                                                                                                                                                           |
+| C8  | FinTech B2B 兩階段分群           | ⏳ 未查（低優先） | —                                                    | https://doi.org/10.1080/1051712X.2019.1603420 （北商 SDOL 或 Taylor & Francis）                                                                                                                                                          |
 
 
 ### D 類（台灣本土券商與投資人行為）
 
 
-| 編號       | 標題（簡）                   | 狀態     | 檔案 / 摘要來源                                                          | 建議查詢網站                                                                                                                                                                             |
-| -------- | ----------------------- | ------ | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| D1       | 投資人可否從券商推薦股票獲利          | ⏳ 未查   | —                                                                  | https://ndltd.ncl.edu.tw/handle/46963616466150231805 （NDLTD，需驗證碼人工輸入）                                           |
-| D2       | 電視頻道偏好與投資行為             | ⏳ 未查   | —                                                                  | https://ndltd.ncl.edu.tw/handle/b3agwt （NDLTD，需驗證碼人工輸入）                                                                                             |
-| D3       | 券商推薦個股資訊內涵（徐楚雯 2019）    | ⏳ 未查   | —                                                                  | https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/ （NTUST etheses） |
-| D4       | 網路關鍵字搜尋行為反映投資人情緒        | ✅ 已取得  | `downloads/D4-internet-keyword-search-investor-sentiment-2023.pdf` | 已完成                                                                                                                                                                                |
-| D5       | 共同基金電子交易平台推薦系統（王怡 2023） | ⚠️ 僅摘要 | matrix 內文摘要                                                        | https://hdl.handle.net/11296/xaz6j9 （需**使用者本人**至臺博碩免費會員系統註冊帳號才能下載，AI 無法代辦）                                                                    |
-| D-cand-1 | NDLTD 檢索式10–12 現場篩選     | ⏳ 未執行  | —                                                                  | https://ndltd.ncl.edu.tw/ （簡易查詢，關鍵字「投資人分群 OR 客戶分群」「RFM AND 金融」，見 `ntub-library-search-plan-2020plus.md` 檢索式11、12）                                                                                       |
-
-
+| 編號       | 標題（簡）                   | 狀態     | 檔案 / 摘要來源                                                          | 建議查詢網站                                                                                                                                                                               |
+| -------- | ----------------------- | ------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| D1       | 投資人可否從券商推薦股票獲利          | ✅ 已取得（未精讀）   | `downloads/D1-Can investors profit grom brokerage's stock recommendations.pdf`                                                                  | 尚待撰寫 reading-summary                                                        |
+| D2       | 電視頻道偏好與投資行為             | ✅ 已取得（未精讀）   | `downloads/D2-台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究.pdf`                                                                  | 尚待撰寫 reading-summary                                                                                    |
+| D3       | 券商推薦個股資訊內涵（徐楚雯 2019）    | ✅ 已取得（未精讀）   | `downloads/D3-券商推薦個股資訊內涵.pdf`                                                                  | 尚待撰寫 reading-summary |
+| D4       | 網路關鍵字搜尋行為反映投資人情緒        | ✅ 已取得  | `downloads/D4-internet-keyword-search-investor-sentiment-2023.pdf` | 已完成                                                                                                                                                                                  |
+| D5       | 共同基金電子交易平台推薦系統（王怡 2023） | ✅ 已取得（未精讀） | `downloads/D5-共同基金電子交易平台推薦系統.pdf`                                                                        | 尚待撰寫 reading-summary                                                                    |
+| D-cand-1 | NDLTD 檢索式10–12 現場篩選     | ⏳ 未執行  | —                                                                  | [https://ndltd.ncl.edu.tw/](https://ndltd.ncl.edu.tw/) （簡易查詢，關鍵字「投資人分群 OR 客戶分群」「RFM AND 金融」，見 `ntub-library-search-plan-2020plus.md` 檢索式11、12）                                       |
 
 
 ### E 類（台灣推薦系統、RFM、金融 CRM）
 
 
-| 編號       | 標題（簡）                | 狀態           | 檔案 / 摘要來源                                                        | 建議查詢網站                                                                                                                                                                                                                           |
-| -------- | -------------------- | ------------ | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| E1       | 個人化推薦與退貨行為（淡江大學）     | ⏳ 未查         | —                                                                | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic （NDLTD） |
-| E2       | RFM 顧客分群行銷策略（保健食品公司） | ❌ 確認受限       | —                                                                | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic （NDLTD 授權限制未開放；已用 E5 替代，如需原文須走館際合作或 NTUST 電子論文系統）                                                                                                                                                             |
-| E3       | 用戶序列協同過濾推薦           | ⏳ 未查         | —                                                                | https://ndltd.ncl.edu.tw/handle/3pake6 （NDLTD）                                                                                                                                           |
-| E4       | 資料探勘金融機構 CRM         | ⏳ 未查         | —                                                                | https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/ （NTUST etheses）                                                             |
-| E5       | RFM+購物籃分析電商分群（政大）    | ✅ 已取得＋已精讀    | `reading-summaries/E5-chen-2021-...md`（+`pdf-export/`）           | 已完成                                                                                                                                                                                                                              |
-| E6       | 台灣券商大財管業務 K-means 分群 | ✅ 已取得（未精讀）   | `downloads/E-cand-1-xu-2022-ml-securities-wealth-management.pdf` | 尚待撰寫 reading-summary（**建議優先精讀**）                                                                                                                                                                                                 |
-| E7       | 零售業 RFM 衍伸+推薦（中原大學）  | ❌ 確認 embargo | —                                                                | 全文 embargo 至 2029/04/10，目前無法提前取得，已有完整摘要佐證                                                                                                                                                                                        |
-| E-cand-1 | ＝ E6                 | ✅ 已取得        | 同 E6                                                             | 已完成                                                                                                                                                                                                                              |
-| E-cand-2 | ＝ E7                 | ❌ embargo    | 同 E7                                                             | 同 E7                                                                                                                                                                                                                             |
-
-
+| 編號       | 標題（簡）                | 狀態           | 檔案 / 摘要來源                                                        | 建議查詢網站                                                                                                                                                                                                                                                                       |
+| -------- | -------------------- | ------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| E1       | 個人化推薦與退貨行為（淡江大學）     | ✅ 已取得（未精讀）         | `downloads/E1-個人化推薦系統、顧客購買意願與後續退貨行為之影響 以服飾電商為例.pdf`                                                                | 尚待撰寫 reading-summary                                           |
+| E2       | RFM 顧客分群行銷策略（保健食品公司） | ❌ 確認受限       | —                                                                | [https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic) （NDLTD 授權限制未開放；已用 E5 替代，如需原文須走館際合作或 NTUST 電子論文系統） |
+| E3       | 用戶序列協同過濾推薦           | ⏳ 未查         | —                                                                | [https://ndltd.ncl.edu.tw/handle/3pake6](https://ndltd.ncl.edu.tw/handle/3pake6) （NDLTD）                                                                                                                                                                                     |
+| E4       | 資料探勘金融機構 CRM         | ✅ 已取得（未精讀）         | `downloads/E4-資料探勘分析於金融機構客戶關係經營之研究.pdf`                                                                | 尚待撰寫 reading-summary                                                                                                                                                                                                                                                       |
+| E5       | RFM+購物籃分析電商分群（政大）    | ✅ 已取得＋已精讀    | `reading-summaries/E5-chen-2021-...md`（+`pdf-export/`）           | 已完成                                                                                                                                                                                                                                                                          |
+| E6       | 台灣券商大財管業務 K-means 分群 | ✅ 已取得（未精讀）   | `downloads/E-cand-1-xu-2022-ml-securities-wealth-management.pdf` | 尚待撰寫 reading-summary（**建議優先精讀**）                                                                                                                                                                                                                                             |
+| E7       | 零售業 RFM 衍伸+推薦（中原大學）  | ❌ 確認 embargo | —                                                                | 全文 embargo 至 2029/04/10，目前無法提前取得，已有完整摘要佐證                                                                                                                                                                                                                                    |
+| E-cand-1 | ＝ E6                 | ✅ 已取得        | 同 E6                                                             | 已完成                                                                                                                                                                                                                                                                          |
+| E-cand-2 | ＝ E7                 | ❌ embargo    | 同 E7                                                             | 同 E7                                                                                                                                                                                                                                                                         |
 
 
 ### F 類（Robo-advisor、投資人輪廓、信任與透明度）
@@ -166,15 +152,13 @@
 
 | 編號  | 標題（簡）                                | 狀態        | 檔案 / 摘要來源                                                    | 建議查詢網站                                                                                                                                                                                                                           |
 | --- | ------------------------------------ | --------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| F1  | 台灣投資人機器人理財意圖（政大）                     | ⏳ 未查      | —                                                            | https://www.airitilibrary.com/Article/Detail/U0004-G0107351022 （Airiti，可試北商 Airiti proxy）                                                                  |
-| F2  | 提升機器人理財使用意願                          | ⏳ 未查      | —                                                            | NDLTD：[http://ndltd.ncl.edu.tw/handle/dqk4c3](http://ndltd.ncl.edu.tw/handle/dqk4c3)                                                                                                                                             |
-| F3  | 機器人理財消除行為偏誤（台北大學）                    | ⏳ 未查      | —                                                            | NDLTD：[https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic) |
-| F4  | Robo Advising and Investor Profiling | ⏳ 未查      | —                                                            | MDPI 官網直接下載（開放取用）：[https://doi.org/10.3390/fintech3010007](https://doi.org/10.3390/fintech3010007)                                                                                                                               |
+| F1  | 台灣投資人機器人理財意圖（政大）                     | ✅ 已取得（未精讀）      | `downloads/F1_台灣投資人對於機器人理財行為意圖之研究.pdf`                                                            | 尚待撰寫 reading-summary                                                                  |
+| F2  | 提升機器人理財使用意願                          | ⏳ 未查      | —                                                            | https://ndltd.ncl.edu.tw/handle/dqk4c3 （NDLTD）                                                                                                                                             |
+| F3  | 機器人理財消除行為偏誤（台北大學）                    | ✅ 已取得（未精讀）      | `downloads/F3-機器人理財服務是否可有效消除投資人行為偏誤.pdf`                                                            | 尚待撰寫 reading-summary |
+| F4  | Robo Advising and Investor Profiling | ✅ 已取得（未精讀）      | `downloads/F4-Robo Advising and Investor Profiling.pdf`                                                            | 尚待撰寫 reading-summary                                                                                                                               |
 | F5  | Robo-advisor 系統性文獻回顧                 | ✅ 已取得     | `downloads/F5-cardillo-chiappini-2024-robo-advisors-slr.pdf` | 已完成                                                                                                                                                                                                                              |
-| F6  | 永續 Robo-advisor 商業模式                 | ⏳ 未查（低優先） | —                                                            | MDPI 官網直接下載（開放取用）：[https://doi.org/10.3390/su132313009](https://doi.org/10.3390/su132313009)                                                                                                                                     |
+| F6  | 永續 Robo-advisor 商業模式                 | ✅ 已取得（未精讀） | `downloads/F6-Business Model of Sustainable Robo-Advisors Empirical Insights for Practical Implementation.pdf`                                                            | 尚待撰寫 reading-summary                                                                     |
 | F7  | Robo-advisor 與一般投資人金融化               | ✅ 已取得     | `downloads/F7-tan-2020-robo-advisors-financialization.pdf`   | 已完成                                                                                                                                                                                                                              |
-
-
 
 
 ### G 類（台灣共同基金投資人行為與風險偏好）
@@ -188,8 +172,6 @@
 | G4  | 市場狀態與基金投資人投資行為（林敏婷 2010） | ⚠️ 僅國圖紙本  | matrix 內文完整摘要                                        | 僅「國圖紙本論文」，需親自到國家圖書館調閱：[https://hdl.handle.net/11296/dwd5gh](https://hdl.handle.net/11296/dwd5gh) |
 
 
-
-
 ### 課堂補充文獻（已精讀，非正式矩陣編號）
 
 
@@ -201,19 +183,15 @@
 | FundRecLLM（2023）LLM基金推薦      | ✅ 已取得＋已精讀 | `class-readings/fundrecllm-2023-llm-fund-recommendation-reading-summary.md`           |
 
 
-
-
 ### 總計
 
-- **✅ 全文已取得**：37 篇（含已精讀 13 篇：A6、A7、A12、B2、B7、B10、E5、G1 共 8 篇矩陣文獻 + 4 篇課堂參考；未精讀 24 篇：A13、B1、B5、E6、F5、F7、C4、C5、D4、A1、A2、A3、A4、A8、A9、B3、B4、B8、B11/B-cand-4、B-cand-3、B-cand-6 —— 2026-09-22 B類查詢完成，補上 A3、B-cand-3、B-cand-6 共3篇）
-- **⚠️ 僅摘要（全文暫不可得，非因未查找而是管道已確認不通）**：A-cand-2、A-cand-3、D5、G3、G4
-- **❌ 確認全文無法取得（需付費、無免費下載點或 proxy 持續失敗）**：A10、A11、A-cand-1、A5、B6、B9/B-cand-2、B-cand-5、C1、E2、E7/E-cand-2、G2
-- **🔵 開放取用但尚未實際下載**：C3、C6、C7（隨時可查，優先權低是因為官方文件不會過期）
-- **⏳ 尚未查找**：C2、C8、D1、D2、D3、D-cand-1、E1、E3、E4、F1、F2、F3、F4、F6
+- **✅ 全文已取得**：50 篇（含已精讀 12 篇：A6、A7、A12、B2、B7、B10、E5、G1 共 8 篇矩陣文獻 + 4 篇課堂參考；未精讀 38 篇：A13、B1、B5、E6、F5、F7、C4、C5、D4、A1、A2、A3、A4、A8、A9、B3、B4、B8、B11/B-cand-4、B-cand-3、B-cand-6、C1、C2、C3、D1、D2、D3、D5、E1、E4、F1、F3、F4、F6 —— 2026-09-22 C/D/E/F類查詢完成，補上 C1、C2、C3、D1、D2、D3、D5、E1、E4、F1、F3、F4、F6 共13篇）
+- **⚠️ 僅摘要（全文暫不可得，非因未查找而是管道已確認不通）**：A-cand-2、A-cand-3、G3、G4
+- **❌ 確認全文無法取得（需付費、無免費下載點或 proxy 持續失敗）**：A10、A11、A-cand-1、A5、B6、B9/B-cand-2、B-cand-5、E2、E7/E-cand-2、G2
+- **🔵 開放取用但尚未實際下載**：C6、C7（隨時可查，優先權低是因為官方文件不會過期）
+- **⏳ 尚未查找**：C8、D-cand-1、E3、F2
 
 ---
-
-
 
 ## A 類：投資人分群、RFM 與機器學習分群方法
 
@@ -237,8 +215,6 @@
 
 ---
 
-
-
 ## B 類：基金與金融商品推薦系統
 
 
@@ -259,16 +235,14 @@
 
 ---
 
-
-
 ## C 類：FinTech、數位券商、GA4 與 AI 治理
 
 
 | #   | 論文 / 報告標題                                                                                                                 | 作者 / 機構                                 | 年份        | 來源                                           | 核心內容                                               | 本研究關聯                                                                                                                    | 優先級 | 連結                                                                                                                                                                                                                                                                                                                                                         |
 | --- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------- | -------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| C1  | FinTech, Investor Sophistication, and Financial Portfolio Choices                                                         | —                                       | 2023      | Review of Corporate Finance Studies / Oxford | FinTech 平台影響投資人成熟度與投資組合選擇                          | Ch1 背景；數位券商對投資行為影響。**⚠️ 2026-09-22 確認：北商圖書館未訂閱 Oxford Academic**（整合查詢搜尋「Oxford」0筆結果），全文暫無法取得，僅能引用摘要                      | 高   | [https://academic.oup.com/rcfs/article/12/4/834/7192186](https://academic.oup.com/rcfs/article/12/4/834/7192186)                                                                                                                                                                                                                                           |
-| C2  | The Digital Transformation of Investment Behavior: A Systematic Review of Gambling Tendencies in Modern Financial Markets | —                                       | 2024      | ResearchGate                                 | 數位化投資行為、行為偏誤系統性回顧                                  | 支撐數位平台與投資人行為改變；需查證來源品質                                                                                                   | 中   | [https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets](https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets) |
-| C3  | Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges                                              | IOSCO                                   | 2023      | IOSCO 官方報告                                   | AI 在資本市場應用、風險與監理挑戰                                 | Ch1 背景、Ch5 限制與監理討論                                                                                                       | 高   | [https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf)                                                                                                                                                                                                                                       |
+| C1  | FinTech, Investor Sophistication, and Financial Portfolio Choices                                                         | —                                       | 2023      | Review of Corporate Finance Studies / Oxford | FinTech 平台影響投資人成熟度與投資組合選擇                          | Ch1 背景；數位券商對投資行為影響。**⚠️ 2026-09-22 確認：北商圖書館未訂閱 Oxford Academic**（整合查詢搜尋「Oxford」0筆結果），全文暫無法取得，僅能引用摘要。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/C1-FinTech, Investor Sophistication, and Financial Portfolio Choices.pdf` | 高   | [https://academic.oup.com/rcfs/article/12/4/834/7192186](https://academic.oup.com/rcfs/article/12/4/834/7192186)                                                                                                                                                                                                                                           |
+| C2  | The Digital Transformation of Investment Behavior: A Systematic Review of Gambling Tendencies in Modern Financial Markets | —                                       | 2024      | ResearchGate                                 | 數位化投資行為、行為偏誤系統性回顧                                  | 支撐數位平台與投資人行為改變；需查證來源品質。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/C2-The_digital_transformation_of_investment_behavior_.pdf` | 中   | [https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets](https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets) |
+| C3  | Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges                                              | IOSCO                                   | 2023      | IOSCO 官方報告                                   | AI 在資本市場應用、風險與監理挑戰                                 | Ch1 背景、Ch5 限制與監理討論。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/C3-Artificial Intelligence in Capital Markets- Use Cases, Risks, and Challenges.pdf` | 高   | [https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf)                                                                                                                                                                                                                                       |
 | C4  | The use of artificial intelligence and machine learning by market intermediaries and asset managers                       | IOSCO Board                             | 2021      | IOSCO Final Report                           | AI/ML 治理、測試、監控、揭露、資料品質與偏誤                          | 金融推薦模型治理、資料品質與可解釋性權威來源。**✅ 2026-09-22 全文已下載**（官網直接開放取用），存於 `literature/downloads/C4-iosco-2021-ai-ml-governance.pdf`     | 高   | [https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf](https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf)                                                                                                                                                                                                                                       |
 | C5  | Enhancing Investors’ Trust: 2022 CFA Institute Investor Trust Study                                                       | CFA Institute                           | 2022      | CFA Institute                                | 投資人信任、科技、個人化、people plus technology                | 支撐數位券商為何需要個人化服務與信任設計。**✅ 2026-09-22 全文已下載**（官網直接開放取用），存於 `literature/downloads/C5-cfa-institute-2022-investor-trust.pdf` | 高   | [https://www.cfainstitute.org/sites/default/files/-/media/documents/article/Enhancing-Investors-Trust-Report_2022_Online.pdf](https://www.cfainstitute.org/sites/default/files/-/media/documents/article/Enhancing-Investors-Trust-Report_2022_Online.pdf)                                                                                                 |
 | C6  | [GA4] Cohort exploration                                                                                                  | Google Analytics Help                   | 2024–2026 | Google 官方文件                                  | GA4 cohort、event、transaction、conversion、User-ID 限制 | 第三章 GA4 行為資料處理與限制                                                                                                        | 高   | [https://support.google.com/analytics/answer/9670133?hl=en](https://support.google.com/analytics/answer/9670133?hl=en)                                                                                                                                                                                                                                     |
@@ -278,33 +252,29 @@
 
 ---
 
-
-
 ## D 類：台灣本土券商與投資人行為研究
 
 
 | #   | 論文標題                                                                                                        | 作者  | 年份   | 來源                                            | 核心內容                                                                                | 本研究關聯                                                                                                                                                    | 優先級 | 連結                                                                                                                                                                   |
 | --- | ----------------------------------------------------------------------------------------------------------- | --- | ---- | --------------------------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| D1  | 投資人可否從券商推薦的股票獲利？                                                                                            | —   | —    | 臺博碩                                           | 台灣股市散戶是否能從券商推薦中獲利                                                                   | 台灣券商推薦效果研究脈絡                                                                                                                                             | 中   | [https://ndltd.ncl.edu.tw/handle/46963616466150231805](https://ndltd.ncl.edu.tw/handle/46963616466150231805)                                                         |
-| D2  | 台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究                                                                                 | —   | —    | 臺博碩                                           | 媒體偏好、投資性格與行為偏誤                                                                      | 投資人行為分群變數設計參考                                                                                                                                            | 中   | [https://ndltd.ncl.edu.tw/handle/b3agwt](https://ndltd.ncl.edu.tw/handle/b3agwt)                                                                                     |
-| D3  | 券商推薦個股的資訊內涵之探討                                                                                              | 徐楚雯 | 2019 | 國立臺灣科技大學碩士論文                                  | 券商推薦對股價影響與資訊內涵                                                                      | 推薦資訊內涵與台灣券商脈絡                                                                                                                                            | 中   | [https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/](https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/) |
+| D1  | 投資人可否從券商推薦的股票獲利？                                                                                            | —   | —    | 臺博碩                                           | 台灣股市散戶是否能從券商推薦中獲利                                                                   | 台灣券商推薦效果研究脈絡。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/D1-Can investors profit grom brokerage's stock recommendations.pdf` | 中   | [https://ndltd.ncl.edu.tw/handle/46963616466150231805](https://ndltd.ncl.edu.tw/handle/46963616466150231805)                                                         |
+| D2  | 台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究                                                                                 | —   | —    | 臺博碩                                           | 媒體偏好、投資性格與行為偏誤                                                                      | 投資人行為分群變數設計參考。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/D2-台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究.pdf` | 中   | [https://ndltd.ncl.edu.tw/handle/b3agwt](https://ndltd.ncl.edu.tw/handle/b3agwt)                                                                                     |
+| D3  | 券商推薦個股的資訊內涵之探討                                                                                              | 徐楚雯 | 2019 | 國立臺灣科技大學碩士論文                                  | 券商推薦對股價影響與資訊內涵                                                                      | 推薦資訊內涵與台灣券商脈絡。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/D3-券商推薦個股資訊內涵.pdf` | 中   | [https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/](https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/) |
 | D4  | 網路關鍵字搜尋行為反映投資人情緒之研究                                                                                         | —   | 2023 | Airiti Library                                | Google 搜尋趨勢與投資人情緒；三篇研究構成，涵蓋2012年7月至2022年6月共10年期間資料，分析Google搜尋趨勢指數對股票報酬與股價盈餘比交互作用之影響 | 支撐數位搜尋 / 行為資料可作投資人意圖代理變數。**✅ 2026-09-22 全文已下載**（北商 Airiti proxy 直接授權下載），存於 `literature/downloads/D4-internet-keyword-search-investor-sentiment-2023.pdf` | 中   | [https://www.airitilibrary.com/Article/Detail/U0002-1107202310513600](https://www.airitilibrary.com/Article/Detail/U0002-1107202310513600)                           |
-| D5  | 推薦系統之應用——以共同基金電子交易平台為例（The Recommendation System Application for a Mutual Fund Electronic Trading Platform） | 王怡  | 2023 | 東吳大學巨量資料管理學院碩士學位學程 / 臺博碩（論文編號 111SCU01448003） | 研究台灣 5 家代理銷售共同基金電子交易平台業者之經營實務，探討安全、完善有效率之交易目標，以及運用 AI 找出有效影響因子                      | **主題與研究場域高度貼合**：直接指出「國內也有五家代理銷售共同基金的電子交易平台」，可作為第一章市場背景之台灣本土引用（好好證券即屬此類業者）。**⚠️ 全文需臺博碩免費會員登入下載**（帳號需使用者自行註冊），僅取得公開摘要                                      | 高   | [https://hdl.handle.net/11296/xaz6j9](https://hdl.handle.net/11296/xaz6j9)                                                                                           |
+| D5  | 推薦系統之應用——以共同基金電子交易平台為例（The Recommendation System Application for a Mutual Fund Electronic Trading Platform） | 王怡  | 2023 | 東吳大學巨量資料管理學院碩士學位學程 / 臺博碩（論文編號 111SCU01448003） | 研究台灣 5 家代理銷售共同基金電子交易平台業者之經營實務，探討安全、完善有效率之交易目標，以及運用 AI 找出有效影響因子                      | **主題與研究場域高度貼合**：直接指出「國內也有五家代理銷售共同基金的電子交易平台」，可作為第一章市場背景之台灣本土引用（好好證券即屬此類業者）。**✅ 2026-09-22 全文已取得**（使用者自行以臺博碩會員帳號登入下載），存於 `literature/downloads/D5-共同基金電子交易平台推薦系統.pdf`                                      | 高   | [https://hdl.handle.net/11296/xaz6j9](https://hdl.handle.net/11296/xaz6j9)                                                                                           |
 
 
 ---
-
-
 
 ## E 類：台灣推薦系統、RFM 與金融 CRM 研究
 
 
 | #   | 論文標題                                                                                                                         | 作者                     | 年份   | 來源                                                          | 核心方法 / 內容                                                                                                         | 本研究關聯                                                                                                                                                                      | 優先級 | 連結                                                                                                                                                                                                                         |
 | --- | ---------------------------------------------------------------------------------------------------------------------------- | ---------------------- | ---- | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| E1  | 個人化推薦系統、顧客購買意願與後續退貨行為之影響                                                                                                     | —                      | 2022 | 淡江大學碩士論文 / 臺博碩                                              | 電商個人化推薦與購買意願                                                                                                      | 台灣推薦系統對使用者行為影響背景                                                                                                                                                           | 中   | [https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic) |
+| E1  | 個人化推薦系統、顧客購買意願與後續退貨行為之影響                                                                                                     | —                      | 2022 | 淡江大學碩士論文 / 臺博碩                                              | 電商個人化推薦與購買意願                                                                                                      | 台灣推薦系統對使用者行為影響背景。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/E1-個人化推薦系統、顧客購買意願與後續退貨行為之影響 以服飾電商為例.pdf` | 中   | [https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic) |
 | E2  | 應用 RFM 模型制定顧客分群行銷策略之研究——以 A 保健食品公司為例                                                                                         | —                      | 2020 | 臺灣科技大學碩士論文 / 臺博碩                                            | RFM 模型、顧客分群、行銷策略                                                                                                  | 台灣 RFM 分群行銷論文範本；方法論可對照。**⚠️ 全文受限（NDLTD 授權限制，2026-07-28 搜尋未找到開放版本）→ 建議透過學校館際合作申請（論文編號：109NTUS5121030）或參考 E5**                                                               | 高   | [https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22109NTUS5121030%22.&searchmode=basic) |
 | E3  | 基於用戶序列之協同過濾推薦                                                                                                                | —                      | —    | 臺博碩                                                         | 使用者序列行為、協同過濾                                                                                                      | 台灣協同過濾推薦系統研究脈絡                                                                                                                                                             | 中   | [https://ndltd.ncl.edu.tw/handle/3pake6](https://ndltd.ncl.edu.tw/handle/3pake6)                                                                                                                                           |
-| E4  | 資料探勘分析於金融機構客戶關係經營之研究                                                                                                         | —                      | —    | 臺灣科技大學碩士論文                                                  | Data Mining、金融機構 CRM、分群                                                                                           | 金融業資料探勘與 CRM 應用支撐                                                                                                                                                          | 中   | [https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/](https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/)                                                                     |
+| E4  | 資料探勘分析於金融機構客戶關係經營之研究                                                                                                         | —                      | —    | 臺灣科技大學碩士論文                                                  | Data Mining、金融機構 CRM、分群                                                                                           | 金融業資料探勘與 CRM 應用支撐。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/E4-資料探勘分析於金融機構客戶關係經營之研究.pdf` | 中   | [https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/](https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/)                                                                     |
 | E5  | 利用RFM模型與購物籃分析進行電子商務顧客分群與銷售策略之研究（A Research On e-commerce seller's sales strategy using RFM Model and Market Basket Analysis） | 陳一慈                    | 2021 | 國立政治大學碩士論文 / Airiti Library（DOI: 10.6814/NCCU202100799）     | RFM 模型 + 購物籃分析 + 顧客分群 + 銷售策略；美妝電商案例                                                                               | **E2 之替代參考文獻**；同樣是台灣碩論，以 RFM 做顧客分群並轉換行銷策略，方法論脈絡相近；Airiti 上可查，建議透過學校帳號登入存取                                                                                                  | 高   | [https://www.airitilibrary.com/Article/Detail/U0004-G0108363104](https://www.airitilibrary.com/Article/Detail/U0004-G0108363104)                                                                                           |
 | E6  | 運用機器學習方法推廣綜合券商大財管業務（Expand Integrated Securities Firm's Business Using Machine Learning）                                     | 許仲廷                    | 2022 | Journal of Data Analysis, 17卷2期, Pp. 31-58（**Open Access**） | 統一證券保代／海外市場／財富管理三大業務客戶特徵；k-means 分群建立大財管客戶素描；分類演算法辨別新開戶大財管商品偏好                                                    | **最貼近本研究之台灣真實券商客戶分群案例**，同時涵蓋分群＋分類預測（新戶商品偏好），可直接支撐「分群輔助推薦」在台灣券商場景之合理性。**✅ 2026-09-21 全文已下載**，存於 `literature/downloads/E-cand-1-xu-2022-ml-securities-wealth-management.pdf` | 高   | [https://doi.org/10.6338/JDA.202206_17(2).0002](https://doi.org/10.6338/JDA.202206_17(2).0002)                                                                                                                             |
 | E7  | 結合關聯法則與機器學習演算法於適性化產品推薦機制─以零售業RFM衍伸模型為基礎                                                                                      | 溫國抆（Gunawan Sebastian） | 2024 | 中原大學碩士論文                                                    | 修正版 RFM（含 Periodicity、Length、Customer Engagement Index）+ K-means/Ward 分群 + 關聯規則推薦 + 分類器驗證（KNN、Random Forest 表現最佳） | 場景為零售業（非金融），僅適合作方法論對照（RFM 衍伸特徵設計、分群後接分類/推薦的流程）；**⚠️ 全文embargo至 2029/04/10 才開放下載**，目前僅能引用公開摘要                                                                               | 中   | [https://doi.org/10.6840/cycu202400186](https://doi.org/10.6840/cycu202400186)                                                                                                                                             |
@@ -312,25 +282,21 @@
 
 ---
 
-
-
 ## F 類：Robo-advisor、投資人輪廓、信任與透明度
 
 
 | #   | 論文標題                                                                                         | 作者                    | 年份   | 來源                         | 核心內容                                                            | 本研究關聯                                                                                                                                                                      | 優先級 | 連結                                                                                                                                                                                                                         |
 | --- | -------------------------------------------------------------------------------------------- | --------------------- | ---- | -------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| F1  | 台灣投資人對於機器人理財行為意圖之研究                                                                          | 陳奕君                   | 2020 | 政治大學碩士論文 / Airiti          | 台灣投資人對 robo-advisor 的採用意圖                                       | 台灣數位理財接受度背景                                                                                                                                                                | 中   | [https://www.airitilibrary.com/Article/Detail/U0004-G0107351022](https://www.airitilibrary.com/Article/Detail/U0004-G0107351022)                                                                                           |
+| F1  | 台灣投資人對於機器人理財行為意圖之研究                                                                          | 陳奕君                   | 2020 | 政治大學碩士論文 / Airiti          | 台灣投資人對 robo-advisor 的採用意圖                                       | 台灣數位理財接受度背景。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/F1_台灣投資人對於機器人理財行為意圖之研究.pdf` | 中   | [https://www.airitilibrary.com/Article/Detail/U0004-G0107351022](https://www.airitilibrary.com/Article/Detail/U0004-G0107351022)                                                                                           |
 | F2  | 提升投資人使用機器人理財意願之研究                                                                            | —                     | —    | 臺博碩                        | 機器人理財、科技接受模型、投資新手                                               | 台灣數位理財服務採用障礙                                                                                                                                                               | 中   | [http://ndltd.ncl.edu.tw/handle/dqk4c3](http://ndltd.ncl.edu.tw/handle/dqk4c3)                                                                                                                                             |
-| F3  | 機器人理財服務是否可有效消除投資人行為偏誤                                                                        | —                     | 2019 | 臺北大學碩士論文 / 臺博碩             | Robo-advisor 與行為偏誤                                              | 數位化服務對投資行為偏誤的影響                                                                                                                                                            | 中   | [https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic) |
-| F4  | Robo Advising and Investor Profiling                                                         | Gaspar & Oliveira     | 2024 | FinTech / MDPI             | 投資人風險輪廓、RRA、Mean-Variance                                       | 支撐投資人 profiling 與風險屬性適配                                                                                                                                                    | 高   | [https://doi.org/10.3390/fintech3010007](https://doi.org/10.3390/fintech3010007)                                                                                                                                           |
+| F3  | 機器人理財服務是否可有效消除投資人行為偏誤                                                                        | —                     | 2019 | 臺北大學碩士論文 / 臺博碩             | Robo-advisor 與行為偏誤                                              | 數位化服務對投資行為偏誤的影響。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/F3-機器人理財服務是否可有效消除投資人行為偏誤.pdf` | 中   | [https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic) |
+| F4  | Robo Advising and Investor Profiling                                                         | Gaspar & Oliveira     | 2024 | FinTech / MDPI             | 投資人風險輪廓、RRA、Mean-Variance                                       | 支撐投資人 profiling 與風險屬性適配。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/F4-Robo Advising and Investor Profiling.pdf` | 高   | [https://doi.org/10.3390/fintech3010007](https://doi.org/10.3390/fintech3010007)                                                                                                                                           |
 | F5  | Robo-advisors: A systematic literature review                                                | Cardillo & Chiappini  | 2024 | Finance Research Letters   | Robo-advisor 系統性文獻回顧                                            | 數位投資服務與 robo-advisor 背景總覽。**✅ 2026-09-22 於北商圖書館 ScienceDirect Online (SDOL) 取得全文**，存於 `literature/downloads/F5-cardillo-chiappini-2024-robo-advisors-slr.pdf`              | 高   | [https://doi.org/10.1016/j.frl.2024.105119](https://doi.org/10.1016/j.frl.2024.105119)                                                                                                                                     |
-| F6  | Business Model of Sustainable Robo-Advisors: Empirical Insights for Practical Implementation | Au et al.             | 2021 | Sustainability / MDPI      | 永續 robo-advisor 採用意願                                            | 可作 ESG / 價值觀偏好與個人化背景                                                                                                                                                       | 低   | [https://doi.org/10.3390/su132313009](https://doi.org/10.3390/su132313009)                                                                                                                                                 |
+| F6  | Business Model of Sustainable Robo-Advisors: Empirical Insights for Practical Implementation | Au et al.             | 2021 | Sustainability / MDPI      | 永續 robo-advisor 採用意願                                            | 可作 ESG / 價值觀偏好與個人化背景。**✅ 2026-09-22 全文已取得**，存於 `literature/downloads/F6-Business Model of Sustainable Robo-Advisors Empirical Insights for Practical Implementation.pdf` | 低   | [https://doi.org/10.3390/su132313009](https://doi.org/10.3390/su132313009)                                                                                                                                                 |
 | F7  | Robo-advisors and the financialization of lay investors                                      | Tan, Gordon Kuo Siong | 2020 | Geoforum, 117 (2020) 46-60 | 演算法透明度、一般投資人、金融教育；新加坡金融科技場景，探討 robo-advisor 如何使投資人在人機互動網絡中角色被動化 | 支撐金融推薦需考量透明度、理解與信任。**✅ 2026-09-22 於北商圖書館 ScienceDirect Online (SDOL) 取得全文**（Complimentary access），存於 `literature/downloads/F7-tan-2020-robo-advisors-financialization.pdf` | 中   | [https://doi.org/10.1016/j.geoforum.2020.09.017](https://doi.org/10.1016/j.geoforum.2020.09.017)                                                                                                                           |
 
 
 ---
-
-
 
 ## G 類：台灣共同基金投資人行為與風險偏好
 
@@ -344,8 +310,6 @@
 
 
 ---
-
-
 
 ## 重複與整併對照
 
@@ -378,11 +342,7 @@
 
 ---
 
-
-
 ## 建議核心閱讀順序
-
-
 
 ### 第一優先：先讀 5 篇，建立論文骨架
 
@@ -398,8 +358,6 @@
 | 5   | B7  | Financial Product Recommendation Systems SLR           | 建立金融商品推薦文獻總覽與研究缺口                        |
 
 
-
-
 ### 第二優先：補方法與研究設計
 
 
@@ -410,8 +368,6 @@
 | B2      | Dynamic Utility Learning                 | 支撐點擊 / 行為序列與推薦模型關聯  |
 | B6      | Explainable mutual fund recommendation   | 支撐金融推薦可解釋性          |
 | C6 / C7 | GA4 官方文件                                 | 支撐第三章 GA4 特徵工程與資料限制 |
-
-
 
 
 ### 第三優先：補背景、治理與限制
@@ -426,8 +382,6 @@
 
 
 ---
-
-
 
 ## 研究缺口對應
 
@@ -444,11 +398,7 @@
 
 ---
 
-
-
 ## 待查證與待補文獻
-
-
 
 ### 1. 待查證來源
 
@@ -468,8 +418,6 @@
 | A8          | 作者全名、期刊資訊與正式引用格式                                                                                                                                                                          |
 | A10         | 作者與正式書目                                                                                                                                                                                   |
 | D1、D2、G3、G4 | NDLTD 詳細作者、學校、年份                                                                                                                                                                          |
-
-
 
 
 ### 2. 建議後續補文獻
