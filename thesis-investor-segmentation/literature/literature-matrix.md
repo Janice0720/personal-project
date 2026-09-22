@@ -26,17 +26,151 @@
 
 ## 目錄
 
-1. [A 類：投資人分群、RFM 與機器學習分群方法](#a-類投資人分群rfm-與機器學習分群方法)
-2. [B 類：基金與金融商品推薦系統](#b-類基金與金融商品推薦系統)
-3. [C 類：FinTech、數位券商、GA4 與 AI 治理](#c-類fintech數位券商ga4-與-ai-治理)
-4. [D 類：台灣本土券商與投資人行為研究](#d-類台灣本土券商與投資人行為研究)
-5. [E 類：台灣推薦系統、RFM 與金融 CRM 研究](#e-類台灣推薦系統rfm-與金融-crm-研究)
-6. [F 類：Robo-advisor、投資人輪廓、信任與透明度](#f-類robo-advisor投資人輪廓信任與透明度)
-7. [G 類：台灣共同基金投資人行為與風險偏好](#g-類台灣共同基金投資人行為與風險偏好)
-8. [重複與整併對照](#重複與整併對照)
-9. [建議核心閱讀順序](#建議核心閱讀順序)
-10. [研究缺口對應](#研究缺口對應)
-11. [待查證與待補文獻](#待查證與待補文獻)
+1. [📋 全文取得狀態總表（人工查找對照用）](#-全文取得狀態總表人工查找對照用)
+2. [A 類：投資人分群、RFM 與機器學習分群方法](#a-類投資人分群rfm-與機器學習分群方法)
+3. [B 類：基金與金融商品推薦系統](#b-類基金與金融商品推薦系統)
+4. [C 類：FinTech、數位券商、GA4 與 AI 治理](#c-類fintech數位券商ga4-與-ai-治理)
+5. [D 類：台灣本土券商與投資人行為研究](#d-類台灣本土券商與投資人行為研究)
+6. [E 類：台灣推薦系統、RFM 與金融 CRM 研究](#e-類台灣推薦系統rfm-與金融-crm-研究)
+7. [F 類：Robo-advisor、投資人輪廓、信任與透明度](#f-類robo-advisor投資人輪廓信任與透明度)
+8. [G 類：台灣共同基金投資人行為與風險偏好](#g-類台灣共同基金投資人行為與風險偏好)
+9. [重複與整併對照](#重複與整併對照)
+10. [建議核心閱讀順序](#建議核心閱讀順序)
+11. [研究缺口對應](#研究缺口對應)
+12. [待查證與待補文獻](#待查證與待補文獻)
+
+---
+
+## 📋 全文取得狀態總表（人工查找對照用）
+
+整理日期：2026-09-22。本表彙整 A–G 矩陣正式編號＋`ntub-library-search-plan-2020plus.md` 候選文獻（-cand 編號），對照實際檔案位置，供**人工查找時**快速判斷「這篇還要不要找、去哪裡找」。
+
+**檔案存放位置說明**：
+- `literature/downloads/`：已取得的原始全文 PDF（僅存本機，未進版控）
+- `literature/reading-summaries/`（含 `pdf-export/`）：已精讀完成、寫成中文摘要筆記的正式矩陣文獻
+- `literature/class-readings/`：課堂補充參考文獻，已精讀但不算入正式 A–G 矩陣編號
+
+**狀態圖例**：✅ 全文已取得（含已精讀）｜⚠️ 全文確認無法取得，僅摘要佐證｜⏳ 尚未查找，需人工查找｜🔵 開放取用但尚未下載（可直接查即下載，無需圖書館帳號）
+
+### A 類（投資人分群、RFM、機器學習分群）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| A1 | RFM-Net CNN 分類 | ⏳ 未查 | — | MDPI 官網直接下載（開放取用）：https://www.mdpi.com/2076-3417/16/5/2223 |
+| A2 | AI-Driven CLV Forecasting | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/389495515_... （常見403，可改試 Google Scholar 快取） |
+| A3 | Enhancing Customer Repurchase Prediction | ⏳ 未查 | — | 北商 ScienceDirect (SDOL) proxy，查標題或 DOI |
+| A4 | Football Fans AHP+K-means | ⏳ 未查 | — | Frontiers 官網直接下載（開放取用）：https://doi.org/10.3389/fspor.2024.1362489 |
+| A5 | RFM+群集分析 商品推薦（東海大學） | ❌ 確認受限 | — | NDLTD 授權限制未開放；已用 A12 替代，如需原文須走館際合作（論文編號 110THU01026098） |
+| A6 | Malaysian derivatives K-means | ✅ 已取得＋已精讀 | `reading-summaries/A6-tan-2025-...md`（+`pdf-export/`） | 已完成 |
+| A7 | RFM ranking | ✅ 已取得＋已精讀 | `reading-summaries/A7-christy-2021-...md`（+`pdf-export/`） | 已完成 |
+| A8 | RFM+K-means+Silhouette | ⏳ 未查 | — | ScienceDirect：https://www.sciencedirect.com/science/article/pii/S1319157819309802（北商 SDOL） |
+| A9 | K-means/K-prototypes/GMM/DBSCAN cluster tracking（Erasmus 碩論） | ⏳ 未查 | — | 官網 PDF 開放取用：https://thesis.eur.nl/pub/52256/Aerts.pdf |
+| A10 | Intuitive-K-prototypes | ⏳ 未查 | — | ScienceDirect：https://www.sciencedirect.com/science/article/pii/S0031320324008136（北商 SDOL） |
+| A11 | RFM+AUM+K-means（Cowrywise 產業案例） | ⏳ 未查（低優先） | — | 官網部落格文章，直接開放瀏覽 |
+| A12 | RFM+SOM 適性化推薦（崇越論文大賞） | ✅ 已取得＋已精讀 | `reading-summaries/A12-cheng-2010-...md`（+`pdf-export/`） | 已完成 |
+| A13 | Aliyev et al. 銀行 RFM 分群比較 | ✅ 已取得（未精讀） | `downloads/A13-aliyev-2020-rfm-bank-segmentation.pdf` | 尚待撰寫 reading-summary |
+| A-cand-1 | Salo（Aalto 碩論）RFM+B 財富管理分群 | ⏳ 未查（摘要也查不到） | — | ProQuest／Aalto 學位論文系統：https://aaltodoc.aalto.fi/items/ebf942d7-2a95-4b5a-bd74-645bc9746c15 |
+| A-cand-2 | Arayasaeng et al. RFM-R 泰國商銀 | ⚠️ 僅摘要 | Semantic Scholar 摘要（未存檔案，見 matrix 待查證表） | IEEE Xplore proxy（`eresources.ntub.edu.tw:3609`，先前載入卡住），DOI: 10.1109/ictke58576.2023.10401701 |
+| A-cand-3 | Ganar & Hosein 銀行客戶分群+CLV | ⚠️ 僅摘要 | Semantic Scholar 摘要 | IEEE Xplore proxy，DOI: 10.1109/acmlc58173.2022.00017 |
+| A-cand-4 | ＝ A13（Aliyev et al.） | ✅ 已取得 | 同 A13 | 已完成 |
+
+### B 類（基金與金融商品推薦系統）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| B1 | GraphDCF 基金推薦 | ✅ 已取得（未精讀） | `downloads/B1-chou-chen-huang-2022-graphdcf.pdf` | 尚待撰寫 reading-summary（**建議優先精讀**） |
+| B2 | Dynamic Utility Learning 基金推薦 | ✅ 已取得＋已精讀 | `reading-summaries/B2-wei-liu-2025-...md`（+`pdf-export/`） | 已完成 |
+| B3 | 可解釋基金推薦（ResearchGate） | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/367530626_...（來源品質待查證） |
+| B4 | FinTech 混合推薦引擎（ResearchGate） | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/394559448_...（來源品質待查證） |
+| B5 | FAR-Trans 資料集 | ✅ 已取得（未精讀） | `downloads/B5-far-trans-2024-arxiv.pdf` | 尚待撰寫 reading-summary |
+| B6 | 可解釋基金推薦知識圖譜 | ❌ 確認無法取得 | 摘要見 matrix 內文 | SpringerLink proxy 需機構聯合登入或付費 €39.95，已放棄，改用摘要 |
+| B7 | 金融商品推薦 SLR | ✅ 已取得＋已精讀 | `reading-summaries/B7-wu-li-2025-...md`（+`pdf-export/`） | 已完成 |
+| B8 | LLM+GNN 金融商品推薦 | ⏳ 未查 | — | arXiv 開放取用：https://arxiv.org/abs/2506.05873（直接 curl/WebFetch 可抓） |
+| B9 | 金融服務推薦綜述 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | SpringerLink proxy（`eresources.ntub.edu.tw:3939`）**2026-09-22 連續當機**，下次可先確認 proxy 是否恢復，或走 Shibboleth 機構登入 |
+| B10 | KL距離+K-medoids 基金推薦（Chiou-Wei 2024） | ✅ 已取得＋已精讀 | `class-readings/chiou-wei-2024-kl-km-reading-summary.md` | 已完成（PMC 開放取用） |
+| B11 | Fund2Vec 圖學習基金相似度 | ⏳ 未查 | — | arXiv 開放取用：https://arxiv.org/abs/2106.12987（直接 curl/WebFetch 可抓） |
+| B-cand-1 | ＝ B10（Chiou-Wei 2024） | ✅ 已取得 | 同 B10 | 已完成 |
+| B-cand-2 | ＝ B9（Sharaf et al. 2022） | ⚠️ 僅摘要 | 同 B9 | 同 B9 |
+| B-cand-3 | Pérez-Pons OCI-CBR 混合推薦 | ❌ 下載卡住 | — | ScienceDirect Open Access 文章但 proxy 下載卡住（View PDF 停在跳轉頁不解析），DOI: 10.1016/j.eswa.2022.118568，可再試一次或改用 Cmd+S 手動存檔 |
+| B-cand-4 | ＝ B11（Fund2Vec） | ⏳ 未查 | — | 同 B11，arXiv：https://arxiv.org/abs/2106.12987 |
+| B-cand-5 | Shen/Shi/Shao DIEN 興趣演化 | ⚠️ 僅摘要 | Semantic Scholar 摘要 | IEEE proxy 卡住，DOI: 10.1109/EEBDA53927.2022.9744929 |
+| B-cand-6 | Yang（2024）Fuzzy K-means FNFinRec | ⚠️ 僅摘要 | Semantic Scholar／Crossref 摘要 | SpringerLink proxy 需機構登入，DOI: 10.1007/s44196-024-00719-x |
+
+### C 類（FinTech、數位券商、GA4、AI 治理）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| C1 | FinTech 投資人成熟度（Oxford RCFS） | ❌ 確認未訂閱 | — | 北商未訂閱 Oxford Academic；可試 ResearchGate 作者版或直接向作者索取 |
+| C2 | 數位投資行為系統性回顧（ResearchGate） | ⏳ 未查 | — | ResearchGate：https://www.researchgate.net/publication/396368845_...（來源品質待查證） |
+| C3 | IOSCO AI 資本市場報告 | 🔵 開放取用未下載 | — | 官網直接下載（不需圖書館）：https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf |
+| C4 | IOSCO AI/ML 治理報告 | ✅ 已取得 | `downloads/C4-iosco-2021-ai-ml-governance.pdf` | 已完成 |
+| C5 | CFA Institute 投資人信任報告 | ✅ 已取得 | `downloads/C5-cfa-institute-2022-investor-trust.pdf` | 已完成 |
+| C6 | GA4 Cohort 官方文件 | 🔵 開放取用未下載 | — | Google 官方線上文件，隨時可查：https://support.google.com/analytics/answer/9670133 |
+| C7 | GA4 Segment 類型文件 | 🔵 開放取用未下載 | — | https://support.google.com/analytics/answer/9304353 |
+| C8 | FinTech B2B 兩階段分群 | ⏳ 未查（低優先） | — | https://doi.org/10.1080/1051712X.2019.1603420（北商 SDOL 或 Taylor & Francis） |
+
+### D 類（台灣本土券商與投資人行為）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| D1 | 投資人可否從券商推薦股票獲利 | ⏳ 未查 | — | NDLTD：https://ndltd.ncl.edu.tw/handle/46963616466150231805（需驗證碼，人工輸入） |
+| D2 | 電視頻道偏好與投資行為 | ⏳ 未查 | — | NDLTD：https://ndltd.ncl.edu.tw/handle/b3agwt |
+| D3 | 券商推薦個股資訊內涵（徐楚雯 2019） | ⏳ 未查 | — | NTUST etheses：https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/ |
+| D4 | 網路關鍵字搜尋行為反映投資人情緒 | ✅ 已取得 | `downloads/D4-internet-keyword-search-investor-sentiment-2023.pdf` | 已完成 |
+| D5 | 共同基金電子交易平台推薦系統（王怡 2023） | ⚠️ 僅摘要 | matrix 內文摘要 | 需**使用者本人**至臺博碩免費會員系統註冊帳號才能下載，AI 無法代辦：https://hdl.handle.net/11296/xaz6j9 |
+| D-cand-1 | NDLTD 檢索式10–12 現場篩選 | ⏳ 未執行 | — | NDLTD 簡易查詢，關鍵字「投資人分群 OR 客戶分群」「RFM AND 金融」（見 `ntub-library-search-plan-2020plus.md` 檢索式11、12） |
+
+### E 類（台灣推薦系統、RFM、金融 CRM）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| E1 | 個人化推薦與退貨行為（淡江大學） | ⏳ 未查 | — | NDLTD：https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22110TKU05121038%22.&searchmode=basic |
+| E2 | RFM 顧客分群行銷策略（保健食品公司） | ❌ 確認受限 | — | NDLTD 授權限制未開放；已用 E5 替代，如需原文須走館際合作或 NTUST 電子論文系統（論文編號 109NTUS5121030） |
+| E3 | 用戶序列協同過濾推薦 | ⏳ 未查 | — | NDLTD：https://ndltd.ncl.edu.tw/handle/3pake6 |
+| E4 | 資料探勘金融機構 CRM | ⏳ 未查 | — | NTUST etheses：https://etheses.lib.ntust.edu.tw/detail/5f04fdb7c1c54021a137ad835327d677/ |
+| E5 | RFM+購物籃分析電商分群（政大） | ✅ 已取得＋已精讀 | `reading-summaries/E5-chen-2021-...md`（+`pdf-export/`） | 已完成 |
+| E6 | 台灣券商大財管業務 K-means 分群 | ✅ 已取得（未精讀） | `downloads/E-cand-1-xu-2022-ml-securities-wealth-management.pdf` | 尚待撰寫 reading-summary（**建議優先精讀**） |
+| E7 | 零售業 RFM 衍伸+推薦（中原大學） | ❌ 確認 embargo | — | 全文 embargo 至 2029/04/10，目前無法提前取得，已有完整摘要佐證 |
+| E-cand-1 | ＝ E6 | ✅ 已取得 | 同 E6 | 已完成 |
+| E-cand-2 | ＝ E7 | ❌ embargo | 同 E7 | 同 E7 |
+
+### F 類（Robo-advisor、投資人輪廓、信任與透明度）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| F1 | 台灣投資人機器人理財意圖（政大） | ⏳ 未查 | — | Airiti：https://www.airitilibrary.com/Article/Detail/U0004-G0107351022（可試北商 Airiti proxy） |
+| F2 | 提升機器人理財使用意願 | ⏳ 未查 | — | NDLTD：http://ndltd.ncl.edu.tw/handle/dqk4c3 |
+| F3 | 機器人理財消除行為偏誤（台北大學） | ⏳ 未查 | — | NDLTD：https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic |
+| F4 | Robo Advising and Investor Profiling | ⏳ 未查 | — | MDPI 官網直接下載（開放取用）：https://doi.org/10.3390/fintech3010007 |
+| F5 | Robo-advisor 系統性文獻回顧 | ✅ 已取得 | `downloads/F5-cardillo-chiappini-2024-robo-advisors-slr.pdf` | 已完成 |
+| F6 | 永續 Robo-advisor 商業模式 | ⏳ 未查（低優先） | — | MDPI 官網直接下載（開放取用）：https://doi.org/10.3390/su132313009 |
+| F7 | Robo-advisor 與一般投資人金融化 | ✅ 已取得 | `downloads/F7-tan-2020-robo-advisors-financialization.pdf` | 已完成 |
+
+### G 類（台灣共同基金投資人行為與風險偏好）
+
+| 編號 | 標題（簡） | 狀態 | 檔案 / 摘要來源 | 建議查詢網站 |
+|---|---|---|---|---|
+| G1 | 共同基金投資人風險偏好（吳忠義 2008） | ✅ 已取得＋已精讀 | `reading-summaries/G1-wu-2008-...md`（+`pdf-export/`） | 已完成 |
+| G2 | 台灣地區共同基金投資行為實證（鄭芳盈 2007） | ❌ 確認未授權 | matrix 內文摘要 | 北商 Airiti 亦未授權此篇，無其他管道，僅能引用摘要 |
+| G3 | 基金投資人現狀偏誤（林亞萱 2013） | ⚠️ 僅國圖紙本 | matrix 內文完整摘要 | 僅「國圖紙本論文」，需親自到國家圖書館調閱：https://hdl.handle.net/11296/bx5udf |
+| G4 | 市場狀態與基金投資人投資行為（林敏婷 2010） | ⚠️ 僅國圖紙本 | matrix 內文完整摘要 | 僅「國圖紙本論文」，需親自到國家圖書館調閱：https://hdl.handle.net/11296/dwd5gh |
+
+### 課堂補充文獻（已精讀，非正式矩陣編號）
+
+| 文獻 | 狀態 | 檔案 |
+|---|---|---|
+| 徐火志（2006）改良式RFM+SOM分群 | ✅ 已取得＋已精讀 | `class-readings/hsu-2006-refined-rfm-som-customer-segmentation-reading-summary.md` |
+| Wang et al.（2025）機器學習公債殖利率預測 | ✅ 已取得＋已精讀 | `class-readings/wang-2025-ml-treasury-yield-forecasting-reading-summary.md` |
+| Ni Rui（2025）集群分析金融商品推薦最佳化 | ✅ 已取得＋已精讀 | `class-readings/ni-2025-cluster-analysis-financial-product-recsys-reading-summary.md` |
+| FundRecLLM（2023）LLM基金推薦 | ✅ 已取得＋已精讀 | `class-readings/fundrecllm-2023-llm-fund-recommendation-reading-summary.md` |
+
+### 總計
+
+- **✅ 全文已取得**：25 篇（含已精讀 13 篇：A6、A7、A12、B2、B7、B10、E5、G1 共 8 篇矩陣文獻 + 4 篇課堂參考；未精讀 5 篇：A13、B1、B5、E6、F5、F7、C4、C5、D4）
+- **⚠️ 僅摘要（全文暫不可得，非因未查找而是管道已確認不通）**：B9/B-cand-2、B-cand-5、B-cand-6、A-cand-2、A-cand-3、D5、G3、G4
+- **❌ 確認全文無法取得**：A5、B6、B-cand-3、C1、E2、E7/E-cand-2、G2
+- **🔵 開放取用但尚未實際下載**：C3、C6、C7（隨時可查，優先權低是因為官方文件不會過期）
+- **⏳ 尚未查找**：A1、A2、A3、A4、A8、A9、A10、A11、A-cand-1、B3、B4、B8、B11/B-cand-4、C2、C8、D1、D2、D3、D-cand-1、E1、E3、E4、F1、F2、F3、F4、F6
 
 ---
 
