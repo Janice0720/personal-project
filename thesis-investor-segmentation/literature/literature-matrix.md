@@ -68,7 +68,7 @@
 | B2 | Personalized Fund Recommendation with Dynamic Utility Learning | Wei & Liu | 2025 | Financial Innovation | Incremental utility learning、點擊序列、探索 / 利用 | 連接數位行為資料與基金推薦；與 GA4 行為資料高度相關。**✅ 2026-07-28 全文已下載** | 高 | https://doi.org/10.1186/s40854-024-00720-5 |
 | B3 | Mutual Fund Recommendation System with Personalized Explanations | — | 2023 | ResearchGate | 知識圖譜、ML、可解釋推薦 | 支撐金融推薦可解釋性；需查證來源品質 | 中 | https://www.researchgate.net/publication/367530626_MUTUAL_FUND_RECOMMENDATION_SYSTEM_WITH_PERSONALIZED_EXPLANATIONS |
 | B4 | A Hybrid Recommendation Engine for Fintech Platforms: Leveraging Behavioral Analytics for User Engagement and Conversion | — | 2025 | ResearchGate | 混合推薦、CF、Content-based、Deep Learning、行為分析 | 可作 FinTech 混合推薦架構參考；需查證來源品質 | 中 | https://www.researchgate.net/publication/394559448_A_Hybrid_Recommendation_Engine_for_Fintech_Platforms_Leveraging_Behavioral_Analytics_for_User_Engagement_and_Conversion |
-| B5 | FAR-Trans: An Investment Dataset for Financial Asset Recommendation | — | 2024 | arXiv | 金融資產推薦資料集、資產定價與散戶交易紀錄 | 可作外部資料集與推薦評估基準背景 | 中 | https://arxiv.org/abs/2407.08692 |
+| B5 | FAR-Trans: An Investment Dataset for Financial Asset Recommendation | Sanz-Cruzado, Droukas & McCreadie | 2024 | arXiv:2407.08692 | 金融資產推薦資料集、資產定價與散戶交易紀錄；歐洲某大型金融機構真實交易資料，並提供11種FAR演算法基準比較 | 可作外部資料集與推薦評估基準背景。**✅ 2026-09-22 全文已下載**，存於 `literature/downloads/B5-far-trans-2024-arxiv.pdf` | 中 | https://arxiv.org/abs/2407.08692 |
 | B6 | Explainable mutual fund recommendation system developed based on knowledge graph embeddings | Hsu, Chen, Chou & Huang | 2022 | Applied Intelligence, Vol. 52, pp. 10779–10804 | Knowledge Graph Embedding、可解釋共同基金推薦；預測並解釋客戶次月基金申購行為 | 補強信任與可解釋性；與 B1 為同一研究群（共同作者 Chiao-Ting Chen、Szu-Hao Huang），可形成台灣基金推薦文獻群。**⚠️ 2026-09-21 確認：SpringerLink 需機構聯合登入（Shibboleth WAYF）或付費 €39.95，全文無法取得，改以公開摘要佐證**（摘要已取得，見待查證表） | 高 | https://doi.org/10.1007/s10489-021-03136-1 |
 | B7 | A Systematic Literature Review of Financial Product Recommendation Systems | Wu & Li | 2025 | Information / MDPI | 系統性文獻回顧；金融商品推薦特殊性 | 第二章推薦系統總覽與研究缺口核心來源。**✅ 2026-07-28 全文已取得** | 高 | https://doi.org/10.3390/info16030196 |
 | B8 | Research on Personalized Financial Product Recommendation by Integrating Large Language Models and Graph Neural Networks | Zhao et al. | 2025 | arXiv / ACM ICSECA | LLM embeddings + heterogeneous graph + GNN | 最新技術趨勢；可用來說明本研究不採 LLM/GNN 的邊界 | 中 | https://arxiv.org/abs/2506.05873 |
@@ -82,11 +82,11 @@
 
 | # | 論文 / 報告標題 | 作者 / 機構 | 年份 | 來源 | 核心內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
-| C1 | FinTech, Investor Sophistication, and Financial Portfolio Choices | — | 2023 | Review of Corporate Finance Studies / Oxford | FinTech 平台影響投資人成熟度與投資組合選擇 | Ch1 背景；數位券商對投資行為影響 | 高 | https://academic.oup.com/rcfs/article/12/4/834/7192186 |
+| C1 | FinTech, Investor Sophistication, and Financial Portfolio Choices | — | 2023 | Review of Corporate Finance Studies / Oxford | FinTech 平台影響投資人成熟度與投資組合選擇 | Ch1 背景；數位券商對投資行為影響。**⚠️ 2026-09-22 確認：北商圖書館未訂閱 Oxford Academic**（整合查詢搜尋「Oxford」0筆結果），全文暫無法取得，僅能引用摘要 | 高 | https://academic.oup.com/rcfs/article/12/4/834/7192186 |
 | C2 | The Digital Transformation of Investment Behavior: A Systematic Review of Gambling Tendencies in Modern Financial Markets | — | 2024 | ResearchGate | 數位化投資行為、行為偏誤系統性回顧 | 支撐數位平台與投資人行為改變；需查證來源品質 | 中 | https://www.researchgate.net/publication/396368845_The_digital_transformation_of_investment_behavior_a_systematic_review_of_gambling_tendencies_in_modern_financial_markets |
 | C3 | Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges | IOSCO | 2023 | IOSCO 官方報告 | AI 在資本市場應用、風險與監理挑戰 | Ch1 背景、Ch5 限制與監理討論 | 高 | https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf |
-| C4 | The use of artificial intelligence and machine learning by market intermediaries and asset managers | IOSCO Board | 2021 | IOSCO Final Report | AI/ML 治理、測試、監控、揭露、資料品質與偏誤 | 金融推薦模型治理、資料品質與可解釋性權威來源 | 高 | https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf |
-| C5 | Enhancing Investors’ Trust: 2022 CFA Institute Investor Trust Study | CFA Institute | 2022 | CFA Institute | 投資人信任、科技、個人化、people plus technology | 支撐數位券商為何需要個人化服務與信任設計 | 高 | https://www.cfainstitute.org/sites/default/files/-/media/documents/article/Enhancing-Investors-Trust-Report_2022_Online.pdf |
+| C4 | The use of artificial intelligence and machine learning by market intermediaries and asset managers | IOSCO Board | 2021 | IOSCO Final Report | AI/ML 治理、測試、監控、揭露、資料品質與偏誤 | 金融推薦模型治理、資料品質與可解釋性權威來源。**✅ 2026-09-22 全文已下載**（官網直接開放取用），存於 `literature/downloads/C4-iosco-2021-ai-ml-governance.pdf` | 高 | https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf |
+| C5 | Enhancing Investors’ Trust: 2022 CFA Institute Investor Trust Study | CFA Institute | 2022 | CFA Institute | 投資人信任、科技、個人化、people plus technology | 支撐數位券商為何需要個人化服務與信任設計。**✅ 2026-09-22 全文已下載**（官網直接開放取用），存於 `literature/downloads/C5-cfa-institute-2022-investor-trust.pdf` | 高 | https://www.cfainstitute.org/sites/default/files/-/media/documents/article/Enhancing-Investors-Trust-Report_2022_Online.pdf |
 | C6 | [GA4] Cohort exploration | Google Analytics Help | 2024–2026 | Google 官方文件 | GA4 cohort、event、transaction、conversion、User-ID 限制 | 第三章 GA4 行為資料處理與限制 | 高 | https://support.google.com/analytics/answer/9670133?hl=en |
 | C7 | Segments in Google Analytics 4 / GA4 segment types | Google Analytics Help / GA4 教學來源 | 2024–2026 | Google / GA4 文件 | User / session / event segment scope | 支撐 GA4 使用者層、session 層、事件層特徵工程設計 | 中 | https://support.google.com/analytics/answer/9304353 |
 | C8 | A Preliminary Study of Fintech Industry: A Two-Stage Clustering Analysis for Customer Segmentation in the B2B Setting | Sheikh, Ghanbarpour & Gholamiangonabadi | 2019 | Journal of Business-to-Business Marketing | FinTech 客戶分群、two-stage clustering | FinTech 分群方法背景；B2B 與本研究差異較大 | 低 | https://doi.org/10.1080/1051712X.2019.1603420 |
@@ -100,7 +100,7 @@
 | D1 | 投資人可否從券商推薦的股票獲利？ | — | — | 臺博碩 | 台灣股市散戶是否能從券商推薦中獲利 | 台灣券商推薦效果研究脈絡 | 中 | https://ndltd.ncl.edu.tw/handle/46963616466150231805 |
 | D2 | 台灣股票市場散戶投資人電視頻道偏好與投資行為關係之研究 | — | — | 臺博碩 | 媒體偏好、投資性格與行為偏誤 | 投資人行為分群變數設計參考 | 中 | https://ndltd.ncl.edu.tw/handle/b3agwt |
 | D3 | 券商推薦個股的資訊內涵之探討 | 徐楚雯 | 2019 | 國立臺灣科技大學碩士論文 | 券商推薦對股價影響與資訊內涵 | 推薦資訊內涵與台灣券商脈絡 | 中 | https://etheses.lib.ntust.edu.tw/thesis/detail/5fbb589dce8828c2ef89fe78e80010e3/ |
-| D4 | 網路關鍵字搜尋行為反映投資人情緒之研究 | — | 2023 | Airiti Library | Google 搜尋趨勢與投資人情緒 | 支撐數位搜尋 / 行為資料可作投資人意圖代理變數 | 中 | https://www.airitilibrary.com/Article/Detail/U0002-1107202310513600 |
+| D4 | 網路關鍵字搜尋行為反映投資人情緒之研究 | — | 2023 | Airiti Library | Google 搜尋趨勢與投資人情緒；三篇研究構成，涵蓋2012年7月至2022年6月共10年期間資料，分析Google搜尋趨勢指數對股票報酬與股價盈餘比交互作用之影響 | 支撐數位搜尋 / 行為資料可作投資人意圖代理變數。**✅ 2026-09-22 全文已下載**（北商 Airiti proxy 直接授權下載），存於 `literature/downloads/D4-internet-keyword-search-investor-sentiment-2023.pdf` | 中 | https://www.airitilibrary.com/Article/Detail/U0002-1107202310513600 |
 | D5 | 推薦系統之應用——以共同基金電子交易平台為例（The Recommendation System Application for a Mutual Fund Electronic Trading Platform） | 王怡 | 2023 | 東吳大學巨量資料管理學院碩士學位學程 / 臺博碩（論文編號 111SCU01448003） | 研究台灣 5 家代理銷售共同基金電子交易平台業者之經營實務，探討安全、完善有效率之交易目標，以及運用 AI 找出有效影響因子 | **主題與研究場域高度貼合**：直接指出「國內也有五家代理銷售共同基金的電子交易平台」，可作為第一章市場背景之台灣本土引用（好好證券即屬此類業者）。**⚠️ 全文需臺博碩免費會員登入下載**（帳號需使用者自行註冊），僅取得公開摘要 | 高 | https://hdl.handle.net/11296/xaz6j9 |
 
 ---
@@ -127,9 +127,9 @@
 | F2 | 提升投資人使用機器人理財意願之研究 | — | — | 臺博碩 | 機器人理財、科技接受模型、投資新手 | 台灣數位理財服務採用障礙 | 中 | http://ndltd.ncl.edu.tw/handle/dqk4c3 |
 | F3 | 機器人理財服務是否可有效消除投資人行為偏誤 | — | 2019 | 臺北大學碩士論文 / 臺博碩 | Robo-advisor 與行為偏誤 | 數位化服務對投資行為偏誤的影響 | 中 | https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22108NTPU0121042%22.&searchmode=basic |
 | F4 | Robo Advising and Investor Profiling | Gaspar & Oliveira | 2024 | FinTech / MDPI | 投資人風險輪廓、RRA、Mean-Variance | 支撐投資人 profiling 與風險屬性適配 | 高 | https://doi.org/10.3390/fintech3010007 |
-| F5 | Robo-advisors: A systematic literature review | Cardillo & Chiappini | 2024 | Finance Research Letters | Robo-advisor 系統性文獻回顧 | 數位投資服務與 robo-advisor 背景總覽 | 高 | https://doi.org/10.1016/j.frl.2024.105119 |
+| F5 | Robo-advisors: A systematic literature review | Cardillo & Chiappini | 2024 | Finance Research Letters | Robo-advisor 系統性文獻回顧 | 數位投資服務與 robo-advisor 背景總覽。**✅ 2026-09-22 於北商圖書館 ScienceDirect Online (SDOL) 取得全文**，存於 `literature/downloads/F5-cardillo-chiappini-2024-robo-advisors-slr.pdf` | 高 | https://doi.org/10.1016/j.frl.2024.105119 |
 | F6 | Business Model of Sustainable Robo-Advisors: Empirical Insights for Practical Implementation | Au et al. | 2021 | Sustainability / MDPI | 永續 robo-advisor 採用意願 | 可作 ESG / 價值觀偏好與個人化背景 | 低 | https://doi.org/10.3390/su132313009 |
-| F7 | Robo-advisors and the financialization of lay investors | Tan | 2020 | Geoforum | 演算法透明度、一般投資人、金融教育 | 支撐金融推薦需考量透明度、理解與信任 | 中 | https://doi.org/10.1016/j.geoforum.2020.09.017 |
+| F7 | Robo-advisors and the financialization of lay investors | Tan, Gordon Kuo Siong | 2020 | Geoforum, 117 (2020) 46-60 | 演算法透明度、一般投資人、金融教育；新加坡金融科技場景，探討 robo-advisor 如何使投資人在人機互動網絡中角色被動化 | 支撐金融推薦需考量透明度、理解與信任。**✅ 2026-09-22 於北商圖書館 ScienceDirect Online (SDOL) 取得全文**（Complimentary access），存於 `literature/downloads/F7-tan-2020-robo-advisors-financialization.pdf` | 中 | https://doi.org/10.1016/j.geoforum.2020.09.017 |
 
 ---
 
@@ -138,9 +138,9 @@
 | # | 論文標題 | 作者 | 年份 | 來源 | 核心內容 | 本研究關聯 | 優先級 | 連結 |
 |---|---|---|---:|---|---|---|---|---|
 | G1 | 共同基金投資人投資行為及風險偏好之研究 | — | 2009 | 臺博碩 / Airiti | 依風險程度將投資人分為保守、穩健、積極 | 台灣基金投資人風險分群參考；KYC 風險等級支撐。**✅ 2026-07-28 全文已取得** | 高 | https://ndltd.ncl.edu.tw/handle/7msk6p |
-| G2 | 台灣地區共同基金投資行為實證研究 | 鄭芳盈 | 2007 | Airiti Library | BPN + CART；依性別、教育、風險偏好分類 | 台灣基金投資人行為分類早期實證 | 中 | https://www.airitilibrary.com/Article/Detail?DocID=U0006-0908200717040800 |
-| G3 | 基金投資人是否存在現狀偏誤：來自台灣之證據 | — | — | 臺博碩 | 台灣基金投資人現狀偏誤 | 解釋分群結果中可能的非理性行為 | 中 | https://ndltd.ncl.edu.tw/handle/bx5udf |
-| G4 | 市場狀態與基金投資人投資行為之探討 | — | — | 臺博碩 | 不同市場狀態下基金申購 / 贖回行為 | 外部市場環境對投資行為影響；可放研究限制 | 中 | https://ndltd.ncl.edu.tw/r/42769455951077663518 |
+| G2 | 台灣地區共同基金投資行為實證研究 | 鄭芳盈（指導教授：吳忠敏） | 2007 | Airiti Library（國立臺北科技大學商業自動化與管理研究所碩士論文） | 以客戶風險屬性搭配行銷策略；BPN 神經網路（正確率72.41%）與 CART 分類樹（正確率71.07%）模型比較，依性別、教育、風險偏好分類 | 台灣基金投資人行為分類早期實證。**⚠️ 2026-09-22 確認：即使透過北商圖書館 Airiti proxy 仍顯示「未授權」，全文無法取得，改用摘要佐證** | 中 | https://www.airitilibrary.com/Article/Detail?DocID=U0006-0908200717040800 |
+| G3 | 基金投資人是否存在現狀偏誤：來自台灣之證據 | 林亞萱（指導教授：陳皆碩、林芳綺） | 2013 | 臺博碩（國立彰化師範大學會計學系碩士論文） | 檢測台灣共同基金市場投資人現狀偏誤（Status Quo Bias）；以2003–2012年台灣投信投顧基金為樣本，多變量迴歸模型；發現基金當期流量與前期流量正相關，可選擇基金檔數越多現狀偏誤越強 | 解釋分群結果中可能的非理性行為。**⚠️ 2026-09-22 確認：僅「國圖紙本論文」，無電子全文，已取得完整摘要佐證** | 中 | https://hdl.handle.net/11296/bx5udf |
+| G4 | 市場狀態與基金投資人投資行為之探討 | 林敏婷（指導教授：張志雄） | 2010 | 臺博碩（義守大學財務金融學系碩士論文，98學年度） | 不同市場狀態（多頭/空頭/盤整）下基金申購與贖回行為；以2001年7月至2009年3月180檔台灣開放式股票型基金為樣本，發現市場狀態顯著影響投資人處分效果 | 外部市場環境對投資行為影響；可放研究限制。**⚠️ 2026-09-22 確認：僅「國圖紙本論文」，無電子全文，已取得完整摘要佐證** | 中 | https://hdl.handle.net/11296/dwd5gh |
 
 ---
 
@@ -236,7 +236,7 @@
 | A3 | 作者、期刊卷期與 DOI |
 | B3 | ResearchGate 來源品質與是否有正式出版版本 |
 | B4 | ResearchGate 來源品質與是否有正式出版版本 |
-| B9 | Sharaf et al. 2022 的 DOI、完整題名與全文；**✅ 2026-09-21 已用 Semantic Scholar 取得摘要**，全文仍需 SpringerLink 機構登入 |
+| B9 | Sharaf et al. 2022 的 DOI、完整題名與全文；**✅ 2026-09-21 已用 Semantic Scholar 取得摘要**。**⚠️ 2026-09-22 再次嘗試 SpringerLink proxy（eresources.ntub.edu.tw:3939）失敗**：proxy 首頁與文章頁連續多次顯示錯誤頁面，無法進入，暫緩，改用摘要佐證 |
 | A8 | 作者全名、期刊資訊與正式引用格式 |
 | A10 | 作者與正式書目 |
 | D1、D2、G3、G4 | NDLTD 詳細作者、學校、年份 |

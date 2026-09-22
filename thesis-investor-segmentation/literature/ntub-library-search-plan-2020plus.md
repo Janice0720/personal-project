@@ -363,6 +363,20 @@ flowchart LR
 - **心得**：日後遇到 IEEE／Springer 等 proxy 卡住或需要機構帳號的候選文獻，**優先試 Semantic Scholar Graph API 用 DOI 查詢**，比重複嘗試 proxy 或找 ResearchGate（常回傳 403）更快、更穩定；**若 Semantic Scholar 作者資訊看起來可疑（例如人數與原計畫差很多），改用 Crossref API（`https://api.crossref.org/works/<doi>`）覆核，Crossref 是 DOI 註冊機構直接維護的書目資料，權威性更高**。本次即用此方法抓到 B-cand-6 作者誤植（原計畫寫「Sudha, D., et al.」，Crossref 確認實際僅 Yang, Jinyong 一人）。
 - B-cand-3（Pérez-Pons et al., OCI-CBR）與 A-cand-1（Salo, Aalto 碩論）**兩篇透過 Semantic Scholar／Crossref／WebSearch 皆查不到摘要全文**，只確認書目資訊存在；B-cand-3 先前已知全文下載卡住，A-cand-1 是 Aalto 學位論文，兩篇皆非本輪精讀名單的必要文獻，暫緩不強求。
 
+**2026-09-22 補強待下載全文操作紀錄（透過 Claude Chrome 瀏覽器插件執行）：**
+
+- 本次目標：把 `chapter2-source-synthesis.md` 盤點出「全文尚未取得」的 F7、F5、B9、C1、G2、D4、G3、G4 一次補齊，並順手用 WebFetch 直接抓 C4、C5、B5 三篇開放取用文獻（不佔用圖書館 proxy 時間）。
+- **F7（Tan 2020, Geoforum）✅**：ScienceDirect (SDOL) 用標題關鍵字搜尋一次命中，文章標示「Complimentary access」（比 B1 更寬鬆，不需機構訂閱），View PDF → 使用者手動 Cmd+S 存檔成功，存於 `downloads/F7-tan-2020-robo-advisors-financialization.pdf`。**心得**：Cmd+S 會跳出 macOS 原生「另存新檔」視窗，這是系統層級對話框，不在瀏覽器分頁截圖範圍內，AI 看不到也點不到，必須請使用者本人確認並回報完成，不能單靠自動化判斷下載是否成功。
+- **F5（Cardillo & Chiappini 2024, Finance Research Letters）✅**：同樣走 ScienceDirect (SDOL)，標題關鍵字搜尋一次命中，「Full text access」，View PDF → 使用者手動存檔成功，存於 `downloads/F5-cardillo-chiappini-2024-robo-advisors-slr.pdf`。
+- **B9（Sharaf et al. 2022）❌ 再次失敗**：從北商首頁搜尋「SpringerLink」查不到（要打「Springer」才找得到資料庫卡片），點進資源網址進入 proxy（`eresources.ntub.edu.tw:3939`），但這次連 proxy 首頁都連續多次顯示「Frame is showing error page」，無法進入，判斷是 proxy 本身當下不穩定，非帳號權限問題。已放棄本次嘗試，下次可以先確認 proxy 是否恢復正常再試，或直接請使用者走 Shibboleth 機構登入。
+- **C1（Oxford RCFS）❌ 確認未訂閱**：北商整合查詢搜尋「Oxford」「Oxford Academic」皆為 0 筆資料庫結果，確認學校未訂閱 Oxford Academic 平台，此篇全文無法透過北商取得，記錄進矩陣供之後改走館際合作或作者索取。
+- **G2（鄭芳盈 2007）❌ 確認全文不可得**：直接開 airitilibrary.com 網址查得到書目但顯示「未授權」；改走北商 Airiti proxy（首頁搜「華藝」→ 選「Journals學術期刊資料庫(原CEPS)+Theses學位論文資料庫(原CETD)」進入 `eresources.ntub.edu.tw:4127`）用 DocID 直接開文章頁，一樣顯示「未授權」——確認北商未訂閱涵蓋此篇學位論文全文，非登入方式問題，改用摘要佐證（已取得完整摘要）。
+- **D4（網路關鍵字搜尋行為 2023）✅**：同樣走北商 Airiti proxy（`eresources.ntub.edu.tw:4127`）用 DocID 直接開文章頁，此篇顯示「全文下載」（有授權！）點擊後跳出下載確認彈窗，按確定後**直接下載到系統 `~/Downloads/`，全程無 Cmd+S 或另存新檔視窗**——與 F5/F7 的 ScienceDirect PDF 內嵌檢視器另存流程不同，Airiti 授權下載是直接觸發瀏覽器下載，AI 可直接用 Bash 在 `~/Downloads/` 確認檔案存在並自行搬移改名，不需使用者手動介入。存於 `downloads/D4-internet-keyword-search-investor-sentiment-2023.pdf`。
+- **G3、G4（臺博碩兩篇）⚠️ 確認皆無電子全文**：NDLTD 需先過圖形驗證碼，**本次驗證碼由使用者本人手動輸入**（AI 讀出驗證碼文字但不代打，避免違反網站使用條款）。簡易查詢用中文關鍵字（如「基金投資人 現狀偏誤」）直接在輸入框打字即可正常運作（不像北商首頁的 React 搜尋框會吃掉輸入）。兩篇都精準命中且書目資料（校名、系所、指導教授、年份）與矩陣連結完全吻合，但兩篇的「紙本論文」頁籤都只顯示「國圖紙本論文」，無電子全文連結、下載次數皆為0——確認這兩篇僅能親自到國家圖書館調閱紙本，已改用 `get_page_text` 抓取「摘要」頁籤的完整摘要文字存進矩陣佐證。
+- **C4（IOSCO 2021）、C5（CFA Institute 2022）✅**：兩篇官網理論上開放下載，但 `curl` 直接抓 IOSCO 網址被 **Cloudflare「Attention Required」防護頁擋下**（回傳的是 HTML 錯誤頁而非 PDF，檔案大小異常小是重要警訊，下載後務必用 `file` 指令確認實際檔案類型，不能只看副檔名）；改用瀏覽器 `navigate` 直接開啟 PDF 網址，兩篇皆能正常顯示內嵌 PDF 檢視器，比照 F5/F7 用 Cmd+S 請使用者手動存檔成功。存於 `downloads/C4-iosco-2021-ai-ml-governance.pdf`、`downloads/C5-cfa-institute-2022-investor-trust.pdf`。
+- **B5（FAR-Trans, arXiv）✅**：`curl -L https://arxiv.org/pdf/2407.08692` 直接成功，arXiv 對機器化請求友善，不需要瀏覽器介入。存於 `downloads/B5-far-trans-2024-arxiv.pdf`（11頁完整全文，非僅摘要）。
+- **本次心得總結**：(1) 同一份文件的下載行為可能因平台而異——Airiti「已授權」文章是直接觸發下載到 `~/Downloads/`，AI 可自行確認並搬移；ScienceDirect／CFA／IOSCO 的 PDF 是開在瀏覽器內嵌檢視器，需要使用者手動 Cmd+S，AI 看不到系統存檔對話框，必須請使用者確認完成。(2) 判斷全文是否真的到手，不能只看「有沒有觸發下載動作」，要用 `file` 指令確認下載結果是真的 PDF 而非 Cloudflare/proxy 的 HTML 錯誤頁。(3) 開放取用的官方報告與 arXiv 論文，優先用 `curl`／`WebFetch` 直接抓，比動用瀏覽器登入圖書館更快，只有 curl 被防護擋下時才需要瀏覽器介入。
+
 ### 8.1.1 ⑥ 收斂精讀名單（2026-09-21 完成）
 
 不需帳號即可完成的收斂判斷，已依「能讓缺口那一句話變得有出處」的標準，從本輪候選 + 既有矩陣高優先文獻中選出以下 **8 篇**作為繳交前三章前的最終精讀名單：
