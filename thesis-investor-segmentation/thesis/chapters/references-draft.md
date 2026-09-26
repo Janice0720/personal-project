@@ -2,7 +2,7 @@
 
 論文題目：應用投資人行為分群與個人化推薦模型於數位券商基金投資服務之研究
 
-> **使用狀態**：本檔案原為第二章（2.1–2.4 節）已引用文獻之 APA 格式清單草稿，2026-09-26 建立；同日已擴充納入第三章 3.5–3.7 節之方法論與統計方法引用（見「三、方法論與統計方法經典文獻」）。第一章尚未系統性建立引用清單，待該章節定稿時比照本檔案格式擴充。書目資訊來源為 `literature/literature-matrix.md`、各篇 `literature/reading-summaries/*.md`，以及第三章方法論引用之 WebSearch 交叉查證結果；若與本檔案有出入，以逐頁核對過原文或多來源交叉查證之條目（已於書目後標註核對狀態）為準。
+> **使用狀態**：本檔案原為第二章（2.1–2.4 節）已引用文獻之 APA 格式清單草稿，2026-09-26 建立；同日已擴充納入第三章 3.5–3.7 節之方法論與統計方法引用（見「三、方法論與統計方法經典文獻」）。**2026-09-27 更新**：Thompson et al. (2021) 全文核對完成後由「二、次級引用文獻」升格至「一、正式引用文獻」（A14，第二章 2.2 節核心先行研究）。第一章尚未系統性建立引用清單，待該章節定稿時比照本檔案格式擴充。書目資訊來源為 `literature/literature-matrix.md`、各篇 `literature/reading-summaries/*.md`，以及第三章方法論引用之 WebSearch 交叉查證結果；若與本檔案有出入，以逐頁核對過原文或多來源交叉查證之條目（已於書目後標註核對狀態）為準。
 >
 > **格式慣例**：中文文獻依 APA 7th 中文文獻格式（作者姓名不倒置、無需縮寫），西文文獻依標準 APA 7th 格式（姓, 名字縮寫）。學位論文格式：作者. (年份). 論文標題 [未出版碩士/博士論文]. 學校名稱.
 
@@ -36,6 +36,9 @@ Christy, A. J., Umamakeswari, A., Priyatharsini, L., & Neyaa, A. (2021). RFM ran
 
 Tan, E. H. L., Hamed, Y., Daud, H., Abdul Wahab, M. A. F., Azhar, A. A. A., & Tan, S. Y. (2025). Profiling investor behavior in the Malaysian derivatives market using K-means clustering. *Frontiers in Artificial Intelligence*, *8*, Article 1640776. https://doi.org/10.3389/frai.2025.1640776
 **（✅ 2026-09-26 已取得原始 PDF 逐頁核對，完整作者名單經 Frontiers 官網確認）**
+
+Thompson, J. R. J., Feng, L., Reesor, R. M., & Grace, C. (2021). Know your clients' behaviours: A cluster analysis of financial transactions. *Journal of Risk and Financial Management*, *14*(2), Article 50. https://doi.org/10.3390/jrfm14020050
+**（✅ 2026-09-27 全文已取得逐頁核對，A14 核心先行研究，摘要見 `literature/reading-summaries/A14-thompson-2021-kyc-cluster-financial-transactions-reading-summary.md`。原僅作為第三章 3.7.4 節統計檢定方法之次級佐證列於本文件二節，經全文核對後確認方法論堆疊與本研究高度重疊，升格為第二章 2.2 節核心引用文獻）**
 
 Tan, G. K. S. (2020). Robo-advisors and the financialization of lay investors. *Geoforum*, *117*, 46–60. https://doi.org/10.1016/j.geoforum.2020.09.017
 **（注意：與上一筆 A6 之 Tan, E. H. L. 為不同作者，APA 引用時務必以名字縮寫區分，不可省略為單純「Tan」）**
@@ -87,8 +90,6 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 
 | 文獻 | 書目資訊 | 查證狀態 |
 |---|---|---|
-| 金融交易資料分群後以 Kruskal-Wallis／ANOVA 比較群間差異之應用案例 | Thompson, J. R. J., Feng, L., Reesor, R. M., & Grace, C. (2021). Know your clients' behaviours: A cluster analysis of financial transactions. *Journal of Risk and Financial Management*, 14(2), Article 50. https://doi.org/10.3390/jrfm14020050 | ⚠️ 透過 WebSearch 摘要確認：以修正版 RFM 模型對逾 5 萬個金融帳戶（逾 2.3 萬名客戶）進行機器學習分群，並以 ANOVA／Kruskal-Wallis 檢定（搭配 Tukey／Dunn's test 事後檢定）比較群間交易行為差異，方法論設計與本研究 3.7.4 節高度相近。**尚未取得全文逐頁核對**，僅可作為方法選擇合理性之次級佐證，不宜直接引用其具體數據；若時間允許，建議正式定稿前取得全文並比照 A6／A7 之查證流程精讀後移入第二章文獻回顧 |
-
 ---
 
 ## 三、方法論與統計方法經典文獻（標準引用，書目已交叉查證但未取得原始全文）

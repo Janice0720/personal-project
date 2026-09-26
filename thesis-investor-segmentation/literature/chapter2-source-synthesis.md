@@ -183,5 +183,15 @@
 
 ---
 
+**2026-09-27 更新（新增 A14 核心先行研究）**：另一 AI agent 於查核第三章 3.7.4 節「Kruskal-Wallis 應用文獻」之待辦事項時，發現 Thompson, Feng, Reesor, & Grace (2021)《Know Your Clients' Behaviours: A Cluster Analysis of Financial Transactions》（*Journal of Risk and Financial Management*, 14(2), Article 50）之方法論堆疊——k-prototypes 分群（Huang, 1997）＋擴充版 RFM（RFMP）特徵工程＋KYC 屬性＋ANOVA/Kruskal-Wallis 比較群間差異——與本研究幾乎逐一對應，且為同儕審查期刊論文。原僅作為統計方法之次級佐證列於 `references-draft.md` 次級引用區，已取得全文並逐頁核對，確認後升格處理：
+
+- 新增精讀摘要 `literature/reading-summaries/A14-thompson-2021-kyc-cluster-financial-transactions-reading-summary.md`。
+- 新增 `literature-matrix.md` A 類第 14 筆條目（兩處表格皆已補上）。
+- `01-investor-behavior-segmentation-rfm.md` 新增「核心先行研究：Thompson et al.（2021）之 k-prototypes 與擴充版 RFM 分群」專節，並同步更新「主要發現」（新增第四點）與「與本研究之關聯」段落，引用文獻數由五篇增至六篇。
+- `references-draft.md` 將該文獻由「二、次級引用文獻」移至「一、正式引用文獻」西文文獻區。
+- 核心發現「KYC 人口統計資訊無法解釋客戶行為，交易頻率與金額才具鑑別力」除支持本研究行為資料優先之前提外，亦對第三章 3.5.2 節納入 KYC 風險等級、資產區間作為分群特徵構成提醒，已於 3.5 節「計畫階段說明」補上對應呼應。
+
+---
+
 *建立日期：2026-09-21*
 *更新日期：2026-09-23，2026-09-26，2026-09-27*
