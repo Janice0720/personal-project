@@ -50,7 +50,7 @@ RQ2 的比較表是全論文最重要的一組數字，直接回答「分群到�
 
 ### 3.5.2 最佳 K 值選取方法
 
-以 Elbow Method、Silhouette Score 為主要依據交叉確認最佳分群數，並視實際資料特性輔以 Davies-Bouldin Index、Calinski-Harabasz Index 等指標交叉驗證，最終分群數與各群體命名（例如「高頻積極型」「保守長期持有型」）將於取得實際資料並完成分群後依行為輪廓確認。
+**2026-09-26 修正（另一 AI agent 審查指出原表述與 K-prototypes 距離定義不相容，已修正）**：Elbow、Silhouette、Davies-Bouldin、Calinski-Harabasz 四指標原始定義皆建立於連續變數之歐氏距離／變異數分解之上，對無序類別變數無定義，不可直接套用於混合型資料分群結果之驗證，否則與 3.5.1「K-means 不適用混合型資料」之論證自相矛盾。正確作法：Elbow 改觀察 K-prototypes 演算法自身之目標函數總成本（γ 加權混合相異度總和）隨 K 之遞減趨勢；Silhouette Score 改以 K-prototypes 之混合相異度矩陣（而非預設歐氏距離）計算；Davies-Bouldin、Calinski-Harabasz 僅能在「數值變數子空間」上輔助參考，不可作為對整體混合型分群品質之驗證。完整正式改寫見 `02-investor-segmentation.md` §3.5.3。最終分群數與各群體命名（例如「高頻積極型」「保守長期持有型」）將於取得實際資料並完成分群後依行為輪廓確認。
 
 ---
 
