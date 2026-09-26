@@ -83,6 +83,13 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 | Davies-Bouldin Index 原始文獻 | Davies, D. L., & Bouldin, D. W. (1979). A cluster separation measure. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, PAMI-1(2), 224–227. | WebSearch 查證，未取得全文 |
 | Calinski-Harabasz Index 原始文獻 | Caliński, T., & Harabasz, J. (1974). A dendrite method for cluster analysis. *Communications in Statistics*, 3(1), 1–27. | WebSearch 查證，未取得全文 |
 | ALS／隱性回饋協同過濾原始文獻 | Hu, Y., Koren, Y., & Volinsky, C. (2008). Collaborative filtering for implicit feedback datasets. *2008 Eighth IEEE International Conference on Data Mining*, 263–272. https://doi.org/10.1109/ICDM.2008.22 | WebSearch 查證，未取得全文 |
+| Precision@K／Recall@K／MAP 次級引用來源 | Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to information retrieval*. Cambridge University Press. | 資訊檢索領域長期慣例指標，無單一可歸屬原始文獻，`literature-matrix.md` 已建議之教科書次級引用 |
+| Kruskal-Wallis 檢定原始文獻 | Kruskal, W. H., & Wallis, W. A. (1952). Use of ranks in one-criterion variance analysis. *Journal of the American Statistical Association*, 47(260), 583–621. | WebSearch 查證，未取得全文 |
+| Dunn's test 原始文獻 | Dunn, O. J. (1964). Multiple comparisons using rank sums. *Technometrics*, 6(3), 241–252. | WebSearch 查證，未取得全文 |
+| Shapiro-Wilk 常態性檢定原始文獻 | Shapiro, S. S., & Wilk, M. B. (1965). An analysis of variance test for normality (complete samples). *Biometrika*, 52(3–4), 591–611. | WebSearch 查證，未取得全文 |
+| Welch's ANOVA 原始文獻 | Welch, B. L. (1951). On the comparison of several mean values: An alternative approach. *Biometrika*, 38(3–4), 330–336. | WebSearch 查證，未取得全文 |
+| Tukey HSD 原始文獻 | Tukey, J. W. (1949). Comparing individual means in the analysis of variance. *Biometrics*, 5(2), 99–114. | WebSearch 查證，未取得全文 |
+| Games-Howell 事後檢定原始文獻 | Games, P. A., & Howell, J. F. (1976). Pairwise multiple comparison procedures with unequal n's and/or variances: A Monte Carlo study. *Journal of Educational Statistics*, 1(2), 113–125. | WebSearch 查證，未取得全文 |
 | NDCG 原始文獻 | Järvelin, K., & Kekäläinen, J. (2002). Cumulated gain-based evaluation of IR techniques. *ACM Transactions on Information Systems*, 20(4), 422–446. | WebSearch 查證，未取得全文 |
 | Hansen 縱橫門檻迴歸模型 | Hansen, B. E. (1999). Threshold effects in non-dynamic panels: Estimation, testing, and inference. *Journal of Econometrics*, 93(2), 345–368. | D4（許信輝，2023）方法論引用 |
 | GARCH 模型 | Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*, 31(3), 307–327. | D4（許信輝，2023）方法論引用 |
