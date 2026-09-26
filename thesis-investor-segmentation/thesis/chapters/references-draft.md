@@ -80,6 +80,8 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 | K-means 原始文獻 | MacQueen, J. B. (1967). Some methods for classification and analysis of multivariate observations. *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability*, 1, 281–297. | WebSearch 查證，未取得全文 |
 | K-prototypes 原始文獻 | Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, 2, 283–304. | WebSearch 查證，未取得全文 |
 | Silhouette Score 原始文獻 | Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, 20, 53–65. | WebSearch 查證，未取得全文 |
+| Davies-Bouldin Index 原始文獻 | Davies, D. L., & Bouldin, D. W. (1979). A cluster separation measure. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, PAMI-1(2), 224–227. | WebSearch 查證，未取得全文 |
+| Calinski-Harabasz Index 原始文獻 | Caliński, T., & Harabasz, J. (1974). A dendrite method for cluster analysis. *Communications in Statistics*, 3(1), 1–27. | WebSearch 查證，未取得全文 |
 | NDCG 原始文獻 | Järvelin, K., & Kekäläinen, J. (2002). Cumulated gain-based evaluation of IR techniques. *ACM Transactions on Information Systems*, 20(4), 422–446. | WebSearch 查證，未取得全文 |
 | Hansen 縱橫門檻迴歸模型 | Hansen, B. E. (1999). Threshold effects in non-dynamic panels: Estimation, testing, and inference. *Journal of Econometrics*, 93(2), 345–368. | D4（許信輝，2023）方法論引用 |
 | GARCH 模型 | Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*, 31(3), 307–327. | D4（許信輝，2023）方法論引用 |
