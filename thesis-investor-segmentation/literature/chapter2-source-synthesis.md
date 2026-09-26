@@ -173,5 +173,15 @@
 
 ---
 
+**2026-09-27 更新（第二章與第三章 3.5 之跨章一致性修正）**：第三章 3.5 已於 09/26 定案「K-prototypes 為正式分群演算法，K-means 僅作方法論對照、不納入正式比較實驗」，但第二章當時已完成之正式草稿未同步更新，其中三處與此定案矛盾，經另一 AI agent 審查後確認並修正：
+
+- `01-investor-behavior-segmentation-rfm.md`「五、與本研究之關聯」段落原寫「以 K-means（或其可處理類別變數之延伸 K-prototypes）作為主要分群方法」，明白將 K-means 定位為主要方法，與 3.5 定案正面衝突，為三處中最嚴重者，已改寫為「因候選特徵含混合尺度，採用 K-prototypes 為正式分群方法，K-means 僅作方法論對照」。
+- 同檔「分群演算法比較」小節原有一處「本研究之 K-means／K-prototypes 分群初始化」之並列表述，已修正為僅指 K-prototypes。
+- `02-recommendation-fintech-digital-brokerage.md`「七、與數位券商基金投資服務之關聯」段落原有「本研究 K-means／K-prototypes 分群方法」之並列表述，已修正為僅指 K-prototypes，並加註 K-means 於第三章之定位。
+
+`literature/` 下之 reading-summary 與 `literature-matrix.md` 屬工作筆記性質（記錄 E6 等文獻自身之方法，非本研究方法之陳述），暫不修改。
+
+---
+
 *建立日期：2026-09-21*
-*更新日期：2026-09-23，2026-09-26*
+*更新日期：2026-09-23，2026-09-26，2026-09-27*
