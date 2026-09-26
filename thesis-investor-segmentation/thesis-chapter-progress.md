@@ -270,11 +270,12 @@
 
 ### 3.5 投資人分群方法（預計 3–4 頁）
 
-> 2026-09-20 逐題討論定案，2026-09-26 完成正式章節文字草稿，見 `thesis/chapters/chapter-03-methodology/02-investor-segmentation.md`；推理過程原始素材仍保留於 `01-research-design-and-evaluation.md` §3.5。**2026-09-26 另補一次修正**：另一 AI agent 審查指出 Elbow/Silhouette/Davies-Bouldin/Calinski-Harabasz 四指標原始定義皆為歐氏距離基礎，對 K-prototypes 之無序類別變數不相容，已修正為 Elbow 改用 K-prototypes 自身目標函數總成本、Silhouette 改用混合相異度矩陣、Davies-Bouldin／Calinski-Harabasz 限定於數值子空間輔助參考。
+> 2026-09-20 逐題討論定案，2026-09-26 完成正式章節文字草稿，見 `thesis/chapters/chapter-03-methodology/02-investor-segmentation.md`；推理過程原始素材仍保留於 `01-research-design-and-evaluation.md` §3.5。**2026-09-26 兩次修正（另一 AI agent 審查）**：(1) Elbow/Silhouette/Davies-Bouldin/Calinski-Harabasz 四指標原始定義皆為歐氏距離基礎，對 K-prototypes 之無序類別變數不相容，已修正為 Elbow 改用 K-prototypes 自身目標函數總成本、Silhouette 改用混合相異度矩陣、Davies-Bouldin／Calinski-Harabasz 限定於數值子空間輔助參考；(2) 原未明確限定分群特徵之計算期間，若涵蓋測試期將構成資料洩漏並架空 3.7.1 之時間切分嚴謹性，已新增 §3.5.1 明確宣告分群特徵一律僅以訓練期資料計算，並同步於 3.6 節加註一致性說明。
 
 - [x] 分群演算法定案：K-prototypes（因特徵含連續／次序類別／無序類別混合尺度，K-means 僅保留為方法論對照）
 - [x] 說明 K-prototypes 演算法原理（含數學公式：數值歐氏距離＋類別配對距離加權）
 - [x] 說明最佳 K 值選取方法（已修正為與 K-prototypes 混合距離相容之版本：Elbow 用總成本、Silhouette 用混合相異度矩陣，Davies-Bouldin／Calinski-Harabasz 限定數值子空間輔助參考）
+- [x] 明確宣告分群特徵計算期間限定於訓練期，與 3.7.1 共同構成資料洩漏防範設計
 - [x] 文字定稿（計畫書階段草稿完成，最終分群數與群體命名待取得實際資料後確認）
 
 ### 3.6 個人化推薦模型方法（預計 3–4 頁）
