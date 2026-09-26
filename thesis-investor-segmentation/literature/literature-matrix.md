@@ -429,10 +429,17 @@
 □ 2020 年後金融業 RFM／財富管理分群
 □ 2020 年後台灣券商／財富管理客戶分群（華藝、臺博碩）
 □ 冷啟動問題（Cold-start problem）
-□ Top-K 推薦評估指標：Precision@K、Recall@K、MAP、NDCG
-□ Elbow Method / Silhouette Score 原始或經典方法文獻
-□ K-prototypes 原始文獻：Huang (1998)
 □ 台灣金融科技 / 數位券商官方報告
 □ 個人資料保護法、資料匿名化與研究倫理相關文獻
 ```
+
+**2026-09-26 更新**：以下四項原列於本清單，經 WebSearch 查證書目資訊後已可在第二章草稿中作為方法定義之次級引用，但**尚未取得全文、未精讀**，第三章正式撰寫方法論時仍應盡量取得原文核對後直接引用：
+
+- ✅ K-means 原始文獻：MacQueen, J. B. (1967). Some methods for classification and analysis of multivariate observations. *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability*, 1, 281–297.
+- ✅ K-prototypes 原始文獻：Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, 2, 283–304.
+- ✅ Silhouette Score 原始文獻：Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, 20, 53–65.
+- ✅ NDCG 原始文獻：Järvelin, K., & Kekäläinen, J. (2002). Cumulated gain-based evaluation of IR techniques. *ACM Transactions on Information Systems*, 20(4), 422–446.
+- ⚠️ Elbow Method：分群文獻長期沿用之啟發式方法，查證後確認並無單一可歸屬之原始文獻，不強行指定出處。
+- ⚠️ Precision@K、Recall@K、MAP：源自資訊檢索領域長期發展之慣例指標，並無單一可歸屬之原始文獻，可視需要引用教科書（如 Manning, Raghavan & Schütze, *Introduction to Information Retrieval*, 2008）作為次級引用來源。
+- ⚠️ RFM 五等分法之原始出處：Arthur Hughes 提出 RFM 模型、Miglautsch (2000) 提出五等分評分法——此二筆資訊記錄於 A12、E5 之文獻回顧引用中，屬次級引用，尚未直接取得並精讀原文。
 
