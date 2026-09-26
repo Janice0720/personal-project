@@ -271,10 +271,10 @@
 
 ### 3.5 投資人分群方法（預計 3–4 頁）
 
-> 2026-09-20 逐題討論定案，2026-09-26 完成正式章節文字草稿，見 `thesis/chapters/chapter-03-methodology/02-investor-segmentation.md`；推理過程原始素材仍保留於 `01-research-design-and-evaluation.md` §3.5。**2026-09-26 三次修正（另一 AI agent 審查）**：(1) Elbow/Silhouette/Davies-Bouldin/Calinski-Harabasz 四指標原始定義皆為歐氏距離基礎，對 K-prototypes 之無序類別變數不相容，已修正為 Elbow 改用 K-prototypes 自身目標函數總成本、Silhouette 改用混合相異度矩陣、Davies-Bouldin／Calinski-Harabasz 限定於數值子空間輔助參考；(2) 原未明確限定分群特徵之計算期間，若涵蓋測試期將構成資料洩漏並架空 3.7.1 之時間切分嚴謹性，已新增 §3.5.1 明確宣告分群特徵一律僅以訓練期資料計算，並同步於 3.6 節加註一致性說明；(3，次要問題四項）γ 權重未說明決定方式、數值標準化未交叉引用 3.4、K-prototypes 引用年份被質疑（查證後確認原引用無誤）、距離公式未開根號卻稱「歐氏距離」，已一併補正。
+> 2026-09-20 逐題討論定案，2026-09-26 完成正式章節文字草稿，見 `thesis/chapters/chapter-03-methodology/02-investor-segmentation.md`；推理過程原始素材仍保留於 `01-research-design-and-evaluation.md` §3.5。**2026-09-26 四次修正（另一 AI agent 審查）**：(1) Elbow/Silhouette/Davies-Bouldin/Calinski-Harabasz 四指標原始定義皆為歐氏距離基礎，對 K-prototypes 之無序類別變數不相容，已修正為 Elbow 改用 K-prototypes 自身目標函數總成本、Silhouette 改用混合相異度矩陣、Davies-Bouldin／Calinski-Harabasz 限定於數值子空間輔助參考；(2) 原未明確限定分群特徵之計算期間，若涵蓋測試期將構成資料洩漏並架空 3.7.1 之時間切分嚴謹性，已新增 §3.5.1 明確宣告分群特徵一律僅以訓練期資料計算，並同步於 3.6 節加註一致性說明；(3，次要問題四項）γ 權重未說明決定方式、數值標準化未交叉引用 3.4、~~K-prototypes 引用年份被質疑（查證後確認原引用無誤）~~、距離公式未開根號卻稱「歐氏距離」，已一併補正；(4) 補上「職業」特徵可得性風險備案。**2026-09-27 第五次修正（重要更正）**：(3) 之 K-prototypes 引用查證結論本身有誤——第三方 agent 以 Thompson et al. (2021) 全文為一手證據指出，k-prototypes 正式原始文獻為 Huang (1997, PAKDD)，非先前誤引之 Huang (1997, SIGMOD-DMKD workshop) 或單獨 Huang (1998, DMKD)；經獨立 WebSearch 交叉查證確認無誤，已更正 3.5.3 正文與 `references-draft.md` 對應條目。
 
 - [x] 分群演算法定案：K-prototypes（因特徵含連續／次序類別／無序類別混合尺度，K-means 僅保留為方法論對照）
-- [x] 說明 K-prototypes 演算法原理（含數學公式：平方歐氏距離＋類別配對距離加權，補上 γ 權重決定方式之三順位決策準則）
+- [x] 說明 K-prototypes 演算法原理（含數學公式：平方歐氏距離＋類別配對距離加權，補上 γ 權重決定方式之三順位決策準則；**2026-09-27 更正原始文獻引用為 Huang 1997, PAKDD，並列 Huang 1998 期刊擴充版**）
 - [x] 說明最佳 K 值選取方法（已修正為與 K-prototypes 混合距離相容之版本：Elbow 用總成本、Silhouette 用混合相異度矩陣，Davies-Bouldin／Calinski-Harabasz 限定數值子空間輔助參考）
 - [x] 明確宣告分群特徵計算期間限定於訓練期，與 3.7.1 共同構成資料洩漏防範設計
 - [x] 補上與 3.4 節標準化方法之交叉引用，說明未標準化將使交易金額主導距離
