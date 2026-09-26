@@ -78,11 +78,14 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 | RFM 模型原始提出者 | Arthur Hughes（確切著作與年份未查證） | E5（陳一慈，2021）文獻回顧 |
 | RFM 五等分評分法 | Miglautsch, J. R. (2000). Thoughts on RFM scoring. *Journal of Database Marketing*, 8(1), 67–72.（頁碼未逐一核對） | A12（鄭婕妤，2010）文獻回顧 |
 | K-means 原始文獻 | MacQueen, J. B. (1967). Some methods for classification and analysis of multivariate observations. *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability*, 1, 281–297. | WebSearch 查證，未取得全文 |
-| K-prototypes 原始文獻 | Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, 2, 283–304. | WebSearch 查證，未取得全文 |
+| K-prototypes 原始文獻 | Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, 2, 283–304.（**2026-09-26 經另一 AI agent 質疑後查證**：該文實際同時提出 k-modes 與 k-prototypes 兩演算法，為 k-prototypes 之正式原始文獻，原引用無誤） | WebSearch 查證，未取得全文 |
+| k-modes 前驅工作坊論文（次要，非本研究直接引用） | Huang, Z. (1997). A fast clustering algorithm to cluster very large categorical data sets in data mining. *SIGMOD Workshop on Research Issues on Data Mining and Knowledge Discovery*. | WebSearch 查證，未取得全文；僅用於釐清與 Huang (1998) 之關係，本研究不直接引用 |
 | Silhouette Score 原始文獻 | Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, 20, 53–65. | WebSearch 查證，未取得全文 |
 | Davies-Bouldin Index 原始文獻 | Davies, D. L., & Bouldin, D. W. (1979). A cluster separation measure. *IEEE Transactions on Pattern Analysis and Machine Intelligence*, PAMI-1(2), 224–227. | WebSearch 查證，未取得全文 |
 | Calinski-Harabasz Index 原始文獻 | Caliński, T., & Harabasz, J. (1974). A dendrite method for cluster analysis. *Communications in Statistics*, 3(1), 1–27. | WebSearch 查證，未取得全文 |
 | ALS／隱性回饋協同過濾原始文獻 | Hu, Y., Koren, Y., & Volinsky, C. (2008). Collaborative filtering for implicit feedback datasets. *2008 Eighth IEEE International Conference on Data Mining*, 263–272. https://doi.org/10.1109/ICDM.2008.22 | WebSearch 查證，未取得全文 |
+| Holm-Bonferroni 多重比較校正原始文獻 | Holm, S. (1979). A simple sequentially rejective multiple test procedure. *Scandinavian Journal of Statistics*, 6(2), 65–70. | WebSearch 查證，未取得全文 |
+| Cohen's d 效果量原始文獻 | Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates. | WebSearch 查證，未取得全文 |
 | Precision@K／Recall@K／MAP 次級引用來源 | Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to information retrieval*. Cambridge University Press. | 資訊檢索領域長期慣例指標，無單一可歸屬原始文獻，`literature-matrix.md` 已建議之教科書次級引用 |
 | Kruskal-Wallis 檢定原始文獻 | Kruskal, W. H., & Wallis, W. A. (1952). Use of ranks in one-criterion variance analysis. *Journal of the American Statistical Association*, 47(260), 583–621. | WebSearch 查證，未取得全文 |
 | Dunn's test 原始文獻 | Dunn, O. J. (1964). Multiple comparisons using rank sums. *Technometrics*, 6(3), 241–252. | WebSearch 查證，未取得全文 |
