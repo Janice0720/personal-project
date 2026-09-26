@@ -22,6 +22,7 @@
 ## 第一章：緒論（Introduction）
 
 > 目標頁數：8–12 頁｜目標完稿：**2026/09/21**
+> 正式章節檔案：`thesis/chapters/chapter-01-introduction/01-introduction-draft.md`（2026-09-26 新增；先前六節定稿內容僅存在本追蹤表，未落地成獨立章節檔，現已比照第二、三章的檔案結構補齊）
 
 ### 進度狀態
 
