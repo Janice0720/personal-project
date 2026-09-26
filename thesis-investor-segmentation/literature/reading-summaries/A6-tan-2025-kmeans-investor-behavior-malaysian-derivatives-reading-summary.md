@@ -28,9 +28,9 @@
 | 項目 | 內容 |
 |------|------|
 | 英文標題 | Profiling investor behavior in the Malaysian derivatives market using K-means clustering |
-| 作者 | Tan et al. |
-| 期刊 | Frontiers in Artificial Intelligence |
-| 年份 | 2025 |
+| 作者 | Eng Hao Louis Tan、Yaman Hamed、Hanita Daud、Mohd Amirul Faiz Abdul Wahab、Ahmad Amirul Adlan Azhar、Sieow Yeek Tan（2026-09-26 經 Frontiers 官網確認完整作者名單） |
+| 期刊 | Frontiers in Artificial Intelligence, Volume 8 |
+| 年份 | 2025（2025-09-17 發表） |
 | DOI | https://doi.org/10.3389/frai.2025.1640776 |
 | 關鍵字 | K-means clustering、investor behavior、derivatives market、IHS transformation、decision tree validation |
 | 取得方式 | ✅ 2026-08-26 PDF 全文已取得（Frontiers 開放取用） |
