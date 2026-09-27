@@ -1,6 +1,6 @@
 # 碩士論文研究規劃文件
 
-應用投資人行為分群與個人化推薦模型於數位券商基金投資服務之研究 — 研究規劃全覽（2026–2027）
+應用投資人分群與個人化推薦模型於數位券商基金投資服務之研究 — 研究規劃全覽（2026–2027）
 
 > **目前同步狀態（依 `project-status.md`）：** 本文件為早期完整研究規劃草稿，後續以 `project-status.md` 作為專案進度總控。現階段定位調整為「分群為主，推薦模型做概念驗證」；Proposal 暫不定稿，需先完成 Phase 0 題目、範圍、研究對象與不做事項確認。
 
@@ -33,7 +33,7 @@
 
 ### 論文題目（建議版）
 
-**中文**：應用投資人行為分群與個人化推薦模型於數位券商基金投資服務之研究
+**中文**：應用投資人分群與個人化推薦模型於數位券商基金投資服務之研究
 
 **英文**：Investor Segmentation and Personalized Fund Recommendation Using Behavioral and Transaction Data in a Digital Brokerage Platform
 
