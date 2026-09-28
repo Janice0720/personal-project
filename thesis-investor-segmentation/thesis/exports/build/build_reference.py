@@ -164,6 +164,30 @@ cap_pf.space_before = Pt(12)
 cap_pf.space_after = Pt(6)
 cap_pf.line_spacing_rule = WD_LINE_SPACING.SINGLE
 
+# ---- Figure: 圖片本身所在段落，置中對齊（Normal 為左右對齊，單張圖片置中效果不穩定）----
+try:
+    fig_style = doc.styles.add_style('Figure', WD_STYLE_TYPE.PARAGRAPH)
+except ValueError:
+    fig_style = doc.styles['Figure']
+fig_style.base_style = normal
+fig_pf = fig_style.paragraph_format
+fig_pf.alignment = WD_ALIGN_PARAGRAPH.CENTER
+fig_pf.space_before = Pt(12)
+fig_pf.space_after = Pt(6)
+
+# ---- FigureCaption: 圖片標題（置於圖片正下方，依慣例），12pt 粗體標楷體置中 ----
+try:
+    figcap_style = doc.styles.add_style('FigureCaption', WD_STYLE_TYPE.PARAGRAPH)
+except ValueError:
+    figcap_style = doc.styles['FigureCaption']
+figcap_style.base_style = normal
+style_font(figcap_style, 12, True, east_asia='標楷體', ascii_font='Times New Roman', color=(0, 0, 0))
+figcap_pf = figcap_style.paragraph_format
+figcap_pf.alignment = WD_ALIGN_PARAGRAPH.CENTER
+figcap_pf.space_before = Pt(6)
+figcap_pf.space_after = Pt(12)
+figcap_pf.line_spacing_rule = WD_LINE_SPACING.SINGLE
+
 # ---- Table style: pandoc emits tables with style id "Table"; define it with visible grid borders ----
 # (cell paragraphs already use "Normal" style for font, confirmed separately; this only needs borders)
 table_grid = doc.styles['Table Grid']  # has visible borders by default

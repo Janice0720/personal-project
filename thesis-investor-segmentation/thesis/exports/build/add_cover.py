@@ -97,18 +97,20 @@ def fix_table_widths(doc):
 
 
 # ---- 表目錄：格式規範要求「目錄」之後、正文之前須有「表目錄」（見申請作業文件）。
-# 逐一為 TableCaption 段落加上書籤，並於目錄後建立表目錄頁，以 PAGEREF 欄位
-# 產生頁碼（與既有頁尾頁碼欄位同樣，開啟後 Ctrl+A 再 F9 更新）。----
-def add_table_of_tables(doc):
+# 逐一為 TableCaption／FigureCaption 段落加上書籤，並於目錄後建立表目錄／圖目錄頁，
+# 以 PAGEREF 欄位產生頁碼（與既有頁尾頁碼欄位同樣，開啟後 Ctrl+A 再 F9 更新）。
+# 依格式規範文件次序，插入點固定在「第一章」之前；表目錄與圖目錄依序各自呼叫本
+# 函式一次，第二次呼叫時新內容會接在第一次插入內容之後、第一章之前。----
+def add_list_of(doc, caption_style_name, bookmark_prefix, title_text):
     body = doc.element.body
 
-    captions = [p for p in doc.paragraphs if p.style.name == 'TableCaption']
+    captions = [p for p in doc.paragraphs if p.style.name == caption_style_name]
     if not captions:
         return
 
     bookmark_names = []
     for i, p in enumerate(captions):
-        name = f'TableCap{i + 1}'
+        name = f'{bookmark_prefix}{i + 1}'
         bookmark_names.append(name)
         el = p._p
         bmk_start = OxmlElement('w:bookmarkStart')
@@ -136,7 +138,7 @@ def add_table_of_tables(doc):
 
     title_p = doc.add_paragraph()
     title_p.style = doc.styles['Heading 1']
-    title_run = title_p.add_run('表目錄')
+    title_run = title_p.add_run(title_text)
     set_run_font(title_run, 18, True)
     lot_paras.append(title_p)
 
@@ -209,7 +211,8 @@ def main():
         insert_ref.addprevious(el)
 
     fix_table_widths(doc)
-    add_table_of_tables(doc)
+    add_list_of(doc, 'TableCaption', 'TableCap', '表目錄')
+    add_list_of(doc, 'FigureCaption', 'FigCap', '圖目錄')
 
     # Heading 1's style-level pageBreakBefore is not reliably rendered as a
     # visible page break by all viewers; insert explicit page breaks before

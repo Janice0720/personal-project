@@ -17,22 +17,25 @@ cd thesis/exports/build
 # 1. 重建格式範本（僅在格式規則需要調整時才需要重跑）
 python3 build_reference.py
 
-# 2. 讀取 thesis/chapters/ 底下第一至三章目前內容，組合並正確調整標題階層
+# 2.（僅在架構圖／流程圖內容變動時需要重跑）產生 figures/ 底下之圖片
+python3 generate_diagrams.py
+
+# 3. 讀取 thesis/chapters/ 底下第一至三章目前內容，組合並正確調整標題階層
 python3 preprocess.py
 
-# 3. 轉為 Word 檔（含自動產生之「目錄」欄位，開啟後於 Word 按 Ctrl+A 再 F9 可更新頁碼）
+# 4. 轉為 Word 檔（含自動產生之「目錄」欄位，開啟後於 Word 按 Ctrl+A 再 F9 可更新頁碼）
 pandoc combined.md -f markdown+tex_math_dollars -o "../黃子甄_論文計畫書(第一至三章初稿).docx" \
   --reference-doc=reference.docx --toc --toc-depth=3
 
-# 4. 在文件最前面插入封面（學校／所名／題目／研究生／指導教授／畢業年月）
+# 5. 在文件最前面插入封面、修正表格欄寬、建立表目錄／圖目錄
 python3 add_cover.py
 ```
 
-需要 Python 套件 `python-docx`（`pip3 install python-docx`）與 `pandoc`（`brew install pandoc`）。
+需要 Python 套件 `python-docx`、`matplotlib`（`pip3 install python-docx matplotlib`）與 `pandoc`（`brew install pandoc`）。
 
 封面資訊（研究生、指導教授、英文題目、畢業年月）寫在 `add_cover.py` 檔案開頭，
 若有異動（如指導教授更換、畢業學期延後），直接修改該檔案對應欄位後重新執行
-步驟 3、4 即可（步驟 3 會覆寫全文，故封面務必在其之後重跑）。
+步驟 4、5 即可（步驟 4 會覆寫全文，故封面務必在其之後重跑）。
 
 ## 封面格式對照（依格式參考檔）
 
@@ -58,16 +61,20 @@ python3 add_cover.py
   中仍未查證之條目（如 Alsabah et al., 2021；Dong et al., 2022），以及第一章
   「臺灣證券交易所，2026」「好好證券，n.d.」兩筆尚未能逐字核對確切出處之
   資料來源（詳見 `references-draft.md` 對應說明）。來源內容若異動，修改
-  `references-final.md` 後重新執行步驟 2–4 即可。
+  `references-final.md` 後重新執行步驟 3–5 即可。
 - 標楷體字型於 Windows／Word 環境（如 DFKai-SB）通常已內建，若在缺乏
   該字型之電腦開啟，文字仍會顯示但可能以替代字型呈現。
-- **表目錄已納入**（2026-09-28）：格式規範要求「目錄」之後、正文之前須有
-  「表目錄」與「圖目錄」。目前文件含 6 個表格，皆已於來源 markdown 加上
-  `::: {custom-style="TableCaption"}` 標題區塊（表 2-1 至表 3-5），
-  `add_cover.py` 會自動為每個標題加上書籤並於目錄後建立表目錄頁（PAGEREF
-  欄位，開啟後 Ctrl+A 再 F9 更新頁碼，與既有頁尾頁碼欄位相同機制）。**圖目錄
-  尚未建立**——目前架構圖／流程圖仍為等寬字元文字區塊（非 Word 原生圖片物件），
-  待確認是否轉為實際圖片後再視需要加入。
+- **表目錄／圖目錄已納入**（2026-09-28）：格式規範要求「目錄」之後、正文
+  之前須有「表目錄」與「圖目錄」。6 個表格已於來源 markdown 加上
+  `::: {custom-style="TableCaption"}` 標題區塊（表 2-1 至表 3-5）；架構圖
+  （3.1 節）與研究流程圖（3.2 節）原為等寬字元文字區塊，已改用
+  `generate_diagrams.py`（matplotlib）產生實際 PNG 圖片（`figures/
+  fig_3_1_architecture.png`、`fig_3_2_process_flow.png`），並加上
+  `::: {custom-style="FigureCaption"}` 標題區塊（圖 3-1、圖 3-2）。
+  `add_cover.py` 之 `add_list_of()` 會自動為每個表格／圖片標題加上書籤，
+  依序於目錄後建立表目錄頁、圖目錄頁（PAGEREF 欄位，開啟後 Ctrl+A 再 F9
+  更新頁碼，與既有頁尾頁碼欄位相同機制）。3.7 節之虛擬碼區塊維持等寬字元
+  文字（屬演算法列示之標準寫法，非需要轉為圖片之架構／流程圖）。
 - **表格欄寬已修正**（2026-09-28）：pandoc 預設表格為等寬欄位，遇到「說明」
   等長文字欄位時會被壓縮過窄，導致逐字換行、列高暴增甚至跨頁斷裂（3.3.2
   GA4 66 欄位表尤其明顯）。`add_cover.py` 之 `TABLE_COL_RATIOS` 依各表
