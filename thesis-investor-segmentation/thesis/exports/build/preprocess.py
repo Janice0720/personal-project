@@ -105,9 +105,18 @@ def process_ch3():
     return "# 第三章　研究方法\n\n" + combined
 
 
+YAML_HEADER = """---
+title: ""
+lang: zh-TW
+toc-title: 目錄
+---
+
+"""
+
+
 def main():
     out = [process_ch1(), process_ch2(), process_ch3()]
-    combined = "\n\n".join(out)
+    combined = YAML_HEADER + "\n\n".join(out)
     outpath = os.path.join(os.path.dirname(__file__), "combined.md")
     with open(outpath, "w", encoding="utf-8") as f:
         f.write(combined)
