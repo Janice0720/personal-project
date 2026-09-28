@@ -139,7 +139,13 @@ def add_list_of(doc, caption_style_name, bookmark_prefix, title_text):
     title_p = doc.add_paragraph()
     title_p.style = doc.styles['Heading 1']
     title_run = title_p.add_run(title_text)
-    set_run_font(title_run, 18, True)
+    # 不明確設定 run 層級字型/粗體/字級，改與 pandoc 產生之其他 Heading 1
+    # 章名（如「第一章」「參考文獻」）一致，僅提供 eastAsia 字型提示，
+    # 其餘完全繼承 Heading 1 樣式，避免顯式覆寫造成視覺不一致之疑慮。
+    rPr = title_run._element.get_or_add_rPr()
+    rFonts = OxmlElement('w:rFonts')
+    rFonts.set(qn('w:hint'), 'eastAsia')
+    rPr.append(rFonts)
     lot_paras.append(title_p)
 
     for name, cap in zip(bookmark_names, captions):
