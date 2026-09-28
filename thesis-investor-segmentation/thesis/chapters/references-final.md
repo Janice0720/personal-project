@@ -2,17 +2,17 @@
 
 ## 中文文獻
 
-中國時報（2026年8月18日）。台股震盪催出投資潮　基金定期定額人數、扣款筆數雙創新高。**中國時報**。https://www.chinatimes.com/realtimenews/20260818004441-260410
+工商時報（2026年1月2日）。少年股神向前衝　2025年新增股民55.18萬人　總開戶數1,376.78萬人寫新高（記者呂淑美）。https://www.ctee.com.tw/news/20260102700507-430201
 
-中華民國證券投資信託暨顧問商業同業公會（2025年9月12日）。投信投顧公會發布截至114年8月底境內基金、私募基金及全權委託投資業務規模〔新聞稿〕。https://www.sitca.org.tw/CWEB/境內基金新聞稿1140912.pdf
+中國時報（2026年8月18日）。台股震盪催出投資潮　基金定期定額人數、扣款筆數雙創新高。https://www.chinatimes.com/realtimenews/20260818004441-260410
+
+中華民國證券投資信託暨顧問商業同業公會〔SITCA〕（2025年9月12日）。投信投顧公會發布截至114年8月底境內基金、私募基金及全權委託投資業務規模〔新聞稿〕。https://www.sitca.org.tw/CWEB/境內基金新聞稿1140912.pdf
 
 王怡（2023）。**推薦系統之應用——以共同基金電子交易平台為例**〔未出版碩士論文〕。東吳大學巨量資料管理學院碩士學位學程。https://hdl.handle.net/11296/xaz6j9
 
-王孟倫（2021年9月19日）。〈財經週報-金融監理沙盒〉基金互換實驗結束　好好投資改制券商。**自由財經**。https://ec.ltn.com.tw/article/paper/1473687
+自由財經（2021年9月19日）。〈財經週報-金融監理沙盒〉基金互換實驗結束　好好投資改制券商（記者王孟倫）。https://ec.ltn.com.tw/article/paper/1473687
 
 吳忠義（2008）。**共同基金投資人投資行為及風險偏好之研究**〔未出版碩士論文〕。國立中央大學財務金融學系。
-
-呂淑美（2026年1月2日）。少年股神向前衝　2025年新增股民55.18萬人　總開戶數1,376.78萬人寫新高。**工商時報**。https://www.ctee.com.tw/news/20260102700507-430201
 
 陳一慈（2021）。**利用 RFM 模型與購物籃分析進行電子商務顧客分群與銷售策略之研究**〔未出版碩士論文〕。國立政治大學企業管理研究所。https://doi.org/10.6814/NCCU202100799
 
@@ -20,7 +20,9 @@
 
 許信輝（2023）。**網路關鍵字搜尋行為反映投資人情緒之研究**〔未出版博士論文〕。淡江大學財務金融學系。
 
-廖賢龍（2025年11月18日）。境內基金總規模突破10.9兆元創新高　統一投信年規模成長王二連霸。**經濟日報**。https://money.udn.com/money/story/5618/9146153
+經濟日報（2025年11月18日）。境內基金總規模突破10.9兆元創新高　統一投信年規模成長王二連霸（記者廖賢龍）。https://money.udn.com/money/story/5618/9146153
+
+臺灣證券交易所（2026年9月15日）。電子式交易統計資訊〔開放資料集，成交月份：114年8月〕。https://openapi.twse.com.tw/v1/opendata/t187ap19
 
 鄭天澤、陳莉貞、郭怡君（2021）。**2021基金投資人投資行為與偏好問卷調查分析**〔資產管理人才培育與產業發展基金委託專題研究〕。財團法人中華民國證券暨期貨市場發展基金會。https://www.sfi.org.tw/files/1114/f110_2.pdf
 
@@ -29,6 +31,8 @@
 ## 西文文獻
 
 Aliyev, M., Ahmadov, E., Gadirli, H., Mammadova, A., & Alasgarov, E. (2020). *Segmenting bank customers via RFM model and unsupervised machine learning* (arXiv:2008.08662). arXiv. https://arxiv.org/abs/2008.08662
+
+Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*, *31*(3), 307–327.
 
 Caliński, T., & Harabasz, J. (1974). A dendrite method for cluster analysis. *Communications in Statistics*, *3*(1), 1–27.
 
@@ -66,9 +70,9 @@ Huang, Z. (1997). Clustering large data sets with mixed numeric and categorical 
 
 Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, *2*, 283–304.
 
-International Organization of Securities Commissions. (2025). *Artificial intelligence in capital markets: Use cases, risks, and challenges* (Consultation Report CR/01/2025). IOSCO.
+International Organization of Securities Commissions〔IOSCO〕. (2025). *Artificial intelligence in capital markets: Use cases, risks, and challenges* (Consultation Report CR/01/2025). IOSCO.
 
-International Organization of Securities Commissions Board. (2021). *The use of artificial intelligence and machine learning by market intermediaries and asset managers* (Final Report FR06/2021). IOSCO. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf
+International Organization of Securities Commissions Board〔IOSCO〕. (2021). *The use of artificial intelligence and machine learning by market intermediaries and asset managers* (Final Report FR06/2021). IOSCO. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf
 
 Järvelin, K., & Kekäläinen, J. (2002). Cumulated gain-based evaluation of IR techniques. *ACM Transactions on Information Systems*, *20*(4), 422–446.
 

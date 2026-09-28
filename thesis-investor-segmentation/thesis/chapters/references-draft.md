@@ -31,26 +31,28 @@ Chiou-Wei, S.-Z., & Lee, Y.-T. (2024). Application of KL distance-based intellig
 
 ### 第一章引用文獻（新聞／產業資料來源，2026-09-28 以 WebSearch 逐筆查證新增）
 
-呂淑美（2026年1月2日）。少年股神向前衝　2025年新增股民55.18萬人　總開戶數1,376.78萬人寫新高。**工商時報**。https://www.ctee.com.tw/news/20260102700507-430201
-**（✅ 已核對：總開戶數、新增股民人數與內文引用完全相符；61 歲以上占全年新增開戶數比例，以原文全年統計 220,051／551,784 計算為 39.88%，與內文「近 4 成」之敘述相符，非誤植）**
+工商時報（2026年1月2日）。少年股神向前衝　2025年新增股民55.18萬人　總開戶數1,376.78萬人寫新高（記者呂淑美）。https://www.ctee.com.tw/news/20260102700507-430201
+**（✅ 已核對：總開戶數、新增股民人數與內文引用完全相符；61 歲以上占全年新增開戶數比例，以原文全年統計 220,051／551,784 計算為 39.88%，與內文「近 4 成」之敘述相符，非誤植。2026-09-28 更正：改列為媒體全銜，與其他 3 筆新聞來源格式統一，並與內文引用之第一元素一致）**
 
-廖賢龍（2025年11月18日）。境內基金總規模突破10.9兆元創新高　統一投信年規模成長王二連霸。**經濟日報**。https://money.udn.com/money/story/5618/9146153
-**（✅ 已核對：10.9 兆元、2025 年 10 月底之數字與內文引用相符）**
+經濟日報（2025年11月18日）。境內基金總規模突破10.9兆元創新高　統一投信年規模成長王二連霸（記者廖賢龍）。https://money.udn.com/money/story/5618/9146153
+**（✅ 已核對：10.9 兆元、2025 年 10 月底之數字與內文引用相符。2026-09-28 更正：內文引用（經濟日報，2025）以媒體全銜為第一元素，原條目誤以記者姓名為首，已改列為媒體全銜、記者姓名移至括號內，與其他 3 筆新聞來源格式統一，並與內文引用之第一元素一致）**
 
-王孟倫（2021年9月19日）。〈財經週報-金融監理沙盒〉基金互換實驗結束　好好投資改制券商。**自由財經**。https://ec.ltn.com.tw/article/paper/1473687
-**（✅ 已核對：金融科技創新實驗、沙盒實驗完成、改制證券商之敘述與內文引用相符）**
+自由財經（2021年9月19日）。〈財經週報-金融監理沙盒〉基金互換實驗結束　好好投資改制券商（記者王孟倫）。https://ec.ltn.com.tw/article/paper/1473687
+**（✅ 已核對：金融科技創新實驗、沙盒實驗完成、改制證券商之敘述與內文引用相符。2026-09-28 更正：同上，改列為媒體全銜）**
 
-中華民國證券投資信託暨顧問商業同業公會（2025年9月12日）。投信投顧公會發布截至114年8月底境內基金、私募基金及全權委託投資業務規模〔新聞稿〕。https://www.sitca.org.tw/CWEB/境內基金新聞稿1140912.pdf
-**（✅ 已核對：1,674 萬 1,699 人、較前月增加 0.85％，與內文引用完全相符。內文以「SITCA」簡稱標示，正式參考文獻條目建議使用全銜）**
+中華民國證券投資信託暨顧問商業同業公會〔SITCA〕（2025年9月12日）。投信投顧公會發布截至114年8月底境內基金、私募基金及全權委託投資業務規模〔新聞稿〕。https://www.sitca.org.tw/CWEB/境內基金新聞稿1140912.pdf
+**（✅ 已核對：1,674 萬 1,699 人、較前月增加 0.85％，與內文引用完全相符。2026-09-28 更正：內文引用（SITCA，2025）為縮寫，已同步將 1.1 節該處內文引用之縮寫展開為全銜＋〔SITCA〕於首次出現處，並於本條目加註〔SITCA〕）**
 
-中國時報（2026年8月18日）。台股震盪催出投資潮　基金定期定額人數、扣款筆數雙創新高。**中國時報**。https://www.chinatimes.com/realtimenews/20260818004441-260410
-**（⚠️ 標題、日期、56.6 萬人／114 萬筆數字已核對相符；惟該網頁 WebFetch 遭 403 阻擋，無法確認個別記者之署名，暫以媒體全銜作為作者）**
+中國時報（2026年8月18日）。台股震盪催出投資潮　基金定期定額人數、扣款筆數雙創新高。https://www.chinatimes.com/realtimenews/20260818004441-260410
+**（⚠️ 標題、日期、56.6 萬人／114 萬筆數字已核對相符；惟該網頁 WebFetch 遭 403 阻擋，無法確認個別記者之署名，故仍以媒體全銜作為作者，與其餘 3 筆新聞來源之處理方式一致）**
+
+臺灣證券交易所（2026年9月15日）。電子式交易統計資訊〔開放資料集，成交月份：114年8月〕。https://openapi.twse.com.tw/v1/opendata/t187ap19
+**（✅ 2026-09-28 補齊：先前僅找到疑似正確頁面（市場交易月報）但無法逐字核對確切數字，經改用臺灣證券交易所 OpenAPI（/opendata/t187ap19「電子式交易統計資訊」端點）直接查詢，取得「占市場成交比例(筆數)」80.38%、「占市場成交比例(金額)」80.43%、成交月份 11508（114 年 8 月），與內文引用完全相符，出表日期 1150915 即為本條目日期）**
 
 鄭天澤、陳莉貞、郭怡君（2021）。**2021基金投資人投資行為與偏好問卷調查分析**〔資產管理人才培育與產業發展基金委託專題研究〕。財團法人中華民國證券暨期貨市場發展基金會。https://www.sfi.org.tw/files/1114/f110_2.pdf
 **（✅ 已核對：委託單位、報告標題與內文引用相符，完整作者名單、出版單位與網址已補齊）**
 
-**尚待補齊（2 筆，WebSearch 無法逐字核對確切出處，不宜臆測）：**
-- **臺灣證券交易所，2026**（內文引用：2026 年 8 月電子式交易占市場成交比重 80.38%／80.43%）——臺灣證券交易所「市場交易月報」（https://www.twse.com.tw/zh/trading/statistics/index02.html）應為正確資料性質之頁面，惟未能逐字核對 2026 年 8 月之確切數字是否列於該頁，正式定稿前須自行至該頁查證並補上擷取日期。
+**尚待補齊（1 筆，WebSearch 無法逐字核對確切出處，不宜臆測）：**
 - **好好證券，n.d.**（內文引用：可交易共同基金型錄約達 4,000+ 檔）——好好證券官網（fundswap.com.tw）目前查得之公開數字與 4,000+ 不符（查得約 1,100～2,000+ 檔等不同數字），可能為內部資料或已變動之舊數字，正式定稿前須向好好證券或內部資料來源確認正確數字與可引用網址。
 
 Aliyev, M., Ahmadov, E., Gadirli, H., Mammadova, A., & Alasgarov, E. (2020). *Segmenting bank customers via RFM model and unsupervised machine learning* (arXiv:2008.08662). arXiv. https://arxiv.org/abs/2008.08662
@@ -84,9 +86,10 @@ Sanz-Cruzado, J., Droukas, N., & McCreadie, R. (2024). *FAR-Trans: An investment
 
 Gambacorta, L., Gambacorta, R., & Mihet, R. (2023). FinTech, investor sophistication, and financial portfolio choices. *Review of Corporate Finance Studies*, *12*(4), 834–866. https://doi.org/10.1093/rcfs/cfad014
 
-International Organization of Securities Commissions Board. (2021). *The use of artificial intelligence and machine learning by market intermediaries and asset managers* (Final Report FR06/2021). IOSCO. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf
+International Organization of Securities Commissions Board〔IOSCO〕. (2021). *The use of artificial intelligence and machine learning by market intermediaries and asset managers* (Final Report FR06/2021). IOSCO. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD684.pdf
 
-International Organization of Securities Commissions. (2025). *Artificial intelligence in capital markets: Use cases, risks, and challenges* (Consultation Report CR/01/2025). IOSCO.
+International Organization of Securities Commissions〔IOSCO〕. (2025). *Artificial intelligence in capital markets: Use cases, risks, and challenges* (Consultation Report CR/01/2025). IOSCO.
+**（2026-09-28 更正：內文引用之首次出現處（第二章 02-recommendation-fintech-digital-brokerage.md）已展開為全銜＋〔IOSCO〕，此後 25 次沿用縮寫 IOSCO 不再逐一展開，兩則參考文獻條目已加註〔IOSCO〕與內文對應）**
 **（⚠️ 諮詢報告草案，非最終定稿，意見徵詢截止 2025/4/11，引用時應標註為「現況調查」而非「監理定論」）**
 
 CFA Institute. (2022). *Enhancing investors' trust: 2022 CFA Institute investor trust study*. CFA Institute. https://www.cfainstitute.org/sites/default/files/-/media/documents/article/Enhancing-Investors-Trust-Report_2022_Online.pdf
