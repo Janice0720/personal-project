@@ -18,8 +18,9 @@ __pycache__/
 .idea/
 .vscode/
 
-# Claude Code 本機設定
+# Claude Code 本機設定與 worktree（各為獨立 git 倉庫，不進版本控制）
 .claude/settings.local.json
+.claude/worktrees/
 
 # 下載之付費期刊全文（出版社授權限制，僅供個人寫作參考，不進版本控制）
 thesis-investor-segmentation/literature/downloads/
