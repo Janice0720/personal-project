@@ -174,6 +174,8 @@
 
 ### 2.1 投資人行為與基金投資人風險偏好（預計 3–4 頁）
 
+> **2026-09-28 全書修正（使用者發現）**：使用者指出團隊內部彙整用之文獻編號（A1–G4，定義於 `literature/literature-matrix.md`）不應寫入正式論文內文，僅供彙整階段識別使用，例如「許仲廷（2022，E6）」中的「E6」應予刪除，只留「許仲廷（2022）」。已全面清查並修正第一、二、三章正式內文（不含各檔案「使用狀態」／「修正紀錄」等內部追蹤區塊，以及明確標註「非正式章節內容」之規劃筆記段落），涉及檔案：`chapter-01-introduction/01-introduction-draft.md`、`chapter-02-literature-review/01-investor-behavior-segmentation-rfm.md`、`02-recommendation-fintech-digital-brokerage.md`、`03-gap-analysis.md`、`chapter-03-methodology/04-data-sources.md`、`05-data-preprocessing.md`、`06-investor-segmentation.md`。
+>
 > 主要文獻：G1（已完成精讀）、D4（已完成精讀，2026-09-22 補齊）、F7（已完成精讀）；補充 G2–G4（全文無法取得，已有完整摘要，摘要層級引用）
 > ✅ **2026-09-26 完成轉寫定稿**，草稿見 `thesis/chapters/chapter-02-literature-review/01-investor-behavior-segmentation-rfm.md` 「一、投資人行為與數位金融」節
 > ⚠️ **2026-09-26 發現未解決缺口**：§1 開頭「過度自信、從眾行為、處置效果、損失趨避、代表性偏誤、資訊過度反應」一句點名五種行為偏誤但完全無引用，`literature-matrix.md` 內查無任何行為財務學文獻可支撐，屬「連候選文獻都還沒找」的缺口，非單純未精讀。定稿前須擇一：補找並精讀至少一篇行為財務學文獻，或改寫該句為不需具名引用的概括敘述。
