@@ -79,9 +79,6 @@ Wu, D., & Li, X. (2025). A systematic literature review of financial product rec
 Shah, A., Joshi, A., Sheth, D., Shah, M., & Chawan, P. M. (2022). Mutual fund recommendation system with personalized explanations. *International Research Journal of Engineering and Technology*, *9*(9).
 **（⚠️ 印度大學部學生會議論文性質，無實證結果，引用層級為概念參考）**
 
-Ogedengbe, A. O., et al. (2022). A hybrid recommendation engine for fintech platforms: Leveraging behavioral analytics for user engagement and conversion. *International Journal of Multidisciplinary Evolutionary Research*, *3*(1).
-**（⚠️ 完整作者名單（8 位）尚未逐一查證，且經精讀確認此文品質疑慮較高——參考文獻大量離題、無原創實驗，引用層級為產業背景參考，正式定稿前須補齊完整作者名單）**
-
 Sanz-Cruzado, J., Droukas, N., & McCreadie, R. (2024). *FAR-Trans: An investment dataset for financial asset recommendation* (arXiv:2407.08692). arXiv. https://arxiv.org/abs/2407.08692
 
 Gambacorta, L., Gambacorta, R., & Mihet, R. (2023). FinTech, investor sophistication, and financial portfolio choices. *Review of Corporate Finance Studies*, *12*(4), 834–866. https://doi.org/10.1093/rcfs/cfad014
@@ -154,7 +151,7 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 
 - **A12（鄭婕妤，2010）**：矩陣曾標註「Airiti 上有 2011/2012 期刊版本」與學位論文版本並存，究竟引用哪一版仍待決定，非資料缺漏而是版本選擇問題。
 - **A8**：矩陣記載作者「Anitha; Patil R. P.（待查證）」，尚未確認正式作者姓名，且本文獻目前未在第二章正文引用，屬「已取得未精讀」狀態，暫不列入本清單。
-- **B4（Ogedengbe et al., 2022）**：完整 8 位作者姓名尚未逐一查證，僅知第一作者 Ogedengbe。
+- **B4（Ogedengbe et al., 2022）**：2026-09-28 使用者決定整筆移除——查證作者名單時發現出版年份存在 2022／2025 出處衝突，且該文獻本身品質疑慮較高，已將正文兩處引用（02-recommendation-fintech-digital-brokerage.md「常見推薦方法或模型」段落之混合式推薦三分類、「1. 研究主題演進」段落與 Shah et al. 並列討論之段落）改寫為不含該引用之敘述，並移除本檔案「一、正式引用文獻」對應條目。
 - **G2、G3、G4**：全文皆無法取得（G2 無授權、G3/G4 僅國圖紙本），僅有摘要層級資訊，若引用需標示為摘要層級引用，且矩陣中書目資訊尚未逐一核對完整。
 - **行為財務學文獻缺口**：第二章 2.1 節開頭提及「過度自信、從眾行為、處置效果、損失趨避、代表性偏誤」等概念，目前**完全沒有對應文獻**（詳見 `01-investor-behavior-segmentation-rfm.md` 該處標註），須另行查找行為財務學經典或近期文獻。
 

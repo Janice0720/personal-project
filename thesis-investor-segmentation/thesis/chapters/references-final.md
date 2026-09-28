@@ -82,8 +82,6 @@ MacQueen, J. B. (1967). Some methods for classification and analysis of multivar
 
 Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to information retrieval*. Cambridge University Press.
 
-Ogedengbe, A. O., et al. (2022). A hybrid recommendation engine for fintech platforms: Leveraging behavioral analytics for user engagement and conversion. *International Journal of Multidisciplinary Evolutionary Research*, *3*(1).
-
 Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, *20*, 53–65.
 
 Sanz-Cruzado, J., Droukas, N., & McCreadie, R. (2024). *FAR-Trans: An investment dataset for financial asset recommendation* (arXiv:2407.08692). arXiv. https://arxiv.org/abs/2407.08692
