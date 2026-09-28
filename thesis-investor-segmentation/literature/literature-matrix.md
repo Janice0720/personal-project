@@ -442,7 +442,7 @@
 - ✅ K-prototypes 原始文獻：Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, 2, 283–304.
 - ✅ Silhouette Score 原始文獻：Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, 20, 53–65.
 - ✅ NDCG 原始文獻：Järvelin, K., & Kekäläinen, J. (2002). Cumulated gain-based evaluation of IR techniques. *ACM Transactions on Information Systems*, 20(4), 422–446.
-- ⚠️ Elbow Method：分群文獻長期沿用之啟發式方法，查證後確認並無單一可歸屬之原始文獻，不強行指定出處。
+- ✅ Elbow Method 原始文獻（**2026-09-28 更正**：先前查證結論有誤，經 WebSearch 重新查證確認學界普遍歸因於本篇，非「無單一可歸屬之原始文獻」）：Thorndike, R. L. (1953). Who belongs in the family? *Psychometrika*, 18(4), 267–276. https://doi.org/10.1007/BF02289263
 - ⚠️ Precision@K、Recall@K、MAP：源自資訊檢索領域長期發展之慣例指標，並無單一可歸屬之原始文獻，可視需要引用教科書（如 Manning, Raghavan & Schütze, *Introduction to Information Retrieval*, 2008）作為次級引用來源。
 - ⚠️ RFM 五等分法之原始出處：Arthur Hughes 提出 RFM 模型、Miglautsch (2000) 提出五等分評分法——此二筆資訊記錄於 A12、E5 之文獻回顧引用中，屬次級引用，尚未直接取得並精讀原文。
 

@@ -189,7 +189,7 @@
 ### 2.2 投資人分群方法與 RFM / K-means（預計 4–5 頁）
 
 > 主要文獻：A12、E5、A6、A7（四篇均已完成精讀）；補充 A13（2026-09-23 完成精讀，非同儕審查但方法交代清楚，可佐證分群演算法比較，引用層級低於四篇主文獻）；**E6（許仲廷，2022，統一證券真實客戶 k-prototype 分群，本研究場域最貼近之台灣先行研究，2026-09-26 補入）**
-> ✅ **2026-09-26 完成轉寫定稿**，草稿見 `thesis/chapters/chapter-02-literature-review/01-investor-behavior-segmentation-rfm.md` 「二、投資人／顧客分群方法」與「三、RFM 與機器學習分群」兩節。**2026-09-26 修正**：另一 AI agent 審查指出 E6 原本完全未被引用，若不處理將使「台灣研究相對不足」之論述站不住腳，已補入並說明本研究與 E6 之方法論差異（E6 止於二元分類、未做 Top-K 推薦評估）
+> ✅ **2026-09-26 完成轉寫定稿**，草稿見 `thesis/chapters/chapter-02-literature-review/01-investor-behavior-segmentation-rfm.md` 「二、投資人／顧客分群方法」與「三、RFM 與機器學習分群」兩節。**2026-09-26 修正**：另一 AI agent 審查指出 E6 原本完全未被引用，若不處理將使「台灣研究相對不足」之論述站不住腳，已補入並說明本研究與 E6 之方法論差異（E6 止於二元分類、未做 Top-K 推薦評估）。**2026-09-28 修正**：使用者質疑「二」節末段稱 Elbow Method「並無單一可歸屬之原始文獻」之準確性，經 WebSearch 重新查證確認學界普遍歸因於 Thorndike (1953)，已補上此引用；同段落原漏引用之 Davies-Bouldin（1979）、Calinski-Harabasz（1974）Index 亦一併補齊，與第三章 3.5.4 節引用完整度一致，`literature-matrix.md`、`references-draft.md` 同步更正。
 
 - [x] 整理 A12 精讀摘要，提取 RFM+SOM 分群設計段落
 - [x] 整理 E5 精讀摘要，提取 RFM 評分設計與購物籃段落
