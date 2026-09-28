@@ -24,9 +24,10 @@
 
 王怡（2023）。**推薦系統之應用——以共同基金電子交易平台為例**〔未出版碩士論文〕。東吳大學巨量資料管理學院碩士學位學程。https://hdl.handle.net/11296/xaz6j9
 
-邱松贊、李雅慈（2024）。Application of KL distance-based intelligent recommendation method to fund recommendation for users with investment behavior in Asia region. **Heliyon**, *10*(12), Article e32959.（課堂精讀文獻，非文獻矩陣主清單項目）
-
 ### 西文文獻
+
+Chiou-Wei, S.-Z., & Lee, Y.-T. (2024). Application of KL distance-based intelligent recommendation method to fund recommendation for users with investment behavior in Asia region. *Heliyon*, *10*(12), Article e32959. https://doi.org/10.1016/j.heliyon.2024.e32959
+**（2026-09-28 更正：原以中文譯名「邱松贊、李雅慈」列於「中文文獻」節，惟本文實際發表於英文期刊 Heliyon，作者於原文之羅馬拼音為 Song-Zan Chiou-Wei 與 Ya-Tzu Lee（已以 WebSearch 交叉核對 PMC／PubMed 收錄之作者名單與 DOI），第二章、第三章內文亦以「Chiou-Wei & Lee（2024）」西式格式引用，故改列本節並補上 DOI，與內文引用格式一致。課堂精讀文獻，非文獻矩陣主清單項目）**
 
 Aliyev, M., Ahmadov, E., Gadirli, H., Mammadova, A., & Alasgarov, E. (2020). *Segmenting bank customers via RFM model and unsupervised machine learning* (arXiv:2008.08662). arXiv. https://arxiv.org/abs/2008.08662
 **（⚠️ arXiv 預印本，非同儕審查，引用層級為補充佐證，不宜作為核心方法論之唯一支撐）**
@@ -80,9 +81,6 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 |---|---|---|
 | RFM 模型原始提出者 | Arthur Hughes（確切著作與年份未查證） | E5（陳一慈，2021）文獻回顧 |
 | RFM 五等分評分法 | Miglautsch, J. R. (2000). Thoughts on RFM scoring. *Journal of Database Marketing*, 8(1), 67–72.（頁碼未逐一核對） | A12（鄭婕妤，2010）文獻回顧 |
-| Hansen 縱橫門檻迴歸模型 | Hansen, B. E. (1999). Threshold effects in non-dynamic panels: Estimation, testing, and inference. *Journal of Econometrics*, 93(2), 345–368. | D4（許信輝，2023）方法論引用 |
-| GARCH 模型 | Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*, 31(3), 307–327. | D4（許信輝，2023）方法論引用 |
-| ARCH 模型 | Engle, R. F. (1982). Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation. *Econometrica*, 50(4), 987–1007. | D4（許信輝，2023）方法論引用 |
 | Robo-advisor 偏好推斷趨勢 | Alsabah, H. et al. (2021)（完整書目未查證） | F5（Cardillo & Chiappini, 2024）文獻回顧 |
 | Robo-advisor 偏好推斷趨勢 | Dong, X. et al. (2022)（完整書目未查證） | F5（Cardillo & Chiappini, 2024）文獻回顧 |
 
@@ -95,9 +93,14 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 ## 三、方法論與統計方法經典文獻（標準引用，書目已交叉查證但未取得原始全文）
 
 > **2026-09-26 新增（依另一 AI agent 審查意見，將原列於「次級引用文獻」之演算法／統計經典文獻移出至本節）**：以下文獻與「二、次級引用文獻」性質不同，不應歸入同一區——這些是**本研究第三章直接採用之方法論或統計檢定方法**（K-prototypes 分群、ALS 推薦、Precision/Recall/MAP 評估、RQ2/RQ3 統計檢定），而非透過他人文獻回顧轉述得知，理由如下：(1) 本研究對其內容之主張（演算法名稱、核心機制、公式），已透過 WebSearch **交叉比對多個獨立來源**（非僅單一第三方論文之轉述段落）確認一致，而非依賴單一轉述來源；(2) 這些文獻均為演算法／統計方法之奠基性經典（多發表於 1940–2000 年代），其內容為該方法之標準定義，已完整反映於現今每一本統計學／機器學習教科書與軟體文件中，不存在「轉述失真」之風險——這與「二」節中之次級引用（內容僅存在於單一轉述來源、原文未經比對）性質不同；(3) 直接引用奠基性方法論文獻、而不強求取得數十年前之原始期刊全文，是量化研究論文之常見且被接受之學術慣例。**處理原則**：本節文獻可依 APA 7th 標準格式直接列入正式參考文獻清單，不加註「轉引自」或「as cited in」；惟若指導教授或口試委員要求全文查證，仍應優先嘗試取得原文（多數為公開可取得之經典文獻）。
+>
+> **2026-09-28 由「二、次級引用文獻」升格**：Hansen (1999)、Bollerslev (1986)、Engle (1982) 三篇原列於次級引用文獻，標註「轉引自 D4（許信輝，2023）方法論引用」。惟其性質與本節其餘文獻相同——皆為計量經濟學奠基性經典（縱橫門檻迴歸、GARCH、ARCH），書目資訊已可獨立查證（Hansen 1999 已於 2026-09-28 以 WebSearch 交叉核對，*Journal of Econometrics*, 93, 345–368 與既有記載完全相符），不存在轉述失真風險，故依本節原則升格。惟三篇之引用位置為**第二章 2.1 節**（用於說明許信輝（2023）研究所採用之方法，而非本研究第三章直接採用之方法），與本節其餘「第三章方法論」文獻性質略有不同，特此註明。
 
 | 文獻 | 書目資訊 | 本研究引用位置 |
 |---|---|---|
+| 縱橫門檻迴歸模型 | Hansen, B. E. (1999). Threshold effects in non-dynamic panels: Estimation, testing, and inference. *Journal of Econometrics*, 93(2), 345–368. | 第二章 2.1（說明許信輝，2023 之方法） |
+| GARCH 模型 | Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*, 31(3), 307–327. | 第二章 2.1（說明許信輝，2023 之方法） |
+| ARCH 模型 | Engle, R. F. (1982). Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation. *Econometrica*, 50(4), 987–1007. | 第二章 2.1（說明許信輝，2023 之方法） |
 | K-means 原始文獻 | MacQueen, J. B. (1967). Some methods for classification and analysis of multivariate observations. *Proceedings of the Fifth Berkeley Symposium on Mathematical Statistics and Probability*, 1, 281–297. | 第三章 3.5.3（K-means 為方法論對照） |
 | K-prototypes 原始文獻（會議論文，正式原始出處） | Huang, Z. (1997). Clustering large data sets with mixed numeric and categorical values. In *Proceedings of the First Pacific-Asia Conference on Knowledge Discovery and Data Mining* (pp. 21–34). World Scientific.（**2026-09-27 更正**：先前版本誤認 Huang (1998, DMKD) 為 k-prototypes 原始文獻，並誤將另一篇性質不同之 Huang 1997 工作坊論文列為「k-modes 前驅」。經第三方 agent 以 Thompson et al. (2021) 全文引用為一手佐證指出：k-prototypes 首次提出於本篇 PAKDD 1997 會議論文，非 1998 期刊論文；本次更正經獨立 WebSearch 交叉查證確認無誤） | 第三章 3.5.3（分群演算法，正式引用） |
 | K-prototypes 擴充期刊版（與上列會議論文並列引用） | Huang, Z. (1998). Extensions to the k-means algorithm for clustering large data sets with categorical values. *Data Mining and Knowledge Discovery*, 2, 283–304. | 第三章 3.5.3（分群演算法，補充引用） |
