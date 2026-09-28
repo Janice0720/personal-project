@@ -22,7 +22,7 @@ TITLE_ZH = "應用投資人分群與個人化推薦模型於數位券商基金�
 TITLE_EN = "A Study on Applying Investor Segmentation and Personalized Recommendation Models to Digital Brokerage Fund Investment Services"
 STUDENT = "研究生：黃子甄　撰"
 ADVISOR = "指導教授：王亦凡　博士"
-GRAD_DATE = "中華民國一一七年六月"  # 116 學年度第二學期（117 年 6 月）畢業
+GRAD_DATE = "中華民國一一六年六月"  # 115 學年度第二學期（116 年 6 月）預計畢業
 
 
 def set_run_font(run, size, bold, east_asia='標楷體', ascii_font='Times New Roman'):
@@ -77,7 +77,10 @@ def main():
     cover_paras.append(make_para(doc, ADVISOR, 18, True))
     for _ in range(4):
         cover_paras.append(make_para(doc, "", 18, False))
-    cover_paras.append(make_para(doc, GRAD_DATE, 18, True, page_break=True))
+    cover_paras.append(make_para(doc, GRAD_DATE, 18, True))
+    page_break_para = doc.add_paragraph()
+    page_break_para.add_run().add_break(WD_BREAK.PAGE)
+    cover_paras.append(page_break_para)
 
     # Each paragraph above was appended at the very end of the body; move them,
     # in the same order, to sit immediately before the original first element
