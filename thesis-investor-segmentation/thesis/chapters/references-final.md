@@ -82,6 +82,8 @@ MacQueen, J. B. (1967). Some methods for classification and analysis of multivar
 
 Manning, C. D., Raghavan, P., & Schütze, H. (2008). *Introduction to information retrieval*. Cambridge University Press.
 
+Miglautsch, J. R. (2000). Thoughts on RFM scoring. *Journal of Database Marketing & Customer Strategy Management*, *8*(1), 67–72. https://doi.org/10.1057/palgrave.jdm.3240019
+
 Rousseeuw, P. J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. *Journal of Computational and Applied Mathematics*, *20*, 53–65.
 
 Sanz-Cruzado, J., Droukas, N., & McCreadie, R. (2024). *FAR-Trans: An investment dataset for financial asset recommendation* (arXiv:2407.08692). arXiv. https://arxiv.org/abs/2407.08692

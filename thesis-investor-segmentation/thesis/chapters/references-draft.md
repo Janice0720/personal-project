@@ -104,7 +104,6 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 | 文獻 | 書目資訊（已透過 WebSearch 或其他已讀文獻核對，但未取得全文精讀） | 轉引自 |
 |---|---|---|
 | RFM 模型原始提出者 | Arthur Hughes（確切著作與年份未查證） | E5（陳一慈，2021）文獻回顧 |
-| RFM 五等分評分法 | Miglautsch, J. R. (2000). Thoughts on RFM scoring. *Journal of Database Marketing*, 8(1), 67–72.（頁碼未逐一核對） | A12（鄭婕妤，2010）文獻回顧 |
 | Robo-advisor 偏好推斷趨勢 | Alsabah, H. et al. (2021)（完整書目未查證） | F5（Cardillo & Chiappini, 2024）文獻回顧 |
 | Robo-advisor 偏好推斷趨勢 | Dong, X. et al. (2022)（完整書目未查證） | F5（Cardillo & Chiappini, 2024）文獻回顧 |
 
@@ -119,9 +118,13 @@ Cardillo, G., & Chiappini, H. (2024). Robo-advisors: A systematic literature rev
 > **2026-09-26 新增（依另一 AI agent 審查意見，將原列於「次級引用文獻」之演算法／統計經典文獻移出至本節）**：以下文獻與「二、次級引用文獻」性質不同，不應歸入同一區——這些是**本研究第三章直接採用之方法論或統計檢定方法**（K-prototypes 分群、ALS 推薦、Precision/Recall/MAP 評估、RQ2/RQ3 統計檢定），而非透過他人文獻回顧轉述得知，理由如下：(1) 本研究對其內容之主張（演算法名稱、核心機制、公式），已透過 WebSearch **交叉比對多個獨立來源**（非僅單一第三方論文之轉述段落）確認一致，而非依賴單一轉述來源；(2) 這些文獻均為演算法／統計方法之奠基性經典（多發表於 1940–2000 年代），其內容為該方法之標準定義，已完整反映於現今每一本統計學／機器學習教科書與軟體文件中，不存在「轉述失真」之風險——這與「二」節中之次級引用（內容僅存在於單一轉述來源、原文未經比對）性質不同；(3) 直接引用奠基性方法論文獻、而不強求取得數十年前之原始期刊全文，是量化研究論文之常見且被接受之學術慣例。**處理原則**：本節文獻可依 APA 7th 標準格式直接列入正式參考文獻清單，不加註「轉引自」或「as cited in」；惟若指導教授或口試委員要求全文查證，仍應優先嘗試取得原文（多數為公開可取得之經典文獻）。
 >
 > **2026-09-28 由「二、次級引用文獻」升格**：Hansen (1999)、Bollerslev (1986)、Engle (1982) 三篇原列於次級引用文獻，標註「轉引自 D4（許信輝，2023）方法論引用」。惟其性質與本節其餘文獻相同——皆為計量經濟學奠基性經典（縱橫門檻迴歸、GARCH、ARCH），書目資訊已可獨立查證（Hansen 1999 已於 2026-09-28 以 WebSearch 交叉核對，*Journal of Econometrics*, 93, 345–368 與既有記載完全相符），不存在轉述失真風險，故依本節原則升格。惟三篇之引用位置為**第二章 2.1 節**（用於說明許信輝（2023）研究所採用之方法，而非本研究第三章直接採用之方法），與本節其餘「第三章方法論」文獻性質略有不同，特此註明。
+>
+> **2026-09-28 Miglautsch (2000) 由「二、次級引用文獻」升格**：原標註「轉引自 A12（鄭婕妤，2010）文獻回顧」，使用者指出 2.2.2 節引用之「傳統 RFM 五等分評分法」為 3.4 節「依資料分佈調整級距而非機械式等分」論述之對照基準，不宜維持孤立、未列入參考文獻之引用。已以 WebSearch 交叉核對（Springer、Semantic Scholar 等多來源一致），確認正確全稱為
+> *Journal of Database Marketing & Customer Strategy Management*（原書目資訊誤植為較短之舊刊名 *Journal of Database Marketing*），並取得 DOI，書目資訊已獨立查證，故依本節原則升格為正式引用。RFM 模型原始提出者 Arthur Hughes（確切著作年份未查證）仍維持次級引用，未一併升格。
 
 | 文獻 | 書目資訊 | 本研究引用位置 |
 |---|---|---|
+| RFM 五等分評分法 | Miglautsch, J. R. (2000). Thoughts on RFM scoring. *Journal of Database Marketing & Customer Strategy Management*, 8(1), 67–72. https://doi.org/10.1057/palgrave.jdm.3240019 | 第二章 2.2.2（傳統五等分評分法，作為本研究 3.4 節「依資料分佈調整級距」論述之對照基準） |
 | 縱橫門檻迴歸模型 | Hansen, B. E. (1999). Threshold effects in non-dynamic panels: Estimation, testing, and inference. *Journal of Econometrics*, 93(2), 345–368. | 第二章 2.1（說明許信輝，2023 之方法） |
 | GARCH 模型 | Bollerslev, T. (1986). Generalized autoregressive conditional heteroskedasticity. *Journal of Econometrics*, 31(3), 307–327. | 第二章 2.1（說明許信輝，2023 之方法） |
 | ARCH 模型 | Engle, R. F. (1982). Autoregressive conditional heteroscedasticity with estimates of the variance of United Kingdom inflation. *Econometrica*, 50(4), 987–1007. | 第二章 2.1（說明許信輝，2023 之方法） |
