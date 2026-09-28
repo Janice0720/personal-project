@@ -90,7 +90,7 @@ def process_ch2():
             text = re.sub(r"^# .*\n+", "", text, count=1, flags=re.MULTILINE)
         # i == 2 (gap-analysis): its H1 IS a real section (2.5) -> handled by renumber pass
         parts.append(text.strip())
-    combined = "\n\n---\n\n".join(parts)
+    combined = "\n\n".join(parts)
     combined = renumber_headings_stateful(combined)
     return "# 第二章　文獻探討\n\n" + combined
 
@@ -101,7 +101,7 @@ def process_ch3():
         text = read(path)
         text = strip_title_line(text)
         parts.append(text.strip())
-    combined = "\n\n---\n\n".join(parts)
+    combined = "\n\n".join(parts)
     combined = renumber_headings_stateful(combined)
     return "# 第三章　研究方法\n\n" + combined
 

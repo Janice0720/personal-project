@@ -91,6 +91,20 @@ def main():
         body.remove(el)
         insert_ref.addprevious(el)
 
+    # Heading 1's style-level pageBreakBefore is not reliably rendered as a
+    # visible page break by all viewers; insert explicit page breaks before
+    # every chapter-level heading to guarantee each chapter starts on a new page.
+    CHAPTER_TITLES = {"第一章　緒論", "第二章　文獻探討", "第三章　研究方法", "參考文獻"}
+    for p in doc.paragraphs:
+        if p.style.name == "Heading 1" and p.text in CHAPTER_TITLES:
+            brk_p = OxmlElement('w:p')
+            brk_r = OxmlElement('w:r')
+            brk = OxmlElement('w:br')
+            brk.set(qn('w:type'), 'page')
+            brk_r.append(brk)
+            brk_p.append(brk_r)
+            p._p.addprevious(brk_p)
+
     doc.save(DOCX_PATH)
     print("cover page inserted before TOC ->", DOCX_PATH)
 
