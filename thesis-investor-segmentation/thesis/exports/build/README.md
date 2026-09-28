@@ -18,7 +18,7 @@ python3 build_reference.py
 python3 preprocess.py
 
 # 3. 轉為 Word 檔（含自動產生之「目錄」欄位，開啟後於 Word 按 Ctrl+A 再 F9 可更新頁碼）
-pandoc combined.md -f markdown+tex_math_dollars -o ../第一至三章初稿.docx \
+pandoc combined.md -f markdown+tex_math_dollars -o "../黃子甄_論文計畫書(第一至三章初稿).docx" \
   --reference-doc=reference.docx --toc --toc-depth=3
 
 # 4. 在文件最前面插入封面（學校／所名／題目／研究生／指導教授／畢業年月）

@@ -1,4 +1,4 @@
-"""Insert a formatted cover page at the very start of ../第一至三章初稿.docx
+"""Insert a formatted cover page at the very start of the exported docx
 (before pandoc's TOC block), matching 國立臺北商業大學資訊與決策科學研究所 format spec.
 
 Run this AFTER the pandoc conversion step (see README.md), since it edits the
@@ -11,7 +11,8 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
-DOCX_PATH = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", "第一至三章初稿.docx"))
+OUTPUT_FILENAME = "黃子甄_論文計畫書(第一至三章初稿).docx"
+DOCX_PATH = os.path.normpath(os.path.join(os.path.dirname(__file__), "..", OUTPUT_FILENAME))
 
 # ---- 封面資訊：如有異動請直接修改以下欄位後重新執行本腳本 ----
 SCHOOL = "國立臺北商業大學"
