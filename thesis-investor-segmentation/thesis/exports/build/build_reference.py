@@ -98,6 +98,45 @@ h5.paragraph_format.space_before = Pt(8)
 h5.paragraph_format.space_after = Pt(4)
 h5.paragraph_format.keep_with_next = True
 
+# ---- Body Text: pandoc styles every non-first paragraph in a section as "Body Text"
+# (only the first paragraph after a heading gets "Normal"); without this override it
+# silently falls back to Word's built-in Body Text style (adds 6pt space-after),
+# producing inconsistent paragraph spacing across the body text. Match Normal exactly.
+body_text = doc.styles['Body Text']
+style_font(body_text, 12, False, east_asia='標楷體', ascii_font='Times New Roman', color=(0, 0, 0))
+bt_pf = body_text.paragraph_format
+set_line_spacing_1_5(bt_pf)
+bt_pf.space_after = Pt(0)
+bt_pf.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
+
+# ---- Source Code / Verbatim Char: used for ASCII box-drawing architecture diagrams
+# and pseudocode blocks. Without an explicit monospace font, pandoc synthesizes an
+# empty style that falls back to 標楷體/Times New Roman (proportional), which breaks
+# the box-drawing character alignment. ----
+try:
+    src_style = doc.styles.add_style('Source Code', WD_STYLE_TYPE.PARAGRAPH)
+except ValueError:
+    src_style = doc.styles['Source Code']
+src_style.base_style = normal
+style_font(src_style, 11, False, east_asia='細明體', ascii_font='Courier New', color=(0, 0, 0))
+src_style.paragraph_format.space_after = Pt(0)
+src_style.paragraph_format.line_spacing_rule = WD_LINE_SPACING.SINGLE
+
+try:
+    verbatim_char = doc.styles.add_style('Verbatim Char', WD_STYLE_TYPE.CHARACTER)
+except ValueError:
+    verbatim_char = doc.styles['Verbatim Char']
+vc_rPr = verbatim_char.element.get_or_add_rPr()
+vc_rFonts = vc_rPr.find(qn('w:rFonts'))
+if vc_rFonts is None:
+    vc_rFonts = OxmlElement('w:rFonts')
+    vc_rPr.append(vc_rFonts)
+vc_rFonts.set(qn('w:eastAsia'), '細明體')
+vc_rFonts.set(qn('w:ascii'), 'Courier New')
+vc_rFonts.set(qn('w:hAnsi'), 'Courier New')
+verbatim_char.font.name = 'Courier New'
+verbatim_char.font.size = Pt(11)
+
 # ---- Table style: pandoc emits tables with style id "Table"; define it with visible grid borders ----
 # (cell paragraphs already use "Normal" style for font, confirmed separately; this only needs borders)
 table_grid = doc.styles['Table Grid']  # has visible borders by default
