@@ -137,6 +137,17 @@ vc_rFonts.set(qn('w:hAnsi'), 'Courier New')
 verbatim_char.font.name = 'Courier New'
 verbatim_char.font.size = Pt(11)
 
+# ---- References: 參考文獻條目，第二行起內縮 2 個字元（垂懸縮排），依格式規範 ----
+try:
+    refs_style = doc.styles.add_style('References', WD_STYLE_TYPE.PARAGRAPH)
+except ValueError:
+    refs_style = doc.styles['References']
+refs_style.base_style = normal
+refs_pf = refs_style.paragraph_format
+refs_pf.left_indent = Pt(24)
+refs_pf.first_line_indent = Pt(-24)
+refs_pf.space_after = Pt(6)
+
 # ---- Table style: pandoc emits tables with style id "Table"; define it with visible grid borders ----
 # (cell paragraphs already use "Normal" style for font, confirmed separately; this only needs borders)
 table_grid = doc.styles['Table Grid']  # has visible borders by default

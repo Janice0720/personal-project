@@ -19,6 +19,7 @@ CH3 = [
     f"{BASE}/chapter-03-methodology/07-recommendation-models.md",
     f"{BASE}/chapter-03-methodology/08-evaluation-methods.md",
 ]
+REFERENCES = f"{BASE}/references-final.md"
 
 TITLE_LINE_RE = re.compile(r"^論文題目：.*$", re.MULTILINE)
 NUMBERED_HEADING_RE = re.compile(r"^(#{1,6})\s+(\d+(?:\.\d+)+)\s+(.*)$")
@@ -105,6 +106,24 @@ def process_ch3():
     return "# 第三章　研究方法\n\n" + combined
 
 
+def process_references():
+    """Each reference entry is wrapped in a custom-style Div so the docx
+    writer applies the 'References' paragraph style (hanging indent per
+    format spec: continuation lines indented 2 characters)."""
+    text = read(REFERENCES)
+    text = re.sub(r"^# .*\n+", "", text, count=1, flags=re.MULTILINE)  # drop source's own H1
+    blocks = []
+    for line in text.split("\n"):
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith("## "):
+            blocks.append(s)
+        else:
+            blocks.append(f'::: {{custom-style="References"}}\n{s}\n:::')
+    return "# 參考文獻\n\n" + "\n\n".join(blocks)
+
+
 YAML_HEADER = """---
 title: ""
 lang: zh-TW
@@ -115,7 +134,7 @@ toc-title: 目錄
 
 
 def main():
-    out = [process_ch1(), process_ch2(), process_ch3()]
+    out = [process_ch1(), process_ch2(), process_ch3(), process_references()]
     combined = YAML_HEADER + "\n\n".join(out)
     outpath = os.path.join(os.path.dirname(__file__), "combined.md")
     with open(outpath, "w", encoding="utf-8") as f:
