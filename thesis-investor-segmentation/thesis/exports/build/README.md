@@ -23,11 +23,12 @@ python3 generate_diagrams.py
 # 3. 讀取 thesis/chapters/ 底下第一至三章目前內容，組合並正確調整標題階層
 python3 preprocess.py
 
-# 4. 轉為 Word 檔（含自動產生之「目錄」欄位，開啟後於 Word 按 Ctrl+A 再 F9 可更新頁碼）
+# 4. 轉為 Word 檔（含自動產生之「目錄」欄位）
 pandoc combined.md -f markdown+tex_math_dollars -o "../黃子甄_論文計畫書(第一至三章初稿).docx" \
   --reference-doc=reference.docx --toc --toc-depth=3
 
-# 5. 在文件最前面插入封面、修正表格欄寬、建立表目錄／圖目錄
+# 5. 在文件最前面插入封面、修正表格欄寬、建立表目錄／圖目錄、
+#    設定 Word 開啟時自動更新全部欄位（見下方說明）
 python3 add_cover.py
 ```
 
@@ -72,12 +73,19 @@ python3 add_cover.py
   fig_3_1_architecture.png`、`fig_3_2_process_flow.png`），並加上
   `::: {custom-style="FigureCaption"}` 標題區塊（圖 3-1、圖 3-2）。
   `add_cover.py` 之 `add_list_of()` 會自動為每個表格／圖片標題加上書籤，
-  依序於目錄後建立表目錄頁、圖目錄頁（PAGEREF 欄位，開啟後 Ctrl+A 再 F9
-  更新頁碼，與既有頁尾頁碼欄位相同機制）。3.7 節之虛擬碼區塊維持等寬字元
-  文字（屬演算法列示之標準寫法，非需要轉為圖片之架構／流程圖）。
+  依序於目錄後建立表目錄頁、圖目錄頁（PAGEREF 欄位）。3.7 節之虛擬碼區塊
+  維持等寬字元文字（屬演算法列示之標準寫法，非需要轉為圖片之架構／流程圖）。
 - **表格欄寬已修正**（2026-09-28）：pandoc 預設表格為等寬欄位，遇到「說明」
   等長文字欄位時會被壓縮過窄，導致逐字換行、列高暴增甚至跨頁斷裂（3.3.2
   GA4 66 欄位表尤其明顯）。`add_cover.py` 之 `TABLE_COL_RATIOS` 依各表
   實際欄位性質（短標籤欄位收窄、長說明欄位加寬）設定固定欄寬，總寬固定為
   可用頁寬 15cm。若日後表格欄位增減或內容大幅變動，須同步調整
   `TABLE_COL_RATIOS` 對應之比例。
+- **欄位自動更新已設定**（2026-09-28 修正）：目錄、表目錄、圖目錄、頁尾
+  頁碼等皆為 Word 欄位（field），pandoc／python-docx 每次重新產生本檔案
+  時只會寫入「欄位代碼」本身，不含計算結果快取——先前每次重新產生後都必須
+  使用者自行 Ctrl+A、F9 更新，一旦漏做，目錄／表目錄／頁碼會顯示空白，
+  曾實際發生。已於 `add_cover.py` 設定 `word/settings.xml` 之
+  `w:updateFields`，使 Word 開啟本檔案時自動更新全部欄位，**不再需要
+  手動按 Ctrl+A、F9**（Word 開啟時可能短暫顯示「本文件包含應更新的
+  欄位」提示並自動處理，屬正常現象）。

@@ -228,6 +228,22 @@ def main():
             brk_p.append(brk_r)
             p._p.addprevious(brk_p)
 
+    # 每次重新產生本檔案時，TOC／PAGEREF 欄位皆為 pandoc／python-docx 新產生
+    # 之「純欄位代碼」，無快取結果（Word 開啟時預設顯示空白或舊快取，須手動
+    # 更新）。設定 settings.xml 之 updateFields，使 Word 開啟本檔案時自動
+    # 更新全部欄位（目錄、表目錄、圖目錄、頁碼），不再需要每次手動 Ctrl+A、F9。
+    settings_el = doc.settings.element
+    update_fields = OxmlElement('w:updateFields')
+    update_fields.set(qn('w:val'), 'true')
+    # CT_Settings 依 schema 規定之嚴格元素順序，updateFields 須置於
+    # savePreviewPicture 之後、compat 之前，插在任意位置可能導致 Word
+    # 判定檔案損毀而要求修復。
+    compat_el = settings_el.find(qn('w:compat'))
+    if compat_el is not None:
+        compat_el.addprevious(update_fields)
+    else:
+        settings_el.append(update_fields)
+
     doc.save(DOCX_PATH)
     print("cover page inserted before TOC ->", DOCX_PATH)
 
