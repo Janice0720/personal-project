@@ -42,8 +42,11 @@ def set_line_spacing_1_5(pf):
 
 doc = Document()
 
-# ---- Page setup: top 2.5cm, bottom 2.5cm, left 3.5cm, right 2.5cm ----
+# ---- Page setup: A4（python-docx 預設為 US Letter，未明確設定會誤用），
+# 上下 2.5cm、左 3.5cm、右 2.5cm ----
 section = doc.sections[0]
+section.page_width = Cm(21)
+section.page_height = Cm(29.7)
 section.top_margin = Cm(2.5)
 section.bottom_margin = Cm(2.5)
 section.left_margin = Cm(3.5)
@@ -147,6 +150,19 @@ refs_pf = refs_style.paragraph_format
 refs_pf.left_indent = Pt(24)
 refs_pf.first_line_indent = Pt(-24)
 refs_pf.space_after = Pt(6)
+
+# ---- TableCaption: 表格標題（置於表格正上方，依慣例），12pt 粗體標楷體置中 ----
+try:
+    cap_style = doc.styles.add_style('TableCaption', WD_STYLE_TYPE.PARAGRAPH)
+except ValueError:
+    cap_style = doc.styles['TableCaption']
+cap_style.base_style = normal
+style_font(cap_style, 12, True, east_asia='標楷體', ascii_font='Times New Roman', color=(0, 0, 0))
+cap_pf = cap_style.paragraph_format
+cap_pf.alignment = WD_ALIGN_PARAGRAPH.CENTER
+cap_pf.space_before = Pt(12)
+cap_pf.space_after = Pt(6)
+cap_pf.line_spacing_rule = WD_LINE_SPACING.SINGLE
 
 # ---- Table style: pandoc emits tables with style id "Table"; define it with visible grid borders ----
 # (cell paragraphs already use "Normal" style for font, confirmed separately; this only needs borders)
