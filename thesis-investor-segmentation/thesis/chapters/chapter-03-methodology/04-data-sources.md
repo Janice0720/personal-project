@@ -6,7 +6,7 @@
 
 ## 3.3.2 GA4 使用者行為資料
 
-**取得方式：** 透過 Google Analytics 4（GA4）之 BigQuery 每日匯出功能取得，資料以事件（event）為單位記錄，每一列對應使用者之一次網站互動行為。下方欄位總表所列名稱混合了兩套命名體系：`user_pseudo_id`、`event_timestamp`、`event_name`、`stream_id`、`is_active_user`，以及 `items[].*`（`item_id`／`item_name`／`item_category`／`item_brand`／`item_variant`／`price`／`quantity`／`coupon`／`affiliation`／`item_revenue`／`item_refund`／`promotion_*`／`creative_*`／`item_list_*`／`location_id` 等）完全對應 BigQuery 匯出原生巢狀 schema；但 `date`（原生為 `event_date`）、`session_number`（原生為 `event_params` 內之 `ga_session_number`）、`page_path`／`landing_page`（原生為 `event_params` 內之 `page_location`，landing page 需自行推導）、`session_duration`（原生匯出無此欄位，須自行以事件時間戳計算）、`deviceCategory`（原生為 `device.category`）則屬 GA4 報表介面／Data API 之維度命名，並非原生 BigQuery export schema 欄位名稱。此一命名混合現象可能反映樣本實際係經過報表工具或中介轉換取得（而非直接查詢原生匯出表），或樣本欄位名稱於整理過程中被人工改寫，實際資料取得路徑尚待確認，確認結果將影響第四章實際查詢與特徵計算時之欄位參照方式。
+**取得方式：** 透過 Google Analytics 4（GA4）之 BigQuery 每日匯出功能取得，資料以事件（event）為單位記錄，每一列對應使用者之一次網站互動行為。惟樣本欄位名稱與 BigQuery 原生匯出 schema 未完全一致，實際資料取得路徑（原生匯出表或經 Data API／報表介面轉換）待正式研究執行時進一步確認，將影響第四章實際查詢與特徵計算之欄位參照方式。
 
 **事件類型：** 依已取得之樣本觀察，已知事件類型至少包含 `page_view`（頁面瀏覽）、`session_start`（session 起始）、`first_visit`（首次造訪）、`scroll`／`td_scroll`（頁面捲動，後者為平台自訂事件）、`user_engagement`（使用者互動）、`fs_fund_click`（基金選擇點擊，平台自訂事件）、`view_item`（GA4 標準電商事件，對應瀏覽基金詳情）。完整事件類型清單（含各事件觸發時機與頻率）待取得完整期間資料後於第四章資料集描述中補充，目前樣本僅涵蓋單日、16 個匿名使用者、共 100 筆事件，不足以窮舉全部事件類型。
 
