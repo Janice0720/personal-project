@@ -1,0 +1,86 @@
+- link "跳到主要內容區":
+  - /url: "#start-C"
+- link:
+  - /url: https://ids.ntub.edu.tw/
+- search:
+  - textbox "關鍵字"
+  - button "搜尋"
+- list:
+  - button "系所簡介"
+  - button "師資陣容"
+  - button "課程規劃"
+  - link "招生資訊":
+    - /url: /p/412-1042-16.php?Lang=zh-tw
+  - button "學生資源"
+  - button "法令規章"
+  - link "回校首頁":
+    - /url: https://www.ntub.edu.tw/
+- main:
+  - heading "最新消息" [level=2]
+  - list:
+    - link "一般公告":
+      - /url: /p/403-1042-1.php?Lang=zh-tw
+    - link "學術活動":
+      - /url: /p/403-1042-9.php?Lang=zh-tw
+    - link "研討會訊息及論文徵稿":
+      - /url: /p/403-1042-23.php?Lang=zh-tw
+  - list:
+    - link "首頁":
+      - /url: /index.php
+    - text: /
+    - link "資研所相關法規":
+      - /url: https://ids.ntub.edu.tw/p/403-1042-6-1.php?Lang=zh-tw
+  - heading "高等教育深耕計畫學生考取證照獎補助支給要點(1150623修訂)" [level=2]
+  - text: 字體大小調整
+  - button "小"
+  - button "中" [pressed]
+  - button "大"
+  - generic: "發佈日期 : 2026-06-30"
+  - generic: "最後更新日期 : 2026-07-20"
+  - heading "【專業證照】補助分級請參考本校教學發中心公布本所「學生資訊能力檢核」訂定之資訊能力相關證照【初階/高階】證照為準。" [level=2]
+  - heading "國立臺北商業大學學生資訊能力檢核辦法 https://ctl.ntub.edu.tw/p/412-1008-6359.php?Lang=zh-tw" [level=2]:
+    - text: 國立臺北商業大學學生資訊能力檢核辦法
+    - link "https://ctl.ntub.edu.tw/p/412-1008-6359.php?Lang=zh-tw":
+      - /url: https://ctl.ntub.edu.tw/p/412-1008-6359.php?Lang=zh-tw
+  - list:
+    - link "學生英語證照補助申請表及心得1081122.doc":
+      - /url: /app/index.php?Action=downloadfile&file=WVhSMFlXTm9Mekl2Y0hSaFh6WXdPRFk1WHpFeU5EZzVOVEpmTVRjM01qRXVaRzlq&fname=WSGGTSB00010A1KKEDLKFCMOQOMO25GGYSFG40NKQP050040QKA4OP540054B4SSSSWWHHLPVS04XWWW34XSTS34B0MONKHC44RLXWA0RO30WXVWUSCCYWFCNPPO44OOHCA0UWIGTWMODC351434OKLKJDGDQPFGLKB4NKVWGGGG45USA4USHDXX441035GDMKOKPKMKWSJCHGGC01NPPOVSNKB4ECFG20POFCEG20DCLPKK00ZSRKJGSTTWJDLO
+    - link "專業證照申請表及心得1100324.doc":
+      - /url: /app/index.php?Action=downloadfile&file=WVhSMFlXTm9Mekl2Y0hSaFh6RXdNVFl5TlY4M01qSTNNakkyWHpJM05UUTFMbVJ2WXc9PQ==&fname=WSGGIGB0YW444100LOLK54NKOOMO2514B0FGSSMKTXA1PO40NKUSA054WS10FCEGPOPOHH00DG04ICHCFC30TSIGB0MOLKMOZTYTXWA0ZW3030FCFHTSWXFC44LKVXYXDGA0B0XTQOMOPONP20ROOKYSIHRL04TSZWUSJGOK20SWYSQKPOWWA510500450JGVW30GDB1B430A1A1
+    - link "資研所高教深耕學生考取專業能力證照獎補助支給要點1150623修訂.pdf":
+      - /url: /app/index.php?Action=downloadfile&file=WVhSMFlXTm9Mekl2Y0hSaFh6RXdNemN4TlY4eU5UazBOemMzWHpBME5qa3lMbkJrWmc9PQ==&fname=DGGGDGWXYWCCA100EDLKUS24TWMOWT34PKUWB1NOVXZTCC40USRO01UWWW54NKOKZTPOHH10200405LOIG30TSB1FGMO10LKIHXTXWA034MKB001USSSYWFCNPPOPPKKHCA041IGVWNKDCICWSB044MK00GDQP31SW30FCQO1400STUSNO44UT054410NOYW3430LOLK20ROMKXSNPNP04RKDCMKKOVWFGSSGHSSYW400121WWXSWWMORKNKOKLKDGJCMP20UTJDIGRKNKB4EGA4GGKKFCROGCTSYTZX5004ROWWVWXSICKKOPB000MKGGRLCGOONKB0RKPODG54CDTSNOPOZTXXA4A0A0SXTWNKUSNPKLIC44KKCCGDTTPKPOEC45KLOOTSJGTWA454YTKK00POKP14IGJGLOWSB4JGA1A1
+    - link "資研所高教深耕學生英語能力證照補助要點1130507.pdf":
+      - /url: /app/index.php?Action=downloadfile&file=WVhSMFlXTm9Mekl2Y0hSaFh6RXdOREl4TTE4eE56azNOekUyWHpNNE56WXdMbkJrWmc9PQ==&fname=DGGGDGWXYWCCA100EDLKUS24TWMOWT34PKUWB1NOVXZTCC40USRO01UWWW54NKOKZTPOHH10200405LOIG30TSB1FGMO10LKIHXTXWA034MKB001USSSYWFCNPPOPPKKHCA041IGXSMODCYS1434UWLK4135UTOOLKUSHCOKIGSW01USA4XWB505DGFGVWYWXSOK1410IGRODCKKMLMP04CCDCMKVTB4ECKK01SSRK00FD00EDHG3024FCMOXW25DGJCSS10GGGDDCA0WSB0PPSWCCKKYWOKICCCXTZXFG04GD14STTWA0WSECROLKB14135ML4414NO1111
+  - emphasis:
+    - text: "瀏覽數:"
+    - generic: "1441"
+  - link "友善列印":
+    - /url: https://ids.ntub.edu.tw/p/16-1042-71006.php?Lang=zh-tw
+  - link "line":
+    - /url: http://line.naver.jp/R/msg/text/?%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E6%B7%B1%E8%80%95%E8%A8%88%E7%95%AB%E5%AD%B8%E7%94%9F%E8%80%83%E5%8F%96%E8%AD%89%E7%85%A7%E7%8D%8E%E8%A3%9C%E5%8A%A9%E6%94%AF%E7%B5%A6%E8%A6%81%E9%BB%9E(1150623%E4%BF%AE%E8%A8%82)%20-%20%E8%B3%87%E8%A8%8A%E8%88%87%E6%B1%BA%E7%AD%96%E7%A7%91%E5%AD%B8%E7%A0%94%E7%A9%B6%E6%89%80%EF%BC%9A%E8%87%BA%E5%8C%97%E5%95%86%E5%A4%A7%E8%B3%87%E7%A0%94%E6%89%80%20NTUB%20IDS%20https%3A%2F%2Fids.ntub.edu.tw%2Fp%2F406-1042-71006%252Cr6.php%3FLang%3Dzh-tw%26ct%3D1550774330
+    - img "line"
+  - link "facebook":
+    - /url: http://www.facebook.com/sharer.php?u=https%3A%2F%2Fids.ntub.edu.tw%2Fp%2F406-1042-71006%252Cr6.php%3FLang%3Dzh-tw%26ct%3D1550774330&t=%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E6%B7%B1%E8%80%95%E8%A8%88%E7%95%AB%E5%AD%B8%E7%94%9F%E8%80%83%E5%8F%96%E8%AD%89%E7%85%A7%E7%8D%8E%E8%A3%9C%E5%8A%A9%E6%94%AF%E7%B5%A6%E8%A6%81%E9%BB%9E(1150623%E4%BF%AE%E8%A8%82)%20-%20%E8%B3%87%E8%A8%8A%E8%88%87%E6%B1%BA%E7%AD%96%E7%A7%91%E5%AD%B8%E7%A0%94%E7%A9%B6%E6%89%80%EF%BC%9A%E8%87%BA%E5%8C%97%E5%95%86%E5%A4%A7%E8%B3%87%E7%A0%94%E6%89%80%20NTUB%20IDS
+    - img "facebook"
+  - link "twitter":
+    - /url: http://twitter.com/home?status=%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E6%B7%B1%E8%80%95%E8%A8%88%E7%95%AB%E5%AD%B8%E7%94%9F%E8%80%83%E5%8F%96%E8%AD%89%E7%85%A7%E7%8D%8E%E8%A3%9C%E5%8A%A9%E6%94%AF%E7%B5%A6%E8%A6%81%E9%BB%9E(1150623%E4%BF%AE%E8%A8%82)%20-%20%E8%B3%87%E8%A8%8A%E8%88%87%E6%B1%BA%E7%AD%96%E7%A7%91%E5%AD%B8%E7%A0%94%E7%A9%B6%E6%89%80%EF%BC%9A%E8%87%BA%E5%8C%97%E5%95%86%E5%A4%A7%E8%B3%87%E7%A0%94%E6%89%80%20NTUB%20IDS%20https%3A%2F%2Fids.ntub.edu.tw%2Fp%2F406-1042-71006%252Cr6.php%3FLang%3Dzh-tw%26ct%3D1550774330
+    - img "twitter"
+- list:
+  - generic "繁體"
+  - link "English":
+    - /url: "#"
+- link "NTUBIDS":
+  - /url: /index.php
+- text: "地址: 100 臺北市中正區濟南路一段321號 行政大樓5樓 電話: (02) 2322-6291"
+- paragraph
+- text: 國立臺北商業大學, 資訊與決策科學研究所
+- paragraph
+- list:
+  - text: ｜
+  - link "國立臺北商業大學":
+    - /url: http://www.ntub.edu.tw/
+  - text: ｜
+  - text: ｜
+  - link "資訊與決策科學研究所":
+    - /url: /index.php
+  - text: ｜
